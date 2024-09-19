@@ -5,7 +5,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white py-2">
+    <footer className="bg-primary text-white py-2 mt-8">
       <div className="container mx-auto text-center">
         <p className="text-sm">&copy; {new Date().getFullYear()} EDM EU. All rights reserved.</p>
         {/* Add additional footer links or information here if needed */}

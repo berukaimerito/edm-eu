@@ -3,14 +3,29 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Styles */
+/* Custom Color Theme */
+:root {
+  --color-primary: #1a2741;    /* Dark Blue */
+  --color-secondary: #f16c26;  /* Orange */
+  --color-accent: #44bfba;     /* Teal */
+  --color-success: #41b776;    /* Green */
+  --color-secondary-hover: #e05b1a; /* Darker Orange */
+}
+
 body {
   @apply bg-gray-100 text-gray-900;
 }
 
+header {
+  @apply bg-primary text-white border-b border-secondary;
+}
+
+footer {
+  @apply bg-primary text-white;
+}
+
 .container {
-  /* Ensure @apply is supported */
-  @apply max-w-7xl mx-auto; /* This line should work if configured correctly */
+  @apply max-w-7xl mx-auto;
 }
 
 a {
@@ -18,7 +33,7 @@ a {
 }
 
 a:hover {
-  @apply text-gray-500;
+  @apply text-accent; /* Tailwind's accent color */
 }
 
 /* Ensure images are responsive */
@@ -26,4 +41,20 @@ img {
   @apply max-w-full h-auto;
 }
 
-/* Additional global styles can be added here */
+/* Additional global styles */
+@media (max-width: 640px) {
+  /* Adjust language selector button on mobile */
+  .language-selector-button {
+    @apply px-2 py-1;
+  }
+}
+
+/* Custom Button Styles */
+button {
+  @apply bg-secondary text-white rounded-md hover:bg-secondary-hover focus:outline-none transition-colors duration-200;
+}
+
+/* Transition Effects for Dropdown */
+.transition-transform {
+  transition: transform 0.2s ease-in-out;
+}

@@ -4,7 +4,6 @@
 import '../styles/globals.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import CarouselHome from './components/Carousel/CarouselHome';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '../i18n/i18n'; // Ensure this path is correct
 
@@ -19,7 +18,6 @@ export default function RootLayout({
         <I18nextProvider i18n={i18n}>
           <Header />
           <main className="flex-grow">
-            <CarouselHome />
             {children}
           </main>
           <Footer />
