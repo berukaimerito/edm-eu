@@ -1,9 +1,12 @@
+// app/layout.tsx
 'use client';
 
 import '../styles/globals.css';
-import Header from './components/Header';
-import LandingAnimation from './components/LandingAnimation';
-import { appWithTranslation } from 'next-i18next';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import CarouselHome from './components/Carousel/CarouselHome';
+import { I18nextProvider } from 'react-i18next';
+import i18n from '../i18n/i18n'; // Ensure this path is correct
 
 export default function RootLayout({
   children,
@@ -11,11 +14,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <Header />
-        <LandingAnimation />
-        <main>{children}</main>
+    <html lang={i18n.language}>
+      <body className="flex flex-col min-h-screen">
+        <I18nextProvider i18n={i18n}>
+          <Header />
+          <main className="flex-grow">
+            <CarouselHome />
+            {children}
+          </main>
+          <Footer />
+        </I18nextProvider>
       </body>
     </html>
   );

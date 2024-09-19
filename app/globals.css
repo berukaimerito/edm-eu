@@ -1,27 +1,29 @@
+/* app/styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Custom Styles */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-gray-100 text-gray-900;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.container {
+  /* Ensure @apply is supported */
+  @apply max-w-7xl mx-auto; /* This line should work if configured correctly */
 }
+
+a {
+  @apply transition-colors duration-200;
+}
+
+a:hover {
+  @apply text-gray-500;
+}
+
+/* Ensure images are responsive */
+img {
+  @apply max-w-full h-auto;
+}
+
+/* Additional global styles can be added here */

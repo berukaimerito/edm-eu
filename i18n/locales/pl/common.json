@@ -1,4 +1,23 @@
 {
   "welcome": "Witamy na stronie EDM EU",
-  "description": "Twój zaufany partner w rozwiązaniach fakturowania elektronicznego."
+  "description": "Twój zaufany partner w zakresie rozwiązań do fakturowania elektronicznego.",
+  "erpcloudy": {
+    "title": "ERP Cloudy",
+    "description": "Opis usługi ERP Cloudy."
+  },
+  "services": {
+    "title": "Nasze Usługi",
+    "description": "Opis oferowanych usług."
+  },
+  "info": {
+    "title": "Informacje",
+    "description": "Ogólne informacje o naszej firmie.",
+    "contact": "Skontaktuj się z nami",
+    "form": {
+      "name": "Imię",
+      "email": "Email",
+      "message": "Wiadomość",
+      "submit": "Wyślij"
+    }
+  }
 }

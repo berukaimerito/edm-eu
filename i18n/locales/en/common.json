@@ -1,4 +1,23 @@
 {
   "welcome": "Welcome to EDM EU Website",
-  "description": "Your trusted partner for electronic invoicing solutions."
+  "description": "Your trusted partner for electronic invoicing solutions.",
+  "erpcloudy": {
+    "title": "ERP Cloudy",
+    "description": "Description for ERP Cloudy service."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Description of services offered."
+  },
+  "info": {
+    "title": "Information",
+    "description": "General information about our company.",
+    "contact": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit"
+    }
+  }
 }

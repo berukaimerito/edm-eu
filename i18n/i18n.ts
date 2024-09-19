@@ -1,24 +1,25 @@
+// i18n/i18n.ts
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import Backend from 'i18next-http-backend';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import en from './locales/en/common.json';
+import it from './locales/it/common.json';
+import pl from './locales/pl/common.json';
+// Turkish is handled via redirection, no need for translation files
 
 i18n
-  .use(Backend)
-  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    resources: {
+      en: { common: en },
+      it: { common: it },
+      pl: { common: pl },
+    },
+    lng: 'en',
     fallbackLng: 'en',
-    supportedLngs: ['en', 'it', 'pl', 'tr'],
-    backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
-    },
-    detection: {
-      order: ['queryString', 'cookie'],
-      caches: ['cookie'],
-    },
-    react: {
-      useSuspense: false,
+    ns: ['common'],
+    defaultNS: 'common',
+    interpolation: {
+      escapeValue: false,
     },
   });
 
