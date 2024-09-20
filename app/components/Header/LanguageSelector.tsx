@@ -1,4 +1,3 @@
-// app/components/Header/LanguageSelector.tsx
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
@@ -14,7 +13,7 @@ interface Language {
 }
 
 const languages: Language[] = [
-  { code: 'en', label: 'English', flag: '/icons/en.png' },
+  { code: 'en', label: 'English', flag: '/icons/gb.png' },
   { code: 'it', label: 'Italiano', flag: '/icons/it.png' },
   { code: 'pl', label: 'Polski', flag: '/icons/pl.png' },
   { code: 'tr', label: 'Türkçe', flag: '/icons/tr.png', url: 'https://www.edmbilisim.com.tr' }, // External URL
@@ -53,13 +52,13 @@ const LanguageSelector: React.FC = () => {
     <div className="relative inline-block text-left" ref={selectorRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center bg-secondary text-white p-2 rounded-md hover:bg-accent transition-colors duration-200 focus:outline-none"
+        className="flex items-center bg-secondary text-white px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200 focus:outline-none"
         aria-haspopup="true"
         aria-expanded={isOpen}
       >
         <Image src={currentLanguage.flag} alt={`${currentLanguage.label} flag`} width={24} height={16} />
-        <span className="hidden md:inline ml-2">{currentLanguage.label}</span>
-        <ChevronDownIcon className="ml-1 h-4 w-4 text-secondary" />
+        <span className="hidden sm:inline ml-2">{currentLanguage.label}</span>
+        <ChevronDownIcon className="ml-1 h-4 w-4" />
       </button>
 
       {isOpen && (
@@ -69,10 +68,10 @@ const LanguageSelector: React.FC = () => {
               <button
                 key={lang.code}
                 onClick={() => changeLanguage(lang.code, lang.url)}
-                className="flex items-center w-full px-4 py-2 text-left text-sm hover:bg-accent hover:text-white transition-colors duration-200 focus:outline-none"
+                className="flex items-center w-full px-4 py-2 text-left text-sm text-gray-800 hover:bg-accent hover:text-white transition-colors duration-200 focus:outline-none"
               >
                 <Image src={lang.flag} alt={`${lang.label} flag`} width={24} height={16} />
-                <span className="ml-2 hidden md:inline">{lang.label}</span>
+                <span className="ml-2">{lang.label}</span>
               </button>
             ))}
           </div>

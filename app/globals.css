@@ -7,17 +7,23 @@
 :root {
   --color-primary: #1a2741;         /* Dark Blue */
   --color-secondary: #f16c26;       /* Orange */
-  --color-accent: rgba(68, 191, 186, 0.8);          /* Light Teal with transparency */
+  --color-accent: rgba(68, 191, 186, 0.8); /* Light Teal with transparency */
   --color-success: #41b776;          /* Green */
   --color-secondary-hover: rgba(240, 108, 38, 0.8); /* Lighter Orange with transparency */
+  --background: #ffffff;             /* Background color */
+  --foreground: #000000;             /* Foreground color */
 }
 
 body {
-  @apply bg-gray-100 text-gray-900;
+  @apply bg-background text-foreground;
 }
 
 header {
   @apply bg-primary text-white border-b border-secondary;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure space between items */
+  padding: 0.5rem 1rem;
 }
 
 footer {
@@ -65,14 +71,12 @@ button {
   overflow: hidden; /* This can clip dropdowns */
 }
 
-
-:root {
-  --background: #ffffff; /* Replace with your desired background color */
-  --foreground: #000000; /* Replace with your desired foreground color */
+/* Hide the pause icon */
+.carousel .control-pause {
+  display: none !important;
 }
 
-body {
-  @apply bg-background text-foreground;
+/* Alternatively, hide buttons with specific aria-label */
+.carousel button[aria-label="Pause"] {
+  display: none !important;
 }
-
-/* Additional global styles as needed */
