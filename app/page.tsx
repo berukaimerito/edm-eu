@@ -9,10 +9,15 @@ const HomePage: React.FC = () => {
   const { t } = useTranslation('common');
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4 text-center md:text-left">{t('welcome')}</h1>
-      <p className="text-lg mb-8 text-center md:text-left">{t('description')}</p>
-      <CarouselHome />
+    <div className="flex flex-col items-center">
+      <div className="w-full">
+        <CarouselHome />
+      </div>
+      <div className="container mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold mb-4 text-center md:text-left">{t('welcome')}</h1>
+        <p className="text-lg mb-8 text-center md:text-left">{t('description')}</p>
+        {/* Add more main content here */}
+      </div>
     </div>
   );
 };

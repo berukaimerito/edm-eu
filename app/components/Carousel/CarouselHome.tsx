@@ -25,7 +25,7 @@ const CarouselHome: React.FC = () => {
             alt="Slide 1"
             width={1920}
             height={1080}
-            className="object-cover w-full h-64 sm:h-80 md:h-96 lg:h-[32rem]" /* Adjusted heights */
+            className="object-cover w-full h-64 sm:h-80 md:h-96 lg:h-[32rem]"
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <h2 className="text-white text-2xl sm:text-3xl font-bold bg-gray-900 bg-opacity-50 px-4 py-2 rounded">
@@ -40,7 +40,7 @@ const CarouselHome: React.FC = () => {
             alt="Slide 2"
             width={1920}
             height={1080}
-            className="object-cover w-full h-64 sm:h-80 md:h-96 lg:h-[32rem]" /* Adjusted heights */
+            className="object-cover w-full h-64 sm:h-80 md:h-96 lg:h-[32rem]"
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <h2 className="text-white text-2xl sm:text-3xl font-bold bg-gray-900 bg-opacity-50 px-4 py-2 rounded">

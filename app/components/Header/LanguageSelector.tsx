@@ -1,11 +1,10 @@
 // app/components/Header/LanguageSelector.tsx
 'use client';
 
-import React from 'react';
-import { Menu } from '@headlessui/react';
-import { ChevronDownIcon } from '@heroicons/react/24/solid';
+import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import { ChevronDownIcon } from '@heroicons/react/24/solid';
 
 interface Language {
   code: string;
@@ -14,66 +13,72 @@ interface Language {
   url?: string; // Optional external URL
 }
 
-interface LanguageSelectorProps {
-  isMobile?: boolean;
-}
-
 const languages: Language[] = [
   { code: 'en', label: 'English', flag: '/icons/en.png' },
   { code: 'it', label: 'Italiano', flag: '/icons/it.png' },
   { code: 'pl', label: 'Polski', flag: '/icons/pl.png' },
-  { code: 'tr', label: 'Türkçe', flag: '/icons/tr.png', url: 'https://www.edmbilisim.com.tr' }, // Added URL
+  { code: 'tr', label: 'Türkçe', flag: '/icons/tr.png', url: 'https://www.edmbilisim.com.tr' }, // External URL
 ];
 
-const LanguageSelector: React.FC<LanguageSelectorProps> = ({ isMobile = false }) => {
+const LanguageSelector: React.FC = () => {
   const { i18n } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
+  const selectorRef = useRef<HTMLDivElement>(null);
 
   const changeLanguage = (lng: string, url?: string) => {
     if (url) {
       window.location.href = url;
     } else {
       i18n.changeLanguage(lng);
+      setIsOpen(false);
     }
   };
 
   const currentLanguage = languages.find((lang) => lang.code === i18n.language) || languages[0];
 
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (selectorRef.current && !selectorRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   return (
-    <Menu as="div" className="relative inline-block text-left">
-      {/* Desktop Language Selector */}
-      {!isMobile && (
-        <Menu.Button className="flex items-center bg-secondary text-white px-3 py-2 rounded-md hover:bg-secondary-hover focus:outline-none transition-colors duration-200">
-          <Image src={currentLanguage.flag} alt={`${currentLanguage.label} flag`} width={20} height={15} />
-          <span className="ml-2">{currentLanguage.label}</span>
-          <ChevronDownIcon className="ml-1 h-5 w-5 text-secondary" />
-        </Menu.Button>
-      )}
+    <div className="relative inline-block text-left" ref={selectorRef}>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center bg-secondary text-white p-2 rounded-md hover:bg-accent transition-colors duration-200 focus:outline-none"
+        aria-haspopup="true"
+        aria-expanded={isOpen}
+      >
+        <Image src={currentLanguage.flag} alt={`${currentLanguage.label} flag`} width={24} height={16} />
+        <span className="hidden md:inline ml-2">{currentLanguage.label}</span>
+        <ChevronDownIcon className="ml-1 h-4 w-4 text-secondary" />
+      </button>
 
-      {/* Mobile Language Selector (Only Flags) */}
-      {isMobile && (
-        <Menu.Button className="flex items-center bg-secondary text-white px-2 py-2 rounded-md hover:bg-secondary-hover focus:outline-none transition-colors duration-200">
-          <Image src={currentLanguage.flag} alt={`${currentLanguage.label} flag`} width={20} height={15} />
-        </Menu.Button>
-      )}
-
-      <Menu.Items className="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-md shadow-lg z-20">
-        {languages.map((lang) => (
-          <Menu.Item key={lang.code}>
-            {({ active }: { active: boolean }) => (
+      {isOpen && (
+        <div className="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-md shadow-lg z-50">
+          <div className="py-1">
+            {languages.map((lang) => (
               <button
+                key={lang.code}
                 onClick={() => changeLanguage(lang.code, lang.url)}
-                className={`${
-                  active ? 'bg-gray-100' : ''
-                } flex items-center w-full px-4 py-2 text-left text-sm transition-colors duration-200`}
+                className="flex items-center w-full px-4 py-2 text-left text-sm hover:bg-accent hover:text-white transition-colors duration-200 focus:outline-none"
               >
-                <Image src={lang.flag} alt={`${lang.label} flag`} width={20} height={15} />
-                {!isMobile && <span className="ml-2">{lang.label}</span>}
+                <Image src={lang.flag} alt={`${lang.label} flag`} width={24} height={16} />
+                <span className="ml-2 hidden md:inline">{lang.label}</span>
               </button>
-            )}
-          </Menu.Item>
-        ))}
-      </Menu.Items>
-    </Menu>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
   );
 };
 
