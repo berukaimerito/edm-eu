@@ -55,10 +55,6 @@ button {
 }
 
 /* Transition Effects for Dropdown */
-.transition-transform {
-  transition: transform 0.2s ease-in-out;
-}
-
 /* Professional Hover Effect */
 .hover-button:hover {
   @apply bg-accent text-white;
