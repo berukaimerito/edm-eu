@@ -1,3 +1,4 @@
+// app/components/Header/LanguageSelector.tsx
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
@@ -55,8 +56,9 @@ const LanguageSelector: React.FC = () => {
         className="flex items-center bg-secondary text-white px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200 focus:outline-none"
         aria-haspopup="true"
         aria-expanded={isOpen}
+        aria-label="Select Language"
       >
-        <Image src={currentLanguage.flag} alt={`${currentLanguage.label} flag`} width={24} height={16} />
+        <Image src={currentLanguage.flag} alt={`${currentLanguage.label} flag`} width={24} height={16} className="object-contain" />
         <span className="hidden sm:inline ml-2">{currentLanguage.label}</span>
         <ChevronDownIcon className="ml-1 h-4 w-4" />
       </button>
@@ -70,7 +72,7 @@ const LanguageSelector: React.FC = () => {
                 onClick={() => changeLanguage(lang.code, lang.url)}
                 className="flex items-center w-full px-4 py-2 text-left text-sm text-gray-800 hover:bg-accent hover:text-white transition-colors duration-200 focus:outline-none"
               >
-                <Image src={lang.flag} alt={`${lang.label} flag`} width={24} height={16} />
+                <Image src={lang.flag} alt={`${lang.label} flag`} width={24} height={16} className="object-contain" />
                 <span className="ml-2">{lang.label}</span>
               </button>
             ))}

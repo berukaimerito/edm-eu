@@ -10,8 +10,8 @@
   --color-accent: rgba(68, 191, 186, 0.8); /* Light Teal with transparency */
   --color-success: #41b776;          /* Green */
   --color-secondary-hover: rgba(240, 108, 38, 0.8); /* Lighter Orange with transparency */
-  --background: #ffffff;             /* Background color */
-  --foreground: #000000;             /* Foreground color */
+  --background: #ffffff; /* Replace with your desired background color */
+  --foreground: #000000; /* Replace with your desired foreground color */
 }
 
 body {
@@ -19,11 +19,7 @@ body {
 }
 
 header {
-  @apply bg-primary text-white border-b border-secondary;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Ensure space between items */
-  padding: 0.5rem 1rem;
+  @apply bg-primary text-white border-b border-secondary flex items-center justify-between px-4 py-2;
 }
 
 footer {
@@ -47,36 +43,49 @@ img {
   @apply max-w-full h-auto;
 }
 
-/* Additional global styles */
+/* Remove or comment out the unused media query */
+/*
 @media (max-width: 640px) {
-  /* Adjust language selector button on mobile */
   .language-selector-button {
     @apply px-2 py-1;
   }
 }
+*/
 
-/* Custom Button Styles */
+/* Remove global button styles to prevent conflicts */
+/* Instead, use specific button classes in components */
+/* 
 button {
   @apply bg-secondary text-white rounded-md hover:bg-accent focus:outline-none transition-colors duration-200;
 }
+*/
 
 /* Transition Effects for Dropdown */
-/* Professional Hover Effect */
 .hover-button:hover {
   @apply bg-accent text-white;
 }
 
-/* Avoid this on parent containers */
+/* Avoid overflow clipping for parent containers */
 .parent-container {
   overflow: hidden; /* This can clip dropdowns */
 }
 
-/* Hide the pause icon */
+/* Hide the pause icon in the carousel */
 .carousel .control-pause {
   display: none !important;
 }
 
-/* Alternatively, hide buttons with specific aria-label */
 .carousel button[aria-label="Pause"] {
   display: none !important;
 }
+
+/* Ensure LanguageSelector is always visible and properly styled */
+.language-selector-container {
+  @apply flex items-center;
+}
+
+.language-selector-dropdown {
+  @apply absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-md shadow-lg z-50;
+}
+
+/* Additional global styles as needed */

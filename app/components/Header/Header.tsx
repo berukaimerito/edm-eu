@@ -29,7 +29,7 @@ const Header: React.FC = () => {
               <Link href="/" legacyBehavior>
                 <a className="text-2xl font-bold flex items-center">
                   {/* Placeholder for future logo */}
-                  <span className="ml-2">EDM EU Website</span>
+                  <span className="ml-2">EDM Europe Website</span>
                 </a>
               </Link>
 
@@ -184,7 +184,11 @@ const Header: React.FC = () => {
                     <InformationCircleIcon className="h-5 w-5 mr-2 text-secondary" /> {t('info.title')}
                   </a>
                 </Link>
-                {/* Language Selector is not included in mobile drawer */}
+
+                {/* Mobile Language Selector */}
+                <div className="px-3 py-2">
+                  <LanguageSelector />
+                </div>
               </div>
             </Disclosure.Panel>
           </>
