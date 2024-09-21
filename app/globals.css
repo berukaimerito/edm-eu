@@ -44,17 +44,16 @@ img {
 }
 
 /* Remove or comment out the unused media query */
-/*
 @media (max-width: 640px) {
-  .language-selector-button {
+  /* Adjust language selector button on mobile */
+  /* .language-selector-button {
     @apply px-2 py-1;
-  }
+  } */
 }
-*/
 
 /* Remove global button styles to prevent conflicts */
 /* Instead, use specific button classes in components */
-/* 
+/*
 button {
   @apply bg-secondary text-white rounded-md hover:bg-accent focus:outline-none transition-colors duration-200;
 }

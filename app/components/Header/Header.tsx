@@ -102,8 +102,8 @@ const Header: React.FC = () => {
 
               {/* Right: Language Selector and Mobile Menu Button */}
               <div className="flex items-center space-x-4">
-                {/* Desktop Language Selector */}
-                <div className="hidden md:block">
+                {/* Always Visible Language Selector */}
+                <div>
                   <LanguageSelector />
                 </div>
 
@@ -184,11 +184,7 @@ const Header: React.FC = () => {
                     <InformationCircleIcon className="h-5 w-5 mr-2 text-secondary" /> {t('info.title')}
                   </a>
                 </Link>
-
-                {/* Mobile Language Selector */}
-                <div className="px-3 py-2">
-                  <LanguageSelector />
-                </div>
+                {/* Language Selector is now always visible and not part of the drawer */}
               </div>
             </Disclosure.Panel>
           </>
@@ -196,7 +192,6 @@ const Header: React.FC = () => {
       </Disclosure>
     </header>
   );
-
 };
 
 export default Header;
