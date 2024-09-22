@@ -1,0 +1,35 @@
+{
+    "cloud_backup": {
+      "title": "Backup w chmurze",
+      "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
+      "description": "To usługa EDM, która współpracuje z programami ERP, wykonując kopie zapasowe wszystkich Twoich danych oraz skanowanych kopii dokumentów prawnych w bezpieczny i bezproblemowy sposób z dostępem online i zaawansowanym zabezpieczeniem.",
+      "benefits": {
+        "why_edm_cloud_backup": "DLACZEGO BACKUP W CHMURZE EDM?",
+        "immediate_access": "NATYCHMIASTOWY DOSTĘP, ŁATWE UŻYWANIE",
+        "immediate_access_description": "Możesz przechowywać wszystkie dokumenty w bezpiecznym środowisku, uzyskać dostęp do danych 24/7 z dowolnego miejsca, przesyłać dane w dowolnym momencie. Metoda archiwizacji depozytu 98% zapewnia wysoką kompresję i szybki dostęp mobilny.",
+        "timly_backup": "BACKUP W DOGODNYM CZASIE",
+        "timly_backup_description": "Zapewnia online inkrementalne lub zaplanowane kopie zapasowe zgodnie z Twoimi potrzebami.",
+        "simple_interface": "PROSTY INTERFEJS",
+        "simple_interface_description": "Prosty interfejs nie męczy Cię, oferując łatwe użycie, aby przyspieszyć Twoje operacje.",
+        "secure_storage": "BEZPIECZNE PRZECHOWYWANIE",
+        "secure_storage_description": "Przechowywane na serwerach o wysokim poziomie bezpieczeństwa i certyfikatach ISO, z 4 kopiami zapasowymi w Stambule i Ankarze.",
+        "automatic_backup": "CAŁKOWICIE AUTOMATYCZNY W DOGODNYM CZASIE",
+        "automatic_backup_description": "Wszystkie Twoje dane i bazy danych w dowolnym formacie na komputerze lub serwerze, w tym klucze szyfrowania, są automatycznie zapisywane w dowolnym momencie dnia.",
+        "minimum_internet_usage": "MINIMALNE UŻYCIE INTERNETU",
+        "minimum_internet_usage_description": "Podczas tworzenia kopii zapasowych Twoich danych, tylko zmienione części są pobierane za pomocą systemu 'Inteligentnego Backupu', utrzymując zużycie internetu na minimalnym poziomie.",
+        "advantages": "BACKUP W CHMURZE I ZALETY",
+        "advantages_description": "Jeśli zakupisz usługę Backup w chmurze EDM, na przykład doradcy podatkowi mogą wykonywać kopie zapasowe swojej księgowości, prawnicy mogą wykonywać kopie zapasowe wszystkich swoich dokumentów i danych, a bazy danych i programy (Windows, SQL, Oracle itp.) w bezpieczny sposób.\n\nMożesz uzyskać wszystkie wymienione powyżej usługi w sposób zintegrowany od EDM Bilişim z jedną nazwą użytkownika i jednym hasłem do dostępu online.",
+        "who_should_use": "KTO POWINIEN UŻYWAĆ BACKUPU W CHMURZE?",
+        "who_should_use_list": [
+          "Każda firma i wolny zawodowiec, którzy chcą wykonywać kopie zapasowe swojej bazy danych i ważnych folderów online",
+          "Doradcy podatkowi",
+          "Prawnicy",
+          "Biura inżynierskie",
+          "Badania lekarskie",
+          "Podatnicy obowiązani do e-faktury",
+          "Podatnicy obowiązani do e-archiwum faktury"
+        ]
+      }
+    }
+  }
+  

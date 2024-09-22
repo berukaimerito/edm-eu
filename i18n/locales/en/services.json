@@ -1,0 +1,35 @@
+{
+    "cloud_backup": {
+      "title": "Cloud Backup",
+      "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
+      "description": "It is an EDM service that works compatibly with ERP programs, backing up all your data and scanned copies of your legal documents securely and seamlessly with online access and advanced security.",
+      "benefits": {
+        "why_edm_cloud_backup": "WHY EDM CLOUD BACKUP?",
+        "immediate_access": "IMMEDIATE ACCESS, EASY TO USE",
+        "immediate_access_description": "You can store all your documents in a secure environment, access your data 24/7 from anywhere, upload data at any time. The 98% depository archiving method provides high compression and fast mobile access.",
+        "timely_backup": "TIMELY BACKUP",
+        "timely_backup_description": "Provides online incremental or scheduled backups according to your needs.",
+        "simple_interface": "SIMPLE INTERFACE",
+        "simple_interface_description": "The simple interface does not burden you, offering easy use to speed up your operations.",
+        "secure_storage": "SECURE STORAGE",
+        "secure_storage_description": "Stored on high-security and ISO-certified servers, with 4 backups in Istanbul and Ankara.",
+        "automatic_backup": "FULLY AUTOMATIC WHEN YOU WANT",
+        "automatic_backup_description": "All your data and databases in any format on your computer or servers, including encryption keys, are automatically saved at any time of the day.",
+        "minimum_internet_usage": "MINIMUM INTERNET USAGE",
+        "minimum_internet_usage_description": "While backing up your data, only the changed parts are taken with the 'Smart Backup' system, keeping your internet usage to a minimum.",
+        "advantages": "CLOUD BACKUP AND ADVANTAGES",
+        "advantages_description": "If you purchase the EDM Cloud Backup service, for example, tax consultants can back up their accounting, lawyers can back up all their documents and data, and databases and programs (Windows, SQL, Oracle, etc.) securely.\n\nYou can obtain all the above-mentioned services in an integrated manner from EDM Bilişim with a single username and password for online access.",
+        "who_should_use": "WHO SHOULD USE CLOUD BACKUP?",
+        "who_should_use_list": [
+          "Any company and freelancer who wants to back up their database and important folders online",
+          "Tax Consultants",
+          "Lawyers",
+          "Engineering Offices",
+          "Doctor Examinations",
+          "E-Invoice obligated parties",
+          "E-Archive Invoice obligated parties"
+        ]
+      }
+    }
+  }
+  

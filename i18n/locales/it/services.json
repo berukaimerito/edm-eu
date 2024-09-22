@@ -1,0 +1,35 @@
+{
+    "cloud_backup": {
+      "title": "Backup su Cloud",
+      "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
+      "description": "È un servizio EDM che funziona in modo compatibile con i programmi ERP, che esegue il backup di tutte le tue informazioni e delle copie scansionate dei tuoi documenti legali, in modo sicuro e senza problemi, con accesso online e sicurezza avanzata.",
+      "benefits": {
+        "why_edm_cloud_backup": "PERCHÉ IL BACKUP SU CLOUD EDM?",
+        "immediate_access": "ACCESSO IMMEDIATO, FACILE DA USARE",
+        "immediate_access_description": "Puoi archiviare tutti i tuoi documenti in un ambiente sicuro, accedere ai tuoi dati 24/7 da qualsiasi luogo, caricare dati in qualsiasi momento. Il metodo di archiviazione del deposito al 98% offre un'elevata compressione e un rapido accesso mobile.",
+        "timely_backup": "BACKUP TEMPESTIVO",
+        "timely_backup_description": "Offre backup incrementali online o programmati in base alle tue esigenze.",
+        "simple_interface": "INTERFACCIA SEMPLICE",
+        "simple_interface_description": "L'interfaccia semplice non ti stressa, offrendo un uso facile per accelerare le tue operazioni.",
+        "secure_storage": "ARCHIVIAZIONE SICURA",
+        "secure_storage_description": "Archiviato su server con alta sicurezza e certificati ISO, con 4 backup a Istanbul e Ankara.",
+        "automatic_backup": "COMPLETAMENTE AUTOMATICO QUANDO VUOI",
+        "automatic_backup_description": "Tutti i tuoi dati e database in qualsiasi formato sul tuo computer o server, incluse le chiavi di crittografia, vengono automaticamente salvati in qualsiasi momento della giornata.",
+        "minimum_internet_usage": "USO MINIMO DI INTERNET",
+        "minimum_internet_usage_description": "Durante il backup dei tuoi dati, solo le parti modificate vengono prese con il sistema di 'Backup Intelligente', mantenendo al minimo il consumo di internet.",
+        "advantages": "BACKUP SU CLOUD E VANTAGGI",
+        "advantages_description": "Se acquisti il servizio di Backup su Cloud EDM, ad esempio, i consulenti fiscali possono eseguire il backup della loro contabilità, gli avvocati possono eseguire il backup di tutti i loro documenti e dati, e i database e i programmi (Windows, SQL, Oracle, ecc.) in modo sicuro.\n\nPuoi ottenere tutti i servizi sopra menzionati in modo integrato da EDM Bilişim con un solo nome utente e una sola password per l'accesso online.",
+        "who_should_use": "CHI DOVREBBE USARE IL BACKUP SU CLOUD?",
+        "who_should_use_list": [
+          "Ogni azienda e libero professionista che desidera eseguire il backup online del proprio database e delle cartelle importanti",
+          "Consulenti fiscali",
+          "Avvocati",
+          "Studi di ingegneria",
+          "Visite mediche",
+          "Soggetti obbligati alla fatturazione elettronica",
+          "Soggetti obbligati alla fatturazione elettronica con archiviazione"
+        ]
+      }
+    }
+  }
+  

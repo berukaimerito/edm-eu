@@ -10,7 +10,7 @@ import {
   InformationCircleIcon,   // Icon for Info
   GlobeAltIcon,            // Icon for ERP Cloudy
   XMarkIcon,
-  EllipsisHorizontalIcon} from '@heroicons/react/24/solid';
+  EllipsisHorizontalCircleIcon} from '@heroicons/react/24/solid';
 import LanguageSelector from './LanguageSelector';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
@@ -126,7 +126,7 @@ const Header: React.FC = () => {
                     ) : (
                       <>
                         <span className="mr-2"></span>
-                        < EllipsisHorizontalIcon className="h-6 w-6" aria-hidden="true" />
+                        < EllipsisHorizontalCircleIcon className="h-6 w-6" aria-hidden="true" />
                       </>
                     )}
                   </Disclosure.Button>
