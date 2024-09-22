@@ -1,4 +1,3 @@
-// app/components/Header/LanguageSelector.tsx
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
@@ -50,7 +49,8 @@ const LanguageSelector: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative inline-block text-left" ref={selectorRef}>
+    // **Change:** Added 'z-50' to ensure the dropdown overlays other elements
+    <div className="relative inline-block text-left z-50" ref={selectorRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center bg-secondary text-white px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200 focus:outline-none"

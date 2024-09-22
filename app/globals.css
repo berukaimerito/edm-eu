@@ -1,4 +1,7 @@
 /* app/styles/globals.css */
+
+@import "leaflet/dist/leaflet.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,7 +22,8 @@ body {
 }
 
 header {
-  @apply bg-primary text-white border-b border-secondary flex items-center justify-between px-4 py-2;
+  @apply bg-primary text-white border-b border-secondary flex items-center justify-between px-4 py-2 relative;
+  /* **Change:** Ensure 'relative' positioning for stacking context */
 }
 
 footer {
@@ -66,7 +70,7 @@ button {
 
 /* Avoid overflow clipping for parent containers */
 .parent-container {
-  overflow: hidden; /* This can clip dropdowns */
+  overflow: visible; /* **Change:** Set to 'visible' to prevent clipping of dropdown */
 }
 
 /* Hide the pause icon in the carousel */
@@ -80,11 +84,16 @@ button {
 
 /* Ensure LanguageSelector is always visible and properly styled */
 .language-selector-container {
-  @apply flex items-center;
+  @apply flex items-center relative z-50; /* **Change:** Added 'relative' and 'z-50' */
 }
 
 .language-selector-dropdown {
   @apply absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-md shadow-lg z-50;
+}
+
+/* Ensure the map does not overlap the language dropdown */
+.leaflet-container {
+  z-index: 0; /* **Change:** Explicitly set to 0 to prevent overlapping */
 }
 
 /* Additional global styles as needed */
