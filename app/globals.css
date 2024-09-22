@@ -1,4 +1,3 @@
-/* app/styles/globals.css */
 
 @import "leaflet/dist/leaflet.css";
 
@@ -22,8 +21,7 @@ body {
 }
 
 header {
-  @apply bg-primary text-white border-b border-secondary flex items-center justify-between px-4 py-2 relative;
-  /* **Change:** Ensure 'relative' positioning for stacking context */
+  @apply bg-primary text-white border-b border-secondary flex items-center justify-between px-4 py-2 relative z-50;
 }
 
 footer {
@@ -70,7 +68,7 @@ button {
 
 /* Avoid overflow clipping for parent containers */
 .parent-container {
-  overflow: visible; /* **Change:** Set to 'visible' to prevent clipping of dropdown */
+  overflow: visible; /* Prevent clipping of dropdown */
 }
 
 /* Hide the pause icon in the carousel */
@@ -84,7 +82,7 @@ button {
 
 /* Ensure LanguageSelector is always visible and properly styled */
 .language-selector-container {
-  @apply flex items-center relative z-50; /* **Change:** Added 'relative' and 'z-50' */
+  @apply flex items-center relative z-50; /* Added 'relative' and 'z-50' */
 }
 
 .language-selector-dropdown {
@@ -93,7 +91,70 @@ button {
 
 /* Ensure the map does not overlap the language dropdown */
 .leaflet-container {
-  z-index: 0; /* **Change:** Explicitly set to 0 to prevent overlapping */
+  z-index: 0; /* Prevent overlapping */
 }
 
-/* Additional global styles as needed */
+/* Text Selection Styling */
+::selection {
+  color: #ffffff;
+  background: #FF6C0E;
+}
+
+/* Custom Scrollbar for Sidebar */
+aside::-webkit-scrollbar {
+  width: 8px;
+}
+
+aside::-webkit-scrollbar-track {
+  background: #f3f4f6; /* Tailwind's bg-gray-100 */
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: #cbd5e0; /* Tailwind's bg-gray-300 */
+  border-radius: 4px;
+}
+
+/* Smooth Hover Transitions */
+a {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Adjust Banner Height on Smaller Screens */
+/* Removed banner styles as the banner is being removed for now */
+@media (max-width: 768px) {
+  /* .banner {
+    height: 200px;
+    object-fit: cover;
+  } */
+}
+
+/* Ensure main content does not hide behind fixed sidebar on desktop */
+@media (min-width: 768px) {
+  main {
+    margin-left: 16rem; /* 64 * 0.25rem = 16rem */
+  }
+}
+
+/* Grayed out Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #4B5563; /* Tailwind's text-gray-700 */
+}
+
+/* Fixing Banner Width */
+.banner {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile Banner Part */
+@media (max-width: 768px) {
+  .banner {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+.transition-transform {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
