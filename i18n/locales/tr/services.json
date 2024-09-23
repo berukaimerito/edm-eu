@@ -30,6 +30,97 @@
           "E-Arşiv Fatura mükellefleri"
         ]
       }
+    },
+    "e_consensus": {
+    "title": "E-Mutabakat",
+    "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
+    "description": "Şirketlerin tüm tedarikçi ve müşterilerine ait BA-BS, cari hesap, tevkifat ve fatura mutabakatlarının ister mail ortamında ister KEP sistemi üzerinden göndererek yasal geçerli bir şekilde iletilmesi anlamına gelmektedir.",
+    "benefits": {
+      "why_edm_e_consensus": "NEDEN EDM E-MUTABAKAT?",
+      "legally_valid": {
+        "title": "YASAL GEÇERLİ",
+        "description": "Maliye Bakanlığı nezdinde KEP ile gönderilmesi durumunda yasal geçerli kabul edilir. Denetim sürelerini onlarca kat düşürür. Ticaret mahkemelerinde ve icra dairelerinde birinci dereceden yasal delil olarak kabul edilir."
+      },
+      "time_and_cost_advantages": {
+        "title": "ZAMAN VE MALİYET AVANTAJI",
+        "description": "İş ortaklarıyla yapılan BA, BS ve cari mutabakatların tek tek veya çoklu gönderilmesini saniyeler içinde yapar, zaman ve para tasarrufu sağlar. Tüm İş Ortaklarına her ay BA, BS ve cari ekstreler otomatik olarak gönderilmiş olur ve gönderilen tüm mutabakatlar EDM sistemlerinde yıllarca yedeklemeli olarak saklanır."
+      },
+      "reliable": {
+        "title": "GÜVENİLİR",
+        "description": "Türkiye’nin en büyük teknoloji şirketi Intertech kuruluşu olan InterKEP üzerinden gönderimler saniyeler içinde ve en yüksek güvenlikle gider. Mutabakatların doğru iş ortağına gittiğine ve şirketle iş ortağı arasında gizli kaldığından emin olursunuz."
+      },
+      "immediate_access": {
+        "title": "ANINDA ERİŞİM",
+        "description": "Mutabakatlarınız arşivleme sırasında deforme olmaz, yıllar sonra dahi belgeye online ulaşabilir, üzerindeki yok olmayan E-İmza değerinizle doğruluğunu ispatlayabilirsiniz."
+      },
+      "fully_integrated": {
+        "title": "MUHASEBENİZE TAM ENTEGRE",
+        "description": "Resmi muhasebenize tam entegrasyon sağlanır. E-Mutabakat sistemi entegre ve dosya aktarmalı olarak iki farklı yöntem ile kullanılabilir. Eğer müşterimizin, müşteri ve tedarikçileri KEP adresini kabul etmiyorsa, sistem bu partnerlerin mail adreslerine mutabakat linki gönderecektir."
+      }
+    },
+    "subpages": {
+      "kep_registered_e_mail": {
+        "title": "KEP: Kayıtlı Elektronik Posta",
+        "description": "KEP yöntemini tercih etmeniz durumunda; iş ortaklarınızın KEP posta adresine girerek 5 gün içinde yaptığınız bildirimlere itiraz etmemesi durumunda ıslak imzayla imzalamış kabul etmiş sayılacaktır ve tüm bu işlemler için belirtilen paket işlemleri için her ne nam adında olursa olsun ekstra bir ücret ödemeyeceksiniz."
+      },
+      "corporate_mail_reconciliation": {
+        "title": "Kurumsal Mail Adresiyle Mutabakat",
+        "description": "Şirketlerin partnerleri, bayileri, tedarikçileri ve diğer tüm iş ortaklarıyla hesap mutabakatı ve cari mutabakatı online sistemi üzerinden gerçekleşen EDM uygulamasıdır. Uygulama sadece mutabık olup olmadığını kontrol etmekle kalmaz, cari ekstresindeki farkları da bulup taraflara raporlar. Tüm muhasebe programlarıyla tam entegre çalışan sistemdir. Kaşe ve imza olmaksızın E-Mutabakat sistemi üzerinden mutabakatı onaylanan faturaların kabulü durumu; Tebligat kanununa göre herhangi bir şirketin resmi sunucularından gönderilen e-mail yanıtı en az eski gelenekteki kaşe, imza kadar bağlayıcıdır."
+      },
+      "kep_reconciliation": {
+        "title": "KEP İle Mutabakat",
+        "description": "Üstelik EDM E-Mutabakat ürünü sayesinde iş ortaklarınızın KEP adreslerine de mutabakat linkini gönderebilir, böylece E-Mutabakatlarınız 1. derece hâkim yorumuna gerek kalmaksızın yasal geçerli hale gelir. EDM KEP ile E-Mutabakat gönderimini en ekonomik seviyede sağlayabilmek için E-Mutabakat paketlerini kullanıcılarının hizmetine sunmuştur."
+      },
+      "who_can_use": {
+        "title": "Kimler E-Mutabakat Uygulamasına Geçiş Yapabilir?",
+        "description": "Partner, bayi, tedarikçi ve iş ortağı sayısı fazla olan tüm şirketler, zaman ve para tasarrufu, arşivleme maliyeti, operasyonel iş gücünden kurtulmak isteyen tüm şirketler E-Mutabakat’a geçiş yapabilir.",
+        "list": [
+          "Çalışma ortakları, bayileri ve tedarikçileri fazla olan şirketler",
+          "Zaman ve para tasarrufu sağlamak isteyenler",
+          "Arşivleme maliyetlerini azaltmak isteyenler",
+          "Operasyonel iş gücünden kurtulmak isteyenler"
+        ]
+      },
+      "why_edm_e_consensus": {
+        "title": "Neden EDM E-Mutabakat?",
+        "description": "EDM E-Mutabakat, finansal mutabakat yönetimi için entegre ve güvenli bir çözüm sunarak denetim sürelerini azaltır ve operasyonel verimliliği artırır."
+      },
+      "is_mandatory": {
+        "title": "E-Mutabakat Zorunlu mu?",
+        "description": "E-Mutabakat zorunlu değildir. Gönüllü geçiş yapılabilir."
+      },
+      "leading_sectors": {
+        "title": "EDM E-Mutabakat Kullanımında Öncü Sektörler",
+        "list": [
+          "Bayî yapısıyla çalışan firmalar",
+          "Toptancılar",
+          "Çok satın alma yapan firmalar"
+        ]
+      }
     }
+  },
+  "e_document_management_system": {
+    "title": "E-Belge Yönetim Sistemi (EBYS)",
+    "youtube_embed": "https://youtu.be/XLuzI_kc8oM",
+    "description": "Elektronik Belge Yönetim Sistemi, kurumların faaliyetleri sırasında oluşturdukları her türlü dokümantasyonun, üretiminden nihai tasfiyesine kadar olan süreç içerisinde arşivlenmesini ve yönetilmesini sağlayan sistemdir. EDM EBYS, standart EBYS’den farklı olarak sadece bir arşiv ya da süreç yazılımı değildir. İhtiyaca göre şekillendirilebilen bir çözüm paketidir. Bu paket, müşteri etkileşim yönetimini gerçekleştiren bir iş zekasıdır.",
+    "benefits": {
+      "e_belge_yonetim_sistemi_ebys": {
+        "title": "E-Belge Yönetim Sistemi (EBYS)",
+        "description": "Web tabanlı ara yüz ile mobil cihazlardan ve her mekândan sisteme erişebilme. HTML 5, Ajax ara yüzler, Dotnet 4.0, WCF yazılım alt yapısıyla esnek çalışma. İş süreç otomasyonu ile tam entegrasyon. İhtiyaca göre geliştirilebilecek profil form oluşturma alt yapısı. Yetkilendirme alt yapısı ile sistem ve bilgi güvenliği koruması. Dokümanlara ekli dosyalar ekleyebilme. Dokümanlar arasında ilişki tanımlayabilme. Doküman görüntüleyiciler. Check-in / Check-out mekanizması."
+      },
+      "ebys_ile_neler_yapilabilir": {
+        "title": "EBYS İle Neler Yapılabilir?",
+        "description": "Var olan veri kaynaklarına bağlanabilir; İstenildiğinde kurumlar, var olan tüm veri kaynaklarına (SAP, New Frame, sosyal medya, printer, tarayıcı, telefon vb.) bağlanarak dokümanları sıfır noktasında oluşturup işleyebilirler. Veri kaynaklarını dinleyebilir; İşledikleri veri kaynaklarını e-mail, faks, sms ile twitter, facebook gibi sosyal medya kanallarını da dinleyerek, anket sistemleri, kampanya yönetim sistemleriyle beraber hareket edebilirler. Etkileşime geçilebilir; Dinleyip harekete geçebilen diyalog sistemine, yani etkileşime geçebilen bir alt yapıya sahiptir. Tanımlanan sürece göre ve hatta bağlandığı kaynak ve dinlediği içeriği değerlendirerek alternatif ve paralel yollarla otomatik değişebilen bir sistemdir."
+      },
+      "ebys_temel_fonksiyonlar": {
+        "title": "EBYS Temel Fonksiyonlar",
+        "description": "Web tabanlı ara yüz ile mobil cihazlardan ve her mekândan sisteme erişebilme. HTML 5, Ajax ara yüzler, Dotnet 4.0, WCF yazılım alt yapısıyla esnek çalışma. İş süreç otomasyonu ile tam entegrasyon. İhtiyaca göre geliştirilebilecek profil form oluşturma alt yapısı. Yetkilendirme alt yapısı ile sistem ve bilgi güvenliği koruması. Dokümanlara ekli dosyalar ekleyebilme. Dokümanlar arasında ilişki tanımlayabilme. Doküman görüntüleyiciler. Check-in / Check-out mekanizması."
+      },
+      "neden_edm_ebys": {
+        "title": "Neden EDM EBYS?",
+        "description": "Süreç ve arşiv kolaylığı. Taranmış kâğıt dokümanlar, fakslar, mailler, web mesajları, sosyal medya mesajları, JPAG dahil her formatta dijital dosyalar, tekst haline dönüşür, sonra okunabilir ve üzerine yazılabilir formatta, görevli kişiler arasında süreçlerde dolaşır, yorum ya da başka dokümanlar eklenebilir, paraflanır, imzalanır ve muhatabına gönderilir. Sürecin her aşamasında basılabilir ve ayrı versiyon olarak arşivlenir. Raporlama ve analiz imkanı. Sürecin her aşamasının ne kadar sürdüğü ve ne kaliteyle tamamlandığı raporlanarak analiz ve performans yönetimi sağlanır."
+      }
+    }
+  }
   }
   

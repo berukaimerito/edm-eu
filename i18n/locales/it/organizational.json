@@ -1,0 +1,40 @@
+{
+    "title": "Informazioni Organizzative",
+    "description": "Scopri di più sulla visione, missione, politiche HR, informazioni sui conti bancari e dichiarazioni sulla privacy dei dati della nostra organizzazione.",
+    "page_title": "Informazioni Organizzative",
+    "vision_and_mission": {
+      "title": "Visione e Missione",
+      "vision": {
+        "title": "La Nostra Visione",
+        "description": "La nostra visione è sviluppare prodotti software che soddisfino le esigenze del settore, motivare il settore a creare applicazioni più qualificate, lavorare costantemente per raggiungere il meglio e condurre progetti di innovazione a standard internazionali."
+      },
+      "mission": {
+        "title": "La Nostra Missione",
+        "description": "La nostra missione è soddisfare le esigenze dei nostri clienti nelle condizioni più favorevoli, fornire i nostri servizi in modo continuo e senza interruzioni e garantire la perfezione dei flussi di lavoro aziendali offrendo un supporto clienti efficace. Raggiungiamo questo obiettivo aderendo agli standard aziendali internazionali, contribuendo ai benefici nazionali senza compromettere la qualità e offrendo servizi affidabili ed economici a tutti i nostri clienti."
+      }
+    },
+    "hr": {
+      "title": "Risorse Umane",
+      "description": "Ci impegniamo sempre a proteggere i diritti personali dei nostri dipendenti. Trattiamo i dipendenti con onestà e equità, forniamo un ambiente di lavoro non discriminatorio, sicuro e salutare. Facciamo il necessario per lo sviluppo individuale dei nostri dipendenti e manteniamo un equilibrio tra vita lavorativa e privata."
+    },
+    "bank_account_information": {
+      "title": "Informazioni sul Conto Bancario",
+      "branches": [
+        {
+          "name": "Filiale Seyrantepe",
+          "code": "618",
+          "iban": "TR11 0003 2000 0000 0096 4967 78",
+          "account_name": "CLOUDY BİLİŞİM HİZMETLERİ A.Ş."
+        }
+      ]
+    },
+    "corporate_data_privacy_statement": {
+      "title": "Dichiarazione sulla Privacy dei Dati Aziendali",
+      "description": "La nostra istituzione;\n\n- Si impegna a rispettare tutte le leggi, regolamenti amministrativi, responsabilità legali e standard relativi alla qualità.\n- Considera la tecnologia e i fattori di supporto utilizzati, prendendo le precauzioni necessarie.\n- Garantisce una visione comune sui requisiti di qualità a tutti i livelli dell'organizzazione.\n- Fornisce formazione e opportunità di comunicazione aperta a tutti i dipendenti.\n- Offre servizi di alta qualità che soddisfano le esigenze e le aspettative in evoluzione dei nostri partner commerciali e clienti.\n- Collabora con i nostri fornitori, concessionari e partner commerciali basandosi su un principio di vantaggio reciproco.\n- Mantiene la soddisfazione del cliente al massimo livello fornendo i migliori e più rapidi servizi di supporto tecnico.\n- Fornisce servizi ininterrotti ai nostri clienti con la nostra infrastruttura con 4 backup e operativa 24/7.\n- Migliora e sviluppa continuamente tutti i nostri processi e applicazioni dei sistemi di gestione, rimanendo aperti allo sviluppo.\n- Completa tutte le certificazioni relative al nostro campo, come ISO 9001, ISO 27001, ISO 20000, ISO 22301, garantendo operazioni sicure e di qualità."
+    },
+    "privacy_statement": {
+      "title": "Dichiarazione sulla Privacy",
+      "description": "{Dati vuoti al momento}"
+    }
+  }
+  

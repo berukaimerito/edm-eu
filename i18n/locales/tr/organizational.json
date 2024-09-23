@@ -1,0 +1,40 @@
+{
+    "title": "Bilgi Kurumsal",
+    "description": "Organizasyonumuzun vizyonu, misyonu, insan kaynakları politikaları, banka hesap bilgileri ve veri gizliliği beyanları hakkında daha fazla bilgi edinin.",
+    "page_title": "Bilgi Kurumsal",
+    "vision_and_mission": {
+      "title": "Vizyonumuz ve Misyonumuz",
+      "vision": {
+        "title": "Vizyonumuz",
+        "description": "Sektörün ihtiyacı olan yazılım ürünlerini geliştirirken, sektörde fark yaratıp, daha nitelikli uygulamaları geliştirilmesi yönünde sektörü motive etmek, daha iyisine ulaşmak için sürekli çalışmak ve dünya standartlarında inovasyon projeleri sürdürmek vizyonumuzdur."
+      },
+      "mission": {
+        "title": "Misyonumuz",
+        "description": "Müşterilerimizin ihtiyaçlarını en uygun koşullarda karşılamak, hizmetlerimizi kesintisiz ve sorunsuz biçimde arz etmek ve etkin müşteri desteği sunarak iş akışlarının mükemmelleşmesini sağlamak misyonu ile çalışıyoruz, uluslararası standartlarda işletmecilik standartlarına erişilerek, milli fayda ortaya çıkarılmasına yardımcı oluyoruz."
+      }
+    },
+    "hr": {
+      "title": "H.R.",
+      "description": "Çalışanlarımızın özlük haklarını her zaman korumaya çalışırız. Çalışanlara dürüst ve adil yaklaşır, ayrımcı olmayan, güvenli ve sağlıklı bir çalışma ortamı sağlamaya çalışırız. Çalışanlarımızın bireysel gelişimleri için gerekli çabayı gösterir, iş hayatı ve özel hayat arasındaki dengeyi gözetiriz."
+    },
+    "bank_account_information": {
+      "title": "Banka Hesap Bilgilerimiz",
+      "branches": [
+        {
+          "name": "Seyrantepe Şubesi",
+          "code": "618",
+          "iban": "TR11 0003 2000 0000 0096 4967 78",
+          "account_name": "CLOUDY BİLİŞİM HİZMETLERİ A.Ş."
+        }
+      ]
+    },
+    "corporate_data_privacy_statement": {
+      "title": "Kurumumuz Veri Gizliliği Bildirimi",
+      "description": "Kurumumuz;\n\n- Kalite ile ilgili tüm mevzuat, idari düzenlemeler, yasal sorumluluk ve standartlara uymayı,\n- Kullanılan teknoloji ve yardımcı faktörleri göz önünde tutmayı ve gerekli tüm tedbirleri almayı,\n- Organizasyonun her kademesinde Kalite gerekliliklerimize uygun ortak bir bakış açısı sağlamayı,\n- Tüm çalışanlarımıza eğitim ve açık iletişim imkânı sağlamayı,\n- İş ortaklarımız ve müşterilerimize mevcut ve gelişen ihtiyaç ve beklentilerini karşılayan kaliteli hizmetleri sunmayı,\n- Tedarikçilerimiz, bayilerimiz ve iş ortaklarımız ile kazan kazandır prensibi ile işbirliği ve güven içerisinde çalışmayı,\n- Müşterilerimize en iyi ve en hızlı teknik destek hizmetlerini sunarak müşteri memnuniyetini en üst düzeyde tutmayı,\n- Sürdürülebilir çalışma anlamında; 4 Yedekli ve 7/24 çalışan altyapımız ile müşterilerimize kesintisiz hizmeti verebilmeyi,\n- Tüm süreçlerini ve yönetim sistemleri uygulamalarını sürekli olarak iyileştirmeyi ve geliştirmeyi, gelişime daima açık olmayı,\n- Tüm faaliyetlerimiz ISO 9001, ISO 27001, ISO 20000, ISO 22301 gibi alanımızla ilgili tüm sertifikasyonlarımız süreçleri tamamlanarak alınmıştır. Böylece hem Bilgi Güvenliği Kalite Yönetim Sistemine uygun olarak güvence altına alınmış bir operasyon yöntemi, hem de bunun sürekliliği ve iyileştirilmesi için periyodik olarak gözden geçirilmeyi taahhüt etmektedir."
+    },
+    "privacy_statement": {
+      "title": "Gizlilik Beyanı",
+      "description": "{Boş veri şu anda}"
+    }
+  }
+  

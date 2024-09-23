@@ -1,0 +1,40 @@
+{
+    "title": "Informacje Organizacyjne",
+    "description": "Dowiedz się więcej o wizji, misji, politykach HR, informacjach o rachunkach bankowych oraz oświadczeniach dotyczących prywatności danych naszej organizacji.",
+    "page_title": "Informacje Organizacyjne",
+    "vision_and_mission": {
+      "title": "Wizja i Misja",
+      "vision": {
+        "title": "Nasza Wizja",
+        "description": "Naszą wizją jest rozwijanie produktów oprogramowania spełniających potrzeby branży, motywowanie sektora do tworzenia bardziej wykwalifikowanych aplikacji, nieustanne dążenie do doskonałości oraz realizowanie innowacyjnych projektów na światowym poziomie."
+      },
+      "mission": {
+        "title": "Nasza Misja",
+        "description": "Naszą misją jest zaspokajanie potrzeb naszych klientów w najbardziej sprzyjających warunkach, ciągłe i bezproblemowe świadczenie naszych usług oraz zapewnianie doskonałości procesów biznesowych poprzez efektywne wsparcie klienta. Osiągamy to poprzez przestrzeganie międzynarodowych standardów biznesowych, przyczynianie się do korzyści narodowych bez kompromisów w jakości oraz oferowanie niezawodnych i ekonomicznych usług wszystkim naszym klientom."
+      }
+    },
+    "hr": {
+      "title": "Zasoby Ludzkie",
+      "description": "Zawsze staramy się chronić prawa osobiste naszych pracowników. Traktujemy pracowników uczciwie i sprawiedliwie, zapewniamy niedyskryminujące, bezpieczne i zdrowe środowisko pracy. Dokładamy wszelkich starań dla indywidualnego rozwoju naszych pracowników i utrzymujemy równowagę między życiem zawodowym a prywatnym."
+    },
+    "bank_account_information": {
+      "title": "Informacje o Rachunku Bankowym",
+      "branches": [
+        {
+          "name": "Oddział Seyrantepe",
+          "code": "618",
+          "iban": "TR11 0003 2000 0000 0096 4967 78",
+          "account_name": "CLOUDY BİLİŞİM HİZMETLERİ A.Ş."
+        }
+      ]
+    },
+    "corporate_data_privacy_statement": {
+      "title": "Oświadczenie o Prywatności Danych Korporacyjnych",
+      "description": "Nasza instytucja;\n\n- Zobowiązuje się do przestrzegania wszelkich przepisów dotyczących jakości, regulacji administracyjnych, odpowiedzialności prawnej i standardów.\n- Uwzględnia używaną technologię i czynniki pomocnicze, podejmując niezbędne środki ostrożności.\n- Zapewnia wspólną perspektywę na wymagania jakościowe na każdym poziomie organizacji.\n- Zapewnia naszym pracownikom szkolenia i możliwości otwartej komunikacji.\n- Oferuje usługi wysokiej jakości, które spełniają zmieniające się potrzeby i oczekiwania naszych partnerów biznesowych i klientów.\n- Współpracuje z naszymi dostawcami, dealerami i partnerami biznesowymi na zasadzie korzyści obopólnych.\n- Utrzymuje najwyższy poziom satysfakcji klientów, oferując najlepsze i najszybsze usługi wsparcia technicznego.\n- Zapewnia nieprzerwane usługi dla naszych klientów dzięki naszej infrastrukturze z czterema zapasowymi i działającej 24/7.\n- Ciągle doskonali i rozwija wszystkie nasze procesy oraz aplikacje systemów zarządzania, pozostając otwartymi na rozwój.\n- Ukończył wszystkie certyfikacje związane z naszą branżą, takie jak ISO 9001, ISO 27001, ISO 20000, ISO 22301, zapewniając bezpieczne i wysokiej jakości operacje."
+    },
+    "privacy_statement": {
+      "title": "Oświadczenie o Prywatności",
+      "description": "{Puste dane w tej chwili}"
+    }
+  }
+  

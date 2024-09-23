@@ -1,0 +1,40 @@
+{
+    "title": "Organizational Information",
+    "description": "Learn more about our organization's vision, mission, HR policies, bank account information, and data privacy statements.",
+    "page_title": "Organizational Information",
+    "vision_and_mission": {
+      "title": "Vision and Mission",
+      "vision": {
+        "title": "Our Vision",
+        "description": "Our vision is to develop software products that meet the needs of the industry, motivate the sector to create more qualified applications, continuously strive for better, and carry out world-class innovation projects."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "Our mission is to meet our customers' needs under the most favorable conditions, provide our services continuously and seamlessly, and ensure the perfection of business workflows by offering effective customer support. We achieve this by adhering to international business standards, contributing to national benefits without compromising quality, and offering reliable and economical services to all our customers."
+      }
+    },
+    "hr": {
+      "title": "Human Resources",
+      "description": "We always strive to protect our employees' personal rights. We approach employees with honesty and fairness, provide a non-discriminatory, safe, and healthy working environment. We make necessary efforts for our employees' individual development and maintain a balance between work and personal life."
+    },
+    "bank_account_information": {
+      "title": "Bank Account Information",
+      "branches": [
+        {
+          "name": "Seyrantepe Branch",
+          "code": "618",
+          "iban": "TR11 0003 2000 0000 0096 4967 78",
+          "account_name": "CLOUDY BİLİŞİM HİZMETLERİ A.Ş."
+        }
+      ]
+    },
+    "corporate_data_privacy_statement": {
+      "title": "Corporate Data Privacy Statement",
+      "description": "Our institution;\n\n- Complies with all quality-related legislation, administrative regulations, legal responsibilities, and standards.\n- Considers the technology and supporting factors used, taking necessary precautions.\n- Ensures a common perspective on quality requirements at every level of the organization.\n- Provides education and open communication opportunities to all employees.\n- Offers high-quality services that meet the evolving needs and expectations of our business partners and customers.\n- Collaborates with our suppliers, dealers, and business partners based on a win-win principle.\n- Maintains customer satisfaction at the highest level by providing the best and fastest technical support services.\n- Provides uninterrupted services to our customers with our 24/7, four-redundant employee infrastructure.\n- Continuously improves and develops all our processes and management system applications, remaining open to development.\n- Completes all certifications related to our field, such as ISO 9001, ISO 27001, ISO 20000, ISO 22301, ensuring secure and quality operations."
+    },
+    "privacy_statement": {
+      "title": "Privacy Statement",
+      "description": "We are committed to protecting your privacy. [Add your privacy statement content here.]"
+    }
+  }
+  

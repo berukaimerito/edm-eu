@@ -33,6 +33,15 @@ const services: Service[] = [
   {
     name: 'E-Consensus',
     path: '/services/e-consensus',
+    subpages: [
+      { name: 'KEP: Registered Electronic Mail', path: '/services/e-consensus/kep-registered-electronic-mail' },
+      { name: 'Corporate Mail Reconciliation', path: '/services/e-consensus/corporate-mail-reconciliation' },
+      { name: 'KEP Reconciliation', path: '/services/e-consensus/kep-reconciliation' },
+      { name: 'Who Can Use', path: '/services/e-consensus/who-can-use' },
+      { name: 'Why EDM E-Mutabakat', path: '/services/e-consensus/why-edm-e-mutabakat' },
+      { name: 'Is Mandatory', path: '/services/e-consensus/is-mandatory' },
+      { name: 'Leading Sectors', path: '/services/e-consensus/leading-sectors' },
+    ],
   },
   {
     name: 'Cloud Backup',
@@ -46,6 +55,12 @@ const services: Service[] = [
   {
     name: 'E-Document Management System',
     path: '/services/e-document-management-system',
+    subpages: [
+      { name: 'E-Document Management System (EDMS)', path: '/services/e-document-management-system/ebys' },
+      { name: 'What Can Be Done with EDMS?', path: '/services/e-document-management-system/ebys-ile-neler-yapilabilir' },
+      { name: 'EDMS Basic Functions', path: '/services/e-document-management-system/ebys-temel-fonksiyonlar' },
+      { name: 'Why EDM EDMS?', path: '/services/e-document-management-system/neden-edm-ebys' },
+    ],
   },
 ];
 

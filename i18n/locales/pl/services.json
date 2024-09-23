@@ -30,6 +30,116 @@
           "Podatnicy obowiązani do e-archiwum faktury"
         ]
       }
+    },
+    "e_consensus": {
+    "title": "E-Mutabakat",
+    "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
+    "description": "Oznacza to prawne i ważne przekazywanie wszystkich uzgodnień BA-BS, rachunków bieżących, potrąceń i faktur wszystkich dostawców i klientów firm za pomocą środowiska mailowego lub systemu KEP.",
+    "benefits": {
+      "why_edm_e_consensus": "DLACZEGO E-MUTABAKAT OD EDM",
+      "legally_valid": {
+        "title": "LEGALNIE WAŻNY",
+        "description": "Uznawany za prawnie ważny, gdy jest wysłany za pomocą KEP do Ministerstwa Finansów. Zmniejsza czas audytu dziesięciokrotnie. Akceptowany jako dowód prawny pierwszej instancji w sądach handlowych i biurach egzekucyjnych."
+      },
+      "time_and_cost_advantages": {
+        "title": "ZALETY CZASU I KOSZTÓW",
+        "description": "Umożliwia wysyłanie uzgodnień BA, BS i bieżących indywidualnie lub zbiorczo w ciągu kilku sekund, oszczędzając czas i pieniądze. Wszystkim partnerom wysyłane są co miesiąc automatycznie uzgodnienia BA, BS i bieżące, a wszystkie wysłane uzgodnienia są przechowywane w systemach EDM z backupem na lata."
+      },
+      "reliable": {
+        "title": "NIEZAWODNY",
+        "description": "Wysyłki za pośrednictwem InterKEP, największej firmy technologicznej w Turcji, gwarantują bezpieczne i szybkie wysyłki. Zapewnia, że uzgodnienia są poprawnie wysyłane do partnerów i pozostają poufne między firmą a partnerami."
+      },
+      "immediate_access": {
+        "title": "NATYCHMIASTOWY DOSTĘP",
+        "description": "Twoje uzgodnienia nie są deformowane podczas archiwizacji, możesz uzyskać dostęp do dokumentów online nawet po latach i udowodnić ich ważność za pomocą niezmienialnego podpisu elektronicznego."
+      },
+      "fully_integrated": {
+        "title": "PEŁNA INTEGRACJA",
+        "description": "Pełna integracja z twoją oficjalną księgowością. System E-Mutabakat może być używany na dwa sposoby: zintegrowany i za pomocą transferu plików. Jeśli twoi klienci lub dostawcy nie akceptują adresu KEP, system wyśle linki do uzgodnień na ich adresy email."
+      }
+    },
+    "subpages": {
+      "kep_registered_e_mail": {
+        "title": "KEP: Zarejestrowana Pocztą Elektroniczną",
+        "description": "Wykorzystanie zarejestrowanej poczty elektronicznej (KEP) gwarantuje, że wysłane powiadomienia są prawnie uznawane. Jeśli twoi partnerzy nie zgłoszą sprzeciwu wobec powiadomień w ciągu 5 dni, będą one uznane za zaakceptowane z podpisem elektronicznym."
+      },
+      "corporate_mail_reconciliation": {
+        "title": "Uzgodnienia przez Adres Email Firmowy",
+        "description": "Jest to aplikacja EDM umożliwiająca przeprowadzanie uzgodnień rachunkowych i bieżących online z partnerami, dealerami, dostawcami i wszystkimi innymi partnerami biznesowymi. Aplikacja nie tylko sprawdza, czy uzgodnienie zostało zaakceptowane, ale również identyfikuje różnice w saldach bieżących i raportuje je stronom. Jest w pełni zintegrowana ze wszystkimi programami księgowymi. Zgodnie z prawem o doręczeniach, odpowiedź email z oficjalnych serwerów firmy jest prawnie wiążąca jak tradycyjny pieczęć i podpis."
+      },
+      "kep_reconciliation": {
+        "title": "Uzgodnienia przez KEP",
+        "description": "Dzięki produktowi E-Mutabakat od EDM, możesz wysyłać linki do uzgodnień również na adresy KEP swoich partnerów, co sprawia, że twoje uzgodnienia E-Mutabakat są prawnie ważne bez konieczności sądowego orzeczenia pierwszej instancji. EDM oferuje pakiety E-Mutabakat, aby zapewnić najtańszy poziom wysyłki za pomocą KEP."
+      },
+      "who_can_use": {
+        "title": "Kto może przejść na E-Mutabakat?",
+        "description": "Wszystkie firmy z dużą liczbą partnerów, dealerów, dostawców i partnerów biznesowych, które chcą oszczędzać czas i pieniądze, zmniejszyć koszty archiwizacji i uwolnić się od siły roboczej operacyjnej, mogą przejść na E-Mutabakat.",
+        "list": [
+          "Firmy z wieloma partnerami, dealerami i dostawcami",
+          "Wolni profesjonaliści",
+          "Firmy chcące zmniejszyć koszty archiwizacji"
+        ]
+      },
+      "why_edm_e_consensus": {
+        "title": "Dlaczego EDM E-Mutabakat?",
+        "description": "EDM E-Mutabakat oferuje zintegrowane i bezpieczne rozwiązanie do zarządzania uzgodnieniami finansowymi, skracając czas audytu i poprawiając efektywność operacyjną."
+      },
+      "is_mandatory": {
+        "title": "Czy E-Mutabakat jest obowiązkowy?",
+        "description": "E-Mutabakat nie jest obowiązkowy. Można dokonać przejścia na zasadzie dobrowolnej."
+      },
+      "leading_sectors": {
+        "title": "Wiodące Sektory Korzystające z E-Mutabakat od EDM",
+        "list": [
+          "Firmy pracujące ze strukturami dealerów",
+          "Hurtownicy",
+          "Firmy z dużymi operacjami zakupowymi"
+        ]
+      }
     }
+  },
+  "e_document_management_system": {
+    "title": "System Zarządzania Dokumentami Elektronicznymi (EBYS)",
+    "youtube_embed": "https://youtu.be/XLuzI_kc8oM",
+    "description": "System Zarządzania Dokumentami Elektronicznymi to system, który pozwala organizacjom archiwizować i zarządzać wszystkimi rodzajami dokumentacji tworzonej podczas ich działalności, od produkcji po ostateczne usunięcie. W przeciwieństwie do standardowego EBYS, EDM EBYS to nie tylko archiwum czy oprogramowanie procesowe. Jest to pakiet rozwiązań, który można dostosować do potrzeb. Ten pakiet jest inteligencją biznesową, która zarządza interakcją z klientami.",
+    "benefits": {
+      "what_can_be_done_with_ebys": {
+        "title": "CO MOŻNA ZROBIĆ Z EBYS?",
+        "description": "EBYS może łączyć się z istniejącymi źródłami danych; organizacje mogą łączyć się ze wszystkimi istniejącymi źródłami danych (SAP, New Frame, media społecznościowe, drukarka, skaner, telefon itp.), aby tworzyć i przetwarzać dokumenty od podstaw w dowolnym momencie. Może monitorować źródła danych; może nasłuchiwać przetwarzanych źródeł danych poprzez email, fax, SMS, kanały mediów społecznościowych takie jak Twitter, Facebook oraz współpracować z systemami ankietowymi, systemami zarządzania kampaniami."
+      },
+      "basic_functions": {
+        "title": "PODSTAWOWE FUNKCJE EBYS",
+        "description": "Dostęp do systemu z urządzeń mobilnych i dowolnej lokalizacji za pomocą interfejsu webowego. Elastyczna praca z interfejsami HTML 5, Ajax, infrastrukturą oprogramowania Dotnet 4.0, WCF. Pełna integracja z automatyzacją procesów biznesowych."
+      },
+      "indexing": {
+        "title": "INDEKSOWANIE",
+        "description": "Indeksowanie treści w formatach takich jak Word, Excel, PowerPoint, PDF itp. Możliwość używania wyrażeń logicznych w wyszukiwaniach dokumentów. Automatyczne indeksowanie obrazów za pomocą OCR. Indeksowanie plików PDF z obrazami."
+      },
+      "scalability": {
+        "title": "SKALOWALNOŚĆ",
+        "description": "Możliwość przechowywania dokumentów zarówno w systemie plików, jak i w bazach danych. Możliwość tworzenia nieograniczonych bibliotek. Możliwość przechowywania każdej cyfrowej biblioteki w różnych obszarach przechowywania. Możliwość integracji z wieloma bazami danych i systemami plików. Możliwość zapewnienia pojemności przechowywania na poziomie milionów dokumentów i terabajtów."
+      },
+      "distributed_operation_and_cache_support": {
+        "title": "OPERACJA ROZPROSZONA I WSPARCIE CACHE",
+        "description": "Możliwość pełnej zgodności z organizacjami działającymi w sposób rozproszony. Wszystkie przetworzone dane są zbierane w jednym centrum, pulie danych. Lokalna pamięć podręczna może być wykonywana w organizacjach z strukturami filii. Lokalne cache'e mogą być synchronizowane z centrum w określonych odstępach czasu. Wysoka wydajność nawet przy niskich prędkościach danych."
+      },
+      "e_signature_compatible_structure": {
+        "title": "STRUKTURA KOMPATYBILNA Z E-SIGNATURE",
+        "description": "Struktura e-signature z legalnie ważną strukturą. Integracja struktury e-signature w plikach PDF. Możliwość eksportowania utworzonych formularzy jako przeszukiwalne pliki PDF. Możliwość wysyłania dokumentów do zatwierdzenia e-signature za pomocą automatyzacji przepływu pracy, digitalizacja."
+      },
+      "digitization_management": {
+        "title": "ZARZĄDZANIE DIGITALIZACJĄ",
+        "description": "Szybka digitalizacja dokumentów na media elektroniczne. Łatwe klasyfikowanie dokumentów. Integracja z zarządzaniem dokumentami i wszystkimi innymi operacyjnymi przepływami pracy. Zwiększa efektywność personelu i mierzy wydajność. Zapobiega niestandardowej skanowaniu i tworzeniu dokumentów. Integracja z szybkimi skanerami. Funkcja poprawy obrazu. Funkcja pełnotekstowego wyszukiwania i indeksowania za pomocą OCR. Funkcje przetwarzania formularzy."
+      },
+      "why_ebm_ebys": {
+        "title": "DLACZEGO EDM EBYS?",
+        "description": "ŁATWOŚĆ PROCESU I ARCHIWIZACJI\n\nSkanowane dokumenty papierowe, faxy, emaile, wiadomości webowe, wiadomości z mediów społecznościowych, w tym JPAG, są przekształcane w pliki cyfrowe w dowolnym formacie, następnie przekształcane w format czytelny i edytowalny, krążą między odpowiedzialnymi osobami w procesach, mogą mieć dodawane komentarze lub inne dokumenty, być inicjowane, podpisywane i wysyłane do odbiorców.\n\nNa każdym etapie procesu, mogą być drukowane i archiwizowane jako oddzielna wersja.\n\nOPCJE RAPORTOWANIA I ANALIZY\n\nNa każdym etapie procesu, ile czasu zajmuje i jak dobrze jest realizowany, jest raportowane i analizowane dla zarządzania wydajnością.\n\nBEZPIECZEŃSTWO\n\nŻadna osoba odpowiedzialna w procesie nie może powiedzieć, że nie otrzymała ani nie przeczytała dokumentu. W systemie EBYS, legalnie, każdy dokument, który trafia do osoby w procesie, skutkuje werdyktem „otrzymano i przeczytano”.\n\nUSO SEMPLICE\n\nW systemie EBYS, dokumenty sprzed lat mogą być znalezione w ciągu sekund na podstawie kryteriów takich jak data, temat, nadawca, odbiorca, numer itp., lub wpisując kilka nieuporządkowanych słów w dokumencie. W systemie EBYS, osoby mogą uzyskiwać dostęp tylko do dokumentów, do których są uprawnione."
+      },
+      "access_ease": {
+        "title": "ŁATWOŚĆ DOSTĘPU",
+        "description": "Wszystkie wymienione funkcje w systemie EBYS działają również na urządzeniach mobilnych z oprogramowaniem Android, iOS i Microsoft."
+      }
+    }
+  }
   }
   

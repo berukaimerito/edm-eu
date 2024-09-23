@@ -30,6 +30,106 @@
           "Soggetti obbligati alla fatturazione elettronica con archiviazione"
         ]
       }
+    },
+    "e_consensus": {
+      "title": "E-Mutabakat",
+      "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
+      "description": "Significa l'invio legale e valido tramite email o il sistema KEP di tutte le riconciliazioni BA-BS, conti correnti, ritenute e fatture dei fornitori e clienti delle aziende.",
+      "benefits": {
+        "why_edm_e_consensus": "PERCHÉ E-MUTABAKAT EDM",
+        "legally_valid": {
+          "title": "LEGALEMENTE VALIDO",
+          "description": "Considerato legalmente valido quando inviato tramite KEP presso il Ministero delle Finanze. Riduce i tempi di audit di decine di volte. Accettato come prova legale di primo grado nei tribunali di commercio e negli uffici esecutivi."
+        },
+        "time_and_cost_advantages": {
+          "title": "VANTAGGI DI TEMPO E COSTO",
+          "description": "Consente l'invio di riconciliazioni BA, BS e correnti singolarmente o in blocco in pochi secondi, risparmiando tempo e denaro. Tutti i partner ricevono ogni mese automaticamente riconciliazioni BA, BS e correnti, e tutte le riconciliazioni inviate sono archiviate nei sistemi EDM con backup per anni."
+        },
+        "reliable": {
+          "title": "AFFIDABILE",
+          "description": "Le invii tramite InterKEP, la più grande azienda tecnologica della Turchia, garantiscono invii sicuri e veloci. Assicura che le riconciliazioni vengano inviate correttamente ai partner e rimangano riservate tra l'azienda e i partner."
+        },
+        "immediate_access": {
+          "title": "ACCESSO IMMEDIATO",
+          "description": "Le tue riconciliazioni non vengono deformate durante l'archiviazione, puoi accedere ai documenti online anche dopo anni e dimostrare la loro validità con un sigillo elettronico inalterabile."
+        },
+        "fully_integrated": {
+          "title": "COMPLETAMENTE INTEGRATO",
+          "description": "Integrazione completa con la tua contabilità ufficiale. Il sistema E-Mutabakat può essere utilizzato in due modalità: integrato e tramite trasferimento di file. Se i tuoi clienti o fornitori non accettano l'indirizzo KEP, il sistema invierà link di riconciliazione ai loro indirizzi email."
+        },
+        "corporate_mail_reconciliation": {
+          "title": "RICONCILIAZIONE TRAMITE INDIRIZZO EMAIL AZIENDALE",
+          "description": "È un'applicazione EDM che consente di eseguire riconciliazioni contabili e correnti online con i partner, i rivenditori, i fornitori e tutti gli altri partner commerciali. L'applicazione non solo controlla se la riconciliazione è accettata, ma identifica anche le differenze nei saldi correnti e le riporta alle parti. È completamente integrata con tutti i programmi di contabilità. Secondo la legge sulle notifiche, una risposta via email inviata dai server ufficiali di un'azienda è legalmente vincolante come una tradizionale firma e timbro."
+        },
+        "kep_reconciliation": {
+          "title": "RICONCILIAZIONE TRAMITE KEP",
+          "description": "Grazie al prodotto E-Mutabakat di EDM, puoi inviare link di riconciliazione anche agli indirizzi KEP dei tuoi partner, rendendo le tue riconciliazioni E-Mutabakat legalmente valide senza necessità di giudizio di primo grado. EDM ha lanciato pacchetti E-Mutabakat per offrire invii tramite KEP al livello più economico."
+        },
+        "who_can_use": {
+          "title": "CHI PUÒ PASSARE A E-MUTABAKAT?",
+          "description": "Tutte le aziende con molti partner, rivenditori, fornitori e partner commerciali che desiderano risparmiare tempo e denaro, ridurre i costi di archiviazione e liberarsi dalla forza lavoro operativa possono passare a E-Mutabakat.",
+          "list": [
+            "Aziende con numerosi partner, rivenditori e fornitori",
+            "Libero professionisti",
+            "Aziende che desiderano ridurre i costi di archiviazione"
+          ]
+        },
+        "is_mandatory": {
+          "title": "E-MUTABAKAT È OBBLIGATORIO?",
+          "description": "E-Mutabakat non è obbligatorio. È possibile effettuare il passaggio su base volontaria."
+        },
+        "leading_sectors": {
+          "title": "SETTORE LEADER CHE UTILIZZANO E-MUTABAKAT DI EDM",
+          "list": [
+            "Aziende che lavorano con strutture di rivendita",
+            "Grossisti",
+            "Aziende con grandi operazioni di acquisto"
+          ]
+        }
+      }
+    },
+    "e_document_management_system": {
+    "title": "Sistema di Gestione E-Documenti (EBYS)",
+    "youtube_embed": "https://youtu.be/XLuzI_kc8oM",
+    "description": "Il Sistema di Gestione E-Documenti è un sistema che consente alle organizzazioni di archiviare e gestire tutti i tipi di documentazione creata durante le loro operazioni, dalla produzione allo smaltimento finale. Diversamente dall'EBYS standard, EDM EBYS non è solo un archivio o un software di processo. È un pacchetto di soluzioni personalizzabile secondo le esigenze. Questo pacchetto è un'intelligenza aziendale che gestisce l'interazione con i clienti.",
+    "benefits": {
+      "what_can_be_done_with_ebys": {
+        "title": "COSA SI PUÒ FARE CON EBYS?",
+        "description": "EBYS può connettersi alle fonti di dati esistenti; le organizzazioni possono collegarsi a tutte le fonti di dati esistenti (SAP, New Frame, social media, stampante, scanner, telefono, ecc.) per creare e elaborare documenti da zero in qualsiasi momento. Può monitorare le fonti di dati; può ascoltare le fonti di dati elaborate tramite email, fax, SMS, canali social media come Twitter, Facebook e lavorare insieme a sistemi di sondaggio, sistemi di gestione campagne."
+      },
+      "basic_functions": {
+        "title": "FUNZIONI BASE DI EBYS",
+        "description": "Accesso al sistema da dispositivi mobili e da qualsiasi posizione tramite un'interfaccia web. Funzionamento flessibile con interfacce HTML 5, Ajax, infrastruttura software Dotnet 4.0, WCF. Integrazione completa con l'automazione dei processi aziendali."
+      },
+      "indexing": {
+        "title": "INDICIZZAZIONE",
+        "description": "Indicizzazione dei contenuti in formati come Word, Excel, PowerPoint, PDF, ecc. Capacità di utilizzare espressioni logiche nelle ricerche di documenti. Indicizzazione automatica delle immagini con OCR. Indicizzazione dei PDF delle immagini."
+      },
+      "scalability": {
+        "title": "SCALABILITÀ",
+        "description": "Capacità di archiviare documenti sia nel file system che nei database. Possibilità di creare librerie illimitate. Capacità di archiviare ogni libreria digitale in diverse aree di archiviazione. Capacità di integrarsi con più database e sistemi di file. Capacità di fornire capacità di archiviazione a livello di milioni di documenti e terabyte."
+      },
+      "distributed_operation_and_cache_support": {
+        "title": "OPERAZIONE DISTRIBUITA E SUPPORTO CACHE",
+        "description": "Capacità di conformarsi pienamente alle organizzazioni che operano in modo distribuito. Tutti i dati elaborati vengono raccolti in un unico centro, pool di dati. La cache locale può essere eseguita in organizzazioni con strutture di filiale. Le cache locali possono essere sincronizzate con il centro a intervalli specifici. Alta performance anche a bassa velocità dei dati."
+      },
+      "e_signature_compatible_structure": {
+        "title": "STRUTTURA COMPATIBILE CON FIRMA ELETTRONICA",
+        "description": "Struttura di firma elettronica con struttura legalmente valida. Integrazione della struttura di firma elettronica nei file PDF. Capacità di esportare i moduli creati come PDF ricercabili. Capacità di inviare documenti per l'approvazione della firma elettronica tramite automazione del flusso di lavoro, digitalizzazione."
+      },
+      "digitization_management": {
+        "title": "GESTIONE DIGITALIZZAZIONE",
+        "description": "Digitalizzazione rapida dei documenti su media elettronici. Classificazione facile dei documenti. Integrazione con la gestione dei documenti e tutti gli altri flussi di lavoro operativi. Aumenta l'efficienza del personale e misura le prestazioni. Previene la scansione e la creazione di documenti non standard. Integrazione con scanner veloci. Funzione di miglioramento delle immagini. Funzione di ricerca full-text e indicizzazione con OCR. Funzioni di elaborazione moduli."
+      },
+      "why_ebm_ebys": {
+        "title": "PERCHÉ EDM EBYS?",
+        "description": "FACILITÀ DI PROCESSO E ARCHIVIAZIONE\n\nI documenti cartacei scansionati, faxes, email, messaggi web, messaggi social media, inclusi JPAG, vengono convertiti in file digitali in qualsiasi formato, poi trasformati in un formato leggibile e scrivibile, circolano tra le persone responsabili nei processi, possono avere commenti o altri documenti aggiunti, essere inizializzati, firmati e inviati ai destinatari.\n\nA ogni fase del processo, possono essere stampati e archiviati come versione separata.\n\nOPPORTUNITÀ DI REPORTING E ANALISI\n\nAd ogni fase del processo, quanto tempo richiede e quanto bene è realizzato viene riportato e analizzato per la gestione delle prestazioni.\n\nSICUREZZA\n\nNessuna persona responsabile nel processo può dire di non aver ricevuto o letto il documento. Nel sistema EBYS, legalmente, ogni documento che arriva a una persona nel processo risulta in un verdetto di “ricevuto e letto”.\n\nUSO SEMPLICE\n\nCon il sistema EBYS, i documenti di anni fa possono essere trovati in secondi in base a criteri come data, oggetto, mittente, destinatario, numero, ecc., o digitando alcune parole non ordinate all'interno del documento. Nel sistema EBYS, le persone possono accedere solo ai documenti a cui sono autorizzate."
+      },
+      "access_ease": {
+        "title": "FACILITÀ DI ACCESSO",
+        "description": "Tutte le funzioni menzionate nel sistema EBYS funzionano anche su ambienti mobili con software Android, iOS e Microsoft."
+      }
     }
+  }    
   }
   

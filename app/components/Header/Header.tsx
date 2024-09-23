@@ -101,7 +101,7 @@ const Header: React.FC = () => {
                 </div>
 
                 {/* ERP Cloudy */}
-                <Link href="/erpcloudy" className="flex items-center px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200">
+                <Link href="/organizational" className="flex items-center px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200">
                   <GlobeAltIcon className="h-5 w-5 mr-2 text-secondary" /> {t('erpcloudy.title')}
                 </Link>
 
@@ -181,7 +181,7 @@ const Header: React.FC = () => {
                 </div>
 
                 {/* ERP Cloudy */}
-                <Link href="/erpcloudy" className="flex items-center px-3 py-2 rounded-md hover:bg-accent hover:text-white transition-colors duration-200">
+                <Link href="/organizational" className="flex items-center px-3 py-2 rounded-md hover:bg-accent hover:text-white transition-colors duration-200">
                   <GlobeAltIcon className="h-5 w-5 mr-2 text-secondary" /> {t('erpcloudy.title')}
                 </Link>
 

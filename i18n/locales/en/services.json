@@ -30,6 +30,116 @@
           "E-Archive Invoice obligated parties"
         ]
       }
+    },
+    "e_consensus": {
+    "title": "E-Mutabakat",
+    "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
+    "description": "It means the legal and valid transmission of all BA-BS reconciliations, current accounts, withholdings, and invoices of companies' suppliers and customers via email or the KEP system.",
+    "benefits": {
+      "why_edm_e_consensus": "WHY EDM E-MUTABAKAT",
+      "legally_valid": {
+        "title": "LEGALLY VALID",
+        "description": "Considered legally valid when sent via KEP to the Ministry of Finance. Reduces audit times by dozens of times. Accepted as first-degree legal evidence in commercial courts and executive offices."
+      },
+      "time_and_cost_advantages": {
+        "title": "TIME AND COST ADVANTAGES",
+        "description": "Allows sending BA, BS, and current reconciliations individually or in bulk within seconds, saving time and money. All partners automatically receive BA, BS, and current reconciliations every month, and all sent reconciliations are archived in EDM systems with backups for years."
+      },
+      "reliable": {
+        "title": "RELIABLE",
+        "description": "Sending via InterKEP, Turkey's largest technology company, ensures secure and fast transmissions. Ensures that reconciliations are correctly sent to partners and remain confidential between the company and partners."
+      },
+      "immediate_access": {
+        "title": "IMMEDIATE ACCESS",
+        "description": "Your reconciliations are not deformed during archiving, you can access documents online even after years, and prove their validity with an immutable electronic seal."
+      },
+      "fully_integrated": {
+        "title": "FULLY INTEGRATED",
+        "description": "Complete integration with your official accounting. The E-Mutabakat system can be used in two modes: integrated and via file transfer. If your customers or suppliers do not accept the KEP address, the system will send reconciliation links to their email addresses."
+      }
+    },
+    "subpages": {
+      "kep_registered_e_mail": {
+        "title": "ERM(REM): Registered Electronic Mail",
+        "description": "Using registered electronic mail (KEP) ensures that the notifications sent are legally recognized. If your partners do not contest the notifications within 5 days, they will be considered accepted with an electronic signature."
+      },
+      "corporate_mail_reconciliation": {
+        "title": "Corporate Mail Reconciliation",
+        "description": "It is an EDM application that enables conducting accounting and current reconciliations online with partners, dealers, suppliers, and all other business partners. The application not only checks if the reconciliation is accepted but also identifies differences in current balances and reports them to the parties. It is fully integrated with all accounting programs. According to the notification law, an email response sent from a company's official servers is legally binding like a traditional stamp and signature."
+      },
+      "kep_reconciliation": {
+        "title": "Corporate Mail Registiration Reconciliation",
+        "description": "Thanks to EDM's E-Reconcilation product, you can send reconciliation links to your partners' ERM addresses, making your E-Mutabakat reconciliations legally valid without needing a first-degree court judgment. EDM has launched E-Mutabakat packages to offer the most economical level of ERM-based sending."
+      },
+      "who_can_use": {
+        "title": "Who Can Switch to E-Reconciliation?",
+        "description": "All companies with a large number of partners, dealers, suppliers, and business partners who want to save time and money, reduce archiving costs, and free themselves from operational workforce can switch to E-Reoncilation.",
+        "list": [
+          "Companies with numerous partners, dealers, and suppliers",
+          "Freelancers",
+          "Companies looking to reduce archiving costs"
+        ]
+      },
+      "why_edm_e_consensus": {
+        "title": "Why EDM E-Reconciliation",
+        "description": "EDM E-Mutabakat offers an integrated and secure solution for managing financial reconciliations, reducing audit times, and improving operational efficiency."
+      },
+      "is_mandatory": {
+        "title": "Is E-Reconciliation Mandatory?",
+        "description": "E-Mutabakat is not mandatory. It can be adopted on a voluntary basis."
+      },
+      "leading_sectors": {
+        "title": "Leading Sectors Using EDM E-Mutabakat",
+        "list": [
+          "Companies working with dealer structures",
+          "Wholesalers",
+          "Companies with large purchasing operations"
+        ]
+      }
     }
+  },
+  "e_document_management_system": {
+    "title": "E-Document Management System (EDMS)",
+    "youtube_embed": "XLuzI_kc8oM",
+    "description": "Electronic Document Management System is a system that allows organizations to archive and manage all types of documentation created during their operations, from production to final disposal. Unlike standard EBYS, EDM EBYS is not just an archive or process software. It is a solution package that can be customized according to needs. This package is a business intelligence that performs customer interaction management.",
+    "benefits": {
+      "what_can_be_done_with_ebys": {
+        "title": "WHAT CAN BE DONE WITH EDMS?",
+        "description": "EBYS can connect to existing data sources; organizations can connect to all existing data sources (SAP, New Frame, social media, printer, scanner, phone, etc.) to create and process documents from scratch at any time. It can monitor data sources; it can listen to data sources processed via email, fax, SMS, social media channels like Twitter, Facebook, and work together with survey systems, campaign management systems."
+      },
+      "basic_functions": {
+        "title": "EDMS BASIC FUNCTIONS",
+        "description": "Access the system from mobile devices and any location with a web-based interface. Flexible operation with HTML 5, Ajax interfaces, Dotnet 4.0, WCF software infrastructure. Complete integration with business process automation."
+      },
+      "indexing": {
+        "title": "INDEXING",
+        "description": "Content indexing in formats like Word, Excel, PowerPoint, PDF, etc. Ability to use logical expressions in document searches. Automatic indexing of images with OCR. Indexing of image PDFs."
+      },
+      "scalability": {
+        "title": "SCALABILITY",
+        "description": "Ability to store documents either in the file system or in databases. Ability to create unlimited libraries. Ability to store each digital library in different storage areas. Ability to integrate with multiple databases and file systems. Ability to provide storage capacity at the level of millions of documents and terabytes."
+      },
+      "distributed_operation_and_cache_support": {
+        "title": "DISTRIBUTED OPERATION AND CACHE SUPPORT",
+        "description": "Ability to fully comply with organizations operating in a distributed manner. All processed data is collected at a single center, data pool. Local caching can be performed in organizations with branch structures. Local caches can be synchronized with the center at certain intervals. High performance even at low data speeds."
+      },
+      "e_signature_compatible_structure": {
+        "title": "E-SIGNATURE COMPATIBLE STRUCTURE",
+        "description": "E-Signature structure with legally valid structure. Integration of E-Signature structure into PDF files. Ability to export created forms as searchable PDFs. Ability to send documents for E-Signature approval via workflow automation, digitization."
+      },
+      "digitization_management": {
+        "title": "DIGITIZATION MANAGEMENT",
+        "description": "Quickly digitize documents to electronic media. Easily classify documents. Integration with document management and all other operational workflows. Increases personnel efficiency and measures performance. Prevents non-standard scanning and document creation. Integration with fast scanners. Image enhancement feature. Full-text search and indexing feature with OCR. Form processing features."
+      },
+      "why_ebm_ebys": {
+        "title": "WHY EDM EDMS?",
+        "description": "PROCESS AND ARCHIVE EASE\n\nScanned paper documents, faxes, emails, web messages, social media messages, including JPAG, are converted into digital files in any format, then transformed into a readable and writable format, circulate among responsible persons in processes, can have comments or other documents added, be initialed, signed, and sent to counterparts.\n\nAt every stage of the process, it can be printed and archived as a separate version.\n\nREPORTING AND ANALYSIS OPPORTUNITY\n\nAt every stage of the process, how long it takes and how well it is completed is reported and analyzed for performance management.\n\nSECURITY\n\nNo responsible person in the process can say they did not receive or read the document. In the EBYS system, legally, every document that arrives to a person in the process results in an “received and read” verdict.\n\nSIMPLE USE\n\nWith the EBYS system, documents from years ago can be found in seconds based on criteria such as date, subject, sender, receiver, number, etc., or by typing a few unordered words within the document. In the EBYS system, people can only access documents they are authorized to."
+      },
+      "access_ease": {
+        "title": "ACCESS EASE",
+        "description": "All the mentioned functions in the EDMS system also work on mobile environments with Android, iOS, and Microsoft software."
+      }
+    }
+  }
   }
   
