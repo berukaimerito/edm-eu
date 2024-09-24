@@ -140,6 +140,83 @@
         "description": "All the mentioned functions in the EDMS system also work on mobile environments with Android, iOS, and Microsoft software."
       }
     }
+  },
+  "e_bill": {
+    "title": "E-Invoice",
+    "youtube_embed": "XLuzI_kc8oM", 
+    "description": "E-Invoice is an electronic document containing information equivalent to a paper invoice, standardized in an international format (UBL), sealed in an unalterable way, and has the same legal characteristics as a paper invoice.\n\nWith E-Invoice, you can securely send and receive your invoices electronically, store your invoices legally valid and backed up for 10 years, and view them online. With the E-Invoice system, you can minimize your paper, printing, cargo, and all operational costs.\n\nTaxpayers can use the E-Archive Invoice Application in two ways: through their own IT system or through a special integrator IT system authorized by the Revenue Administration.",
+    "differences": {
+      "title": "WHAT IS THE DIFFERENCE BETWEEN E-INVOICE AND E-ARCHIVE INVOICE?",
+      "points": [
+        "E-Invoice is only sent to taxpayers who have switched to E-Invoice.",
+        "E-Archive Invoice is sent to all institutions and individuals who have not switched to E-Invoice.",
+        "E-Invoice is delivered to the recipient via the Revenue Administration's (GİB) closed-circuit system; the sender and receiver can transact through this system, so GİB is instantly informed. It cannot be canceled, but the recipient can reject or return it.",
+        "E-Archive Invoice is delivered to the recipient via email or SMS and reported to GİB by 24:00 the next day."
+      ]
+    },
+    "who_can_switch": {
+      "title": "WHO CAN SWITCH TO E-INVOICE AND E-ARCHIVE INVOICE APPLICATION?",
+      "description": "Any company can switch to E-Invoice at any time without any turnover or invoice amount limitation. There are two types of E-Invoice users:",
+      "types": [
+        {
+          "title": "Mandatory E-Invoice Users",
+          "description": "Users who are required to switch to E-Invoice under the obligation scope. If you have exceeded the annual turnover limit announced by the government, you become a mandatory E-Invoice taxpayer and must complete your transition to E-Invoice as of the beginning of the following year."
+        },
+        {
+          "title": "Voluntary E-Invoice Users",
+          "description": "Businesses engaged in e-commerce, sending invoices by cargo, startups wanting to save on invoice and paper costs, companies aiming to reduce archiving and operational workload, and those seeking professionalism can voluntarily switch to E-Invoice due to the advantages it offers."
+        }
+      ]
+    },
+    "is_mandatory": {
+      "title": "IS E-INVOICE MANDATORY?",
+      "description": "E-Invoice becomes mandatory if you exceed the annual turnover limit set by the government. Otherwise, it is optional."
+    },
+    "why_edm_e_invoice": {
+      "title": "WHY EDM E-INVOICE",
+      "sections": [
+        {
+          "title": "FULL INTEGRATION WITH YOUR ERP AND ACCOUNTING PROGRAM",
+          "description": "With EDM's agreements with over 550 ERP and accounting programs, you'll receive fully integrated service to your ERP system and accounting program. Your outgoing invoices will automatically be sent from these systems, incoming invoices will be automatically processed into your current accounts and stocks, and transferred to your accountant's program."
+        },
+        {
+          "title": "FULLY AUTOMATIC TRANSFER TO ALL OFFICIAL ACCOUNTING PROGRAMS",
+          "description": "Thanks to the EDM official accounting transfer module, you can transfer all your outgoing and incoming invoices to the official accounting program used by your financial advisor at intervals you wish. Simply select the invoices in bulk and click the relevant official accounting program."
+        },
+        {
+          "title": "TURNKEY QUICK INSTALLATION",
+          "description": "After deciding to work with EDM, all processes including obtaining the financial seal, GİB E-Invoice, E-Ledger applications, and running your financial seal are handled by your EDM field representative. The EDM center then opens your portal within 30 minutes and provides integration with your ERP and accounting program."
+        },
+        {
+          "title": "24/7 DEDICATED CUSTOMER REPRESENTATIVE",
+          "description": "You receive application, installation, training, and technical service support from the sales and service field representative assigned to you in your region. At the EDM center, a primary and a backup customer representative are assigned to you, available 24/7."
+        },
+        {
+          "title": "ADVANTAGEOUS PRICES",
+          "description": "With EDM E-Invoice and E-Archive Invoice, you reduce your time and money costs such as paper, printing, cargo, and archiving to minimum levels."
+        },
+        {
+          "title": "ETHICAL PRICING WITHOUT FIXED FEES AND CREDIT BURNING",
+          "description": "EDM does not apply unethical deceptive and hidden tariffs under any name such as monthly fixed, annual fixed, updates, or quota overruns. It does not burn your remaining credits with excuses like month-end or year-end; credits carry over for 5 years. E-Invoice portal activations are free. You pay the integration fee to your ERP program once and use it for life. You do not pay any fees other than the credit fee during your use."
+        },
+        {
+          "title": "OTHER REASONS",
+          "list": [
+            "One-click invoice return, invoice repetition, 8 discount fields on a line, invoice options including or excluding VAT, serial number, and design customization according to customer and user.",
+            "Accountants can manage all their taxpayers, companies, and branches with a single password and interface.",
+            "Highest security with 3DS encryption technology.",
+            "Guarantee of compatibility with all software indefinitely with depository archiving technology.",
+            "Automatic E-Invoice and E-Archive Invoice sending decision with online VKN control.",
+            "Ability to manage group companies and branches from a single platform.",
+            "Unlimited user definition capability.",
+            "Option to resend E-Invoice to the relevant recipient.",
+            "Full-text search capability to search every field in the invoice.",
+            "Process management and notifications.",
+            "Advanced reporting capabilities."
+          ]
+        }
+      ]
+    }
   }
   }
   

@@ -121,6 +121,83 @@
         "description": "Süreç ve arşiv kolaylığı. Taranmış kâğıt dokümanlar, fakslar, mailler, web mesajları, sosyal medya mesajları, JPAG dahil her formatta dijital dosyalar, tekst haline dönüşür, sonra okunabilir ve üzerine yazılabilir formatta, görevli kişiler arasında süreçlerde dolaşır, yorum ya da başka dokümanlar eklenebilir, paraflanır, imzalanır ve muhatabına gönderilir. Sürecin her aşamasında basılabilir ve ayrı versiyon olarak arşivlenir. Raporlama ve analiz imkanı. Sürecin her aşamasının ne kadar sürdüğü ve ne kaliteyle tamamlandığı raporlanarak analiz ve performans yönetimi sağlanır."
       }
     }
+  },
+  "e_bill": {
+    "title": "E-Fatura",
+    "youtube_embed": "XLuzI_kc8oM", 
+    "description": "E-Fatura, kağıt faturasına eşdeğer bilgiler içeren, uluslararası bir formatta (UBL) standartlaştırılmış, değiştirilemez bir şekilde mühürlenmiş ve kağıt faturasının tüm yasal özelliklerine sahip elektronik bir belgedir.\n\nE-Fatura ile, faturanızı güvenli bir şekilde elektronik olarak gönderebilir, faturanızı yasal olarak geçerli ve 10 yıl boyunca yedeklenmiş olarak saklayabilir ve çevrimiçi olarak görüntüleyebilirsiniz. E-Fatura sistemi ile kağıt, baskı, kargo ve tüm operasyonel maliyetlerinizi minimize edebilirsiniz.\n\nVergi mükellefleri, E-Arşiv Fatura Uygulamasını iki şekilde kullanabilir: kendi IT sistemleri aracılığıyla veya Gelir İdaresi tarafından yetkilendirilmiş özel bir entegratör IT sistemi aracılığıyla.",
+    "differences": {
+      "title": "E-FATURA VE E-ARŞİV FATURA ARASINDAKİ FARK NEDİR?",
+      "points": [
+        "E-Fatura, sadece E-Fatura'ya geçen vergi mükelleflerine gönderilir.",
+        "E-Arşiv Fatura, E-Fatura'ya geçmeyen tüm kurumlar ve bireylere gönderilir.",
+        "E-Fatura, Gelir İdaresi'nin (GİB) kapalı devre sistemi aracılığıyla alıcıya teslim edilir; gönderen ve alıcı bu sistem aracılığıyla işlem yapabilir, bu nedenle GİB anında bilgilendirilir. İptal edilemez, ancak alıcı reddede veya iade edebilir.",
+        "E-Arşiv Fatura, e-posta veya SMS yoluyla alıcıya teslim edilir ve ertesi gün saat 24:00'e kadar GİB'e bildirilir."
+      ]
+    },
+    "who_can_switch": {
+      "title": "KİM E-FATURA VE E-ARŞİV FATURA UYGULAMASINA GEÇEBİLİR?",
+      "description": "Herhangi bir şirket, ciroya veya fatura tutarı sınırlaması olmadan herhangi bir zamanda E-Fatura'ya geçebilir. E-Fatura kullanıcıları iki türdür:",
+      "types": [
+        {
+          "title": "Zorunlu E-Fatura Kullanıcıları",
+          "description": "Zorunluluk kapsamında E-Fatura'ya geçmek zorunda olan kullanıcılar. Hükümet tarafından açıklanan yıllık ciroyu aştıysanız, zorunlu E-Fatura vergi mükellefi olursunuz ve bir sonraki yılın başından itibaren E-Fatura'ya geçişinizi tamamlamalısınız."
+        },
+        {
+          "title": "Gönüllü E-Fatura Kullanıcıları",
+          "description": "E-ticaretle uğraşan şirketler, kargoyla fatura gönderenler, fatura ve kağıt maliyetlerinde tasarruf etmek isteyen startuplar, arşivleme ve operasyonel yükü azaltmak isteyen şirketler ve profesyonellik arayanlar, E-Fatura'nın sağladığı avantajlar nedeniyle gönüllü olarak E-Fatura'ya geçebilir."
+        }
+      ]
+    },
+    "is_mandatory": {
+      "title": "E-FATURA ZORUNLU MU?",
+      "description": "Hükümet tarafından belirlenen yıllık ciroyu aştıysanız E-Fatura zorunlu hale gelir. Aksi takdirde isteğe bağlıdır."
+    },
+    "why_edm_e_invoice": {
+      "title": "NEDEN EDM E-FATURA",
+      "sections": [
+        {
+          "title": "ERP VE MUHASEBE PROGRAMINIZLA TAM ENTEGRASYON",
+          "description": "EDM'nin 550'den fazla ERP ve muhasebe programıyla yaptığı anlaşmalar sayesinde, ERP sisteminiz ve muhasebe programınızla tam entegre bir hizmet alırsınız. Giden faturanız bu sistemlerden otomatik olarak gönderilir, gelen faturanız otomatik olarak mevcut hesaplarınıza ve stoklarınıza işlenir ve muhasebecinizin programına aktarılır."
+        },
+        {
+          "title": "TÜM RESMİ MUHASEBE PROGRAMLARINA TAM OTOMATİK AKTARMA",
+          "description": "EDM resmi muhasebe aktarma modülü sayesinde, giden ve gelen tüm faturanızı, mali danışmanınızın kullandığı resmi muhasebe programına istediğiniz aralıklarla aktarabilirsiniz. Sadece faturanızı toplu olarak seçin ve ilgili resmi muhasebe programına tıklayın."
+        },
+        {
+          "title": "ANAHTAR TESLİM HIZLI KURULUM",
+          "description": "EDM ile çalışma kararı aldıktan sonra, mali mühür alma, GİB E-Fatura, E-Defter uygulamaları ve mali mühürünüzün çalıştırılması dahil tüm süreçler, saha temsilciniz tarafından yönetilir. EDM merkezi daha sonra portalinizi 30 dakika içinde açar ve ERP ve muhasebe programınızla entegrasyon sağlar."
+        },
+        {
+          "title": "24/7 ÖZEL MÜŞTERİ TEMSİLCİSİ",
+          "description": "Bölgenizde atanan satış ve servis saha temsilcisinden uygulama, kurulum, eğitim ve teknik servis desteği alırsınız. EDM merkezinde birincil ve yedek bir müşteri temsilcisi sizin için atanır, 24/7 mevcut."
+        },
+        {
+          "title": "AVANTAJLI FİYATLAR",
+          "description": "EDM E-Fatura ve E-Arşiv Fatura ile kağıt, baskı, kargo ve arşivleme gibi zaman ve para maliyetlerinizi en düşük seviyelere indirirsiniz."
+        },
+        {
+          "title": "ETİK FİYATLARDA SABİT ÜCRETLER VE KREDİ YAKMA OLMAYAN",
+          "description": "EDM, aylık sabit, yıllık sabit, güncellemeler veya kota aşımları gibi hiçbir isim altında aldatıcı ve gizli tarifeler uygulamaz. Ay sonu veya yıl sonu gibi bahanelerle kalan kredilerinizi yakmaz; krediler 5 yıl boyunca taşınır. E-Fatura portal aktivasyonları ücretsizdir. ERP programınıza entegrasyon ücretini bir kez ödersiniz ve ömür boyu kullanırsınız. Kullanım süresi boyunca kredi ücreti dışında herhangi bir ücret ödemezsiniz."
+        },
+        {
+          "title": "DİĞER NEDENLER",
+          "list": [
+            "Tek tıkla fatura iadesi, fatura tekrarı, bir satırda 8 indirim alanı, KDV dahil veya hariç fatura seçenekleri, seri numarası ve müşteri ve kullanıcıya göre tasarım özelleştirme.",
+            "Muhasebeciler, tek bir şifre ve arayüzle tüm vergi mükelleflerini, şirketleri ve şubelerini yönetebilir.",
+            "3DS şifreleme teknolojisi ile en yüksek güvenlik.",
+            "Depo arşivleme teknolojisi ile tüm yazılımlarla sınırsız uyumluluk garantisi.",
+            "Çevrimiçi VKN kontrolü ile otomatik E-Fatura ve E-Arşiv Fatura gönderme kararı.",
+            "Tek bir platformdan grup şirketlerini ve şubelerini yönetme yeteneği.",
+            "Sınırsız kullanıcı tanımlama yeteneği.",
+            "E-Fatura'yı ilgili alıcıya yeniden gönderme seçeneği.",
+            "Faturadaki her alanı aramak için tam metin arama yeteneği.",
+            "Süreç yönetimi ve bildirimler.",
+            "Gelişmiş raporlama yetenekleri."
+          ]
+        }
+      ]
+    }
   }
   }
   

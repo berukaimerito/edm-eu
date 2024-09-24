@@ -6,23 +6,15 @@ import { Disclosure, Transition } from '@headlessui/react';
 import {
   ChevronDownIcon,
   ChevronRightIcon,
-  DocumentTextIcon,        // Replaced Icon for Services
-  InformationCircleIcon,   // Icon for Info
-  GlobeAltIcon,            // Icon for ERP Cloudy
+  DocumentTextIcon,
+  InformationCircleIcon,
+  GlobeAltIcon,
   XMarkIcon,
   EllipsisHorizontalCircleIcon,
 } from '@heroicons/react/24/solid';
 import LanguageSelector from './LanguageSelector';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
-
-const services = [
-  { name: 'E-Invoices', path: '/services/e-invoices', icon: DocumentTextIcon },
-  { name: 'E-Receipt', path: '/services/e-receipt', icon: DocumentTextIcon },
-  { name: 'E-Consensus', path: '/services/e-consensus', icon: DocumentTextIcon },
-  { name: 'Cloud Backup', path: '/services/cloud-backup', icon: DocumentTextIcon },
-  { name: 'E-Document Management System', path: '/services/e-document-management-system', icon: DocumentTextIcon },
-];
 
 const Header: React.FC = () => {
   const { t } = useTranslation('common');
@@ -42,16 +34,44 @@ const Header: React.FC = () => {
     };
   }, []);
 
+  // Define services array using translated names
+  const services = [
+    {
+      name: t('services.e_invoices'),
+      path: '/services/e-invoices',
+      icon: DocumentTextIcon,
+    },
+    {
+      name: t('services.e_receipt'),
+      path: '/services/e-receipt',
+      icon: DocumentTextIcon,
+    },
+    {
+      name: t('services.e_consensus'),
+      path: '/services/e-consensus',
+      icon: DocumentTextIcon,
+    },
+    {
+      name: t('services.cloud_backup'),
+      path: '/services/cloud-backup',
+      icon: DocumentTextIcon,
+    },
+    {
+      name: t('services.e_document_management_system'),
+      path: '/services/e-document-management-system',
+      icon: DocumentTextIcon,
+    },
+  ];
+
   return (
     <header className="bg-primary text-white border-b border-secondary relative z-50">
       <Disclosure as="nav">
         {({ open }) => (
           <>
-            <div className="px-6 py-4 flex items-center">
+            <div className="mx-auto px-6 py-4 flex items-center">
               {/* Left: Title */}
               <Link href="/" className="text-2xl font-bold flex items-center mr-8">
-                {/* Placeholder for future logo */}
-                <span className="ml-2">EDM Technologies Europe</span>
+                <span className="ml-2">EDM Europe Website</span>
               </Link>
 
               {/* Center: Navigation (hidden on mobile) */}
@@ -87,7 +107,7 @@ const Header: React.FC = () => {
                       <div className="py-1">
                         {services.map((service) => (
                           <Link
-                            key={service.name}
+                            key={service.path}
                             href={service.path}
                             className="flex items-center px-4 py-2 text-sm hover:bg-accent hover:text-white transition-colors duration-200"
                             onClick={() => setIsServicesOpen(false)}
@@ -170,7 +190,7 @@ const Header: React.FC = () => {
                       <div className="py-1">
                         {services.map((service) => (
                           <Link
-                            key={service.name}
+                            key={service.path}
                             href={service.path}
                             className="flex items-center px-4 py-2 text-sm hover:bg-accent hover:text-white transition-colors duration-200"
                             onClick={() => setIsServicesOpen(false)}

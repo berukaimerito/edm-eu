@@ -1,0 +1,44 @@
+{
+    "welcome": "EDM EU Websitesine Hoş Geldiniz",
+    "description": "Elektronik faturalama çözümlerinin güvenilir ortağınız.",
+    "erpcloudy": {
+      "title": "Kurumsal",
+      "description": "ERP Cloudy hizmeti için açıklama."
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "description": "Sunulan hizmetlerin açıklaması.",
+      "e_invoices": "Elektronik Faturalar",
+      "e_receipt": "Elektronik Makbuzlar",
+      "e_consensus": "E-Onay",
+      "cloud_backup": "Bulut Yedekleme",
+      "e_document_management_system": "Elektronik Belge Yönetim Sistemi"
+    },
+    "info": {
+      "title": "Bilgi",
+      "description": "Şirketimiz hakkında genel bilgiler.",
+      "location_name": "EDM Avrupa",
+      "contact": {
+        "heading": "İletişim Bilgileri",
+        "address": "1234 EDM Street, Music City, USA",
+        "email": "contact@edmexample.com",
+        "phone": "+1 (234) 567-8901",
+        "send_message": "Bize Mesaj Gönder",
+        "form": {
+          "name": "İsim",
+          "email": "E-posta",
+          "message": "Mesaj",
+          "submit": "Mesaj Gönder",
+          "sending": "Gönderiliyor...",
+          "placeholder": {
+            "name": "İsminiz",
+            "email": "sen@example.com",
+            "message": "Mesajınız buraya..."
+          },
+          "success": "Mesajınız başarıyla gönderildi!",
+          "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+        }
+      }
+    }
+  }
+  

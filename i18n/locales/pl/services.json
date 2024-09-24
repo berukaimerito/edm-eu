@@ -140,6 +140,83 @@
         "description": "Wszystkie wymienione funkcje w systemie EBYS działają również na urządzeniach mobilnych z oprogramowaniem Android, iOS i Microsoft."
       }
     }
+  },
+  "e_bill": {
+    "title": "Faktura Elektroniczna",
+    "youtube_embed": "XLuzI_kc8oM",  
+    "description": "Faktura Elektroniczna to dokument elektroniczny zawierający informacje odpowiadające fakturze papierowej, znormalizowany w międzynarodowym formacie (UBL), zapieczętowany w niezmienny sposób i ma takie same cechy prawne jak faktura papierowa.\n\nDzięki Fakturze Elektronicznej możesz bezpiecznie wysyłać i otrzymywać swoje faktury elektronicznie, przechowywać swoje faktury prawnie ważne i zabezpieczone przez 10 lat oraz przeglądać je online. Dzięki systemowi Faktury Elektronicznej możesz zminimalizować koszty papieru, druku, transportu i wszystkie koszty operacyjne.\n\nPodatnicy mogą korzystać z Aplikacji Faktury Elektronicznej Archivum na dwa sposoby: przez własny system IT lub przez specjalny system IT integratora upoważnionego przez Administrację Dochodów.",
+    "differences": {
+      "title": "JAKA JEST RÓŻNICA MIĘDZY FAKTURĄ ELEKTRONICZNĄ A FAKTURĄ ELEKTRONICZNĄ ARCHIWUM?",
+      "points": [
+        "Faktura Elektroniczna jest wysyłana tylko do podatników, którzy przeszli na Fakturę Elektroniczną.",
+        "Faktura Elektroniczna Archivum jest wysyłana do wszystkich instytucji i osób, które nie przeszły na Fakturę Elektroniczną.",
+        "Faktura Elektroniczna jest dostarczana do odbiorcy przez zamknięty system Administracji Dochodów (GİB); nadawca i odbiorca mogą dokonywać transakcji przez ten system, więc GİB jest natychmiast informowany. Nie można jej anulować, ale odbiorca może ją odrzucić lub zwrócić.",
+        "Faktura Elektroniczna Archivum jest dostarczana do odbiorcy przez e-mail lub SMS i zgłaszana do GİB do godziny 24:00 następnego dnia."
+      ]
+    },
+    "who_can_switch": {
+      "title": "KTO MOŻE PRZEJŚĆ NA APLIKACJĘ FAKTURY ELEKTRONICZNEJ I FAKTURY ELEKTRONICZNEJ ARCHIWUM?",
+      "description": "Każda firma może przejść na Fakturę Elektroniczną w dowolnym momencie bez żadnych ograniczeń obrotu lub kwoty faktury. Istnieją dwa typy użytkowników Faktury Elektronicznej:",
+      "types": [
+        {
+          "title": "Obowiązkowi Użytkownicy Faktury Elektronicznej",
+          "description": "Użytkownicy, którzy są zobowiązani do przejścia na Fakturę Elektroniczną w ramach zakresu obowiązku. Jeśli przekroczysz roczny limit obrotu ogłoszony przez rząd, stajesz się obowiązkowym podatnikiem Faktury Elektronicznej i musisz dokonać przejścia na Fakturę Elektroniczną od początku następnego roku."
+        },
+        {
+          "title": "Dobrowolni Użytkownicy Faktury Elektronicznej",
+          "description": "Firmy zajmujące się handlem elektronicznym, wysyłające faktury kurierem, startupy chcące zaoszczędzić na kosztach faktur i papieru, firmy dążące do zmniejszenia obciążenia archiwizacji i operacyjnego oraz te, które szukają profesjonalizmu, mogą dobrowolnie przejść na Fakturę Elektroniczną ze względu na korzyści, jakie oferuje."
+        }
+      ]
+    },
+    "is_mandatory": {
+      "title": "CZY FAKTURA ELEKTRONICZNA JEST OBOWIĄZKOWA?",
+      "description": "Faktura Elektroniczna staje się obowiązkowa, jeśli przekroczysz roczny limit obrotu ustalony przez rząd. W przeciwnym razie jest opcjonalna."
+    },
+    "why_edm_e_invoice": {
+      "title": "DLACZEGO FAKTURA ELEKTRONICZNA EDM",
+      "sections": [
+        {
+          "title": "PEŁNA INTEGRACJA Z TWOIM PROGRAMEM ERP I KSIĘGOWYM",
+          "description": "Dzięki umowom EDM z ponad 550 programami ERP i księgowymi, otrzymasz usługę w pełni zintegrowaną z systemem ERP i programem księgowym. Twoje faktury wychodzące zostaną automatycznie wysłane z tych systemów, faktury przychodzące zostaną automatycznie przetworzone na Twoje bieżące konta i zapasy oraz przekazane do programu Twojego księgowego."
+        },
+        {
+          "title": "PEŁNY AUTOMATYCZNY PRZEKAZ DO WSZYSTKICH OFICJALNYCH PROGRAMÓW KSIĘGOWYCH",
+          "description": "Dzięki modułowi przekazu księgowego EDM możesz przekazać wszystkie swoje faktury wychodzące i przychodzące do oficjalnego programu księgowego używanego przez Twojego doradcę finansowego w interwałach, które chcesz. Po prostu wybierz faktury zbiorczo i kliknij odpowiedni oficjalny program księgowy."
+        },
+        {
+          "title": "SZYBKA INSTALACJA KLUCZ W RĘCE",
+          "description": "Po zdecydowaniu się na współpracę z EDM wszystkie procesy, w tym uzyskanie pieczęci finansowej, aplikacje GİB Faktura Elektroniczna, E-Księga i uruchomienie Twojej pieczęci finansowej, są obsługiwane przez Twojego przedstawiciela EDM na miejscu. Centrum EDM otwiera następnie Twój portal w ciągu 30 minut i zapewnia integrację z Twoim programem ERP i księgowym."
+        },
+        {
+          "title": "PRZEDSTAWICIEL KLIENTA DEDYKOWANY 24/7",
+          "description": "Otrzymujesz wsparcie w zakresie aplikacji, instalacji, szkolenia i obsługi technicznej od przedstawiciela sprzedaży i obsługi na miejscu przypisanego do Ciebie w Twoim regionie. W centrum EDM przydzielono Ci przedstawiciela klienta głównego i zapasowego, dostępnych 24/7."
+        },
+        {
+          "title": "KORZYSTNE CENY",
+          "description": "Dzięki Fakturze Elektronicznej i Fakturze Elektronicznej Archivum EDM zmniejszasz swoje koszty czasu i pieniędzy, takie jak papier, druk, transport i archiwizacja, do minimalnych poziomów."
+        },
+        {
+          "title": "ETYCZNE CENY BEZ FIKSOWANYCH OPŁAT I SPALANIA KREDYTÓW",
+          "description": "EDM nie stosuje nieetycznych ukrytych i niejasnych taryf pod żadną nazwą, takich jak miesięczne stałe, roczne stałe, aktualizacje lub przekroczenia limitów. Nie spala Twoich pozostałych kredytów z powodów takich jak koniec miesiąca lub koniec roku; kredyty są przenoszone przez 5 lat. Aktywacje portalu Faktury Elektronicznej są bezpłatne. Płacisz opłatę za integrację z Twoim programem ERP raz i korzystasz z niej przez całe życie. Nie płacisz żadnych innych opłat poza opłatą za kredyt podczas korzystania z usługi."
+        },
+        {
+          "title": "INNE POWODY",
+          "list": [
+            "Zwrot faktury jednym kliknięciem, powtórzenie faktury, 8 pól rabatowych w wierszu, opcje faktury z VAT lub bez VAT, numer seryjny i dostosowanie projektu w zależności od klienta i użytkownika.",
+            "Księgowi mogą zarządzać wszystkimi swoimi podatnikami, firmami i oddziałami za pomocą jednego hasła i interfejsu.",
+            "Najwyższa bezpieczeństwo dzięki technologii szyfrowania 3DS.",
+            "Gwarancja zgodności z wszystkim oprogramowaniem na zawsze dzięki technologii archiwizacji depozytowej.",
+            "Automatyczna decyzja o wysyłaniu Faktury Elektronicznej i Faktury Elektronicznej Archivum dzięki kontroli online VKN.",
+            "Możliwość zarządzania firmami grupowymi i oddziałami z jednej platformy.",
+            "Nieograniczona możliwość definiowania użytkowników.",
+            "Opcja ponownego wysłania Faktury Elektronicznej do odpowiedniego odbiorcy.",
+            "Możliwość wyszukiwania pełnotekstowego w celu przeszukania każdego pola w fakturze.",
+            "Zarządzanie procesami i powiadomieniami.",
+            "Zaawansowane możliwości raportowania."
+          ]
+        }
+      ]
+    }
   }
   }
   

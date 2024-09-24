@@ -14,6 +14,8 @@ import plCommon from './locales/pl/common.json';
 import plServices from './locales/pl/services.json';
 import plOrganizational from './locales/pl/organizational.json'; // Add this line
 
+
+
 // Turkish is handled via redirection, no need for translation files
 
 i18n
@@ -24,6 +26,7 @@ i18n
         common: enCommon,
         services: enServices,
         organizational: enOrganizational, // Add this line
+
       },
       it: {
         common: itCommon,

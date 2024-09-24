@@ -7,17 +7,37 @@
   },
   "services": {
     "title": "I Nostri Servizi",
-    "description": "Descrizione dei servizi offerti."
+    "description": "Descrizione dei servizi offerti.",
+    "e_invoices": "Fatture Elettroniche",
+    "e_receipt": "Ricevute Elettroniche",
+    "e_consensus": "E-Consenso",
+    "cloud_backup": "Backup Cloud",
+    "e_document_management_system": "Sistema di Gestione Documentale Elettronico"
   },
   "info": {
     "title": "Informazioni",
     "description": "Informazioni generali sulla nostra azienda.",
-    "contact": "Contattaci",
-    "form": {
-      "name": "Nome",
-      "email": "Email",
-      "message": "Messaggio",
-      "submit": "Invia"
+    "location_name": "EDM Europa",
+    "contact": {
+      "heading": "Informazioni di Contatto",
+      "address": "1234 EDM Street, Music City, USA",
+      "email": "contact@edmexample.com",
+      "phone": "+1 (234) 567-8901",
+      "send_message": "Invia un Messaggio",
+      "form": {
+        "name": "Nome",
+        "email": "Email",
+        "message": "Messaggio",
+        "submit": "Invia Messaggio",
+        "sending": "Invio in corso...",
+        "placeholder": {
+          "name": "Il tuo Nome",
+          "email": "tu@example.com",
+          "message": "Il tuo messaggio qui..."
+        },
+        "success": "Il tuo messaggio è stato inviato con successo!",
+        "error": "Qualcosa è andato storto. Per favore riprova."
+      }
     }
   }
 }

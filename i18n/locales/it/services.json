@@ -130,6 +130,83 @@
         "description": "Tutte le funzioni menzionate nel sistema EBYS funzionano anche su ambienti mobili con software Android, iOS e Microsoft."
       }
     }
-  }    
+  },
+  "e_bill": {
+    "title": "Fattura Elettronica",
+    "youtube_embed": "XLuzI_kc8oM",
+    "description": "La Fattura Elettronica è un documento elettronico contenente informazioni equivalenti a una fattura cartacea, standardizzato in un formato internazionale (UBL), sigillato in modo inalterabile e ha le stesse caratteristiche legali di una fattura cartacea.\n\nCon la Fattura Elettronica, puoi inviare e ricevere le tue fatture elettronicamente in modo sicuro, archiviare le tue fatture legalmente valide e con backup per 10 anni, e visualizzarle online. Con il sistema di Fattura Elettronica, puoi minimizzare i costi di carta, stampa, spedizione e tutti i costi operativi.\n\nI contribuenti possono utilizzare l'Applicazione Fattura Elettronica Archivio in due modi: tramite il proprio sistema IT o tramite un sistema IT integratore speciale autorizzato dall'Agenzia delle Entrate.",
+    "differences": {
+      "title": "QUAL È LA DIFFERENZA TRA FATTURA ELETTRONICA E FATTURA ELETTRONICA ARCHIVIO?",
+      "points": [
+        "La Fattura Elettronica viene inviata solo ai contribuenti che sono passati alla Fattura Elettronica.",
+        "La Fattura Elettronica Archivio viene inviata a tutte le istituzioni e persone che non sono passate alla Fattura Elettronica.",
+        "La Fattura Elettronica viene consegnata al destinatario tramite il sistema a circuito chiuso dell'Agenzia delle Entrate (GİB); il mittente e il destinatario possono operare tramite questo sistema, quindi GİB è informato immediatamente. Non può essere annullata, ma il destinatario può rifiutarla o restituirla.",
+        "La Fattura Elettronica Archivio viene consegnata al destinatario tramite e-mail o SMS e segnalata a GİB entro le 24:00 del giorno successivo."
+      ]
+    },
+    "who_can_switch": {
+      "title": "CHI PUÒ PASSARE ALL'APPLICAZIONE FATTURA ELETTRONICA E FATTURA ELETTRONICA ARCHIVIO?",
+      "description": "Qualsiasi azienda può passare alla Fattura Elettronica in qualsiasi momento senza alcuna limitazione di fatturato o importo della fattura. Ci sono due tipi di utenti di Fattura Elettronica:",
+      "types": [
+        {
+          "title": "Utenti Obbligatori di Fattura Elettronica",
+          "description": "Utenti che sono obbligati a passare alla Fattura Elettronica nell'ambito dell'obbligo. Se hai superato il limite di fatturato annuo annunciato dal governo, diventi un contribuente obbligatorio di Fattura Elettronica e devi completare la tua transizione alla Fattura Elettronica a partire dall'inizio dell'anno successivo."
+        },
+        {
+          "title": "Utenti Volontari di Fattura Elettronica",
+          "description": "Aziende impegnate nel commercio elettronico, che inviano fatture tramite corriere, startup che desiderano risparmiare sui costi di fatturazione e carta, aziende che mirano a ridurre il carico di lavoro di archiviazione e operativo, e quelle che cercano professionalità possono passare volontariamente alla Fattura Elettronica a causa dei vantaggi che offre."
+        }
+      ]
+    },
+    "is_mandatory": {
+      "title": "LA FATTURA ELETTRONICA È OBBLIGATORIA?",
+      "description": "La Fattura Elettronica diventa obbligatoria se superi il limite di fatturato annuo stabilito dal governo. Altrimenti, è facoltativa."
+    },
+    "why_edm_e_invoice": {
+      "title": "PERCHÉ FATTURA ELETTRONICA EDM",
+      "sections": [
+        {
+          "title": "INTEGRAZIONE COMPLETA CON IL TUO PROGRAMMA ERP E CONTABILE",
+          "description": "Con gli accordi di EDM con oltre 550 programmi ERP e contabili, riceverai un servizio completamente integrato con il tuo sistema ERP e il programma contabile. Le tue fatture in uscita verranno inviate automaticamente da questi sistemi, le fatture in entrata verranno elaborate automaticamente nei tuoi conti correnti e scorte e trasferite al programma del tuo commercialista."
+        },
+        {
+          "title": "TRASFERIMENTO COMPLETAMENTE AUTOMATICO A TUTTI I PROGRAMMI CONTABILI UFFICIALI",
+          "description": "Grazie al modulo di trasferimento contabile ufficiale di EDM, puoi trasferire tutte le tue fatture in uscita e in entrata al programma contabile ufficiale utilizzato dal tuo consulente finanziario negli intervalli che desideri. Seleziona semplicemente le fatture in blocco e fai clic sul programma contabile ufficiale pertinente."
+        },
+        {
+          "title": "INSTALLAZIONE RAPIDA CHIAVI IN MANO",
+          "description": "Dopo aver deciso di lavorare con EDM, tutti i processi, inclusi l'ottenimento del sigillo finanziario, le applicazioni GİB Fattura Elettronica, E-Registro e l'esecuzione del tuo sigillo finanziario, vengono gestiti dal tuo rappresentante sul campo EDM. Il centro EDM apre quindi il tuo portale entro 30 minuti e fornisce l'integrazione con il tuo programma ERP e contabile."
+        },
+        {
+          "title": "RAPPRESENTANTE CLIENTI DEDICATO 24/7",
+          "description": "Ricevi supporto per l'applicazione, l'installazione, la formazione e l'assistenza tecnica dal rappresentante sul campo di vendita e servizio assegnato a te nella tua regione. Nel centro EDM, ti vengono assegnati un rappresentante clienti primario e uno di backup, disponibili 24/7."
+        },
+        {
+          "title": "PREZZI VANTAGGIOSI",
+          "description": "Con la Fattura Elettronica e la Fattura Elettronica Archivio di EDM, riduci i tuoi costi di tempo e denaro come carta, stampa, spedizione e archiviazione a livelli minimi."
+        },
+        {
+          "title": "PREZZI ETICI SENZA TARIFFE FISSI E BURNING CREDITI",
+          "description": "EDM non applica tariffe ingannevoli e nascoste sotto alcun nome come mensili fissi, annuali fissi, aggiornamenti o superamenti di quota. Non brucia i tuoi crediti rimanenti con scuse come fine mese o fine anno; i crediti si trasferiscono per 5 anni. Le attivazioni del portale Fattura Elettronica sono gratuite. Paghi la tariffa di integrazione al tuo programma ERP una volta e la usi per tutta la vita. Non paghi altre tariffe oltre alla tariffa di credito durante il tuo utilizzo."
+        },
+        {
+          "title": "ALTRI MOTIVI",
+          "list": [
+            "Restituzione della fattura con un clic, ripetizione della fattura, 8 campi di sconto su una riga, opzioni di fattura con o senza IVA, numero di serie e personalizzazione del design in base al cliente e all'utente.",
+            "I commercialisti possono gestire tutti i loro contribuenti, aziende e filiali con una sola password e interfaccia.",
+            "Massima sicurezza con tecnologia di crittografia 3DS.",
+            "Garanzia di compatibilità con tutto il software indefinitamente con tecnologia di archiviazione depositaria.",
+            "Decisione automatica di invio Fattura Elettronica e Fattura Elettronica Archivio con controllo VKN online.",
+            "Capacità di gestire aziende e filiali di gruppo da una singola piattaforma.",
+            "Capacità di definizione utente illimitata.",
+            "Opzione per reinviare la Fattura Elettronica al destinatario pertinente.",
+            "Capacità di ricerca full-text per cercare ogni campo nella fattura.",
+            "Gestione dei processi e notifiche.",
+            "Capacità di reporting avanzate."
+          ]
+        }
+      ]
+    }
+  }   
   }
   
