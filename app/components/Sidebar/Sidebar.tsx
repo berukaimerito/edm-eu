@@ -83,41 +83,44 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false }) => {
   }, [isMobile, pathname]);
 
   return (
-    <aside className={`${isMobile ? 'bg-gray-100 p-4 rounded-md shadow-md' : 'hidden md:block w-64'} h-full`}>
-      {!isMobile && (
-        <h2 className="text-lg font-semibold mb-6 text-gray-700">Our Services</h2>
-      )}
-      <ul className={`space-y-4`}>
+    <aside
+      className={`${
+        isMobile ? 'bg-gray-100 p-4 rounded-md shadow-md' : 'hidden md:block w-64 bg-gray-50'
+      } h-full border-r border-gray-200`}
+    >
+      {/* Removed the "Our Services" title */}
+
+      <ul className="space-y-2 mt-4">
         {orderedServices.map((service) => (
           <li key={service.name}>
             {/* Main Service Link */}
             <Link
               href={service.path}
-              className={`flex items-center px-4 py-2 rounded-md transition-colors duration-200 ${
+              className={`flex items-center px-4 py-2 rounded-md font-medium transition-colors duration-200 ${
                 isServiceActive(service.path)
                   ? 'bg-blue-600 text-white'
-                  : 'text-gray-700 hover:bg-blue-400 hover:text-white'
+                  : 'text-gray-700 hover:bg-blue-100 hover:text-blue-700'
               }`}
             >
-              <FiFileText className="h-5 w-5 mr-2 text-blue-300" />
+              <FiFileText className="h-5 w-5 mr-2 text-blue-500" />
               {service.name}
             </Link>
 
             {/* Subpages */}
             {service.subpages && isServiceActive(service.path) && (
-              <ul className="mt-2 space-y-2 pl-5">
+              <ul className="mt-2 space-y-1 pl-6 border-l-2 border-gray-200">
                 {service.subpages.map((subpage) => (
                   <li key={subpage.name}>
                     <Link
                       href={subpage.path}
-                      className={`flex items-center px-4 py-2 rounded-md transition-colors duration-200 ${
+                      className={`flex items-center px-4 py-1 rounded-md transition-colors duration-200 ${
                         pathname === subpage.path
                           ? 'bg-blue-500 text-white'
-                          : 'text-gray-600 hover:bg-blue-300 hover:text-white'
+                          : 'text-gray-600 hover:bg-blue-100 hover:text-blue-700'
                       }`}
                     >
                       {/* Dot Marker */}
-                      <span className="h-2 w-2 bg-gray-500 rounded-full mr-2"></span>
+                      <span className="h-2 w-2 bg-blue-500 rounded-full mr-2"></span>
                       {subpage.name}
                     </Link>
                   </li>

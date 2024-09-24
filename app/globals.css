@@ -1,4 +1,3 @@
-
 @import "leaflet/dist/leaflet.css";
 
 @tailwind base;
@@ -21,7 +20,8 @@ body {
 }
 
 header {
-  @apply bg-primary text-white border-b border-secondary flex items-center justify-between px-4 py-2 relative z-50;
+  @apply bg-primary text-white border-b border-secondary flex items-center justify-between relative z-50;
+  /* Removed px-4 py-2 to prevent conflicting padding */
 }
 
 footer {
@@ -44,22 +44,6 @@ a:hover {
 img {
   @apply max-w-full h-auto;
 }
-
-/* Remove or comment out the unused media query */
-@media (max-width: 640px) {
-  /* Adjust language selector button on mobile */
-  /* .language-selector-button {
-    @apply px-2 py-1;
-  } */
-}
-
-/* Remove global button styles to prevent conflicts */
-/* Instead, use specific button classes in components */
-/*
-button {
-  @apply bg-secondary text-white rounded-md hover:bg-accent focus:outline-none transition-colors duration-200;
-}
-*/
 
 /* Transition Effects for Dropdown */
 .hover-button:hover {
@@ -117,15 +101,6 @@ aside::-webkit-scrollbar-thumb {
 /* Smooth Hover Transitions */
 a {
   transition: background-color 0.3s, color 0.3s;
-}
-
-/* Adjust Banner Height on Smaller Screens */
-/* Removed banner styles as the banner is being removed for now */
-@media (max-width: 768px) {
-  /* .banner {
-    height: 200px;
-    object-fit: cover;
-  } */
 }
 
 /* Ensure main content does not hide behind fixed sidebar on desktop */
