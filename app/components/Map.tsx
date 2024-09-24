@@ -6,6 +6,12 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
+interface MapProps {
+  latitude: number;
+  longitude: number;
+  locationName?: string;
+}
+
 // Define a custom icon
 const customIcon = new L.Icon({
   iconRetinaUrl: '/images/leaflet/marker-icon-2x.png',
@@ -17,19 +23,17 @@ const customIcon = new L.Icon({
   shadowSize: [41, 41],
 });
 
-interface MapProps {
-  latitude: number;
-  longitude: number;
-  locationName?: string;
-}
-
-const Map: React.FC<MapProps> = ({ latitude, longitude, locationName = 'Our Location' }) => {
+const Map: React.FC<MapProps> = ({
+  latitude,
+  longitude,
+  locationName = 'Our Location',
+}) => {
   return (
     <MapContainer
       center={[latitude, longitude]}
       zoom={15}
       scrollWheelZoom={false}
-      className="w-full h-[500px] rounded-md relative z-0" /* **Change:** Added 'relative z-0' */
+      className="w-full h-[500px] rounded-md relative z-0"
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

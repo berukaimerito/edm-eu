@@ -5,7 +5,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import dynamic from 'next/dynamic';
 import ContactForm from '../components/ContactForm';
-import LanguageSelector from '../components/Header/LanguageSelector'; // Ensure correct path
+// No need for LanguageSelector here
 
 const Map = dynamic(() => import('../components/Map'), { ssr: false });
 
@@ -18,13 +18,14 @@ const InformationPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground py-8 relative">
-      {/* **Change:** Position LanguageSelector higher to prevent overlapping */}
-
       <div className="container mx-auto px-4">
         {/* Map Section */}
         <section className="mb-12">
-          {/* **Change:** Removed the map title */}
-          <Map latitude={latitude} longitude={longitude} locationName="EDM Europe" />
+          <Map
+            latitude={latitude}
+            longitude={longitude}
+            locationName={t('info.location_name')}
+          />
         </section>
 
         {/* Contact Section */}
