@@ -1,6 +1,8 @@
 {
+  "name": "Services",
     "cloud_backup": {
       "title": "Backup w chmurze",
+      "slug": "cloud-backup",
       "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
       "description": "To usługa EDM, która współpracuje z programami ERP, wykonując kopie zapasowe wszystkich Twoich danych oraz skanowanych kopii dokumentów prawnych w bezpieczny i bezproblemowy sposób z dostępem online i zaawansowanym zabezpieczeniem.",
       "benefits": {
@@ -32,6 +34,7 @@
       }
     },
     "e_consensus": {
+      "slug": "e-reconciliation",
     "title": "E-Mutabakat",
     "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
     "description": "Oznacza to prawne i ważne przekazywanie wszystkich uzgodnień BA-BS, rachunków bieżących, potrąceń i faktur wszystkich dostawców i klientów firm za pomocą środowiska mailowego lub systemu KEP.",
@@ -99,6 +102,7 @@
     }
   },
   "e_document_management_system": {
+    "slug": "e-docuement-management-system",
     "title": "System Zarządzania Dokumentami Elektronicznymi (EBYS)",
     "youtube_embed": "https://youtu.be/XLuzI_kc8oM",
     "description": "System Zarządzania Dokumentami Elektronicznymi to system, który pozwala organizacjom archiwizować i zarządzać wszystkimi rodzajami dokumentacji tworzonej podczas ich działalności, od produkcji po ostateczne usunięcie. W przeciwieństwie do standardowego EBYS, EDM EBYS to nie tylko archiwum czy oprogramowanie procesowe. Jest to pakiet rozwiązań, który można dostosować do potrzeb. Ten pakiet jest inteligencją biznesową, która zarządza interakcją z klientami.",
@@ -142,6 +146,7 @@
     }
   },
   "e_bill": {
+    "slug": "e-invoices",
     "title": "Faktura Elektroniczna",
     "youtube_embed": "XLuzI_kc8oM",  
     "description": "Faktura Elektroniczna to dokument elektroniczny zawierający informacje odpowiadające fakturze papierowej, znormalizowany w międzynarodowym formacie (UBL), zapieczętowany w niezmienny sposób i ma takie same cechy prawne jak faktura papierowa.\n\nDzięki Fakturze Elektronicznej możesz bezpiecznie wysyłać i otrzymywać swoje faktury elektronicznie, przechowywać swoje faktury prawnie ważne i zabezpieczone przez 10 lat oraz przeglądać je online. Dzięki systemowi Faktury Elektronicznej możesz zminimalizować koszty papieru, druku, transportu i wszystkie koszty operacyjne.\n\nPodatnicy mogą korzystać z Aplikacji Faktury Elektronicznej Archivum na dwa sposoby: przez własny system IT lub przez specjalny system IT integratora upoważnionego przez Administrację Dochodów.",
@@ -216,6 +221,126 @@
           ]
         }
       ]
+    }
+  },
+  "registered_mail_hr": {
+    "slug": "registered-mail-hr",
+    "title": "Zarejestrowana Poczta HR (Aplikacje ZEP dla Pracowników)",
+    "youtube_embed": "uhjdzYlW2Ao", 
+    "description": "ZEP HR (Aplikacje ZEP dla Pracowników) to system, w którym odcinki wypłat, listy płac, karty pracy oraz powiadomienia personalne są dostarczane elektronicznie w sposób prawnie ważny i bezpieczny za pomocą ZEP (Zarejestrowana Elektroniczna Poczta) do pracowników firmy.",
+    "sections": {
+      "e_payslip": {
+        "title": "E-ODCINEK WYPŁATY",
+        "description": "Zgodnie z artykułem 37 Kodeksu Pracy, pracodawca jest zobowiązany dostarczyć pracownikowi podpisany lub opieczętowany przez firmę odcinek wypłaty podczas wypłaty w miejscu pracy lub do banku.\n\nZgodnie z Kodeksem Pracy, obowiązek udowodnienia, że pracownik zobaczył i odebrał odcinek wypłaty, spoczywa na pracodawcy.\n\nDostarczanie odcinków wypłat w firmach z dużą liczbą pracowników lub działających w wielu lokalizacjach jest trudne.\n\nArchiwizacja podpisanych kopii również stwarza dodatkowe obciążenie. W tradycyjnym procesie, po wydrukowaniu odcinków wypłat, są one wysyłane do wielu różnych lokalizacji, gdzie pracownicy podpisują je, a kopia jest odsyłana z powrotem do centrali. Dzięki EDM E-Odcinkowi Wypłaty, straty pracy spowodowane tym procesem oraz dodatkowe koszty związane z materiałami eksploatacyjnymi, sprzętem i dystrybucją są eliminowane, co przynosi oszczędność czasu i kosztów.\n\nJest to system, w którym odcinki wypłat, listy płac, karty pracy oraz powiadomienia personalne są dostarczane elektronicznie w sposób prawnie ważny i bezpieczny za pomocą ZEP do pracowników firmy.\n\nZe względu na trudności w dostarczaniu odcinków wypłat, list płac, kart pracy, powiadomień personalnych, zawiadomień, ostrzeżeń, potwierdzeń oraz zatwierdzeń formularzy urlopowych za podpisem w firmach z dużą liczbą pracowników lub działających w wielu lokalizacjach, aplikacje ZEP dla Pracowników EDM są szeroko preferowane.\n\nDzięki aplikacjom ZEP dla Pracowników EDM, możesz ułatwić wysyłanie odcinków wypłat i innych powiadomień personalnych oraz zarządzanie personelem. Przygotowując odcinki wypłat z programu księgowego i wysyłając E-Odcinki Wypłat, listy płac, karty pracy, powiadomienia personalne, zawiadomienia, ostrzeżenia, formularze urlopowe do wszystkich pracowników za pomocą jednego przycisku, zabezpieczasz swoją firmę w ramach zobowiązań prawnych.\n\nRoczna stała cena jest stosowana do usługi aplikacji ZEP dla Pracowników EDM w zależności od liczby pracowników. Nie dokonuje się zmian cen przy zatrudnianiu i zwalnianiu pracowników. Co więcej, dzięki przypisanemu do twojej instytucji skrzynce pocztowej, odcinki wypłat, listy płac, karty pracy, powiadomienia personalne, zawiadomienia, ostrzeżenia oraz potwierdzenia są przechowywane w systemach EDM w Stambule i Ankarze z kopią zapasową przez lata."
+      },
+      "e_notification": {
+        "title": "E-POWIADOMIENIE",
+        "description": "Powiadomienia, które mogą być wysyłane pracownikom z różnych powodów (np. spóźnienia do pracy, wykroczenia, nieprzestrzeganie zasad, naruszenia regulaminu stroju z powodu wykroczeń dyscyplinarnych), potwierdzenia, które muszą być uzyskane od pracowników, powiadomienia o politykach korporacyjnych, takich jak Ustawa o Ochronie Danych Osobowych (RODO), zasady do przestrzegania, opisy stanowisk, harmonogramy i inne pisma są wysyłane za pomocą ZEP z mocą notarialną.\n\nOd 7. dnia po transmisji ZEP, pełne powiadomienie jest realizowane z werdyktem „Odebrałem, przeczytałem, zrozumiałem”.\n\nTakie korespondencje skierowane do pracowników mają 100% prawnej ważności zatwierdzonej przez Sąd Najwyższy.\n\nZwłaszcza w ramach RODO i regulacji dotyczących pracy zdalnej, powiadomienia ZEP do pracowników znacząco wzrosły w ostatnim czasie.\n\nWszystkie informacje, które muszą być przekazane pracownikom, takie jak powiadomienia o uczestnictwie w szkoleniach, są wysyłane na adres ZEP pracownika za pomocą e-powiadomienia i stają się prawnie ważne.\n\nŻądane powiadomienia mogą być wysyłane do wszystkich pracowników lub na podstawie wybranej filii, działu, osoby."
+      },
+      "e_recruitment_processes": {
+        "title": "E-PROCESY REKRUTACYJNE",
+        "description": "Dzięki transformacji HR EDM, dokumenty uzyskane od pracowników w procesach rekrutacyjnych (CV, zaświadczenia o niekaralności, status służby wojskowej, raporty zdrowotne, zezwolenia na pobyt, fotokopie dowodów osobistych, paszporty, prawa jazdy itp.) są poddawane przetwarzaniu OCR, automatycznie przepływają do programu personalnego, a wszystkie te procesy przechowywania dokumentów są łatwo zarządzane za pomocą automatycznych procesów.\n\nW operacji uprawniony do tego przedstawiciel firmy/oddziału przesyła dokumenty dostarczone przez pracowników do systemu z interfejsu EDM Transakcje Personalne, a wszystkie informacje zawarte w dokumentach są przetwarzane do odpowiednich tabel HR i archiwizowane bezterminowo.\n\nKiedy dokumenty personalne i tabele zostaną zatwierdzone przez HR, wszystkie przepisy i powiadomienia wysyłane automatycznie do pracowników na początku pracy są wysyłane za pomocą ZEP i powiadomione.\n\nPodsumowując, wraz z przesłaniem dokumentów kandydata na pracownika, cały proces rekrutacyjny dokumentów i powiadomień odbywa się automatycznie."
+      },
+      "e_hr_archive": {
+        "title": "E-ARCHIWUM HR",
+        "description": "Dokumenty przesłane podczas procesu rekrutacji, tabele informacji personalnych utworzone z tych dokumentów, wszystkie przepisy, powiadomienia, ostrzeżenia, potwierdzenia, listy płac itd., wszystkie dokumenty w teczce personalnej są przechowywane w systemie Archiwum Transformacji HR EDM przez cały okres pracy pracownika oraz przez 10 lat po odejściu pracownika.\n\nPracownicy mogą natychmiastowo uzyskać dostęp do wszystkich powiadomień, które firma im udostępniła, zwłaszcza do swoich odcinków wypłat, za pośrednictwem skrzynki pocztowej ZEP wraz z dowodami ZEP. Prawo dostępu utrzymuje się przez 10 lat po zakończeniu pracy pracownika, pod warunkiem że firma pozwoli i pracownik utrzyma swój adres ZEP."
+      },
+      "leading_sectors": {
+        "title": "Wiodące Sektory Używające EDM ZEP HR",
+        "list": [
+          "Zakłady Przemysłowe",
+          "Duże Firmy Budowlane",
+          "Firmy Ochroniarskie/Sprzątające",
+          "Firmy Cateringowe",
+          "Holdingi",
+          "Przedsiębiorstwa Komunalne",
+          "Szpitale",
+          "Hotele",
+          "Prywatne Szkoły"
+        ]
+      },
+      "who_can_switch": {
+        "title": "Kto Może Przejść na Aplikacje HR ZEP?",
+        "description": "Wszystkie instytucje publiczne i organizacje, które mają wielu pracowników lub działają w wielu lokalizacjach, chcą zaoszczędzić czas na śledzeniu odcinków wypłat, list płac, kart pracy oraz powiadomień personalnych, a także chcą zminimalizować koszty archiwizacji, mogą przejść na E-Odcinek Wypłat."
+      },
+      "backup_of_personnel_files": {
+        "title": "Opcja: Kopia Zapasowa Teczki Personalnej",
+        "description": "Zapewnia online kopię zapasową plików personalnych, przyrostową lub według harmonogramu, zgodnie z preferencjami.\n\nPrzechowywane na wysoce zabezpieczonych serwerach certyfikowanych ISO, kopie zapasowe w Stambule i Ankarze.\n\nZapewnia wysoką kompresję i szybki dostęp mobilny z metodą archiwizacji depozytowej na poziomie 98%.\n\nPosiada funkcję treści nieusuwalnych w celu ochrony przed nadużyciami. Można przeglądać bez pobierania.\n\nMożna znaleźć poszukiwany zapis w ciągu kilku sekund wśród setek plików dzięki wyszukiwaniu pełnotekstowemu.\n\nJeśli pliki nie są zarchiwizowane lub są częściowo zarchiwizowane z powodu problemów technicznych, otrzymasz ciągłe powiadomienia e-mail i SMS."
+      },
+      "why_edm_kep_hr": {
+        "title": "Dlaczego EDM ZEP HR",
+        "sections": [
+          {
+            "title": "E-Odcinek Wypłaty i E-Ostrzeżenia Razem",
+            "description": "Poza powiadomieniami e-odcinków wypłat, takich jak listy płac, karty pracy dla pracowników, ostrzeżenia, które mogą być wysyłane z różnych powodów (spóźnienia do pracy, wykroczenia, nieprzestrzeganie zasad, naruszenia regulaminu stroju z powodu wykroczeń dyscyplinarnych), potwierdzenia, które muszą być uzyskane od pracowników, powiadomienia o politykach korporacyjnych, takich jak RODO, zasady do przestrzegania, opisy stanowisk, zatwierdzenia urlopów, informacje o uczestnictwie w szkoleniach oraz inne pisma są wysyłane za pomocą ZEP z mocą notarialną. Od 7. dnia po transmisji ZEP, pełne powiadomienie jest realizowane z werdyktem „Odebrałem, przeczytałem, zrozumiałem”. Takie korespondencje skierowane do pracowników mają 100% prawnej ważności zatwierdzonej przez sądy we wszystkich przypadkach. Żądane powiadomienia mogą być wysyłane do wszystkich pracowników lub na podstawie wybranej filii/działu/pracownika."
+          },
+          {
+            "title": "Automatyczny Proces Rekrutacyjny",
+            "description": "Dzięki naszemu produktowi ZEP HR, dokumenty uzyskane od pracowników w procesach rekrutacyjnych są poddawane przetwarzaniu OCR, a informacje automatycznie przepływają do programu personalnego, a wszystkie te procesy przechowywania dokumentów są zarządzane za pomocą automatycznych procesów.\n\nZapewnia automatyczne pobieranie dokumentów personalnych z E-Government, sprawdza daty ważności i utrzymuje je aktualne.\n\nKiedy dokumenty personalne i tabele są zatwierdzone po stronie HR, wszystkie przepisy i powiadomienia wysyłane automatycznie do pracowników na początku pracy są wysyłane za pomocą ZEP i powiadomione."
+          },
+          {
+            "title": "Cyfrowe Archiwum HR",
+            "description": "Wszystkie dokumenty w teczce personalnej są przechowywane w cyfrowym systemie archiwum ZEP-HR przez cały okres pracy pracownika oraz przez 10 lat po odejściu pracownika.\n\nW aplikacji ZEP HR, moduł Cyfrowej Teczki Personalnej umożliwia pracownikom przesyłanie dokumentów."
+          },
+          {
+            "title": "Znacznie Szybsze",
+            "description": "Dowody są generowane w ciągu maksymalnie 5 sekund w transmisjach ZEP i przechowywane przez 30 lat. Wiadomości ZEP są wysyłane w ciągu maksymalnie 2 minut."
+          },
+          {
+            "title": "Ceny oparte na liczbie miejsc",
+            "description": "W aplikacji ZEP HR ceny są uzależnione od liczby miejsc. Pracownicy, którzy odchodzą, są odejmowani od dodawanych pracowników, i tak długo, jak liczba miejsc nie przekracza limitu pakietu, nie ma przekroczenia pakietu."
+          },
+          {
+            "title": "250 MB Przestrzeni",
+            "description": "250 MB przestrzeni jest zdefiniowane na jedno konto ZEP dla pracowników. Średnio zapewnia to przestrzeń na 3 lata odcinków wypłat w ramach pakietu dla firmy. Firma może dokupić dodatkową przestrzeń, aby przechowywać więcej dokumentów przez dłuższy okres."
+          },
+          {
+            "title": "Zintegrowane ze wszystkimi programami",
+            "description": "Działa zintegrowane ze wszystkimi programami."
+          },
+          {
+            "title": "Zgodność wewnętrzna EYP z integracją UETS",
+            "description": "Dzięki jedynej pełnej zgodności EYP w Turcji, wiadomości UETS przychodzące przez system EDM mogą być otwierane, czytane, a automatyczne odpowiedzi generowane jednym kliknięciem. Zwłaszcza dzięki w pełni automatycznemu procesowi zajęć przychodzących do pracowników; przepływ jest zapewniony między Urzędem Egzekucyjnym, Działem HR, Pracownikiem, Prawnikiem i UYAP."
+          },
+          {
+            "title": "Ochrona domeny",
+            "description": "W aplikacji ZEP HR, adresy ZEP są otwierane z oddzielnymi domenami dla firmy i każdego pracownika. W naszym systemie, jeśli zostanie specjalnie zażądane przez firmę, definiowany jest adres ZEP zawierający nazwę firmy. Kiedy adres ZEP jest przypisany specyficznie dla osoby, nie jest to zalecane ze względu na potencjalne problemy, które mogą wystąpić później, gdy pracownik zakończy pracę."
+          },
+          {
+            "title": "Załączniki do wiadomości",
+            "description": "Podczas wysyłania odcinka wypłaty można dołączyć pliki do wiadomości, a każdy z nich można podpisać podpisem elektronicznym."
+          },
+          {
+            "title": "System Informacji o Wysyłce",
+            "description": "Podczas wysyłania, konta odpowiednich przedstawicieli firmy mogą być zdefiniowane jako CC (Kopia Węglowa)."
+          },
+          {
+            "title": "Nielimitowana liczba użytkowników",
+            "description": "Nie ma ograniczeń co do liczby użytkowników."
+          }
+        ]
+      },
+      "cost_saving": {
+        "title": "Oszczędność kosztów przy przejściu na ZEP HR – Tabela kont",
+        "image": "/images/cost-saving-zep-hr.jpg"
+      },
+      "references": {
+        "title": "Referencje",
+        "logos": [
+          "logo1.png",
+          "logo2.png",
+          "logo3.png",
+          "logo4.png",
+          "logo5.png",
+          "logo6.png",
+          "logo7.png",
+          "logo8.png",
+          "logo9.png",
+          "logo10.png",
+          "logo11.png",
+          "logo12.png"
+        ]
+      }
     }
   }
   }

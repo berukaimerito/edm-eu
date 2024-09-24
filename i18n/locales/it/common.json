@@ -9,8 +9,8 @@
     "title": "I Nostri Servizi",
     "description": "Descrizione dei servizi offerti.",
     "e_invoices": "Fatture Elettroniche",
-    "e_receipt": "Ricevute Elettroniche",
-    "e_consensus": "E-Consenso",
+     "erm_hr": "R.U. Posta Elettronica Registrata",
+  "e_reconciliation": "E-Riconciliazione",
     "cloud_backup": "Backup Cloud",
     "e_document_management_system": "Sistema di Gestione Documentale Elettronico"
   },

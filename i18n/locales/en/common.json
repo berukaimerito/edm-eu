@@ -9,8 +9,8 @@
     "title": "Our Services",
     "description": "Description of services offered.",
     "e_invoices": "E-Invoices",
-    "e_receipt": "E-Receipt",
-    "e_consensus": "E-Consensus",
+    "erm_hr": "H.R. Registered E-Mail",
+    "e_reconciliation": "E-Reconciliation",
     "cloud_backup": "Cloud Backup",
     "e_document_management_system": "E-Document Management System"
   },

@@ -1,6 +1,8 @@
 {
+  "name": "Services",
     "cloud_backup": {
       "title": "Backup su Cloud",
+      "slug": "cloud-backup",
       "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
       "description": "È un servizio EDM che funziona in modo compatibile con i programmi ERP, che esegue il backup di tutte le tue informazioni e delle copie scansionate dei tuoi documenti legali, in modo sicuro e senza problemi, con accesso online e sicurezza avanzata.",
       "benefits": {
@@ -32,7 +34,8 @@
       }
     },
     "e_consensus": {
-      "title": "E-Mutabakat",
+      "title": "E-Riconciliazione",
+      "slug": "e-reconciliation",
       "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
       "description": "Significa l'invio legale e valido tramite email o il sistema KEP di tutte le riconciliazioni BA-BS, conti correnti, ritenute e fatture dei fornitori e clienti delle aziende.",
       "benefits": {
@@ -89,7 +92,8 @@
       }
     },
     "e_document_management_system": {
-    "title": "Sistema di Gestione E-Documenti (EBYS)",
+      "slug": "e-document-management-system",
+    "title": "Sistema di Gestione E-Documenti (?)",
     "youtube_embed": "https://youtu.be/XLuzI_kc8oM",
     "description": "Il Sistema di Gestione E-Documenti è un sistema che consente alle organizzazioni di archiviare e gestire tutti i tipi di documentazione creata durante le loro operazioni, dalla produzione allo smaltimento finale. Diversamente dall'EBYS standard, EDM EBYS non è solo un archivio o un software di processo. È un pacchetto di soluzioni personalizzabile secondo le esigenze. Questo pacchetto è un'intelligenza aziendale che gestisce l'interazione con i clienti.",
     "benefits": {
@@ -207,6 +211,126 @@
         }
       ]
     }
-  }   
+  }, 
+  "registered_mail_hr": {
+    "slug": "registered-mail-hr",
+    "title": "Posta Elettronica Registrata HR (Applicazioni Personale PEC)",
+    "youtube_embed": "uhjdzYlW2Ao",
+    "description": "PEC HR (Applicazioni Personale PEC) è un sistema in cui le buste paga, i cedolini paga, i fogli di presenza e le notifiche del personale vengono consegnati elettronicamente in modo legalmente valido e sicuro tramite email PEC (Posta Elettronica Certificata) ai dipendenti dell'azienda.",
+    "sections": {
+      "e_payslip": {
+        "title": "E-PAYSLIP",
+        "description": "Secondo l'articolo 37 della Legge sul Lavoro, il datore di lavoro è obbligato a fornire al dipendente una busta paga firmata o timbrata dall'azienda che mostra il conto salariale durante il pagamento sul posto di lavoro o in banca.\n\nSecondo la Legge sul Lavoro, l'obbligo di dimostrare che il dipendente ha visto e ricevuto la busta paga spetta al datore di lavoro.\n\nÈ difficile consegnare le buste paga contro firma nelle aziende con molti dipendenti o che operano in più sedi.\n\nAnche l'archiviazione delle copie firmate crea un onere aggiuntivo. Nel processo tradizionale, dopo la stampa delle buste paga, queste vengono inviate a decine di sedi diverse, dove vengono firmate dai dipendenti e una copia viene inviata nuovamente al centro. Con EDM E-Payslip, si evita la perdita di lavoro creata da questa applicazione e i costi aggiuntivi per i materiali di consumo, le attrezzature e le spese di distribuzione, garantendo risparmi di tempo e costi.\n\nÈ un sistema in cui le buste paga, i cedolini paga, i fogli di presenza e le notifiche del personale vengono consegnati elettronicamente in modo legalmente valido e sicuro tramite email PEC (Posta Elettronica Certificata) ai dipendenti dell'azienda.\n\nPoiché è difficile consegnare buste paga, cedolini paga, fogli di presenza, notifiche del personale, avvisi, ammonimenti, rilasci e approvazioni dei moduli di congedo contro firma nelle aziende con molti dipendenti o che operano in più sedi, le Applicazioni Personale PEC di EDM sono ampiamente preferite.\n\nCon le Applicazioni Personale PEC di EDM, è possibile facilitare l'invio delle buste paga e di altre notifiche del personale e la gestione del personale. Preparando le buste paga dal programma di contabilità e inviando E-Payslip, cedolini paga, fogli di presenza, notifiche del personale, avvisi, ammonimenti, moduli di congedo a tutto il personale tramite PEC con un solo pulsante, si garantisce la sicurezza dell'azienda nell'ambito degli obblighi legali.\n\nPer il nostro servizio EDM Applicazioni Personale PEC viene applicato un prezzo fisso annuale in base al numero di dipendenti. Non vengono effettuate variazioni di prezzo in caso di assunzioni e licenziamenti. Inoltre, con la casella di posta assegnata alla tua istituzione, le tue buste paga, cedolini paga, fogli di presenza, notifiche del personale, avvisi, ammonimenti e rilasci vengono archiviati nei sistemi EDM a Istanbul e Ankara con backup per anni."
+      },
+      "e_notification": {
+        "title": "E-NOTIFICATION",
+        "description": "Gli avvisi che possono essere inviati al personale per vari motivi (come il ritardo al lavoro, cattiva condotta, non conformità alle regole, violazioni del codice di abbigliamento a causa di infrazioni disciplinari), i rilasci che devono essere ottenuti dal personale, la notifica delle politiche aziendali come il KVKK (Legge sulla Protezione dei Dati Personali), le regole da seguire, le descrizioni dei compiti, i tempi e altri scritti vengono inviati tramite PEC con potere notarile.\n\nDal 7° giorno dopo la trasmissione PEC, si realizza la notifica completa con il verdetto \"ho ricevuto, letto, capito\".\n\nTali corrispondenze inviate al personale hanno il 100% di validità legale approvata dalla Corte Suprema.\n\nIn particolare, nell'ambito del KVKK e del regolamento sul lavoro a distanza, le notifiche PEC al personale sono recentemente aumentate.\n\nTutte le informazioni che devono essere notificate al personale, come le notifiche di partecipazione alla formazione, vengono inviate all'indirizzo PEC del personale tramite e-notification e diventano legalmente valide.\n\nLe notifiche desiderate possono essere inviate a tutto il personale o selezionando filiale/dipartimento/personale."
+      },
+      "e_recruitment_processes": {
+        "title": "E-RECRUITMENT PROCESSES",
+        "description": "Grazie alla trasformazione HR di EDM, i documenti ottenuti dal personale nei processi di reclutamento (CV, casellari giudiziari, stato di servizio militare, referti sanitari, permessi di soggiorno, fotocopie dei documenti di identità, passaporti, patenti di guida, ecc.) vengono sottoposti a elaborazione OCR, fluendo automaticamente nel programma del personale e tutti questi processi di archiviazione dei documenti sono gestiti con processi automatici.\n\nIn operazione, l'autorità aziendale/filiale carica i documenti inviati dal personale al sistema dall'interfaccia delle Transazioni del Personale EDM, e con questo, tutte le informazioni nei documenti vengono elaborate nelle tabelle HR pertinenti e archiviate indefinitamente.\n\nQuando i documenti e le tabelle del personale vengono approvati dall'HR, tutte le regolamentazioni e le notifiche inviate automaticamente al personale all'inizio del lavoro vengono inviate tramite PEC e notificate.\n\nIn sintesi, con il caricamento dei documenti del personale candidato, l'intero processo di documentazione e notifica del reclutamento avviene automaticamente."
+      },
+      "e_hr_archive": {
+        "title": "E-HR ARCHIVE",
+        "description": "I documenti caricati durante il processo di reclutamento del personale, le tabelle delle informazioni del personale formate da questi documenti, tutte le regolamentazioni, le notifiche, gli avvisi, i rilasci, i cedolini paga, ecc., tutti i documenti nel file del personale vengono archiviati nel sistema di archiviazione della trasformazione HR di EDM durante il periodo di lavoro del personale e per 10 anni dopo che il personale lascia.\n\nIl personale può accedere istantaneamente a tutte le notifiche che l'azienda consente, in particolare le loro buste paga, dalla loro casella di posta PEC insieme alle prove PEC. Questo diritto di accesso continua per 10 anni anche dopo che il personale lascia il lavoro, a condizione che l'azienda lo consenta e che il personale mantenga il proprio indirizzo PEC aperto personalmente.\n\nPer il nostro prodotto EDM HR Archive, viene fornito gratuitamente uno spazio di 250 MB per ogni persona."
+      },
+      "leading_sectors": {
+        "title": "LEADING SECTORS USING EDM PEC HR",
+        "list": [
+          "Industrial Establishments",
+          "Large Construction Companies",
+          "Security/Cleaning Companies",
+          "Catering Companies",
+          "Holdings",
+          "Municipal Economic Enterprises",
+          "Hospitals",
+          "Hotels",
+          "Private Schools"
+        ]
+      },
+      "who_can_switch": {
+        "title": "WHO CAN SWITCH TO PEC HR APPLICATION?",
+        "description": "All public institutions and organizations that have many employees or operate in multiple locations, want to save time in tracking payslips, wage slips, time sheets, and personnel notifications, and want to minimize archiving costs can switch to E-Payslip."
+      },
+      "backup_of_personnel_files": {
+        "title": "OPTION: BACKUP OF PERSONNEL FILES",
+        "description": "Provides online incremental or scheduled backup of your personnel files according to your preference.\n\nStored in highly secure and ISO-certified servers, backed up in Istanbul and Ankara.\n\nProvides high compression and fast mobile access with 98% depository archive method.\n\nHas non-deletable content feature for malicious uses. You can view without downloading.\n\nYou can access the record you're looking for within seconds among your hundreds of files with full-text search.\n\nIf not backed up or partially backed up due to being closed, problematic, or your folder structure being broken, it gives continuous email and SMS warnings."
+      },
+      "why_edm_kep_hr": {
+        "title": "WHY EDM PEC HR",
+        "sections": [
+          {
+            "title": "E-PAYSLIP AND E-WARNING NOTIFICATIONS TOGETHER",
+            "description": "Apart from e-payslip notifications such as wage slips, time sheets to personnel, warnings that can be sent for various reasons (being late to work, misconduct, non-compliance with rules, dress code violations due to disciplinary offenses), releases that need to be obtained from personnel, notification of corporate policies such as KVKK to personnel, rules to be followed, job descriptions, leave approvals, training participation information, and other writings are sent via PEC with notary power. From the 7th day after the PEC transmission, full notification is realized with the verdict of \"I received, read, understood\". Such correspondences made to the personnel have 100% legal validity approved by courts in all cases. Desired notifications can be sent to all personnel or by selecting branch/department/personnel."
+          },
+          {
+            "title": "AUTOMATIC RECRUITMENT PROCESS",
+            "description": "Thanks to our PEC HR Product, documents obtained from personnel in recruitment processes are subjected to OCR processing, and information flows automatically in the personnel program, and all these document storage processes are managed with automatic processes.\n\nProvides automatic retrieval of personnel documents from E-Government, checks validity dates, and keeps them up to date.\n\nWhen personnel documents and tables are approved on the HR side, all regulations and notifications sent automatically to the personnel at the start of work are sent via PEC and notified."
+          },
+          {
+            "title": "DIGITAL HR ARCHIVE",
+            "description": "All documents in the personnel file are stored in the PEC-HR digital archive system throughout the personnel's working period and for 10 years after the personnel leaves.\n\nIn the HR PEC application, the Digital Personnel File module allows personnel to upload documents."
+          },
+          {
+            "title": "MUCH FASTER",
+            "description": "Evidence is generated in at most 5 seconds in PEC transmissions and stored for 30 years. PEC messages are sent within at most 2 minutes."
+          },
+          {
+            "title": "PRICING BASED ON SEAT COUNT",
+            "description": "In the HR PEC application, pricing works based on seat count. That is, the personnel who leave are deducted from the added personnel, and as long as the seat count does not exceed the package limit, there is no package overrun."
+          },
+          {
+            "title": "250 MB SPACE",
+            "description": "250 MB of space is defined per Personnel PEC account. On average, storage space for 3 years of wage slips is provided within the package for the company. The company can purchase additional space as much as it wants to store more documents and for longer periods."
+          },
+          {
+            "title": "INTEGRATED WITH ALL PROGRAMS",
+            "description": "Works integrated with all programs."
+          },
+          {
+            "title": "INTERNAL EYP COMPATIBILITY WITH UETS INTEGRATION",
+            "description": "Thanks to the only full EYP compatibility in Turkey; UETS messages coming through the EDM system can be opened, read, and automatic responses can be generated with a single click. Especially with the fully automatic process of seizures coming to personnel; flow is provided between the Enforcement Office, HR Department, Personnel, Lawyer, and UYAP."
+          },
+          {
+            "title": "DOMAIN PROTECTION",
+            "description": "In the HR EP application, PEC addresses are opened with separate domains for the company and each personnel. In our system, if specially requested by the company, a PEC address containing the company name is defined. When the PEC address is defined specifically to the person, it is not recommended for possible problems that may occur later in case the personnel terminates their job."
+          },
+          {
+            "title": "ATTACHMENT FILES",
+            "description": "Files can be attached to the message during wage account slip sending, and each can be signed with e-signature."
+          },
+          {
+            "title": "SENDING INFORMATION SYSTEM",
+            "description": "During sending, accounts of relevant company officials can be defined as CC (Carbon Copy)."
+          },
+          {
+            "title": "UNLIMITED USER",
+            "description": "There is no restriction on the number of users."
+          }
+        ]
+      },
+      "cost_saving": {
+        "title": "COST SAVING WITH PEC HR TRANSITION – ACCOUNT TABLE",
+        "image": "/images/cost-saving-kep-hr.jpg"
+      },
+      "references": {
+        "title": "REFERENCES",
+        "logos": [
+          "logo1.png",
+          "logo2.png",
+          "logo3.png",
+          "logo4.png",
+          "logo5.png",
+          "logo6.png",
+          "logo7.png",
+          "logo8.png",
+          "logo9.png",
+          "logo10.png",
+          "logo11.png",
+          "logo12.png"
+        ]
+      }
+    }
+  }  
   }
   

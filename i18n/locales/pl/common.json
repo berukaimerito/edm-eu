@@ -9,8 +9,8 @@
     "title": "Nasze Usługi",
     "description": "Opis oferowanych usług.",
     "e_invoices": "Faktury Elektroniczne",
-    "e_receipt": "Paragony Elektroniczne",
-    "e_consensus": "E-Zgoda",
+ "erm_hr": "Rejestrowana Poczta Elektroniczna Z.Z.",
+  "e_reconciliation": "E-Rozliczenie",
     "cloud_backup": "Backup w Chmurze",
     "e_document_management_system": "Elektroniczny System Zarządzania Dokumentami"
   },

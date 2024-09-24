@@ -42,13 +42,13 @@ const Header: React.FC = () => {
       icon: DocumentTextIcon,
     },
     {
-      name: t('services.e_receipt'),
-      path: '/services/e-receipt',
+      name: t('services.erm_hr'),
+      path: '/services/registered-mail-hr',
       icon: DocumentTextIcon,
     },
     {
-      name: t('services.e_consensus'),
-      path: '/services/e-consensus',
+      name: t('services.e_reconciliation'),
+      path: '/services/e-reconciliation',
       icon: DocumentTextIcon,
     },
     {

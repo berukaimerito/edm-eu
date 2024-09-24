@@ -1,6 +1,8 @@
 {
+  "name": "Services",
     "cloud_backup": {
       "title": "Bulut Yedekleme",
+      "slug": "cloud-backup",
       "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
       "description": "Tüm verilerinizin yanı sıra yasal geçerli belgelerinizin taranmış kopyalarını da, online erişime açık, geliştirilmiş üst düzey güvenlikle sorunsuz bir şekilde yedekleyen ERP programlarıyla uyumlu çalışan bir EDM hizmetidir.",
       "benefits": {
@@ -198,6 +200,126 @@
         }
       ]
     }
+  },
+  "registered_mail_hr": {
+    "title": "KEP İK (Personel KEP Uygulamaları)",
+    "youtube_embed": "uhjdzYlW2Ao", 
+    "description": "KEP İK (Personel KEP Uygulamaları), bordro, ücret pusulası, zaman çizelgeleri ve personel tebligatlarının, KEP (Kayıtlı Elektronik Posta) üzerinden yasal geçerli ve güvenli bir şekilde elektronik ortamda iletilmesini sağlayan bir sistemdir.",
+    "sections": {
+      "e_payslip": {
+        "title": "E-BORDRO",
+        "description": "İş kanunun 37. maddesine göre İşveren işyerinde veya bankaya yaptığı ödemelerde işçiye ücret hesabını gösterir imzalı veya işyerinin özel işaretini taşıyan bir pusula vermek zorundadır.\n\nİş Kanunu kapsamında çalışanının bordrosunu gördüğünü ve teslim aldığını ispat etme yükümlülüğü işverene aittir.\n\nÇok çalışanı olan ya da birden fazla lokasyonda faaliyet gösteren şirketlerde bordroların imza karşılığı teslimi zor olmaktadır.\n\nİmzalı nüshaların arşivlenmesi de ek yük oluşturmaktadır. Geleneksel süreçte bordrolar basıldıktan sonra onlarca farklı lokasyona gönderilir, burada çalışanlara imzalatıldıktan sonra bir kopyası tekrar merkeze iletilir. EDM E-Bordro ile bu uygulamanın yarattığı işgücü kaybı ile sarf malzemesi, ekipman ve dağıtım giderlerindeki ilave maliyetler önlenir, zaman ve maliyet tasarrufu sağlanır.\n\nŞirket çalışanlarına bordroların, ücret pusulalarının, zaman çizelgelerinin ve personel tebligatlarının, KEP (Kayıtlı Elektronik Posta) mailleri üzerinden yasal geçerli ve güvenli bir şekilde elektronik ortamda iletildiği bir sistemdir.\n\nÇok çalışanı olan ya da birden fazla lokasyonda faaliyet gösteren şirketlerde bordroların, ücret pusulalarının, zaman çizelgelerinin, personel tebligatlarının, ihbarların, ihtarların, ibranamelerin ve izin form onaylarının imza karşılığı teslimi zor olduğundan, EDM Personel KEP Uygulamaları yoğun bir şekilde tercih edilmektedir.\n\nEDM Personel KEP Uygulamaları ile bordro ve diğer personel bildirimlerinin gönderimini ve personel yönetimini kolaylaştırırsınız. Muhasebe programınızdan bordro hazırlayıp tek tuş ile tüm personelinize KEP üzerinden E-Bordro, ücret pusulası, zaman çizelgesi, personel tebligatlarının, ihbar, ihtar izin formu göndererek, yasal zorunluluklar çerçevesinde firmanızı güvence altına alırsınız.\n\nEDM Personel KEP Uygulamaları hizmetimiz için personel sayınıza göre yıllık sabit fiyat uygulanmaktadır. İşçi alım ve çıkışlarda herhangi bir fiyat değişikliğine gidilmemektedir. Üstelik kurumunuza tahsis edilen posta alanıyla bordrolarınız, ücret pusulalarınız, zaman çizelgeleriniz, personel tebligatlarınız, ihbar, ihtar ve ibralarınız, yıllarca İstanbul, Ankara yedeklemeli olarak EDM Sistemlerinde saklanmaktadır."
+      },
+      "e_notification": {
+        "title": "E-TEBLİGAT",
+        "description": "Personele çeşitli nedenlerle (İşe geç kalma, kötü davranış, kurallara uymama, giyim kuşam aykırılığı gibi disiplin suçları nedeniyle) gönderilebilen ihtarlar, personellerden alınması gereken ibranameler, personele kurumsal politikaların, uyulması gereken kuralların, görev tanımlarının, zamanlamalarının ve diğer yazıların bildirimi KEP üzerinden noter gücünde gönderilir.\n\nKEP iletiminden itibaren 7. günün sonuna aldım okudum anladım hükmü ile tam tebellüğ gerçekleşmiş olur.\n\nPersonele yapılan söz konusu yazışmaların %100 yasal geçerliliği Yargıtay tarafından onanmıştır.\n\nÖzellikle KVKK kapsamında ve Uzaktan Çalışma yönetmeliği kapsamında personele KEP bildirimleri son dönemlerde artış göstermiştir.\n\nEğitim katılım bildirimleri vb. personel ile ilgili tüm tebliğ edilmesi gereken bilgiler e-tebliğ aracılığı ile personelin KEP adresine iletilir ve yasal olarak geçerli olur.\n\nTüm personellere ya da şube/departman/personel/ seçerek istenen tebliğ iletilebilir."
+      },
+      "e_recruitment_processes": {
+        "title": "E-İŞE ALIM SÜREÇLERİ",
+        "description": "EDM İK Dönüşümü sayesinde işe alım süreçlerinizdeki; personellerden temin edilen evraklar(Personellere ait Özgeçmiş, Sabıka Kaydı, Askerlik Durumu, Sağlık Raporu, İkametgah, Kimlik Fotokopisi, Pasaport, Ehliyet vb. belgeleri), OCR işlemine tabi tutularak personel özlük programına bilgilerin otomatik akışı ve tüm bu evrakların saklama işlemleri kolayca ve otomatik süreçlerle yönetilir.\n\nİşleyişte Firma/Şube yetkilisi, kendisine personel tarafından iletilen evrakları EDM Özlük İşlemleri arayüzünden sisteme yükler ve bununla birlikte evraklar içerisindeki tüm bilgiler ilgili IK tablolarına işlenir ve süresiz olarak arşive alınır.\n\nIK tarafından personel evrakları ve tablosu onaylandığında personele otomatik olarak işe başlangıçta gönderilen tüm yönetmelik ve bilgilendirmeler KEP üzerinden gönderilerek tebliğ edilmiş olur.\n\nÖzetle aday personelin evraklarının yüklenmesi ile tüm işe alım evrak ve bilgilendirme süreci otomatik gerçekleşir."
+      },
+      "e_hr_archive": {
+        "title": "E-İK ARŞİV",
+        "description": "Personelin işe alım sürecinde yüklenen evrakları, bu evraklardan oluşan personel bilgi tabloları, personele yapılan tüm yönetmelik, bildirimler, ihtarlar, ibranemeler, ücret pusulaları vb. personel özlük dosyasındaki tüm evraklar personel çalışma süresi boyunca ve personel ayrıldıktan itibaren 10 yıl boyunca EDM IK Dönüşüm Arşiv sisteminde saklanır.\n\nPersonel, bordroları başta olmak üzere, şirketin izin verdiği tüm bildirimleri KEP delilleri ile birlikte kendi KEP posta kutusundan anında erişebilir. Bu erişim hakkı şirketin izin vermesi kaydıyla personel işten ayrıldıktan sonra da personelin KEP adresini şahsi olarak açık tutması şartıyla 10 yıl süreyle devam eder.\n\nEDM IK Arşiv ürünü için personel başına 250 MB alan ücretsiz sunulur."
+      },
+      "leading_sectors": {
+        "title": "EDM KEP İK KULLANIMINDA ÖNCÜ SEKTÖRLER",
+        "list": [
+          "Sanayi Kuruluşları",
+          "Büyük İnşaat Firmaları",
+          "Güvenlik/Temizlik Firmaları",
+          "Catering Firmaları",
+          "Holdingler",
+          "Belediye İktisadi İşletmeleri",
+          "Hastaneler",
+          "Oteller",
+          "Özel Okullar"
+        ]
+      },
+      "who_can_switch": {
+        "title": "KİMLER KEP İK UYGULAMASINA GEÇİŞ YAPABİLİR?",
+        "description": "Çok çalışanı olan ya da birden fazla lokasyonda faaliyet gösteren, bordro, ücret pusulası, zaman çizelgelerinin ve personel tebligatlarının takibinde zaman tasarrufu sağlamak isteyen, arşivleme maliyetlerini minimuma indirgemek isteyen tüm kamu kurum ve kuruluşlar E-Bordroya geçiş yapabilir."
+      },
+      "backup_of_personnel_files": {
+        "title": "OPSİYON: ÖZLÜK DOSYALARI YEDEKLEME",
+        "description": "Personel özlük dosyalarınızı isteğinize göre online incremental ya da ayarlanmış zamanlı yedekleme sağlar.\n\nYüksek güvenlikli ve ISO sertifikalı sunucularda, İstanbul ve Ankara Yedekli olarak saklanır.\n\n%98 depository arşiv metoduyla yüksek sıkıştırma ve hızlı mobil erişim sağlar.\n\nKötü amaçlı kullanımlar için silinemez içerik özelliği vardır. İndirmeden görüntüleme sağlayabilirsiniz.\n\nTam metin aramayla yüzlerce defterleriniz içinde aradığınız kayda saniyeler içinde erişirsiniz.\n\nİndirmeden görüntüleme, kapalı, sorunlu olması ya da klasör yapınızın bozuk olması gibi nedenlerle yedeklenmemesi ya da eksik yedeklenmesi durumunda sürekli mail, sms uyarısı verir."
+      },
+      "why_edm_kep_hr": {
+        "title": "NEDEN EDM KEP İK",
+        "sections": [
+          {
+            "title": "E-BORDRO VE E-İHTAR TEBLİGATLARI BİR ARADA",
+            "description": "Personele ücret pusulası, zaman çizelgesi gibi e-bordro tebligatları dışında, çeşitli nedenlerle (işe geç kalma, kötü davranış, kurallara uymama, giyim kuşam aykırılığı gibi disiplin suçları nedeniyle) gönderilebilen ihtarlar, personellerden alınması gereken ibranameler, personele KVKK gibi kurumsal politikaların, uyulması gereken kuralların, görev tanımlarının, izin onaylarının, eğitim katılım bilgilerinin ve diğer yazıların tebligatları KEP üzerinden noter gücünde gönderilir. KEP iletiminden itibaren 7. günün sonuna aldım okudum anladım hükmü ile tam tebellüğ gerçekleşmiş olur. Personele yapılan söz konusu yazışmaların %100 yasal geçerliliği tüm davalarda mahkemeler tarafından onaylanmıştır. Tüm personellere ya da şube/departman/personel/ seçerek istenen tebliğ iletilebilir."
+          },
+          {
+            "title": "OTOMATİK İŞE ALIM SÜRECİ",
+            "description": "KEP İK Ürünümüz sayesinde işe alım süreçlerinde personellerden temin edilen evraklar OCR işlemine tabi tutularak personel özlük programında bilgilerin otomatik akışı ve tüm bu evrakların saklama işlemleri otomatik süreçlerle yönetilir.\n\nPersonellerin evraklarının E-Devletten otomatik alınmasını sağlar, geçerlilik tarihi kontrollerini yapar ve güncel tutar.\n\nİK tarafında personel evrakları ve tablosu onaylandığında personele otomatik olarak işe başlangıçta gönderilen tüm yönetmelik ve bilgilendirmeler KEP üzerinden gönderilerek tebliğ edilmiş olur."
+          },
+          {
+            "title": "DİJİTAL İK ARŞİVİ",
+            "description": "Personel özlük dosyasında bulunan tüm evraklar personel çalışma süresi boyunca ve personel ayrıldıktan sonra 10 yıl boyunca KEP-İK dijital arşiv sisteminde saklanır.\n\nİK KEP uygulamasında, Dijital Özlük Dosyası modülüne personellerin evrak yüklemesine olanak verir."
+          },
+          {
+            "title": "ÇOK DAHA HIZLI",
+            "description": "KEP gönderilerinde deliller en çok 5 saniye içinde oluşur ve 30 yıl saklanır. KEP iletileri en çok 2 dakika içerisinde gönderilir."
+          },
+          {
+            "title": "KOLTUK SAYISINA GÖRE ÜCRETLENDİRME",
+            "description": "İK KEP uygulamasında ücretlendirme koltuk sayısına dayalı çalışır. Yani, eklenen personelden işten çıkan personel düşülür ve koltuk sayısı paket üs sınırını geçmedikçe paket aşımı olmaz."
+          },
+          {
+            "title": "250 MB ALAN",
+            "description": "Personel KEP hesabı başına 250 MB alan tanımlanır. Şirket için ortalamada 3 yıllık ücret pusulası saklama alanı paket kapsamında sağlanır. Şirket, dilediği kadar ilave alan alarak daha fazla belge ve daha fazla süreyle belgeleri saklayabilir."
+          },
+          {
+            "title": "TÜM PROGRAMLARA ENTEGRE",
+            "description": "Tüm programlar ile entegre çalışır."
+          },
+          {
+            "title": "İÇİNDEN EYP UYUMLULUĞU İLE UETS ENTEGRE",
+            "description": "Türkiye’de tek içinden EYP tam uyumluluğu sayesinde; EDM sistemi üzerinden gelen UETS'ler tek tıkla açılıp, okunabilir ve otomatik cevap oluşturulabilir. Özellikle personele gelen hacizlerin tam otomatik süreçle; İcra Dairesi, İK Departmanı, Personel, Avukat ve UYAP arasında akışı sağlanır."
+          },
+          {
+            "title": "DOMAIN KORUMA",
+            "description": "İK EP uygulamasında, Şirket ve her bir Personel için ayrı uzantılı domainlerle KEP adresi açılır. Sistemimizde firma tarafından özel olarak istenilirse ancak firma adı içeren KEP adresi tanımlanmaktadır. KEP adresi kişiye özel tanımlandığında personelin işini sonlandırması durumunda daha sonra oluşturabilecek problemler için önerilmez."
+          },
+          {
+            "title": "EK DOSYALAR",
+            "description": "Ücret hesap pusulası gönderimi sırasında iletiye dosyalar eklenebiliyor ve her biri e-imza ile imzalanabiliyor."
+          },
+          {
+            "title": "GÖNDERİ BİLGİ SİSTEMİ",
+            "description": "Gönderim sırasında, Şirketin ilgili sorumlularının hesapları CC (Bilgi) tanılanabiliyor."
+          },
+          {
+            "title": "SINIRSIZ KULLANICI",
+            "description": "Kullanıcı sayısında kısıt yoktur."
+          }
+        ]
+      },
+      "cost_saving": {
+        "title": "KEP İK GEÇİŞ İLE TASARRUF – HESAP TABLOSU",
+        "image": "/images/cost-saving-kep-hr.jpg"
+      },
+      "references": {
+        "title": "REFERANSLAR",
+        "logos": [
+          "logo1.png",
+          "logo2.png",
+          "logo3.png",
+          "logo4.png",
+          "logo5.png",
+          "logo6.png",
+          "logo7.png",
+          "logo8.png",
+          "logo9.png",
+          "logo10.png",
+          "logo11.png",
+          "logo12.png"
+        ]
+      }
+    }
   }
+
   }
   

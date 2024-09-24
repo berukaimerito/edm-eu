@@ -9,8 +9,8 @@
       "title": "Hizmetlerimiz",
       "description": "Sunulan hizmetlerin açıklaması.",
       "e_invoices": "Elektronik Faturalar",
-      "e_receipt": "Elektronik Makbuzlar",
-      "e_consensus": "E-Onay",
+     "erm_hr": "Kayıtlı E-Posta İ.K.",
+     "e_reconciliation": "E-Mutabakat", 
       "cloud_backup": "Bulut Yedekleme",
       "e_document_management_system": "Elektronik Belge Yönetim Sistemi"
     },

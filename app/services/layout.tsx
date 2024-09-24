@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Sidebar from '../components/Sidebar/Sidebar';
-import { FiMenu, FiX } from 'react-icons/fi'; // Using react-icons for Menu and X icons
+import { FiMenu, FiX } from 'react-icons/fi';
 import { Transition } from '@headlessui/react';
 
 const ServicesLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -33,25 +33,21 @@ const ServicesLayout: React.FC<{ children: React.ReactNode }> = ({ children }) =
   }, [isDropdownOpen]);
 
   return (
-    <div className="flex">
-      {/* Sidebar for Desktop */}
-      <Sidebar />
-
-      {/* Main Content */}
-      <main className="flex-1 p-6 relative">
-        {/* Mobile Dropdown Menu */}
-        <div className="mb-4 md:hidden flex justify-end">
+    <>
+      {/* Mobile Menu Button */}
+      <div className="md:hidden bg-gray-50">
+        <div className="px-4 py-2 mt-2">
           <button
             onClick={toggleDropdown}
-            className="flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-md shadow-md hover:bg-gray-200 focus:outline-none"
+            className="w-full flex items-center px-4 py-2 bg-primary text-white rounded-md shadow-md hover:bg-secondary focus:outline-none"
             aria-label="Toggle Menu"
           >
-            <span className="mr-2">Menu</span>
             {isDropdownOpen ? (
-              <FiX className="h-5 w-5" />
+              <FiX className="h-5 w-5 mr-2" />
             ) : (
-              <FiMenu className="h-5 w-5" />
+              <FiMenu className="h-5 w-5 mr-2" />
             )}
+            <span>Menu</span>
           </button>
         </div>
 
@@ -59,25 +55,37 @@ const ServicesLayout: React.FC<{ children: React.ReactNode }> = ({ children }) =
         <Transition
           show={isDropdownOpen}
           enter="transition ease-out duration-200 transform"
-          enterFrom="opacity-0 translate-x-full"
-          enterTo="opacity-100 translate-x-0"
+          enterFrom="opacity-0 -translate-y-2"
+          enterTo="opacity-100 translate-y-0"
           leave="transition ease-in duration-150 transform"
-          leaveFrom="opacity-100 translate-x-0"
-          leaveTo="opacity-0 translate-x-full"
+          leaveFrom="opacity-100 translate-y-0"
+          leaveTo="opacity-0 -translate-y-2"
         >
           <div
             ref={dropdownRef}
-            className="absolute top-16 right-4 bg-white border border-gray-200 rounded-md shadow-lg w-11/12 max-w-sm z-40"
+            className="absolute top-20 left-4 right-4 bg-white border border-gray-200 rounded-md shadow-lg z-40"
           >
-            <ul className="py-2">
-              <Sidebar isMobile />
-            </ul>
+            <Sidebar isMobile />
           </div>
         </Transition>
+      </div>
 
-        {children}
-      </main>
-    </div>
+      {/* Main Content Container */}
+      <div className="bg-gray-50">
+        <div className="container mx-auto px-4 py-6 md:flex md:space-x-4">
+          {/* Sidebar for Desktop */}
+          <div className="hidden md:block md:w-1/4 lg:w-1/4">
+            <Sidebar />
+          </div>
+
+          {/* Page Content */}
+          <div className="md:w-3/4 lg:w-3/4 md:ml-4">
+            {children}
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
+
 export default ServicesLayout;
