@@ -1,32 +1,34 @@
 {
   "welcome": "Welcome to EDM EU Website",
   "description": "Your trusted partner for electronic invoicing solutions.",
+  "get_in_touch": "Get in Touch",
   "erpcloudy": {
     "title": "Corporate",
     "description": "Description for ERP Cloudy service."
   },
   "services": {
     "title": "Our Services",
-    "description": "Description of services offered.",
+    "description": "Explore the range of services we offer to streamline your business processes.",
     "e_invoices": "E-Invoices",
     "erm_hr": "H.R. Registered E-Mail",
     "e_reconciliation": "E-Reconciliation",
     "cloud_backup": "Cloud Backup",
     "e_document_management_system": "E-Document Management System"
   },
-"info": {
+  "info": {
     "title": "Information",
     "description": "General information about our company.",
     "location_name": "EDM Europe",
     "contact": {
       "heading": "Contact Information",
-      "address": "1234 EDM Street, Music City, USA",
-      "email": "contact@edmexample.com",
-      "phone": "+1 (234) 567-8901",
+      "address": "Marszałkowska 83/38, 00-683, Warsaw, Poland",
+      "email": "info@edm-technologies.pl",
+      "phone": "+48 22 123 4567",
       "send_message": "Send Us a Message",
       "form": {
         "name": "Name",
         "email": "Email",
+        "phone_number": "Phone",
         "message": "Message",
         "submit": "Send Message",
         "sending": "Sending...",
@@ -39,5 +41,112 @@
         "error": "Something went wrong. Please try again."
       }
     }
+  },
+  "divided_text_section": {
+    "items": [
+      {
+        "title": "Fits Your Program!",
+        "description": "With the privilege of EDM, which has agreements with over 750 ERP and accounting programs, the invoices, dispatches, receipts, and tickets you create within your ERP system and accounting program are automatically sent to the recipient. Your incoming invoices are automatically processed into the accounts and stocks of your ERP and accounting program and transferred to your consultant's program.",
+        "image_src": "/images/fits-your-program.png"
+      },
+      {
+        "title": "Meet Real Prices!",
+        "description": "EDM does not apply unethical, deceptive, or hidden tariffs under any name such as monthly fixed fees, annual fixed fees, updates, or quota overruns! Your remaining credits do not expire at the end of the month or year; they roll over for 5 years. E-Invoice portal activations are free.",
+        "image_src": "/images/real-prices.png"
+      },
+      {
+        "title": "Fast Installation and On-site Training!",
+        "description": "After you decide to work with EDM for e-Transformation, all necessary procedures are completely fulfilled by your EDM field representative. For services such as Registered Electronic Mail (REM) and Electronic Signature (e-signature) and Electronic Payroll, Payroll Slip, Time Sheet, Electronic Reconciliation, Electronic Notification, Electronic Warning provided based on these services, all application, activation, installation, and training processes are carried out at your location by your EDM field representative.",
+        "image_src": "/images/fast-installation.png"
+      },
+      {
+        "title": "Your Data Is in Safe Hands!",
+        "description": "Your e-Invoices, e-Dispatches, e-Ledgers, e-Receipts, e-Tickets, payrolls, payroll slips, time sheets, notifications, warnings, and reconciliations are securely stored in EDM systems for 10 years with 4 backups and 3DS encryption technology. You can access your invoices online at any time and perform operations such as resending, viewing, and obtaining PDF prints individually or in bulk.",
+        "image_src": "/images/data-safe-hands.png"
+      },
+      {
+        "title": "Attention on You 24/7!",
+        "description": "In addition to the sales and service field representatives assigned to you in every province and district, you have an expert customer representative at the EDM center, available 24/7, including one primary and one backup, specialized in all e-Transformation services. You can reach your representatives at any time via mobile phone and e-mail to receive instant service, and even during nights and official holidays, you are automatically transferred to our technical on-call center through these contact points.",
+        "image_src": "/images/attention-24-7.png"
+      },
+      {
+        "title": "Unrivaled, Superior Features, User-Friendly!",
+        "description": "EDM has the first and only technology in Turkey that can work independently of Java with all internet browsers and software and is fully compatible with the State Electronic Correspondence Protocol. EDM services are superior and user-friendly with hundreds of capabilities such as depot archive, process management, bulk invoice repetition, full-text search, intelligent VKN control, managing all connected taxpayers/services from a single platform, group company and branch management.",
+        "image_src": "/images/superior-features.png"
+      }
+    ]
+  },
+  "feature_rectangle": {
+    "title": "Electronic Invoice",
+    "description": "An electronic document that has the same legal characteristics as a paper invoice, sent and received by companies that have switched to electronic invoicing through the e-invoice system, and stored securely online for 10 years.",
+    "image_src": "/images/electronic-invoice.png"
+  },
+  "video_section": {
+    "video_url": "63S-3kMKaCE",
+    "title": "LET THE TRANSFORMATION BEGIN",
+    "description": "Get in touch now to start the transformation.",
+    "button_text": "Get a Quote",
+    "button_link": "/contact",
+    "additional_info": "Since 2010, we have been providing e-transformation services compliant with legal regulations with our strong capital structure, expert staff, two separate backup data center infrastructures in Istanbul and Ankara, information security, business continuity, and quality standards. With over 300 e-transformation centers and technical services throughout Turkey, we are the leading e-transformation expert in Turkey.",
+    "corporate_link_text": "EDM Corporate",
+    "corporate_link": "/organizational"
+  },
+  "advantages_section": {
+    "title": "ADVANTAGES OF E-TRANSFORMATION!",
+    "items": [
+      {
+        "title": "Minimizes Your Costs",
+        "description": "With services like e-Invoice, e-Ledger, e-Dispatch, e-Ticket, e-Professional Receipt, e-Producer Receipt, REM, e-Signature, e-Payroll, Payroll Slip, Time Sheet, e-Notification, e-Warning, and EBYS, you reduce your time and money costs like paper, printing, toner, cargo, and archiving to minimum levels.",
+        "image_src": "/images/minimize-costs.png"
+      },
+      {
+        "title": "Provides Legally Valid/Secure Storage and Online Access",
+        "description": "Your invoices are securely stored in EDM systems for 10 years with 4 backups and 3DS encryption technology. You can access your invoices online at any time throughout the year and perform operations such as resending, viewing, and obtaining PDF/printouts individually or in bulk.",
+        "image_src": "/images/secure-storage.png"
+      },
+      {
+        "title": "Accelerates Your Operations and Increases Efficiency",
+        "description": "By reducing your employees' operational processes, it allows your staff to operate in more efficient areas, eliminates errors from manual processes, and increases your company's efficiency.",
+        "image_src": "/images/accelerate-operations.png"
+      },
+      {
+        "title": "Protects Nature",
+        "description": "By moving your invoices and other documents to electronic media instead of papers for which millions of trees are cut down every year, you make a significant contribution to the protection of nature.",
+        "image_src": "/images/protect-nature.png"
+      },
+      {
+        "title": "Provides Instant and Reliable Document Flow",
+        "description": "All your documents reach their recipients instantly, fully, and accurately, electronically signed through your ERP and accounting program and EDM. The sender receives a legally first-degree valid confirmation that the document has been fully received by the recipient. The recipient is assured that the invoices received are fully accurate and 100% genuine.",
+        "image_src": "/images/reliable-document-flow.png"
+      },
+      {
+        "title": "Enhances Your Image",
+        "description": "Switching to e-Transformation services, especially e-Invoice, reinforces your image as a solid and reliable company that uses technology, is managed modernly, operates transparently, and conducts business in compliance with laws in the eyes of all your customers and business partners.",
+        "image_src": "/images/enhance-image.png"
+      },
+      {
+        "title": "Also;",
+        "description": "You gain countless other benefits such as fast reconciliation, fast cash flow, quick dispute resolution, compliance with international standards, and a suitable infrastructure for electronic internal and external audits.",
+        "image_src": "/images/additional-benefits.png"
+      }
+    ]
+  },
+  "testimonials_section": {
+    "left_text": {
+      "heading": "370,000+ HAPPY CUSTOMERS",
+      "description": "We operate with an understanding focused on customer satisfaction, striving to respond to our customers' needs and requests in the shortest time and most accurate way possible. We provide our services on time and under the promised conditions, approaching within the rules of respect, honor, justice, equality, and courtesy.",
+      "customer_videos_link_text": "Customer Satisfaction Videos",
+      "customer_videos_link": "/testimonials"
+    },
+    "testimonial": {
+      "quote": "We are using EDM's E-Invoice and E-Archive systems. We are quite satisfied with EDM systems. Its integration with the Voyage and Panorama programs we use has made our work much easier.",
+      "author": "Emre Baş",
+      "position": "Danışmaz Gıda - Düzce Cola Distributor"
+    }
+  },
+  "footer": {
+    "rights_reserved": "All rights reserved.",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service"
   }
 }

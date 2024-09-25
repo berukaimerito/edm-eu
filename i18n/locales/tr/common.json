@@ -1,44 +1,151 @@
 {
-    "welcome": "EDM EU Websitesine Hoş Geldiniz",
-    "description": "Elektronik faturalama çözümlerinin güvenilir ortağınız.",
-    "erpcloudy": {
-      "title": "Kurumsal",
-      "description": "ERP Cloudy hizmeti için açıklama."
-    },
-    "services": {
-      "title": "Hizmetlerimiz",
-      "description": "Sunulan hizmetlerin açıklaması.",
-      "e_invoices": "Elektronik Faturalar",
-     "erm_hr": "Kayıtlı E-Posta İ.K.",
-     "e_reconciliation": "E-Mutabakat", 
-      "cloud_backup": "Bulut Yedekleme",
-      "e_document_management_system": "Elektronik Belge Yönetim Sistemi"
-    },
-    "info": {
-      "title": "Bilgi",
-      "description": "Şirketimiz hakkında genel bilgiler.",
-      "location_name": "EDM Avrupa",
-      "contact": {
-        "heading": "İletişim Bilgileri",
-        "address": "1234 EDM Street, Music City, USA",
-        "email": "contact@edmexample.com",
-        "phone": "+1 (234) 567-8901",
-        "send_message": "Bize Mesaj Gönder",
-        "form": {
-          "name": "İsim",
-          "email": "E-posta",
-          "message": "Mesaj",
-          "submit": "Mesaj Gönder",
-          "sending": "Gönderiliyor...",
-          "placeholder": {
-            "name": "İsminiz",
-            "email": "sen@example.com",
-            "message": "Mesajınız buraya..."
-          },
-          "success": "Mesajınız başarıyla gönderildi!",
-          "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
-        }
+  "welcome": "EDM AB Web Sitesine Hoş Geldiniz",
+  "description": "Elektronik fatura çözümlerinde güvenilir ortağınız.",
+  "get_in_touch": "Bizimle İletişime Geçin",
+  "erpcloudy": {
+    "title": "Kurumsal",
+    "description": "ERP Cloudy hizmeti için açıklama."
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "description": "İş süreçlerinizi kolaylaştıran hizmetlerimizin kapsamını keşfedin.",
+    "e_invoices": "E-Faturalar",
+    "erm_hr": "Kayıtlı E-Posta H.R.",
+    "e_reconciliation": "E-Mutabakat",
+    "cloud_backup": "Bulut Yedekleme",
+    "e_document_management_system": "Elektronik Belge Yönetim Sistemi"
+  },
+  "info": {
+    "title": "Bilgi",
+    "description": "Şirketimiz hakkında genel bilgiler.",
+    "location_name": "EDM Avrupa",
+    "contact": {
+      "heading": "İletişim Bilgileri",
+      "address": "Marszałkowska 83/38, 00-683, Varşova, Polonya",
+      "email": "info@edm-technologies.pl",
+      "phone": "+48 22 123 4567",
+      "send_message": "Bize Mesaj Gönderin",
+      "form": {
+        "name": "Ad",
+        "email": "E-posta",
+        "message": "Mesaj",
+        "submit": "Mesaj Gönder",
+        "sending": "Gönderiliyor...",
+        "placeholder": {
+          "name": "Adınız",
+          "email": "sizin@example.com",
+          "message": "Mesajınız burada..."
+        },
+        "success": "Mesajınız başarıyla gönderildi!",
+        "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
       }
     }
+  },
+  "divided_text_section": {
+    "items": [
+      {
+        "title": "Programınıza Uygun!",
+        "description": "EDM’nin 750'den fazla ERP ve muhasebe programı ile yaptığı anlaşmalar sayesinde, ERP sisteminiz ve muhasebe programınızda oluşturduğunuz faturalar, irsaliyeler, makbuzlar ve biletler otomatik olarak alıcıya gönderilir. Gelen faturalarınız, ERP ve muhasebe programınızın hesaplarına ve stoklarına otomatik olarak işlenir ve danışmanınızın programına aktarılır.",
+        "image_src": "/images/fits-your-program.png"
+      },
+      {
+        "title": "Gerçek Fiyatlarla Tanışın!",
+        "description": "EDM, aylık sabit ücretler, yıllık sabit ücretler, güncellemeler veya kota aşımı gibi adlar altında etik olmayan, yanıltıcı veya gizli tarifeler uygulamaz! Kalan kredileriniz ay veya yıl sonunda sona ermez; 5 yıl boyunca geçerlidir. E-Fatura portalı aktivasyonları ücretsizdir.",
+        "image_src": "/images/real-prices.png"
+      },
+      {
+        "title": "Hızlı Kurulum ve Yerinde Eğitim!",
+        "description": "E-Dönüşüm için EDM ile çalışmaya karar verdikten sonra, gerekli tüm prosedürler EDM saha temsilciniz tarafından tamamen yerine getirilir. Kayıtlı Elektronik Posta (KEP), Elektronik İmza (e-imza), Elektronik Bordro, Bordro Slipi, Zaman Çizelgesi, Elektronik Mutabakat, Elektronik Bildirim, Elektronik Uyarı gibi hizmetler için tüm başvuru, aktivasyon, kurulum ve eğitim süreçleri EDM saha temsilciniz tarafından yerinizde gerçekleştirilir.",
+        "image_src": "/images/fast-installation.png"
+      },
+      {
+        "title": "Verileriniz Güvende!",
+        "description": "E-Faturalarınız, e-İrsaliyeleriniz, e-Defterleriniz, e-Makbuzlarınız, e-Biletleriniz, bordrolarınız, bordro slipleriniz, zaman çizelgeleriniz, bildirimleriniz, uyarılarınız ve mutabakatlarınız EDM sistemlerinde 4 yedek ve 3DS şifreleme teknolojisi ile 10 yıl boyunca güvenli bir şekilde saklanır. Faturalarınıza dilediğiniz zaman çevrimiçi olarak erişebilir, tek tek veya toplu olarak yeniden göndermek, görüntülemek ve PDF çıktıları almak gibi işlemler yapabilirsiniz.",
+        "image_src": "/images/data-safe-hands.png"
+      },
+      {
+        "title": "7/24 İlgi Sizde!",
+        "description": "Her il ve ilçede size atanan satış ve hizmet saha temsilcilerinin yanı sıra, EDM merkezinde size atanmış, tüm e-Dönüşüm hizmetlerinde uzman, birincil ve yedek olmak üzere iki uzman müşteri temsilcisi bulunur. Temsilcilerinize mobil telefon ve e-posta aracılığıyla her an ulaşabilir ve anında hizmet alabilirsiniz. Ayrıca, gece ve resmi tatillerde bile, bu iletişim noktaları üzerinden teknik çağrı merkezimize otomatik olarak yönlendirilirsiniz.",
+        "image_src": "/images/attention-24-7.png"
+      },
+      {
+        "title": "Eşsiz, Üstün Özellikler, Kullanıcı Dostu!",
+        "description": "EDM, Türkiye'de Java'dan bağımsız çalışabilen ve tüm internet tarayıcıları ve yazılımlarıyla uyumlu olan ilk ve tek teknolojiye sahiptir ve Devlet Elektronik Yazışma Protokolü ile tam uyumludur. Depo arşivi, süreç yönetimi, toplu fatura tekrarları, tam metin arama, akıllı VKN kontrolü, tüm bağlı mükellef/hizmetlerin tek bir platformdan yönetimi, grup şirketi ve şube yönetimi gibi yüzlerce yetenekle EDM hizmetleri üstün ve kullanıcı dostudur.",
+        "image_src": "/images/superior-features.png"
+      }
+    ]
+  },
+  "feature_rectangle": {
+    "title": "Elektronik Fatura",
+    "description": "Elektronik fatura sistemi üzerinden elektronik faturalamaya geçmiş şirketler tarafından gönderilen ve alınan, kağıt fatura ile aynı yasal özelliklere sahip elektronik bir belge olup, çevrimiçi ortamda 10 yıl boyunca güvenli bir şekilde saklanır.",
+    "image_src": "/images/electronic-invoice.png"
+  },
+  "video_section": {
+    "video_url": "63S-3kMKaCE", 
+    "title": "DÖNÜŞÜM BAŞLASIN",
+    "description": "Dönüşümü başlatmak için hemen bizimle iletişime geçin.",
+    "button_text": "Teklif Alın",
+    "button_link": "/contact",
+    "additional_info": "2010 yılından bu yana, güçlü sermaye yapımız, uzman kadromuz, İstanbul ve Ankara'da iki ayrı yedek veri merkezi altyapımız, bilgi güvenliği, iş sürekliliği ve kalite standartlarımız ile yasal düzenlemelere uygun olarak e-dönüşüm hizmetleri sunuyoruz. Türkiye genelinde 300'den fazla e-dönüşüm merkezi ve teknik hizmetlerimiz ile Türkiye'nin önde gelen e-dönüşüm uzmanıyız.",
+    "corporate_link_text": "EDM Kurumsal",
+    "corporate_link": "/organizational"
+  },
+  "advantages_section": {
+    "title": "E-DÖNÜŞÜMÜN AVANTAJLARI!",
+    "items": [
+      {
+        "title": "Maliyetlerinizi Minimuma İndirir",
+        "description": "E-Fatura, E-Defter, E-İrsaliye, E-Bilet, E-Mesleki Makbuz, E-Üretici Makbuzu, KEP, E-İmza, E-Bordro, Bordro Slipi, Zaman Çizelgesi, E-Bildirim, E-Uyarı ve EBYS gibi hizmetlerle kağıt, baskı, toner, kargo ve arşivleme gibi zaman ve para maliyetlerinizi minimum seviyelere düşürür.",
+        "image_src": "/images/minimize-costs.png"
+      },
+      {
+        "title": "Yasal Olarak Geçerli/Güvenli Depolama ve Çevrimiçi Erişim Sağlar",
+        "description": "Faturalarınız, 4 yedek ve 3DS şifreleme teknolojisi ile EDM sistemlerinde 10 yıl boyunca güvenli bir şekilde saklanır. Yıl boyunca faturalarınıza çevrimiçi olarak erişebilir ve bunları yeniden göndermek, görüntülemek ve PDF/çıktı almak gibi işlemleri tek tek veya toplu olarak gerçekleştirebilirsiniz.",
+        "image_src": "/images/secure-storage.png"
+      },
+      {
+        "title": "Operasyonlarınızı Hızlandırır ve Verimliliği Artırır",
+        "description": "Çalışanlarınızın operasyonel süreçlerini azaltarak, personelinizin daha verimli alanlarda faaliyet göstermesini sağlar, manuel süreçlerden kaynaklanan hataları ortadan kaldırır ve şirketinizin verimliliğini artırır.",
+        "image_src": "/images/accelerate-operations.png"
+      },
+      {
+        "title": "Doğayı Korur",
+        "description": "Her yıl milyonlarca ağacın kesildiği kağıtlar yerine faturalarınızı ve diğer belgelerinizi elektronik ortama taşıyarak doğanın korunmasına büyük katkı sağlarsınız.",
+        "image_src": "/images/protect-nature.png"
+      },
+      {
+        "title": "Anında ve Güvenilir Belge Akışı Sağlar",
+        "description": "Tüm belgeleriniz, ERP ve muhasebe programınız ve EDM aracılığıyla elektronik olarak imzalanarak alıcılarına anında, eksiksiz ve doğru bir şekilde ulaşır. Gönderici, belgenin alıcı tarafından tamamen alındığına dair yasal olarak birinci derece geçerli bir onay alır. Alıcı, aldığı faturaların tamamen doğru ve %100 orijinal olduğundan emin olur.",
+        "image_src": "/images/reliable-document-flow.png"
+      },
+      {
+        "title": "İmajınızı Güçlendirir",
+        "description": "Özellikle E-Fatura olmak üzere e-Dönüşüm hizmetlerine geçiş, tüm müşterilerinizin ve iş ortaklarınızın gözünde, teknolojiyi kullanan, modern yönetilen, şeffaf faaliyet gösteren ve yasalara uygun iş yapan sağlam ve güvenilir bir şirket imajınızı güçlendirir.",
+        "image_src": "/images/enhance-image.png"
+      },
+      {
+        "title": "Ayrıca;",
+        "description": "Hızlı mutabakat, hızlı nakit akışı, hızlı uyuşmazlık çözümü, uluslararası standartlara uygunluk ve elektronik iç ve dış denetimler için uygun altyapı gibi sayısız başka avantajlar elde edersiniz.",
+        "image_src": "/images/additional-benefits.png"
+      }
+    ]
+  },
+  "testimonials_section": {
+    "left_text": {
+      "heading": "370.000'İN ÜZERİNDE MUTLU MÜŞTERİ",
+      "description": "Müşteri memnuniyetine odaklanan bir anlayışla çalışıyoruz, müşterilerimizin ihtiyaç ve taleplerine en kısa sürede ve en doğru şekilde yanıt vermeye çalışıyoruz. Hizmetlerimizi zamanında ve vaat edilen şartlar altında sunarak, saygı, onur, adalet, eşitlik ve nezaket kuralları çerçevesinde yaklaşıyoruz.",
+      "customer_videos_link_text": "Müşteri Memnuniyeti Videoları",
+      "customer_videos_link": "/testimonials"
+    },
+    "testimonial": {
+      "quote": "EDM'nin E-Fatura ve E-Arşiv sistemlerini kullanıyoruz. EDM sistemlerinden oldukça memnunuz. Kullandığımız Voyage ve Panorama programları ile entegrasyonu işimizi çok daha kolay hale getirdi.",
+      "author": "Emre Baş",
+      "position": "Danışmaz Gıda - Düzce Cola Distribütörü"
+    }
+  },
+  "footer": {
+    "rights_reserved": "Tüm hakları saklıdır.",
+    "privacy_policy": "Gizlilik Politikası",
+    "terms_of_service": "Hizmet Şartları"
   }
-  
+}

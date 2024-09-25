@@ -63,18 +63,22 @@
     },
     "subpages": {
       "kep_registered_e_mail": {
+        "slug": "rem",
         "title": "REM: Registered Electronic Mail",
         "description": "Using registered electronic mail (REM) ensures that the notifications sent are legally recognized. If your partners do not contest the notifications within 5 days, they will be considered accepted with an electronic signature."
       },
       "corporate_mail_reconciliation": {
+        "slug": "corp-rem",
         "title": "Corporate Mail Reconciliation",
         "description": "It is an EDM application that enables conducting accounting and current reconciliations online with partners, dealers, suppliers, and all other business partners. The application not only checks if the reconciliation is accepted but also identifies differences in current balances and reports them to the parties. It is fully integrated with all accounting programs. According to the notification law, an email response sent from a company's official servers is legally binding like a traditional stamp and signature."
       },
       "kep_reconciliation": {
+        "slug": "rem-conciliation",
         "title": "Corporate Mail Registiration Reconciliation",
         "description": "Thanks to EDM's E-Reconcilation product, you can send reconciliation links to your partners' ERM addresses, making your E-Mutabakat reconciliations legally valid without needing a first-degree court judgment. EDM has launched E-Mutabakat packages to offer the most economical level of ERM-based sending."
       },
       "who_can_use": {
+        "slug": "stakeholders",
         "title": "Who Can Switch to E-Reconciliation?",
         "description": "All companies with a large number of partners, dealers, suppliers, and business partners who want to save time and money, reduce archiving costs, and free themselves from operational workforce can switch to E-Reoncilation.",
         "list": [
@@ -84,14 +88,17 @@
         ]
       },
       "why_edm_e_consensus": {
+        "slug": "why-edm-rem",
         "title": "Why EDM E-Reconciliation",
         "description": "EDM E-Reconciliation offers an integrated and secure solution for managing financial reconciliations, reducing audit times, and improving operational efficiency."
       },
       "is_mandatory": {
+        "slug": "is-mandatory",
         "title": "Is E-Reconciliation Mandatory?",
         "description": "E-Mutabakat is not mandatory. It can be adopted on a voluntary basis."
       },
       "leading_sectors": {
+        "slug": "leading-sectors",
         "title": "Leading Sectors Using EDM E-Reonciliation",
         "list": [
           "Companies working with dealer structures",
@@ -225,9 +232,9 @@
   },
   "registered_mail_hr": {
     "slug": "registered-mail-hr",
-    "title": "Registered Mail HR (Personnel KEP Applications)",
+    "title": "Registered Mail HR (Personnel ERM Applications)",
     "youtube_embed": "uhjdzYlW2Ao", 
-    "description": "KEP HR (Personnel KEP Applications) is a system where payslips, wage slips, time sheets, and personnel notifications are delivered electronically in a legally valid and secure manner over KEP (Registered Electronic Mail) emails to company employees.",
+    "description": "ERM HR (Personnel ERM Applications) is a system where payslips, wage slips, time sheets, and personnel notifications are delivered electronically in a legally valid and secure manner over KEP (Registered Electronic Mail) emails to company employees.",
     "sections": {
       "e_payslip": {
         "title": "E-PAYSLIP",
@@ -260,7 +267,7 @@
         ]
       },
       "who_can_switch": {
-        "title": "WHO CAN SWITCH TO KEP HR APPLICATION?",
+        "title": "WHO CAN SWITCH TO ERM HR APPLICATION?",
         "description": "All public institutions and organizations that have many employees or operate in multiple locations, want to save time in tracking payslips, wage slips, time sheets, and personnel notifications, and want to minimize archiving costs can switch to E-Payslip."
       },
       "backup_of_personnel_files": {
@@ -276,7 +283,7 @@
           },
           {
             "title": "AUTOMATIC RECRUITMENT PROCESS",
-            "description": "Thanks to our KEP HR Product, documents obtained from personnel in recruitment processes are subjected to OCR processing, and information flows automatically in the personnel program, and all these document storage processes are managed with automatic processes.\n\nProvides automatic retrieval of personnel documents from E-Government, checks validity dates, and keeps them up to date.\n\nWhen personnel documents and tables are approved on the HR side, all regulations and notifications sent automatically to the personnel at the start of work are sent via KEP and notified."
+            "description": "Thanks to our ERM HR Product, documents obtained from personnel in recruitment processes are subjected to OCR processing, and information flows automatically in the personnel program, and all these document storage processes are managed with automatic processes.\n\nProvides automatic retrieval of personnel documents from E-Government, checks validity dates, and keeps them up to date.\n\nWhen personnel documents and tables are approved on the HR side, all regulations and notifications sent automatically to the personnel at the start of work are sent via KEP and notified."
           },
           {
             "title": "DIGITAL HR ARCHIVE",

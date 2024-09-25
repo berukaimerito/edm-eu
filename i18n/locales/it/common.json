@@ -1,43 +1,152 @@
 {
-  "welcome": "Benvenuto nel sito di EDM EU",
-  "description": "Il tuo partner fidato per soluzioni di fatturazione elettronica.",
+  "welcome": "Benvenuto nel sito EDM EU",
+  "description": "Il tuo partner di fiducia per le soluzioni di fatturazione elettronica.",
+  "get_in_touch": "Contattaci",
   "erpcloudy": {
-    "title": "Corporativo",
-    "description": "Descrizione del servizio ERP Cloudy."
+    "title": "Corporate",
+    "description": "Descrizione per il servizio ERP Cloudy."
   },
   "services": {
     "title": "I Nostri Servizi",
-    "description": "Descrizione dei servizi offerti.",
+    "description": "Esplora la gamma di servizi che offriamo per ottimizzare i processi aziendali.",
     "e_invoices": "Fatture Elettroniche",
-     "erm_hr": "R.U. Posta Elettronica Registrata",
-  "e_reconciliation": "E-Riconciliazione",
+    "erm_hr": "E-Mail Registrata H.R.",
+    "e_reconciliation": "Riconciliazione Elettronica",
     "cloud_backup": "Backup Cloud",
     "e_document_management_system": "Sistema di Gestione Documentale Elettronico"
   },
   "info": {
     "title": "Informazioni",
     "description": "Informazioni generali sulla nostra azienda.",
-    "location_name": "EDM Europa",
+    "location_name": "EDM Europe",
     "contact": {
       "heading": "Informazioni di Contatto",
-      "address": "1234 EDM Street, Music City, USA",
-      "email": "contact@edmexample.com",
-      "phone": "+1 (234) 567-8901",
-      "send_message": "Invia un Messaggio",
+      "address": "Marszałkowska 83/38, 00-683, Varsavia, Polonia",
+      "email": "info@edm-technologies.pl",
+      "phone": "+48 22 123 4567",
+      "send_message": "Inviaci un Messaggio",
       "form": {
         "name": "Nome",
         "email": "Email",
+        "phone_number": "Phone",
         "message": "Messaggio",
         "submit": "Invia Messaggio",
         "sending": "Invio in corso...",
         "placeholder": {
-          "name": "Il tuo Nome",
-          "email": "tu@example.com",
+          "name": "Il tuo nome",
+          "email": "tuo@example.com",
           "message": "Il tuo messaggio qui..."
         },
         "success": "Il tuo messaggio è stato inviato con successo!",
-        "error": "Qualcosa è andato storto. Per favore riprova."
+        "error": "Qualcosa è andato storto. Riprova, per favore."
       }
     }
+  },
+  "divided_text_section": {
+    "items": [
+      {
+        "title": "Adatto al Tuo Programma!",
+        "description": "Con il privilegio di EDM, che ha accordi con oltre 750 programmi ERP e di contabilità, le fatture, i bollettini, le ricevute e i biglietti che crei all'interno del tuo sistema ERP e programma di contabilità vengono automaticamente inviati al destinatario. Le fatture in arrivo vengono automaticamente elaborate nei conti e negli stock del tuo programma ERP e di contabilità e trasferite al programma del tuo consulente.",
+        "image_src": "/images/fits-your-program.png"
+      },
+      {
+        "title": "Incontra Prezzi Reali!",
+        "description": "EDM non applica tariffe non etiche, ingannevoli o nascoste sotto nessun nome, come canoni fissi mensili, canoni fissi annuali, aggiornamenti o superamento della quota! I tuoi crediti residui non scadono alla fine del mese o dell'anno; sono validi per 5 anni. Le attivazioni del portale Fattura Elettronica sono gratuite.",
+        "image_src": "/images/real-prices.png"
+      },
+      {
+        "title": "Installazione Rapida e Formazione in Sede!",
+        "description": "Dopo aver deciso di collaborare con EDM per la e-Trasformazione, tutte le procedure necessarie vengono completamente espletate dal tuo rappresentante EDM sul campo. Per servizi come Posta Elettronica Certificata (PEC), Firma Elettronica (e-firma) e Cedolini Elettronici, tutte le applicazioni, attivazioni, installazioni e i processi di formazione vengono eseguiti presso la tua sede dal tuo rappresentante EDM sul campo.",
+        "image_src": "/images/fast-installation.png"
+      },
+      {
+        "title": "I Tuoi Dati Sono in Mani Sicure!",
+        "description": "Le tue fatture elettroniche, i bollettini elettronici, i registri elettronici, le ricevute elettroniche, i biglietti elettronici, i cedolini paga, i fogli di presenza, le notifiche, gli avvisi e le riconciliazioni sono conservati in modo sicuro nei sistemi EDM per 10 anni con 4 backup e tecnologia di crittografia 3DS. Puoi accedere alle tue fatture online in qualsiasi momento e svolgere operazioni come il reinvio, la visualizzazione e l'ottenimento delle stampe PDF singolarmente o in blocco.",
+        "image_src": "/images/data-safe-hands.png"
+      },
+      {
+        "title": "Attenzione Su Di Te 24/7!",
+        "description": "Oltre ai rappresentanti di vendita e servizio sul campo assegnati a te in ogni provincia e distretto, hai un rappresentante del servizio clienti esperto presso il centro EDM, disponibile 24/7, incluso uno principale e uno di backup, specializzato in tutti i servizi di e-Trasformazione. Puoi raggiungere i tuoi rappresentanti in qualsiasi momento tramite telefono cellulare e e-mail per ricevere un servizio istantaneo, e anche durante la notte e nei giorni festivi ufficiali, vieni automaticamente trasferito al nostro centro di assistenza tecnica di turno attraverso questi punti di contatto.",
+        "image_src": "/images/attention-24-7.png"
+      },
+      {
+        "title": "Caratteristiche Superiori e Senza Rivali, Facili da Usare!",
+        "description": "EDM ha la prima e unica tecnologia in Turchia che può funzionare indipendentemente da Java con tutti i browser e software internet ed è completamente compatibile con il Protocollo di Corrispondenza Elettronica dello Stato. I servizi EDM sono superiori e facili da usare con centinaia di capacità come l'archivio del deposito, la gestione dei processi, la ripetizione delle fatture in massa, la ricerca full-text, il controllo intelligente del VKN, la gestione di tutti i contribuenti/servizi collegati da un'unica piattaforma, la gestione di società di gruppo e filiali.",
+        "image_src": "/images/superior-features.png"
+      }
+    ]
+  },
+  "feature_rectangle": {
+    "title": "Fattura Elettronica",
+    "description": "Un documento elettronico che ha le stesse caratteristiche legali di una fattura cartacea, inviato e ricevuto da aziende che sono passate alla fatturazione elettronica attraverso il sistema di fattura elettronica, e conservato in modo sicuro online per 10 anni.",
+    "image_src": "/images/electronic-invoice.png"
+  },
+  "video_section": {
+    "video_url": "63S-3kMKaCE",
+    "title": "CHE LA TRASFORMAZIONE ABBIA INIZIO",
+    "description": "Contattaci ora per iniziare la trasformazione.",
+    "button_text": "Richiedi un Preventivo",
+    "button_link": "/contact",
+    "additional_info": "Dal 2010, forniamo servizi di e-trasformazione conformi alle normative legali con la nostra solida struttura di capitale, personale esperto, due diverse infrastrutture di data center di backup a Istanbul e Ankara, sicurezza delle informazioni, continuità aziendale e standard di qualità. Con oltre 300 centri di e-trasformazione e servizi tecnici in tutta la Turchia, siamo il principale esperto di e-trasformazione in Turchia.",
+    "corporate_link_text": "EDM Corporate",
+    "corporate_link": "/organizational"
+  },
+  "advantages_section": {
+    "title": "VANTAGGI DELLA E-TRASFORMAZIONE!",
+    "items": [
+      {
+        "title": "Minimizza i Tuoi Costi",
+        "description": "Con servizi come Fattura Elettronica, Registro Elettronico, Bollettino Elettronico, Biglietto Elettronico, Ricevuta Professionale Elettronica, Ricevuta del Produttore Elettronica, PEC, Firma Elettronica, Cedolino Elettronico, Foglio di Presenza, Notifica Elettronica, Avviso Elettronico e EBYS, riduci i costi di tempo e denaro come carta, stampa, toner, spedizione e archiviazione ai livelli minimi.",
+        "image_src": "/images/minimize-costs.png"
+      },
+      {
+        "title": "Fornisce Archiviazione Legalmente Valida e Sicura e Accesso Online",
+        "description": "Le tue fatture sono conservate in modo sicuro nei sistemi EDM per 10 anni con 4 backup e tecnologia di crittografia 3DS. Puoi accedere alle tue fatture online in qualsiasi momento durante l'anno e svolgere operazioni come il reinvio, la visualizzazione e l'ottenimento di stampe PDF individualmente o in blocco.",
+        "image_src": "/images/secure-storage.png"
+      },
+      {
+        "title": "Accelera le Tue Operazioni e Aumenta l'Efficienza",
+        "description": "Riducendo i processi operativi dei tuoi dipendenti, consente al tuo personale di operare in aree più efficienti, elimina gli errori dovuti ai processi manuali e aumenta l'efficienza della tua azienda.",
+        "image_src": "/images/accelerate-operations.png"
+      },
+      {
+        "title": "Protegge la Natura",
+        "description": "Spostando le tue fatture e altri documenti su supporti elettronici invece della carta per cui ogni anno vengono abbattuti milioni di alberi, dai un contributo significativo alla protezione della natura.",
+        "image_src": "/images/protect-nature.png"
+      },
+      {
+        "title": "Fornisce un Flusso di Documenti Istantaneo e Affidabile",
+        "description": "Tutti i tuoi documenti raggiungono i destinatari istantaneamente, completamente e accuratamente, firmati elettronicamente attraverso il tuo programma ERP e EDM. Il mittente riceve una conferma legalmente valida di primo grado che il documento è stato completamente ricevuto dal destinatario. Il destinatario è assicurato che le fatture ricevute siano completamente accurate e autentiche al 100%.",
+        "image_src": "/images/reliable-document-flow.png"
+      },
+      {
+        "title": "Migliora la Tua Immagine",
+        "description": "Il passaggio ai servizi di e-Trasformazione, in particolare alla Fattura Elettronica, rafforza la tua immagine come azienda solida e affidabile che utilizza la tecnologia, gestita in modo moderno, trasparente e conforme alle leggi agli occhi di tutti i tuoi clienti e partner commerciali.",
+        "image_src": "/images/enhance-image.png"
+      },
+      {
+        "title": "Inoltre;",
+        "description": "Ottieni innumerevoli altri benefici come riconciliazione veloce, flusso di cassa rapido, risoluzione rapida delle controversie, conformità agli standard internazionali e un'infrastruttura adatta per audit interni ed esterni elettronici.",
+        "image_src": "/images/additional-benefits.png"
+      }
+    ]
+  },
+  "testimonials_section": {
+    "left_text": {
+      "heading": "370,000+ CLIENTI SODDISFATTI",
+      "description": "Operiamo con una comprensione focalizzata sulla soddisfazione del cliente, sforzandoci di rispondere alle esigenze e richieste dei nostri clienti nel minor tempo possibile e nel modo più accurato possibile. Forniamo i nostri servizi puntualmente e alle condizioni promesse, avvicinandoci all'interno delle regole di rispetto, onore, giustizia, uguaglianza e cortesia.",
+      "customer_videos_link_text": "Video di Soddisfazione del Cliente",
+      "customer_videos_link": "/testimonials"
+    },
+    "testimonial": {
+      "quote": "Utilizziamo i sistemi di Fattura Elettronica e Archivio Elettronico di EDM. Siamo molto soddisfatti dei sistemi EDM. La sua integrazione con i programmi Voyage e Panorama che utilizziamo ha reso il nostro lavoro molto più semplice.",
+      "author": "Emre Baş",
+      "position": "Danışmaz Gıda - Distributore di Düzce Cola"
+    }
+  },
+  "footer": {
+    "rights_reserved": "Tutti i diritti riservati.",
+    "privacy_policy": "Informativa sulla Privacy",
+    "terms_of_service": "Termini di Servizio"
   }
 }

@@ -1,4 +1,3 @@
-// app/services/layout.tsx
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
@@ -18,6 +17,10 @@ const ServicesLayout: React.FC<{ children: React.ReactNode }> = ({ children }) =
     if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
       setIsDropdownOpen(false);
     }
+  };
+
+  const handleMenuItemClick = () => {
+    setIsDropdownOpen(false);
   };
 
   useEffect(() => {
@@ -55,17 +58,17 @@ const ServicesLayout: React.FC<{ children: React.ReactNode }> = ({ children }) =
         <Transition
           show={isDropdownOpen}
           enter="transition ease-out duration-200 transform"
-          enterFrom="opacity-0 -translate-y-2"
-          enterTo="opacity-100 translate-y-0"
+          enterFrom="opacity-0 scale-95"
+          enterTo="opacity-100 scale-100"
           leave="transition ease-in duration-150 transform"
-          leaveFrom="opacity-100 translate-y-0"
-          leaveTo="opacity-0 -translate-y-2"
+          leaveFrom="opacity-100 scale-100"
+          leaveTo="opacity-0 scale-95"
         >
           <div
             ref={dropdownRef}
-            className="absolute top-20 left-4 right-4 bg-white border border-gray-200 rounded-md shadow-lg z-40"
+            className="absolute top-20 left-0 right-0 bg-white border border-gray-200 rounded-b-md shadow-lg z-40"
           >
-            <Sidebar isMobile />
+            <Sidebar isMobile onLinkClick={handleMenuItemClick} />
           </div>
         </Transition>
       </div>

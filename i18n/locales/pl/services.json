@@ -1,41 +1,41 @@
 {
-  "name": "Services",
-    "cloud_backup": {
-      "title": "Backup w chmurze",
-      "slug": "cloud-backup",
-      "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
-      "description": "To usługa EDM, która współpracuje z programami ERP, wykonując kopie zapasowe wszystkich Twoich danych oraz skanowanych kopii dokumentów prawnych w bezpieczny i bezproblemowy sposób z dostępem online i zaawansowanym zabezpieczeniem.",
-      "benefits": {
-        "why_edm_cloud_backup": "DLACZEGO BACKUP W CHMURZE EDM?",
-        "immediate_access": "NATYCHMIASTOWY DOSTĘP, ŁATWE UŻYWANIE",
-        "immediate_access_description": "Możesz przechowywać wszystkie dokumenty w bezpiecznym środowisku, uzyskać dostęp do danych 24/7 z dowolnego miejsca, przesyłać dane w dowolnym momencie. Metoda archiwizacji depozytu 98% zapewnia wysoką kompresję i szybki dostęp mobilny.",
-        "timly_backup": "BACKUP W DOGODNYM CZASIE",
-        "timly_backup_description": "Zapewnia online inkrementalne lub zaplanowane kopie zapasowe zgodnie z Twoimi potrzebami.",
-        "simple_interface": "PROSTY INTERFEJS",
-        "simple_interface_description": "Prosty interfejs nie męczy Cię, oferując łatwe użycie, aby przyspieszyć Twoje operacje.",
-        "secure_storage": "BEZPIECZNE PRZECHOWYWANIE",
-        "secure_storage_description": "Przechowywane na serwerach o wysokim poziomie bezpieczeństwa i certyfikatach ISO, z 4 kopiami zapasowymi w Stambule i Ankarze.",
-        "automatic_backup": "CAŁKOWICIE AUTOMATYCZNY W DOGODNYM CZASIE",
-        "automatic_backup_description": "Wszystkie Twoje dane i bazy danych w dowolnym formacie na komputerze lub serwerze, w tym klucze szyfrowania, są automatycznie zapisywane w dowolnym momencie dnia.",
-        "minimum_internet_usage": "MINIMALNE UŻYCIE INTERNETU",
-        "minimum_internet_usage_description": "Podczas tworzenia kopii zapasowych Twoich danych, tylko zmienione części są pobierane za pomocą systemu 'Inteligentnego Backupu', utrzymując zużycie internetu na minimalnym poziomie.",
-        "advantages": "BACKUP W CHMURZE I ZALETY",
-        "advantages_description": "Jeśli zakupisz usługę Backup w chmurze EDM, na przykład doradcy podatkowi mogą wykonywać kopie zapasowe swojej księgowości, prawnicy mogą wykonywać kopie zapasowe wszystkich swoich dokumentów i danych, a bazy danych i programy (Windows, SQL, Oracle itp.) w bezpieczny sposób.\n\nMożesz uzyskać wszystkie wymienione powyżej usługi w sposób zintegrowany od EDM Bilişim z jedną nazwą użytkownika i jednym hasłem do dostępu online.",
-        "who_should_use": "KTO POWINIEN UŻYWAĆ BACKUPU W CHMURZE?",
-        "who_should_use_list": [
-          "Każda firma i wolny zawodowiec, którzy chcą wykonywać kopie zapasowe swojej bazy danych i ważnych folderów online",
-          "Doradcy podatkowi",
-          "Prawnicy",
-          "Biura inżynierskie",
-          "Badania lekarskie",
-          "Podatnicy obowiązani do e-faktury",
-          "Podatnicy obowiązani do e-archiwum faktury"
-        ]
-      }
-    },
-    "e_consensus": {
-      "slug": "e-reconciliation",
-    "title": "E-Mutabakat",
+  "name": "Usługi",
+  "cloud_backup": {
+    "title": "Backup w chmurze",
+    "slug": "cloud-backup",
+    "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
+    "description": "To usługa EDM, która współpracuje z programami ERP, wykonując kopie zapasowe wszystkich Twoich danych oraz skanowanych kopii dokumentów prawnych w bezpieczny i bezproblemowy sposób z dostępem online i zaawansowanym zabezpieczeniem.",
+    "benefits": {
+      "why_edm_cloud_backup": "DLACZEGO BACKUP W CHMURZE EDM?",
+      "immediate_access": "NATYCHMIASTOWY DOSTĘP, ŁATWE UŻYWANIE",
+      "immediate_access_description": "Możesz przechowywać wszystkie dokumenty w bezpiecznym środowisku, uzyskać dostęp do danych 24/7 z dowolnego miejsca, przesyłać dane w dowolnym momencie. Metoda archiwizacji depozytu 98% zapewnia wysoką kompresję i szybki dostęp mobilny.",
+      "timly_backup": "BACKUP W DOGODNYM CZASIE",
+      "timly_backup_description": "Zapewnia online inkrementalne lub zaplanowane kopie zapasowe zgodnie z Twoimi potrzebami.",
+      "simple_interface": "PROSTY INTERFEJS",
+      "simple_interface_description": "Prosty interfejs nie męczy Cię, oferując łatwe użycie, aby przyspieszyć Twoje operacje.",
+      "secure_storage": "BEZPIECZNE PRZECHOWYWANIE",
+      "secure_storage_description": "Przechowywane na serwerach o wysokim poziomie bezpieczeństwa i certyfikatach ISO, z 4 kopiami zapasowymi w Stambule i Ankarze.",
+      "automatic_backup": "CAŁKOWICIE AUTOMATYCZNY W DOGODNYM CZASIE",
+      "automatic_backup_description": "Wszystkie Twoje dane i bazy danych w dowolnym formacie na komputerze lub serwerze, w tym klucze szyfrowania, są automatycznie zapisywane w dowolnym momencie dnia.",
+      "minimum_internet_usage": "MINIMALNE UŻYCIE INTERNETU",
+      "minimum_internet_usage_description": "Podczas tworzenia kopii zapasowych Twoich danych, tylko zmienione części są pobierane za pomocą systemu 'Inteligentnego Backupu', utrzymując zużycie internetu na minimalnym poziomie.",
+      "advantages": "BACKUP W CHMURZE I ZALETY",
+      "advantages_description": "Jeśli zakupisz usługę Backup w chmurze EDM, na przykład doradcy podatkowi mogą wykonywać kopie zapasowe swojej księgowości, prawnicy mogą wykonywać kopie zapasowe wszystkich swoich dokumentów i danych, a bazy danych i programy (Windows, SQL, Oracle itp.) w bezpieczny sposób.\n\nMożesz uzyskać wszystkie wymienione powyżej usługi w sposób zintegrowany od EDM Bilişim z jedną nazwą użytkownika i jednym hasłem do dostępu online.",
+      "who_should_use": "KTO POWINIEN UŻYWAĆ BACKUPU W CHMURZE?",
+      "who_should_use_list": [
+        "Każda firma i wolny zawodowiec, którzy chcą wykonywać kopie zapasowe swojej bazy danych i ważnych folderów online",
+        "Doradcy podatkowi",
+        "Prawnicy",
+        "Biura inżynierskie",
+        "Badania lekarskie",
+        "Podatnicy obowiązani do e-faktury",
+        "Podatnicy obowiązani do e-archiwum faktury"
+      ]
+    }
+  },
+  "e_consensus": {
+    "slug": "e-reconciliation",
+    "title": "E-Reconciliation",
     "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
     "description": "Oznacza to prawne i ważne przekazywanie wszystkich uzgodnień BA-BS, rachunków bieżących, potrąceń i faktur wszystkich dostawców i klientów firm za pomocą środowiska mailowego lub systemu KEP.",
     "benefits": {
@@ -63,7 +63,7 @@
     },
     "subpages": {
       "kep_registered_e_mail": {
-        "title": "KEP: Zarejestrowana Pocztą Elektroniczną",
+        "title": "REM: Zarejestrowana Pocztą Elektroniczną",
         "description": "Wykorzystanie zarejestrowanej poczty elektronicznej (KEP) gwarantuje, że wysłane powiadomienia są prawnie uznawane. Jeśli twoi partnerzy nie zgłoszą sprzeciwu wobec powiadomień w ciągu 5 dni, będą one uznane za zaakceptowane z podpisem elektronicznym."
       },
       "corporate_mail_reconciliation": {
@@ -102,17 +102,17 @@
     }
   },
   "e_document_management_system": {
-    "slug": "e-docuement-management-system",
-    "title": "System Zarządzania Dokumentami Elektronicznymi (EBYS)",
-    "youtube_embed": "https://youtu.be/XLuzI_kc8oM",
+    "slug": "e-document-management-system",
+    "title": "System Zarządzania Dokumentami Elektronicznymi (SZDE)",
+    "youtube_embed": "XLuzI_kc8oM",
     "description": "System Zarządzania Dokumentami Elektronicznymi to system, który pozwala organizacjom archiwizować i zarządzać wszystkimi rodzajami dokumentacji tworzonej podczas ich działalności, od produkcji po ostateczne usunięcie. W przeciwieństwie do standardowego EBYS, EDM EBYS to nie tylko archiwum czy oprogramowanie procesowe. Jest to pakiet rozwiązań, który można dostosować do potrzeb. Ten pakiet jest inteligencją biznesową, która zarządza interakcją z klientami.",
     "benefits": {
       "what_can_be_done_with_ebys": {
-        "title": "CO MOŻNA ZROBIĆ Z EBYS?",
-        "description": "EBYS może łączyć się z istniejącymi źródłami danych; organizacje mogą łączyć się ze wszystkimi istniejącymi źródłami danych (SAP, New Frame, media społecznościowe, drukarka, skaner, telefon itp.), aby tworzyć i przetwarzać dokumenty od podstaw w dowolnym momencie. Może monitorować źródła danych; może nasłuchiwać przetwarzanych źródeł danych poprzez email, fax, SMS, kanały mediów społecznościowych takie jak Twitter, Facebook oraz współpracować z systemami ankietowymi, systemami zarządzania kampaniami."
+        "title": "CO MOŻNA ZROBIĆ Z SZDE?",
+        "description": "SZDE może łączyć się z istniejącymi źródłami danych; organizacje mogą łączyć się ze wszystkimi istniejącymi źródłami danych (SAP, New Frame, media społecznościowe, drukarka, skaner, telefon itp.), aby tworzyć i przetwarzać dokumenty od podstaw w dowolnym momencie. Może monitorować źródła danych; może nasłuchiwać przetwarzanych źródeł danych poprzez email, fax, SMS, kanały mediów społecznościowych takie jak Twitter, Facebook oraz współpracować z systemami ankietowymi, systemami zarządzania kampaniami."
       },
       "basic_functions": {
-        "title": "PODSTAWOWE FUNKCJE EBYS",
+        "title": "PODSTAWOWE FUNKCJE SZDE",
         "description": "Dostęp do systemu z urządzeń mobilnych i dowolnej lokalizacji za pomocą interfejsu webowego. Elastyczna praca z interfejsami HTML 5, Ajax, infrastrukturą oprogramowania Dotnet 4.0, WCF. Pełna integracja z automatyzacją procesów biznesowych."
       },
       "indexing": {
@@ -136,7 +136,7 @@
         "description": "Szybka digitalizacja dokumentów na media elektroniczne. Łatwe klasyfikowanie dokumentów. Integracja z zarządzaniem dokumentami i wszystkimi innymi operacyjnymi przepływami pracy. Zwiększa efektywność personelu i mierzy wydajność. Zapobiega niestandardowej skanowaniu i tworzeniu dokumentów. Integracja z szybkimi skanerami. Funkcja poprawy obrazu. Funkcja pełnotekstowego wyszukiwania i indeksowania za pomocą OCR. Funkcje przetwarzania formularzy."
       },
       "why_ebm_ebys": {
-        "title": "DLACZEGO EDM EBYS?",
+        "title": "DLACZEGO EDM SZDE?",
         "description": "ŁATWOŚĆ PROCESU I ARCHIWIZACJI\n\nSkanowane dokumenty papierowe, faxy, emaile, wiadomości webowe, wiadomości z mediów społecznościowych, w tym JPAG, są przekształcane w pliki cyfrowe w dowolnym formacie, następnie przekształcane w format czytelny i edytowalny, krążą między odpowiedzialnymi osobami w procesach, mogą mieć dodawane komentarze lub inne dokumenty, być inicjowane, podpisywane i wysyłane do odbiorców.\n\nNa każdym etapie procesu, mogą być drukowane i archiwizowane jako oddzielna wersja.\n\nOPCJE RAPORTOWANIA I ANALIZY\n\nNa każdym etapie procesu, ile czasu zajmuje i jak dobrze jest realizowany, jest raportowane i analizowane dla zarządzania wydajnością.\n\nBEZPIECZEŃSTWO\n\nŻadna osoba odpowiedzialna w procesie nie może powiedzieć, że nie otrzymała ani nie przeczytała dokumentu. W systemie EBYS, legalnie, każdy dokument, który trafia do osoby w procesie, skutkuje werdyktem „otrzymano i przeczytano”.\n\nUSO SEMPLICE\n\nW systemie EBYS, dokumenty sprzed lat mogą być znalezione w ciągu sekund na podstawie kryteriów takich jak data, temat, nadawca, odbiorca, numer itp., lub wpisując kilka nieuporządkowanych słów w dokumencie. W systemie EBYS, osoby mogą uzyskiwać dostęp tylko do dokumentów, do których są uprawnione."
       },
       "access_ease": {
@@ -148,7 +148,7 @@
   "e_bill": {
     "slug": "e-invoices",
     "title": "Faktura Elektroniczna",
-    "youtube_embed": "XLuzI_kc8oM",  
+    "youtube_embed": "XLuzI_kc8oM",
     "description": "Faktura Elektroniczna to dokument elektroniczny zawierający informacje odpowiadające fakturze papierowej, znormalizowany w międzynarodowym formacie (UBL), zapieczętowany w niezmienny sposób i ma takie same cechy prawne jak faktura papierowa.\n\nDzięki Fakturze Elektronicznej możesz bezpiecznie wysyłać i otrzymywać swoje faktury elektronicznie, przechowywać swoje faktury prawnie ważne i zabezpieczone przez 10 lat oraz przeglądać je online. Dzięki systemowi Faktury Elektronicznej możesz zminimalizować koszty papieru, druku, transportu i wszystkie koszty operacyjne.\n\nPodatnicy mogą korzystać z Aplikacji Faktury Elektronicznej Archivum na dwa sposoby: przez własny system IT lub przez specjalny system IT integratora upoważnionego przez Administrację Dochodów.",
     "differences": {
       "title": "JAKA JEST RÓŻNICA MIĘDZY FAKTURĄ ELEKTRONICZNĄ A FAKTURĄ ELEKTRONICZNĄ ARCHIWUM?",
@@ -209,7 +209,7 @@
           "list": [
             "Zwrot faktury jednym kliknięciem, powtórzenie faktury, 8 pól rabatowych w wierszu, opcje faktury z VAT lub bez VAT, numer seryjny i dostosowanie projektu w zależności od klienta i użytkownika.",
             "Księgowi mogą zarządzać wszystkimi swoimi podatnikami, firmami i oddziałami za pomocą jednego hasła i interfejsu.",
-            "Najwyższa bezpieczeństwo dzięki technologii szyfrowania 3DS.",
+            "Najwyższe bezpieczeństwo dzięki technologii szyfrowania 3DS.",
             "Gwarancja zgodności z wszystkim oprogramowaniem na zawsze dzięki technologii archiwizacji depozytowej.",
             "Automatyczna decyzja o wysyłaniu Faktury Elektronicznej i Faktury Elektronicznej Archivum dzięki kontroli online VKN.",
             "Możliwość zarządzania firmami grupowymi i oddziałami z jednej platformy.",
@@ -226,7 +226,7 @@
   "registered_mail_hr": {
     "slug": "registered-mail-hr",
     "title": "Zarejestrowana Poczta HR (Aplikacje ZEP dla Pracowników)",
-    "youtube_embed": "uhjdzYlW2Ao", 
+    "youtube_embed": "uhjdzYlW2Ao",
     "description": "ZEP HR (Aplikacje ZEP dla Pracowników) to system, w którym odcinki wypłat, listy płac, karty pracy oraz powiadomienia personalne są dostarczane elektronicznie w sposób prawnie ważny i bezpieczny za pomocą ZEP (Zarejestrowana Elektroniczna Poczta) do pracowników firmy.",
     "sections": {
       "e_payslip": {

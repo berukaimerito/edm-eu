@@ -1,43 +1,152 @@
 {
   "welcome": "Witamy na stronie EDM EU",
   "description": "Twój zaufany partner w zakresie rozwiązań do fakturowania elektronicznego.",
+  "get_in_touch": "Skontaktuj się z nami",
   "erpcloudy": {
-    "title": "Korporacyjny",
+    "title": "Korporacja",
     "description": "Opis usługi ERP Cloudy."
   },
   "services": {
     "title": "Nasze Usługi",
-    "description": "Opis oferowanych usług.",
-    "e_invoices": "Faktury Elektroniczne",
- "erm_hr": "Rejestrowana Poczta Elektroniczna Z.Z.",
-  "e_reconciliation": "E-Rozliczenie",
+    "description": "Poznaj zakres usług, które oferujemy, aby usprawnić procesy biznesowe.",
+    "e_invoices": "E-Faktury",
+    "erm_hr": "Zarejestrowana E-Mail H.R.",
+    "e_reconciliation": "E-Uzgadnianie",
     "cloud_backup": "Backup w Chmurze",
-    "e_document_management_system": "Elektroniczny System Zarządzania Dokumentami"
+    "e_document_management_system": "System Zarządzania Dokumentami Elektronicznymi"
   },
   "info": {
     "title": "Informacje",
     "description": "Ogólne informacje o naszej firmie.",
     "location_name": "EDM Europa",
     "contact": {
-      "heading": "Informacje Kontaktowe",
-      "address": "1234 EDM Street, Music City, USA",
-      "email": "contact@edmexample.com",
-      "phone": "+1 (234) 567-8901",
-      "send_message": "Wyślij nam Wiadomość",
+      "heading": "Informacje kontaktowe",
+      "address": "Marszałkowska 83/38, 00-683, Warszawa, Polska",
+      "email": "info@edm-technologies.pl",
+      "phone": "+48 22 123 4567",
+      "send_message": "Wyślij do nas wiadomość",
       "form": {
         "name": "Imię",
+        "phone_number": "Phone",
         "email": "Email",
         "message": "Wiadomość",
-        "submit": "Wyślij Wiadomość",
+        "submit": "Wyślij wiadomość",
         "sending": "Wysyłanie...",
         "placeholder": {
-          "name": "Twoje Imię",
-          "email": "ty@example.com",
+          "name": "Twoje imię",
+          "email": "twoj@example.com",
           "message": "Twoja wiadomość tutaj..."
         },
         "success": "Twoja wiadomość została wysłana pomyślnie!",
-        "error": "Coś poszło nie tak. Proszę spróbuj ponownie."
+        "error": "Coś poszło nie tak. Spróbuj ponownie."
       }
     }
+  },
+  "divided_text_section": {
+    "items": [
+      {
+        "title": "Pasuje do Twojego Programu!",
+        "description": "Dzięki EDM, które ma umowy z ponad 750 programami ERP i księgowymi, faktury, przesyłki, pokwitowania i bilety utworzone w Twoim systemie ERP i programie księgowym są automatycznie wysyłane do odbiorcy. Twoje przychodzące faktury są automatycznie przetwarzane na konta i stany magazynowe w Twoim systemie ERP i programie księgowym oraz przekazywane do programu Twojego konsultanta.",
+        "image_src": "/images/fits-your-program.png"
+      },
+      {
+        "title": "Poznaj Rzeczywiste Ceny!",
+        "description": "EDM nie stosuje nieetycznych, wprowadzających w błąd ani ukrytych taryf pod żadną nazwą, takich jak stałe opłaty miesięczne, roczne opłaty stałe, aktualizacje czy przekroczenie limitu! Twoje pozostałe kredyty nie wygasają na koniec miesiąca lub roku; są ważne przez 5 lat. Aktywacje portalu E-Faktura są bezpłatne.",
+        "image_src": "/images/real-prices.png"
+      },
+      {
+        "title": "Szybka Instalacja i Szkolenie na Miejscu!",
+        "description": "Po podjęciu decyzji o współpracy z EDM w zakresie e-Transformacji, wszystkie niezbędne procedury są w pełni realizowane przez Twojego przedstawiciela terenowego EDM. Dla usług takich jak Zarejestrowana Poczta Elektroniczna (REM), Podpis Elektroniczny (e-podpis), e-Pasek wynagrodzeń, Arkusz czasu, E-uzgadnianie, E-powiadomienia, E-ostrzeżenia, wszystkie procesy aplikacji, aktywacji, instalacji i szkoleń są realizowane na miejscu przez przedstawiciela terenowego EDM.",
+        "image_src": "/images/fast-installation.png"
+      },
+      {
+        "title": "Twoje Dane Są w Bezpiecznych Rękach!",
+        "description": "Twoje e-Faktury, e-Przesyłki, e-Rejestry, e-Paragony, e-Bilety, listy płac, arkusze czasu, powiadomienia, ostrzeżenia i uzgodnienia są bezpiecznie przechowywane w systemach EDM przez 10 lat z 4 kopie zapasowymi i technologią szyfrowania 3DS. Możesz uzyskać dostęp do swoich faktur online w dowolnym momencie i wykonywać operacje takie jak ponowne wysłanie, przeglądanie i uzyskiwanie wydruków PDF pojedynczo lub hurtowo.",
+        "image_src": "/images/data-safe-hands.png"
+      },
+      {
+        "title": "Uwaga na Ciebie 24/7!",
+        "description": "Oprócz przedstawicieli sprzedaży i serwisu terenowego przydzielonych Ci w każdym województwie i powiecie, masz do dyspozycji doświadczonego przedstawiciela obsługi klienta w centrum EDM, dostępnego 24/7, w tym jednego głównego i jednego zapasowego, wyspecjalizowanego we wszystkich usługach e-Transformacji. Możesz skontaktować się ze swoimi przedstawicielami w dowolnym momencie za pomocą telefonu komórkowego i e-maila, aby otrzymać natychmiastową pomoc, a nawet w nocy i podczas oficjalnych świąt jesteś automatycznie przekierowywany do naszego centrum serwisowego dyżurnego za pośrednictwem tych punktów kontaktowych.",
+        "image_src": "/images/attention-24-7.png"
+      },
+      {
+        "title": "Niezrównane, Wyjątkowe Funkcje, Przyjazne Użytkownikowi!",
+        "description": "EDM posiada pierwszą i jedyną technologię w Turcji, która może działać niezależnie od Javy we wszystkich przeglądarkach internetowych i oprogramowaniu, i jest w pełni zgodna z Państwowym Protokołem Korespondencji Elektronicznej. Usługi EDM są wyjątkowe i przyjazne dla użytkownika dzięki setkom funkcji, takich jak archiwum magazynowe, zarządzanie procesami, masowa powtórka faktur, wyszukiwanie pełnotekstowe, inteligentna kontrola NIP, zarządzanie wszystkimi połączonymi podatnikami/usługami z jednej platformy, zarządzanie grupą firm i oddziałami.",
+        "image_src": "/images/superior-features.png"
+      }
+    ]
+  },
+  "feature_rectangle": {
+    "title": "Faktura Elektroniczna",
+    "description": "Dokument elektroniczny, który ma te same cechy prawne co faktura papierowa, wysyłany i odbierany przez firmy, które przeszły na fakturowanie elektroniczne za pośrednictwem systemu e-faktury, i bezpiecznie przechowywany online przez 10 lat.",
+    "image_src": "/images/electronic-invoice.png"
+  },
+  "video_section": {
+    "video_url": "63S-3kMKaCE",
+    "title": "NIECH TRANSFORMACJA SIĘ ROZPOCZNIE",
+    "description": "Skontaktuj się z nami, aby rozpocząć transformację.",
+    "button_text": "Uzyskaj Wycenę",
+    "button_link": "/contact",
+    "additional_info": "Od 2010 roku świadczymy usługi e-transformacji zgodnie z przepisami prawa, z silną strukturą kapitałową, doświadczonym personelem, dwiema niezależnymi infrastrukturami centrów danych zapasowych w Stambule i Ankarze, standardami bezpieczeństwa informacji, ciągłości biznesowej i jakości. Z ponad 300 centrami e-transformacji i usługami technicznymi w całej Turcji jesteśmy wiodącym ekspertem e-transformacji w Turcji.",
+    "corporate_link_text": "EDM Corporate",
+    "corporate_link": "/organizational"
+  },
+  "advantages_section": {
+    "title": "ZALETY E-TRANSFORMACJI!",
+    "items": [
+      {
+        "title": "Minimalizuje Twoje Koszty",
+        "description": "Dzięki usługom takim jak e-Faktura, e-Rejestr, e-Przesyłka, e-Bilet, e-Kwitek Zawodowy, e-Kwitek Producenta, REM, e-Podpis, e-Pasek Wynagrodzeń, Arkusz Czasu, E-Powiadomienie, E-Ostrzeżenie i EBYS, minimalizujesz koszty czasu i pieniędzy, takie jak papier, drukowanie, toner, wysyłka i archiwizacja.",
+        "image_src": "/images/minimize-costs.png"
+      },
+      {
+        "title": "Zapewnia Prawnie Ważne/Bezpieczne Przechowywanie i Dostęp Online",
+        "description": "Twoje faktury są bezpiecznie przechowywane w systemach EDM przez 10 lat z 4 kopiami zapasowymi i technologią szyfrowania 3DS. Możesz uzyskać dostęp do swoich faktur online w dowolnym momencie w ciągu roku i wykonywać operacje takie jak ponowne wysłanie, przeglądanie i uzyskiwanie wydruków PDF pojedynczo lub hurtowo.",
+        "image_src": "/images/secure-storage.png"
+      },
+      {
+        "title": "Przyspiesza Twoje Operacje i Zwiększa Wydajność",
+        "description": "Zmniejszając procesy operacyjne Twoich pracowników, pozwala im działać w bardziej efektywnych obszarach, eliminuje błędy wynikające z ręcznych procesów i zwiększa wydajność Twojej firmy.",
+        "image_src": "/images/accelerate-operations.png"
+      },
+      {
+        "title": "Chroni Naturę",
+        "description": "Przenosząc swoje faktury i inne dokumenty na nośniki elektroniczne zamiast na papier, na który co roku wycina się miliony drzew, wnosisz znaczący wkład w ochronę natury.",
+        "image_src": "/images/protect-nature.png"
+      },
+      {
+        "title": "Zapewnia Natychmiastowy i Niezawodny Przepływ Dokumentów",
+        "description": "Wszystkie Twoje dokumenty trafiają do odbiorców natychmiast, w pełni i dokładnie, podpisane elektronicznie za pośrednictwem Twojego programu ERP i EDM. Nadawca otrzymuje prawnie pierwszorzędne potwierdzenie, że dokument został w pełni otrzymany przez odbiorcę. Odbiorca ma pewność, że otrzymane faktury są w pełni prawidłowe i w 100% autentyczne.",
+        "image_src": "/images/reliable-document-flow.png"
+      },
+      {
+        "title": "Wzmacnia Twój Wizerunek",
+        "description": "Przejście na usługi e-Transformacji, szczególnie na e-Fakturę, wzmacnia Twój wizerunek jako solidnej i niezawodnej firmy, która wykorzystuje technologię, jest nowocześnie zarządzana, działa przejrzyście i zgodnie z przepisami prawa w oczach wszystkich Twoich klientów i partnerów biznesowych.",
+        "image_src": "/images/enhance-image.png"
+      },
+      {
+        "title": "Ponadto;",
+        "description": "Zyskujesz niezliczone inne korzyści, takie jak szybkie uzgadnianie, szybki przepływ gotówki, szybkie rozwiązywanie sporów, zgodność z międzynarodowymi standardami i odpowiednia infrastruktura do wewnętrznych i zewnętrznych audytów elektronicznych.",
+        "image_src": "/images/additional-benefits.png"
+      }
+    ]
+  },
+  "testimonials_section": {
+    "left_text": {
+      "heading": "PONAD 370 000 ZADOWOLONYCH KLIENTÓW",
+      "description": "Działamy z podejściem ukierunkowanym na satysfakcję klienta, starając się reagować na potrzeby i życzenia naszych klientów w najkrótszym czasie i w najbardziej precyzyjny sposób. Świadczymy nasze usługi na czas i na warunkach obiecanych, z szacunkiem, honorem, sprawiedliwością, równością i uprzejmością.",
+      "customer_videos_link_text": "Filmy z Zadowoleniem Klientów",
+      "customer_videos_link": "/testimonials"
+    },
+    "testimonial": {
+      "quote": "Korzystamy z systemów E-Faktury i E-Archiwum EDM. Jesteśmy bardzo zadowoleni z systemów EDM. Ich integracja z programami Voyage i Panorama, z których korzystamy, znacznie ułatwiła nam pracę.",
+      "author": "Emre Baş",
+      "position": "Danışmaz Gıda - Dystrybutor Düzce Cola"
+    }
+  },
+  "footer": {
+    "rights_reserved": "Wszelkie prawa zastrzeżone.",
+    "privacy_policy": "Polityka Prywatności",
+    "terms_of_service": "Warunki Usługi"
   }
 }

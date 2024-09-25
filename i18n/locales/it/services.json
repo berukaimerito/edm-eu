@@ -1,108 +1,154 @@
 {
-  "name": "Services",
-    "cloud_backup": {
-      "title": "Backup su Cloud",
-      "slug": "cloud-backup",
-      "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
-      "description": "È un servizio EDM che funziona in modo compatibile con i programmi ERP, che esegue il backup di tutte le tue informazioni e delle copie scansionate dei tuoi documenti legali, in modo sicuro e senza problemi, con accesso online e sicurezza avanzata.",
-      "benefits": {
-        "why_edm_cloud_backup": "PERCHÉ IL BACKUP SU CLOUD EDM?",
-        "immediate_access": "ACCESSO IMMEDIATO, FACILE DA USARE",
-        "immediate_access_description": "Puoi archiviare tutti i tuoi documenti in un ambiente sicuro, accedere ai tuoi dati 24/7 da qualsiasi luogo, caricare dati in qualsiasi momento. Il metodo di archiviazione del deposito al 98% offre un'elevata compressione e un rapido accesso mobile.",
-        "timely_backup": "BACKUP TEMPESTIVO",
-        "timely_backup_description": "Offre backup incrementali online o programmati in base alle tue esigenze.",
-        "simple_interface": "INTERFACCIA SEMPLICE",
-        "simple_interface_description": "L'interfaccia semplice non ti stressa, offrendo un uso facile per accelerare le tue operazioni.",
-        "secure_storage": "ARCHIVIAZIONE SICURA",
-        "secure_storage_description": "Archiviato su server con alta sicurezza e certificati ISO, con 4 backup a Istanbul e Ankara.",
-        "automatic_backup": "COMPLETAMENTE AUTOMATICO QUANDO VUOI",
-        "automatic_backup_description": "Tutti i tuoi dati e database in qualsiasi formato sul tuo computer o server, incluse le chiavi di crittografia, vengono automaticamente salvati in qualsiasi momento della giornata.",
-        "minimum_internet_usage": "USO MINIMO DI INTERNET",
-        "minimum_internet_usage_description": "Durante il backup dei tuoi dati, solo le parti modificate vengono prese con il sistema di 'Backup Intelligente', mantenendo al minimo il consumo di internet.",
-        "advantages": "BACKUP SU CLOUD E VANTAGGI",
-        "advantages_description": "Se acquisti il servizio di Backup su Cloud EDM, ad esempio, i consulenti fiscali possono eseguire il backup della loro contabilità, gli avvocati possono eseguire il backup di tutti i loro documenti e dati, e i database e i programmi (Windows, SQL, Oracle, ecc.) in modo sicuro.\n\nPuoi ottenere tutti i servizi sopra menzionati in modo integrato da EDM Bilişim con un solo nome utente e una sola password per l'accesso online.",
-        "who_should_use": "CHI DOVREBBE USARE IL BACKUP SU CLOUD?",
-        "who_should_use_list": [
-          "Ogni azienda e libero professionista che desidera eseguire il backup online del proprio database e delle cartelle importanti",
-          "Consulenti fiscali",
-          "Avvocati",
-          "Studi di ingegneria",
-          "Visite mediche",
-          "Soggetti obbligati alla fatturazione elettronica",
-          "Soggetti obbligati alla fatturazione elettronica con archiviazione"
+  "name": "Servizi",
+  "cloud_backup": {
+    "title": "Backup su Cloud",
+    "slug": "cloud-backup",
+    "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
+    "description": "È un servizio EDM che funziona in modo compatibile con i programmi ERP, che esegue il backup di tutte le tue informazioni e delle copie scansionate dei tuoi documenti legali, in modo sicuro e senza problemi, con accesso online e sicurezza avanzata.",
+    "benefits": {
+      "why_edm_cloud_backup": "PERCHÉ IL BACKUP SU CLOUD EDM?",
+      "immediate_access": "ACCESSO IMMEDIATO, FACILE DA USARE",
+      "immediate_access_description": "Puoi archiviare tutti i tuoi documenti in un ambiente sicuro, accedere ai tuoi dati 24/7 da qualsiasi luogo, caricare dati in qualsiasi momento. Il metodo di archiviazione del deposito al 98% offre un'elevata compressione e un rapido accesso mobile.",
+      "timely_backup": "BACKUP TEMPESTIVO",
+      "timely_backup_description": "Offre backup incrementali online o programmati in base alle tue esigenze.",
+      "simple_interface": "INTERFACCIA SEMPLICE",
+      "simple_interface_description": "L'interfaccia semplice non ti stressa, offrendo un uso facile per accelerare le tue operazioni.",
+      "secure_storage": "ARCHIVIAZIONE SICURA",
+      "secure_storage_description": "Archiviato su server con alta sicurezza e certificati ISO, con 4 backup a Istanbul e Ankara.",
+      "automatic_backup": "COMPLETAMENTE AUTOMATICO QUANDO VUOI",
+      "automatic_backup_description": "Tutti i tuoi dati e database in qualsiasi formato sul tuo computer o server, incluse le chiavi di crittografia, vengono automaticamente salvati in qualsiasi momento della giornata.",
+      "minimum_internet_usage": "USO MINIMO DI INTERNET",
+      "minimum_internet_usage_description": "Durante il backup dei tuoi dati, solo le parti modificate vengono prese con il sistema di 'Backup Intelligente', mantenendo al minimo il consumo di internet.",
+      "advantages": "BACKUP SU CLOUD E VANTAGGI",
+      "advantages_description": "Se acquisti il servizio di Backup su Cloud EDM, ad esempio, i consulenti fiscali possono eseguire il backup della loro contabilità, gli avvocati possono eseguire il backup di tutti i loro documenti e dati, e i database e i programmi (Windows, SQL, Oracle, ecc.) in modo sicuro.\n\nPuoi ottenere tutti i servizi sopra menzionati in modo integrato da EDM Bilişim con un solo nome utente e una sola password per l'accesso online.",
+      "who_should_use": "CHI DOVREBBE USARE IL BACKUP SU CLOUD?",
+      "who_should_use_list": [
+        "Ogni azienda e libero professionista che desidera eseguire il backup online del proprio database e delle cartelle importanti",
+        "Consulenti fiscali",
+        "Avvocati",
+        "Studi di ingegneria",
+        "Visite mediche",
+        "Soggetti obbligati alla fatturazione elettronica",
+        "Soggetti obbligati alla fatturazione elettronica con archiviazione"
+      ]
+    }
+  },
+  "e_consensus": {
+    "title": "E-Riconciliazione",
+    "slug": "e-reconciliation",
+    "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
+    "description": "Significa l'invio legale e valido tramite email o il sistema PER di tutte le riconciliazioni BA-BS, conti correnti, ritenute e fatture dei fornitori e clienti delle aziende.",
+    "benefits": {
+      "why_edm_e_consensus": "PERCHÉ E-Riconciliazione EDM",
+      "legally_valid": {
+        "title": "LEGALEMENTE VALIDO",
+        "description": "Considerato legalmente valido quando inviato tramite KEP presso il Ministero delle Finanze. Riduce i tempi di audit di decine di volte. Accettato come prova legale di primo grado nei tribunali di commercio e negli uffici esecutivi."
+      },
+      "time_and_cost_advantages": {
+        "title": "VANTAGGI DI TEMPO E COSTO",
+        "description": "Consente l'invio di riconciliazioni BA, BS e correnti singolarmente o in blocco in pochi secondi, risparmiando tempo e denaro. Tutti i partner ricevono ogni mese automaticamente riconciliazioni BA, BS e correnti, e tutte le riconciliazioni inviate sono archiviate nei sistemi EDM con backup per anni."
+      },
+      "reliable": {
+        "title": "AFFIDABILE",
+        "description": "Le invii tramite InterPEC, la più grande azienda tecnologica della Turchia, garantiscono invii sicuri e veloci. Assicura che le riconciliazioni vengano inviate correttamente ai partner e rimangano riservate tra l'azienda e i partner."
+      },
+      "immediate_access": {
+        "title": "ACCESSO IMMEDIATO",
+        "description": "Le tue riconciliazioni non vengono deformate durante l'archiviazione, puoi accedere ai documenti online anche dopo anni e dimostrare la loro validità con un sigillo elettronico inalterabile."
+      },
+      "fully_integrated": {
+        "title": "COMPLETAMENTE INTEGRATO",
+        "description": "Integrazione completa con la tua contabilità ufficiale. Il sistema E-Riconciliazione può essere utilizzato in due modalità: integrato e tramite trasferimento di file. Se i tuoi clienti o fornitori non accettano l'indirizzo KEP, il sistema invierà link di riconciliazione ai loro indirizzi email."
+      },
+      "corporate_mail_reconciliation": {
+        "title": "RICONCILIAZIONE TRAMITE INDIRIZZO EMAIL AZIENDALE",
+        "description": "È un'applicazione EDM che consente di eseguire riconciliazioni contabili e correnti online con i partner, i rivenditori, i fornitori e tutti gli altri partner commerciali. L'applicazione non solo controlla se la riconciliazione è accettata, ma identifica anche le differenze nei saldi correnti e le riporta alle parti. È completamente integrata con tutti i programmi di contabilità. Secondo la legge sulle notifiche, una risposta via email inviata dai server ufficiali di un'azienda è legalmente vincolante come una tradizionale firma e timbro."
+      },
+      "kep_reconciliation": {
+        "title": "RICONCILIAZIONE TRAMITE PER",
+        "description": "Grazie al prodotto E-Riconciliazione di EDM, puoi inviare link di riconciliazione anche agli indirizzi KEP dei tuoi partner, rendendo le tue riconciliazioni E-Mutabakat legalmente valide senza necessità di giudizio di primo grado. EDM ha lanciato pacchetti E-Mutabakat per offrire invii tramite KEP al livello più economico."
+      },
+      "who_can_use": {
+        "title": "CHI PUÒ PASSARE A E-MUTABAKAT?",
+        "description": "Tutte le aziende con molti partner, rivenditori, fornitori e partner commerciali che desiderano risparmiare tempo e denaro, ridurre i costi di archiviazione e liberarsi dalla forza lavoro operativa possono passare a E-Mutabakat.",
+        "list": [
+          "Aziende con numerosi partner, rivenditori e fornitori",
+          "Liberi professionisti",
+          "Aziende che desiderano ridurre i costi di archiviazione"
+        ]
+      },
+      "is_mandatory": {
+        "title": "E-MUTABAKAT È OBBLIGATORIO?",
+        "description": "E-Mutabakat non è obbligatorio. È possibile effettuare il passaggio su base volontaria."
+      },
+      "leading_sectors": {
+        "title": "SETTORE LEADER CHE UTILIZZANO E-Riconciliazione DI EDM",
+        "list": [
+          "Aziende che lavorano con strutture di rivendita",
+          "Grossisti",
+          "Aziende con grandi operazioni di acquisto"
         ]
       }
     },
-    "e_consensus": {
-      "title": "E-Riconciliazione",
-      "slug": "e-reconciliation",
-      "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
-      "description": "Significa l'invio legale e valido tramite email o il sistema KEP di tutte le riconciliazioni BA-BS, conti correnti, ritenute e fatture dei fornitori e clienti delle aziende.",
-      "benefits": {
-        "why_edm_e_consensus": "PERCHÉ E-MUTABAKAT EDM",
-        "legally_valid": {
-          "title": "LEGALEMENTE VALIDO",
-          "description": "Considerato legalmente valido quando inviato tramite KEP presso il Ministero delle Finanze. Riduce i tempi di audit di decine di volte. Accettato come prova legale di primo grado nei tribunali di commercio e negli uffici esecutivi."
-        },
-        "time_and_cost_advantages": {
-          "title": "VANTAGGI DI TEMPO E COSTO",
-          "description": "Consente l'invio di riconciliazioni BA, BS e correnti singolarmente o in blocco in pochi secondi, risparmiando tempo e denaro. Tutti i partner ricevono ogni mese automaticamente riconciliazioni BA, BS e correnti, e tutte le riconciliazioni inviate sono archiviate nei sistemi EDM con backup per anni."
-        },
-        "reliable": {
-          "title": "AFFIDABILE",
-          "description": "Le invii tramite InterKEP, la più grande azienda tecnologica della Turchia, garantiscono invii sicuri e veloci. Assicura che le riconciliazioni vengano inviate correttamente ai partner e rimangano riservate tra l'azienda e i partner."
-        },
-        "immediate_access": {
-          "title": "ACCESSO IMMEDIATO",
-          "description": "Le tue riconciliazioni non vengono deformate durante l'archiviazione, puoi accedere ai documenti online anche dopo anni e dimostrare la loro validità con un sigillo elettronico inalterabile."
-        },
-        "fully_integrated": {
-          "title": "COMPLETAMENTE INTEGRATO",
-          "description": "Integrazione completa con la tua contabilità ufficiale. Il sistema E-Mutabakat può essere utilizzato in due modalità: integrato e tramite trasferimento di file. Se i tuoi clienti o fornitori non accettano l'indirizzo KEP, il sistema invierà link di riconciliazione ai loro indirizzi email."
-        },
-        "corporate_mail_reconciliation": {
-          "title": "RICONCILIAZIONE TRAMITE INDIRIZZO EMAIL AZIENDALE",
-          "description": "È un'applicazione EDM che consente di eseguire riconciliazioni contabili e correnti online con i partner, i rivenditori, i fornitori e tutti gli altri partner commerciali. L'applicazione non solo controlla se la riconciliazione è accettata, ma identifica anche le differenze nei saldi correnti e le riporta alle parti. È completamente integrata con tutti i programmi di contabilità. Secondo la legge sulle notifiche, una risposta via email inviata dai server ufficiali di un'azienda è legalmente vincolante come una tradizionale firma e timbro."
-        },
-        "kep_reconciliation": {
-          "title": "RICONCILIAZIONE TRAMITE KEP",
-          "description": "Grazie al prodotto E-Mutabakat di EDM, puoi inviare link di riconciliazione anche agli indirizzi KEP dei tuoi partner, rendendo le tue riconciliazioni E-Mutabakat legalmente valide senza necessità di giudizio di primo grado. EDM ha lanciato pacchetti E-Mutabakat per offrire invii tramite KEP al livello più economico."
-        },
-        "who_can_use": {
-          "title": "CHI PUÒ PASSARE A E-MUTABAKAT?",
-          "description": "Tutte le aziende con molti partner, rivenditori, fornitori e partner commerciali che desiderano risparmiare tempo e denaro, ridurre i costi di archiviazione e liberarsi dalla forza lavoro operativa possono passare a E-Mutabakat.",
-          "list": [
-            "Aziende con numerosi partner, rivenditori e fornitori",
-            "Libero professionisti",
-            "Aziende che desiderano ridurre i costi di archiviazione"
-          ]
-        },
-        "is_mandatory": {
-          "title": "E-MUTABAKAT È OBBLIGATORIO?",
-          "description": "E-Mutabakat non è obbligatorio. È possibile effettuare il passaggio su base volontaria."
-        },
-        "leading_sectors": {
-          "title": "SETTORE LEADER CHE UTILIZZANO E-MUTABAKAT DI EDM",
-          "list": [
-            "Aziende che lavorano con strutture di rivendita",
-            "Grossisti",
-            "Aziende con grandi operazioni di acquisto"
-          ]
-        }
+    "subpages": {
+      "kep_registered_e_mail": {
+        "slug": "rem",
+        "title": "PER: Posta Elettronica Registrata",
+        "description": "L'uso della posta elettronica registrata (PER) garantisce che le notifiche inviate siano legalmente riconosciute. Se i tuoi partner non contestano le notifiche entro 5 giorni, saranno considerate accettate con una firma elettronica."
+      },
+      "corporate_mail_reconciliation": {
+        "slug": "corp-rem",
+        "title": "Riconciliazione della Posta Aziendale",
+        "description": "È un'applicazione EDM che consente di effettuare riconciliazioni contabili e correnti online con partner, rivenditori, fornitori e tutti gli altri partner commerciali. L'applicazione non solo verifica se la riconciliazione è accettata, ma identifica anche le differenze nei saldi correnti e le segnala alle parti. È completamente integrata con tutti i programmi di contabilità. Secondo la legge sulle notifiche, una risposta via email inviata dai server ufficiali di un'azienda è legalmente vincolante come un timbro e una firma tradizionali."
+      },
+      "kep_reconciliation": {
+        "slug": "rem-conciliation",
+        "title": "Riconciliazione della Registrazione della Posta Aziendale",
+        "description": "Grazie al prodotto E-Reconcilation di EDM, puoi inviare link di riconciliazione agli indirizzi ERM dei tuoi partner, rendendo le tue riconciliazioni E-Mutabakat legalmente valide senza la necessità di una sentenza di primo grado. EDM ha lanciato pacchetti E-Mutabakat per offrire il livello più economico di invio basato su ERM."
+      },
+      "who_can_use": {
+        "slug": "stakeholders",
+        "title": "Chi Può Passare a E-Reconciliation?",
+        "description": "Tutte le aziende con un gran numero di partner, rivenditori, fornitori e partner commerciali che desiderano risparmiare tempo e denaro, ridurre i costi di archiviazione e liberarsi dalla forza lavoro operativa possono passare a E-Reoncilation.",
+        "list": [
+          "Aziende con numerosi partner, rivenditori e fornitori",
+          "Liberi professionisti",
+          "Aziende che cercano di ridurre i costi di archiviazione"
+        ]
+      },
+      "why_edm_e_consensus": {
+        "slug": "why-edm-rem",
+        "title": "Perché EDM E-Reconciliation",
+        "description": "EDM E-Reconciliation offre una soluzione integrata e sicura per la gestione delle riconciliazioni finanziarie, riducendo i tempi di audit e migliorando l'efficienza operativa."
+      },
+      "is_mandatory": {
+        "slug": "is-mandatory",
+        "title": "E-Reconciliation è Obbligatoria?",
+        "description": "E-Mutabakat non è obbligatoria. Può essere adottata su base volontaria."
+      },
+      "leading_sectors": {
+        "slug": "leading-sectors",
+        "title": "Settori Leader che Utilizzano EDM E-Reonciliation",
+        "list": [
+          "Aziende che lavorano con strutture di rivenditori",
+          "Grossisti",
+          "Aziende con grandi operazioni di acquisto"
+        ]
       }
-    },
-    "e_document_management_system": {
-      "slug": "e-document-management-system",
-    "title": "Sistema di Gestione E-Documenti (?)",
-    "youtube_embed": "https://youtu.be/XLuzI_kc8oM",
+    }
+  },
+  "e_document_management_system": {
+    "slug": "e-document-management-system",
+    "title": "Sistema di Gestione E-Documenti SGDE",
+    "youtube_embed": "XLuzI_kc8oM",
     "description": "Il Sistema di Gestione E-Documenti è un sistema che consente alle organizzazioni di archiviare e gestire tutti i tipi di documentazione creata durante le loro operazioni, dalla produzione allo smaltimento finale. Diversamente dall'EBYS standard, EDM EBYS non è solo un archivio o un software di processo. È un pacchetto di soluzioni personalizzabile secondo le esigenze. Questo pacchetto è un'intelligenza aziendale che gestisce l'interazione con i clienti.",
     "benefits": {
       "what_can_be_done_with_ebys": {
-        "title": "COSA SI PUÒ FARE CON EBYS?",
-        "description": "EBYS può connettersi alle fonti di dati esistenti; le organizzazioni possono collegarsi a tutte le fonti di dati esistenti (SAP, New Frame, social media, stampante, scanner, telefono, ecc.) per creare e elaborare documenti da zero in qualsiasi momento. Può monitorare le fonti di dati; può ascoltare le fonti di dati elaborate tramite email, fax, SMS, canali social media come Twitter, Facebook e lavorare insieme a sistemi di sondaggio, sistemi di gestione campagne."
+        "title": "COSA SI PUÒ FARE CON SGDE?",
+        "description": "SGDE può connettersi alle fonti di dati esistenti; le organizzazioni possono collegarsi a tutte le fonti di dati esistenti (SAP, New Frame, social media, stampante, scanner, telefono, ecc.) per creare e elaborare documenti da zero in qualsiasi momento. Può monitorare le fonti di dati; può ascoltare le fonti di dati elaborate tramite email, fax, SMS, canali social media come Twitter, Facebook e lavorare insieme a sistemi di sondaggio, sistemi di gestione campagne."
       },
       "basic_functions": {
-        "title": "FUNZIONI BASE DI EBYS",
+        "title": "FUNZIONI BASE DI SGDE",
         "description": "Accesso al sistema da dispositivi mobili e da qualsiasi posizione tramite un'interfaccia web. Funzionamento flessibile con interfacce HTML 5, Ajax, infrastruttura software Dotnet 4.0, WCF. Integrazione completa con l'automazione dei processi aziendali."
       },
       "indexing": {
@@ -126,16 +172,17 @@
         "description": "Digitalizzazione rapida dei documenti su media elettronici. Classificazione facile dei documenti. Integrazione con la gestione dei documenti e tutti gli altri flussi di lavoro operativi. Aumenta l'efficienza del personale e misura le prestazioni. Previene la scansione e la creazione di documenti non standard. Integrazione con scanner veloci. Funzione di miglioramento delle immagini. Funzione di ricerca full-text e indicizzazione con OCR. Funzioni di elaborazione moduli."
       },
       "why_ebm_ebys": {
-        "title": "PERCHÉ EDM EBYS?",
+        "title": "PERCHÉ EDM SGDE?",
         "description": "FACILITÀ DI PROCESSO E ARCHIVIAZIONE\n\nI documenti cartacei scansionati, faxes, email, messaggi web, messaggi social media, inclusi JPAG, vengono convertiti in file digitali in qualsiasi formato, poi trasformati in un formato leggibile e scrivibile, circolano tra le persone responsabili nei processi, possono avere commenti o altri documenti aggiunti, essere inizializzati, firmati e inviati ai destinatari.\n\nA ogni fase del processo, possono essere stampati e archiviati come versione separata.\n\nOPPORTUNITÀ DI REPORTING E ANALISI\n\nAd ogni fase del processo, quanto tempo richiede e quanto bene è realizzato viene riportato e analizzato per la gestione delle prestazioni.\n\nSICUREZZA\n\nNessuna persona responsabile nel processo può dire di non aver ricevuto o letto il documento. Nel sistema EBYS, legalmente, ogni documento che arriva a una persona nel processo risulta in un verdetto di “ricevuto e letto”.\n\nUSO SEMPLICE\n\nCon il sistema EBYS, i documenti di anni fa possono essere trovati in secondi in base a criteri come data, oggetto, mittente, destinatario, numero, ecc., o digitando alcune parole non ordinate all'interno del documento. Nel sistema EBYS, le persone possono accedere solo ai documenti a cui sono autorizzate."
       },
       "access_ease": {
         "title": "FACILITÀ DI ACCESSO",
-        "description": "Tutte le funzioni menzionate nel sistema EBYS funzionano anche su ambienti mobili con software Android, iOS e Microsoft."
+        "description": "Tutte le funzioni menzionate nel sistema funzionano anche su ambienti mobili con software Android, iOS e Microsoft."
       }
     }
   },
   "e_bill": {
+    "slug": "e-invoices",
     "title": "Fattura Elettronica",
     "youtube_embed": "XLuzI_kc8oM",
     "description": "La Fattura Elettronica è un documento elettronico contenente informazioni equivalenti a una fattura cartacea, standardizzato in un formato internazionale (UBL), sigillato in modo inalterabile e ha le stesse caratteristiche legali di una fattura cartacea.\n\nCon la Fattura Elettronica, puoi inviare e ricevere le tue fatture elettronicamente in modo sicuro, archiviare le tue fatture legalmente valide e con backup per 10 anni, e visualizzarle online. Con il sistema di Fattura Elettronica, puoi minimizzare i costi di carta, stampa, spedizione e tutti i costi operativi.\n\nI contribuenti possono utilizzare l'Applicazione Fattura Elettronica Archivio in due modi: tramite il proprio sistema IT o tramite un sistema IT integratore speciale autorizzato dall'Agenzia delle Entrate.",
@@ -211,7 +258,7 @@
         }
       ]
     }
-  }, 
+  },
   "registered_mail_hr": {
     "slug": "registered-mail-hr",
     "title": "Posta Elettronica Registrata HR (Applicazioni Personale PEC)",
@@ -331,6 +378,5 @@
         ]
       }
     }
-  }  
   }
-  
+}

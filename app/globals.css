@@ -11,7 +11,7 @@
   --color-secondary: #f16c26;       /* Orange */
   --color-accent: rgba(68, 191, 186, 0.8); /* Light Teal with transparency */
   --color-success: #41b776;          /* Green */
-  --color-secondary-hover: rgba(240, 108, 38, 0.8); /* Lighter Orange with transparency */
+  --color-secondary-hover: rgba(241, 108, 38, 0.8); /* Lighter Orange with transparency */
   --background: #ffffff;
   --foreground: #000000;
 }
@@ -156,4 +156,48 @@ aside {
 hr {
   border: none;
   border-top: 1px solid #e5e7eb;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.border-primary {
+  border-color: var(--color-primary);
+}
+
+.focus\:ring-primary:focus {
+  --tw-ring-color: var(--color-primary);
+}
+
+/* Additional Styles for Mobile View */
+@media (max-width: 768px) {
+  .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+/* New Styles for Enhanced Feature Section */
+.feature-section {
+  /* Optional: Add a subtle background pattern */
+  background-image: radial-gradient(circle at top left, rgba(26, 39, 65, 0.05), transparent 50%);
+}
+
+.feature-section:hover {
+  /* Optional: Slightly increase the shadow on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+* New Class for Feature and Divided Text Sections */
+.feature_rectangle {
+  background: linear-gradient(135deg, rgba(241, 108, 38, 0.05), rgba(26, 39, 65, 0.05));
+}
+
+/* Optional: Hover Effect for Enhanced Interactivity */
+.feature_rectangle:hover {
+  background: linear-gradient(135deg, rgba(241, 108, 38, 0.1), rgba(26, 39, 65, 0.1));
 }

@@ -1,4 +1,3 @@
-// app/components/Sidebar/Sidebar.tsx
 'use client';
 
 import React from 'react';
@@ -30,9 +29,10 @@ interface Service {
 
 interface SidebarProps {
   isMobile?: boolean;
+  onLinkClick?: () => void; // New Prop for Mobile Drawer
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ isMobile = false }) => {
+const Sidebar: React.FC<SidebarProps> = ({ isMobile = false, onLinkClick }) => {
   const { t, i18n } = useTranslation('services');
   const pathname = usePathname();
 
@@ -114,7 +114,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false }) => {
   return (
     <aside
       className={`${
-        isMobile ? 'bg-white p-4 rounded-md shadow-md' : 'bg-white border border-gray-200 p-4 rounded-md'
+        isMobile
+          ? 'bg-white p-4 rounded-md shadow-md'
+          : 'bg-white border border-gray-200 p-4 rounded-md'
       }`}
     >
       {/* Sidebar Title */}
@@ -131,6 +133,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false }) => {
               {/* Main Service Link */}
               <Link
                 href={service.path}
+                onClick={onLinkClick} // Close dropdown on link click (if onMobile)
                 className={`flex items-center px-4 py-2 rounded-lg font-medium transition-colors duration-200 ${
                   isServiceActive(service.path)
                     ? 'bg-primary text-white'
@@ -144,11 +147,12 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false }) => {
 
               {/* Subpages */}
               {service.subpages && isServiceActive(service.path) && (
-                <ul className="mt-2 space-y-1 pl-6 border-l border-gray-300">
+                <ul className="mt-2 space-y-1 pl-6 border-l-2 border-gray-300"> {/* Thicker border */}
                   {service.subpages.map((subpage) => (
                     <li key={subpage.title}>
                       <Link
                         href={subpage.path}
+                        onClick={onLinkClick} // Close dropdown on subpage link click (if onMobile)
                         className={`flex items-center px-4 py-1 rounded-md transition-colors duration-200 ${
                           isSubpageActive(subpage.path)
                             ? 'bg-secondary text-white'
@@ -167,7 +171,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false }) => {
 
             {/* Separator Line */}
             {index < orderedServices.length - 1 && (
-              <hr className="my-2 border-t border-gray-300" />
+              <hr className="my-2 border-t-2 border-gray-300" />
             )}
           </React.Fragment>
         ))}

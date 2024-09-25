@@ -38,6 +38,7 @@ i18n
         services: plServices,
         organizational: plOrganizational, // Add this line
       },
+      // es: {}
       // If you decide to include Turkish translations later
       // tr: {
       //   common: trCommon,
@@ -45,8 +46,8 @@ i18n
       //   organizational: trOrganizational,
       // },
     },
-    lng: 'en',
-    fallbackLng: 'en',
+    lng: 'pl',
+    fallbackLng: 'pl',
     ns: ['common', 'services', 'organizational'], // Add 'organizational' to namespaces
     defaultNS: 'common',
     interpolation: {

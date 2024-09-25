@@ -56,7 +56,7 @@ const EInvoices: React.FC = () => {
 
           {/* YouTube Embed */}
           {EInvoices.youtube_embed && (
-            <div className="mb-6">
+            <div className="mb-4">
               <iframe
                 width="100%"
                 height="400"
