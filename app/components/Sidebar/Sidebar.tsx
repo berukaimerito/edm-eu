@@ -146,7 +146,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false, onLinkClick }) => {
               </Link>
 
               {/* Subpages */}
-              {service.subpages && isServiceActive(service.path) && (
+              {service.subpages && isServiceActive(service.path) && !isMobile && ( // Added condition to check !isMobile
                 <ul className="mt-2 space-y-1 pl-6 border-l-2 border-gray-300"> {/* Thicker border */}
                   {service.subpages.map((subpage) => (
                     <li key={subpage.title}>
