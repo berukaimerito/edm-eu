@@ -162,7 +162,7 @@
       "points": [
         "E-Invoice is only sent to taxpayers who have switched to E-Invoice.",
         "E-Archive Invoice is sent to all institutions and individuals who have not switched to E-Invoice.",
-        "E-Invoice is delivered to the recipient via the Revenue Administration's (Revenue Department) closed-circuit system; the sender and receiver can transact through this system, so GİB is instantly informed. It cannot be canceled, but the recipient can reject or return it.",
+        "E-Invoice is delivered to the recipient via the Revenue Administration's (Revenue Department) closed-circuit system; the sender and receiver can transact through this system, so Income office is instantly informed. It cannot be canceled, but the recipient can reject or return it.",
         "E-Archive Invoice is delivered to the recipient via email or SMS and reported to Revenue Department by 24:00 the next day."
       ]
     },
@@ -287,11 +287,11 @@
           },
           {
             "title": "DIGITAL HR ARCHIVE",
-            "description": "All documents in the personnel file are stored in the KEP-HR digital archive system throughout the personnel's working period and for 10 years after the personnel leaves.\n\nIn the HR KEP application, the Digital Personnel File module allows personnel to upload documents."
+            "description": "All documents in the personnel file are stored in the REC-HR digital archive system throughout the personnel's working period and for 10 years after the personnel leaves.\n\nIn the HR KEP application, the Digital Personnel File module allows personnel to upload documents."
           },
           {
             "title": "MUCH FASTER",
-            "description": "Evidence is generated in at most 5 seconds in KEP transmissions and stored for 30 years. KEP messages are sent within at most 2 minutes."
+            "description": "Evidence is generated in at most 5 seconds in REC transmissions and stored for 30 years. KEP messages are sent within at most 2 minutes."
           },
           {
             "title": "PRICING BASED ON SEAT COUNT",
@@ -311,7 +311,7 @@
           },
           {
             "title": "DOMAIN PROTECTION",
-            "description": "In the HR EP application, KEP addresses are opened with separate domains for the company and each personnel. In our system, if specially requested by the company, a KEP address containing the company name is defined. When the KEP address is defined specifically to the person, it is not recommended for possible problems that may occur later in case the personnel terminates their job."
+            "description": "In the HR EP application, REC addresses are opened with separate domains for the company and each personnel. In our system, if specially requested by the company, a KEP address containing the company name is defined. When the KEP address is defined specifically to the person, it is not recommended for possible problems that may occur later in case the personnel terminates their job."
           },
           {
             "title": "ATTACHMENT FILES",

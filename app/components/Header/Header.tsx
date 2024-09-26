@@ -15,6 +15,7 @@ import {
 import LanguageSelector from './LanguageSelector';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import Image from 'next/image'; // Import Next.js Image component
 
 const Header: React.FC = () => {
   const { t } = useTranslation('common');
@@ -69,9 +70,17 @@ const Header: React.FC = () => {
         {({ open }) => (
           <>
             <div className="mx-auto px-6 py-4 flex items-center">
-              {/* Left: Title */}
-              <Link href="/" className="text-2xl font-bold flex items-center mr-8">
-                <span className="ml-2">EDM Europe Website</span>
+              {/* Left: Title with Logo */}
+              <Link href="/" className="flex items-center text-2xl font-bold mr-8">
+                {/* Logo Image */}
+                <Image
+                  src="/logos/edm-logo.png"
+                  alt="EDM Logo"
+                  width={40} // Adjust width as needed
+                  height={40} // Adjust height as needed
+                  className="mr-2"
+                />
+                <span>EDM Europe Website</span>
               </Link>
 
               {/* Center: Navigation (hidden on mobile) */}

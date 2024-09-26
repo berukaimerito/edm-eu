@@ -9,13 +9,13 @@ export interface CarouselImages {
   
   export const carouselImages: CarouselImages[] = [
     {
-      src: '/images/edm-it-ru-slide.jpg',
+      src: '/sliders/edm-it-ru-slide.jpg',
       alt: 'EDM IT RU Slide',
       title: 'Welcome to EDM EU',
       description: 'Transform your invoicing process with our solutions.',
     },
     {
-      src: '/images/edm-sustainability-slide.jpg',
+      src: '/sliders/edm-sustainability-slide.jpg',
       alt: 'EDM Sustainability Slide',
       title: 'Our Services',
       description: 'Streamline your billing with our advanced tools.',
@@ -27,25 +27,25 @@ export interface CarouselImages {
     // Bu kadar :)
     
     // {
-    //   src: '/images/edm-sustainability-slide.jpg',
+    //   src: '/sliders/edm-sustainability-slide.jpg',
     //   alt: 'EDM Sustainability Slide',
     //   title: 'Our Services',
     //   description: 'Streamline your billing with our advanced tools.',
     // },
     // {
-    //   src: '/images/edm-sustainability-slide.jpg',
+    //   src: '/sliders/edm-sustainability-slide.jpg',
     //   alt: 'EDM Sustainability Slide',
     //   title: 'Our Services',
     //   description: 'Streamline your billing with our advanced tools.',
     // },
     // {
-    //   src: '/images/edm-sustainability-slide.jpg',
+    //   src: '/sliders/edm-sustainability-slide.jpg',
     //   alt: 'EDM Sustainability Slide',
     //   title: 'Our Services',
     //   description: 'Streamline your billing with our advanced tools.',
     // },
     // {
-    //   src: '/images/edm-sustainability-slide.jpg',
+    //   src: '/sliders/edm-sustainability-slide.jpg',
     //   alt: 'EDM Sustainability Slide',
     //   title: 'Our Services',
     //   description: 'Streamline your billing with our advanced tools.',

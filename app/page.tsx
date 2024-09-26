@@ -140,12 +140,7 @@ const HomePage: React.FC = () => {
 
       {/* Link to References Page */}
       <div className="flex justify-center mt-6">
-        <Link href="/references/page"
-           className="text-secondary font-semibold hover:underline"
-           >
-            {t('references.link_text')}
     
-        </Link>
       </div>
     </div>
   );

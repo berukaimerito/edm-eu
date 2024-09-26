@@ -5,6 +5,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Head from 'next/head';
 import Sidebar from '@/app/components/Sidebar/Sidebar';
+import Image from 'next/image';
 
 const EConsensusPage: React.FC = () => {
   const { t } = useTranslation('services');

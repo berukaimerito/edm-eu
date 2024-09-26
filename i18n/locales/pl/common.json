@@ -35,6 +35,7 @@
         "placeholder": {
           "name": "Twoje imię",
           "email": "twoj@example.com",
+          "phone_number": "Twoje numer telefonu",
           "message": "Twoja wiadomość tutaj..."
         },
         "success": "Twoja wiadomość została wysłana pomyślnie!",

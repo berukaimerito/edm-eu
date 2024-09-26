@@ -3,7 +3,8 @@
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Head from 'next/head';
+import Head from 'next/head'
+import Image from 'next/image';
 
 const CloudBackupPage: React.FC = () => {
   const { t } = useTranslation('services');

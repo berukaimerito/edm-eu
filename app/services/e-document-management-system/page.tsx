@@ -4,6 +4,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Head from 'next/head';
+import Image from 'next/image';
+
 
 const EDocumentManagementSystemPage: React.FC = () => {
   const { t } = useTranslation('services');
