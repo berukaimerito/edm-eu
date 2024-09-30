@@ -65,11 +65,10 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="bg-white text-black border-b border-secondary relative z-50">
+    <header className="bg-white text-black border-b border-secondary relative z-30">
       <Disclosure as="nav">
         {({ open }) => (
           <>
-            {/* Updated the container to span full width and removed centering */}
             <div className="w-full px-4 py-5 flex items-center justify-between">
               {/* Left: Logo Only */}
               <Link href="/" className="flex items-center">
@@ -77,8 +76,8 @@ const Header: React.FC = () => {
                 <Image
                   src="/logos/edm-logo.png"
                   alt="EDM Logo"
-                  width={40} // Adjust width as needed
-                  height={40} // Adjust height as needed
+                  width={40}
+                  height={40}
                   className="object-contain"
                 />
               </Link>
@@ -168,7 +167,7 @@ const Header: React.FC = () => {
             </div>
 
             {/* Mobile Menu */}
-            <Disclosure.Panel className="md:hidden bg-white relative">
+            <Disclosure.Panel className="md:hidden bg-white relative z-20">
               <div className="flex flex-col px-4 pt-2 pb-3 space-y-1 sm:px-6">
                 {/* Services Menu */}
                 <div className="relative">

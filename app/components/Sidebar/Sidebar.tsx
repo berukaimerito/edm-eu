@@ -1,3 +1,4 @@
+// app/components/Sidebar/Sidebar.tsx
 'use client';
 
 import React from 'react';
@@ -38,12 +39,12 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false, onLinkClick }) => {
 
   // Define icons with consistent sizes
   const serviceIcons: { [key: string]: React.ReactNode } = {
-    e_bill: <FiFileText className="h-5 w-5 mr-2 text-secondary" />,
-    e_consensus: <FiClipboard className="h-5 w-5 mr-2 text-secondary" />,
-    e_receipt: <FiArchive className="h-5 w-5 mr-2 text-secondary" />,
-    cloud_backup: <FiCloud className="h-5 w-5 mr-2 text-secondary" />,
-    e_document_management_system: <FiBookOpen className="h-5 w-5 mr-2 text-secondary" />,
-    registered_mail_hr: <FiMail className="h-5 w-5 mr-2 text-secondary" />,
+    e_bill: <FiFileText className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
+    e_consensus: <FiClipboard className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
+    e_receipt: <FiArchive className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
+    cloud_backup: <FiCloud className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
+    e_document_management_system: <FiBookOpen className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
+    registered_mail_hr: <FiMail className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
   };
 
   // Retrieve services from translations
@@ -115,7 +116,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false, onLinkClick }) => {
     <aside
       className={`${
         isMobile
-          ? 'bg-white p-4 rounded-md shadow-md'
+          ? 'bg-white p-4 rounded-md shadow-md z-20 relative'
           : 'bg-white border border-gray-200 p-4 rounded-md'
       }`}
     >
@@ -142,17 +143,17 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false, onLinkClick }) => {
               >
                 {/* Service Icon */}
                 {service.icon}
-                {service.title}
+                <span className="truncate">{service.title}</span>
               </Link>
 
               {/* Subpages */}
-              {service.subpages && isServiceActive(service.path) && !isMobile && ( // Added condition to check !isMobile
-                <ul className="mt-2 space-y-1 pl-6 border-l-2 border-gray-300"> {/* Thicker border */}
+              {service.subpages && isServiceActive(service.path) && !isMobile && (
+                <ul className="mt-2 space-y-1 pl-6 border-l-2 border-gray-300">
                   {service.subpages.map((subpage) => (
                     <li key={subpage.title}>
                       <Link
                         href={subpage.path}
-                        onClick={onLinkClick} // Close dropdown on subpage link click (if onMobile)
+                        onClick={onLinkClick}
                         className={`flex items-center px-4 py-1 rounded-md transition-colors duration-200 ${
                           isSubpageActive(subpage.path)
                             ? 'bg-secondary text-white'
@@ -160,8 +161,8 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false, onLinkClick }) => {
                         }`}
                       >
                         {/* Dot Marker */}
-                        <span className="h-2 w-2 bg-secondary rounded-full mr-2"></span>
-                        {subpage.title}
+                        <span className="h-2 w-2 bg-secondary rounded-full mr-2 flex-shrink-0"></span>
+                        <span className="truncate">{subpage.title}</span>
                       </Link>
                     </li>
                   ))}
