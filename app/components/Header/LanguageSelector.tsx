@@ -1,3 +1,4 @@
+// app/components/Header/LanguageSelector.tsx
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
@@ -33,12 +34,16 @@ const LanguageSelector: React.FC = () => {
     }
   };
 
-  const currentLanguage = languages.find((lang) => lang.code === i18n.language) || languages[0];
+  const currentLanguage =
+    languages.find((lang) => lang.code === i18n.language) || languages[0];
 
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (selectorRef.current && !selectorRef.current.contains(event.target as Node)) {
+      if (
+        selectorRef.current &&
+        !selectorRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
       }
     };
@@ -49,16 +54,21 @@ const LanguageSelector: React.FC = () => {
   }, []);
 
   return (
-    // **Change:** Added 'z-50' to ensure the dropdown overlays other elements
     <div className="relative inline-block text-left z-50" ref={selectorRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center bg-secondary text-white px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200 focus:outline-none"
+        className="flex items-center bg-secondary text-white px-3 py-2 rounded-md hover:bg-secondary-hover transition-colors duration-200 focus:outline-none border border-transparent hover:border-secondary"
         aria-haspopup="true"
         aria-expanded={isOpen}
         aria-label="Select Language"
       >
-        <Image src={currentLanguage.flag} alt={`${currentLanguage.label} flag`} width={24} height={16} className="object-contain" />
+        <Image
+          src={currentLanguage.flag}
+          alt={`${currentLanguage.label} flag`}
+          width={24}
+          height={16}
+          className="object-contain"
+        />
         <span className="hidden sm:inline ml-2">{currentLanguage.label}</span>
         <ChevronDownIcon className="ml-1 h-4 w-4" />
       </button>
@@ -70,9 +80,15 @@ const LanguageSelector: React.FC = () => {
               <button
                 key={lang.code}
                 onClick={() => changeLanguage(lang.code, lang.url)}
-                className="flex items-center w-full px-4 py-2 text-left text-sm text-gray-800 hover:bg-accent hover:text-white transition-colors duration-200 focus:outline-none"
+                className="flex items-center w-full px-4 py-2 text-left text-sm text-black border-b border-transparent hover:text-secondary hover:border-secondary transition-colors duration-200 focus:outline-none"
               >
-                <Image src={lang.flag} alt={`${lang.label} flag`} width={24} height={16} className="object-contain" />
+                <Image
+                  src={lang.flag}
+                  alt={`${lang.label} flag`}
+                  width={24}
+                  height={16}
+                  className="object-contain"
+                />
                 <span className="ml-2">{lang.label}</span>
               </button>
             ))}

@@ -21,10 +21,10 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({
       <div
         className={`flex flex-col ${
           reverse ? 'md:flex-row-reverse' : 'md:flex-row'
-        } items-center bg-white shadow-md border border-primary rounded-lg p-6 feature_rectangle`}
+        } items-center bg-white shadow-md rounded-lg p-8 feature_rectangle`} // Changed p-6 to p-8
       >
         {/* Image Container */}
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-1/2 flex justify-center px-4"> {/* Added px-4 */}
           <img
             src={imageSrc}
             alt={title}

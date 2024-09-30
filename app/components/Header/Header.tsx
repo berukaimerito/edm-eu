@@ -15,7 +15,7 @@ import {
 import LanguageSelector from './LanguageSelector';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
-import Image from 'next/image'; // Import Next.js Image component
+import Image from 'next/image';
 
 const Header: React.FC = () => {
   const { t } = useTranslation('common');
@@ -65,22 +65,22 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="bg-primary text-white border-b border-secondary relative z-50">
+    <header className="bg-white text-black border-b border-secondary relative z-50">
       <Disclosure as="nav">
         {({ open }) => (
           <>
-            <div className="mx-auto px-6 py-4 flex items-center">
-              {/* Left: Title with Logo */}
-              <Link href="/" className="flex items-center text-2xl font-bold mr-8">
+            {/* Updated the container to span full width and removed centering */}
+            <div className="w-full px-4 py-5 flex items-center justify-between">
+              {/* Left: Logo Only */}
+              <Link href="/" className="flex items-center">
                 {/* Logo Image */}
                 <Image
                   src="/logos/edm-logo.png"
                   alt="EDM Logo"
                   width={40} // Adjust width as needed
                   height={40} // Adjust height as needed
-                  className="mr-2"
+                  className="object-contain"
                 />
-                <span>EDM Europe Website</span>
               </Link>
 
               {/* Center: Navigation (hidden on mobile) */}
@@ -89,7 +89,7 @@ const Header: React.FC = () => {
                 <div className="relative" ref={servicesRef}>
                   <button
                     onClick={() => setIsServicesOpen(!isServicesOpen)}
-                    className="flex items-center px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200 focus:outline-none"
+                    className="flex items-center px-3 py-2 rounded-md hover:text-orange-500 transition-colors duration-200 focus:outline-none border-b-2 border-transparent hover:border-orange-500"
                     aria-haspopup="true"
                     aria-expanded={isServicesOpen}
                   >
@@ -112,13 +112,13 @@ const Header: React.FC = () => {
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95"
                   >
-                    <div className="absolute right-0 mt-2 w-80 bg-white text-gray-900 rounded-md shadow-lg z-50">
+                    <div className="absolute left-0 mt-2 w-80 bg-white text-gray-900 rounded-md shadow-lg z-50">
                       <div className="py-1">
                         {services.map((service) => (
                           <Link
                             key={service.path}
                             href={service.path}
-                            className="flex items-center px-4 py-2 text-sm hover:bg-accent hover:text-white transition-colors duration-200"
+                            className="flex items-center px-4 py-2 text-sm border-b border-transparent hover:border-orange-500 hover:text-orange-500 transition-colors duration-200"
                             onClick={() => setIsServicesOpen(false)}
                           >
                             <service.icon className="h-5 w-5 mr-2 text-secondary" />
@@ -133,7 +133,7 @@ const Header: React.FC = () => {
                 {/* ERP Cloudy */}
                 <Link
                   href="/organizational"
-                  className="flex items-center px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200"
+                  className="flex items-center px-3 py-2 rounded-md border-b-2 border-transparent hover:border-orange-500 hover:text-orange-500 transition-colors duration-200"
                 >
                   <GlobeAltIcon className="h-5 w-5 mr-2 text-secondary" /> {t('erpcloudy.title')}
                 </Link>
@@ -141,14 +141,14 @@ const Header: React.FC = () => {
                 {/* Info */}
                 <Link
                   href="/info"
-                  className="flex items-center px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200"
+                  className="flex items-center px-3 py-2 rounded-md border-b-2 border-transparent hover:border-orange-500 hover:text-orange-500 transition-colors duration-200"
                 >
                   <InformationCircleIcon className="h-5 w-5 mr-2 text-secondary" /> {t('info.title')}
                 </Link>
               </div>
 
               {/* Right: Language Selector and Mobile Menu Button */}
-              <div className="ml-auto flex items-center space-x-6">
+              <div className="flex items-center space-x-2">
                 {/* Always Visible Language Selector */}
                 <div>
                   <LanguageSelector />
@@ -156,11 +156,11 @@ const Header: React.FC = () => {
 
                 {/* Mobile Menu Button */}
                 <div className="md:hidden flex items-center">
-                  <Disclosure.Button className="flex items-center px-3 py-2 rounded-md hover:bg-accent transition-colors duration-200 focus:outline-none">
+                  <Disclosure.Button className="flex items-center px-3 py-2 rounded-md hover:text-orange-500 transition-colors duration-200 focus:outline-none">
                     {open ? (
-                      <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                      <XMarkIcon className="h-6 w-6 text-orange-500" aria-hidden="true" />
                     ) : (
-                      <EllipsisHorizontalCircleIcon className="h-6 w-6" aria-hidden="true" />
+                      <EllipsisHorizontalCircleIcon className="h-6 w-6 text-orange-500" aria-hidden="true" />
                     )}
                   </Disclosure.Button>
                 </div>
@@ -168,13 +168,13 @@ const Header: React.FC = () => {
             </div>
 
             {/* Mobile Menu */}
-            <Disclosure.Panel className="md:hidden bg-primary relative">
-              <div className="flex flex-col px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <Disclosure.Panel className="md:hidden bg-white relative">
+              <div className="flex flex-col px-4 pt-2 pb-3 space-y-1 sm:px-6">
                 {/* Services Menu */}
                 <div className="relative">
                   <button
                     onClick={() => setIsServicesOpen(!isServicesOpen)}
-                    className="flex items-center w-full text-left px-3 py-2 rounded-md hover:bg-accent hover:text-white transition-colors duration-200 focus:outline-none"
+                    className="flex items-center w-full text-left px-3 py-2 rounded-md hover:text-orange-500 transition-colors duration-200 focus:outline-none border-b-2 border-transparent hover:border-orange-500"
                   >
                     <DocumentTextIcon className="h-5 w-5 mr-2 text-secondary" />
                     {t('services.title')}
@@ -195,20 +195,18 @@ const Header: React.FC = () => {
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95"
                   >
-                    <div className="absolute right-0 mt-1 w-80 bg-white text-gray-900 rounded-md shadow-lg z-50">
-                      <div className="py-1">
-                        {services.map((service) => (
-                          <Link
-                            key={service.path}
-                            href={service.path}
-                            className="flex items-center px-4 py-2 text-sm hover:bg-accent hover:text-white transition-colors duration-200"
-                            onClick={() => setIsServicesOpen(false)}
-                          >
-                            <service.icon className="h-5 w-5 mr-2 text-secondary" />
-                            {service.name}
-                          </Link>
-                        ))}
-                      </div>
+                    <div className="mt-1 pl-8 pr-4">
+                      {services.map((service) => (
+                        <Link
+                          key={service.path}
+                          href={service.path}
+                          className="flex items-center px-4 py-2 text-sm border-b border-transparent hover:border-orange-500 hover:text-orange-500 transition-colors duration-200"
+                          onClick={() => setIsServicesOpen(false)}
+                        >
+                          <service.icon className="h-5 w-5 mr-2 text-secondary" />
+                          {service.name}
+                        </Link>
+                      ))}
                     </div>
                   </Transition>
                 </div>
@@ -216,7 +214,7 @@ const Header: React.FC = () => {
                 {/* ERP Cloudy */}
                 <Link
                   href="/organizational"
-                  className="flex items-center px-3 py-2 rounded-md hover:bg-accent hover:text-white transition-colors duration-200"
+                  className="flex items-center px-3 py-2 rounded-md border-b border-transparent hover:border-orange-500 hover:text-orange-500 transition-colors duration-200"
                 >
                   <GlobeAltIcon className="h-5 w-5 mr-2 text-secondary" /> {t('erpcloudy.title')}
                 </Link>
@@ -224,7 +222,7 @@ const Header: React.FC = () => {
                 {/* Info */}
                 <Link
                   href="/info"
-                  className="flex items-center px-3 py-2 rounded-md hover:bg-accent hover:text-white transition-colors duration-200"
+                  className="flex items-center px-3 py-2 rounded-md border-b border-transparent hover:border-orange-500 hover:text-orange-500 transition-colors duration-200"
                 >
                   <InformationCircleIcon className="h-5 w-5 mr-2 text-secondary" /> {t('info.title')}
                 </Link>

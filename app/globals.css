@@ -1,11 +1,17 @@
 /* app/styles/global.css */
+
+/* 1. Import Leaflet CSS */
 @import "leaflet/dist/leaflet.css";
 
+/* 2. Import Quicksand Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* 3. Tailwind Directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Color Theme */
+/* 4. Custom Color Theme */
 :root {
   --color-primary: #1a2741;         /* Dark Blue */
   --color-secondary: #f16c26;       /* Orange */
@@ -16,50 +22,78 @@
   --foreground: #000000;
 }
 
-body {
-  @apply bg-gray-50 text-foreground;
+/* 5. CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
+/* 6. Box-Sizing Reset */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/* 7. Apply Global Font and Line-Height */
+body {
+  @apply bg-gray-50 text-gray-800;
+  font-family: 'Quicksand', sans-serif !important;
+  line-height: 1.6 !important;
+}
+
+/* 8. Header Styles */
 header {
   @apply bg-primary text-white border-b border-secondary flex items-center justify-between relative z-50;
 }
 
+.global-header {
+  @apply bg-primary text-white border-b border-secondary flex items-center justify-between relative z-50;
+}
+
+/* 9. Footer Styles */
 footer {
   @apply bg-primary text-white;
 }
 
+/* 10. Container Styles */
 .container {
-  @apply max-w-7xl mx-auto px-4;
+  @apply max-w-7xl mx-auto;
 }
 
+/* 11. Link Styles */
 a {
   @apply transition-colors duration-200;
+  transition: background-color 0.3s, color 0.3s !important;
 }
 
 a:hover {
   @apply text-accent;
 }
 
+/* 12. Image Styles */
 img {
   @apply max-w-full h-auto;
 }
 
+/* 13. Hover Button Styles */
 .hover-button:hover {
   @apply bg-accent text-white;
 }
 
+/* 14. Parent Container Styles */
 .parent-container {
   overflow: visible;
 }
 
-.carousel .control-pause {
-  display: none !important;
-}
-
+/* 15. Carousel Styles */
+.carousel .control-pause,
 .carousel button[aria-label="Pause"] {
   display: none !important;
 }
 
+/* 16. Language Selector Styles */
 .language-selector-container {
   @apply flex items-center relative z-50;
 }
@@ -68,15 +102,18 @@ img {
   @apply absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-md shadow-lg z-50;
 }
 
+/* 17. Leaflet Container Styles */
 .leaflet-container {
   z-index: 0;
 }
 
+/* 18. Text Selection Styles */
 ::selection {
   color: #ffffff;
   background: #FF6C0E;
 }
 
+/* 19. Scrollbar Styles for Aside */
 aside::-webkit-scrollbar {
   width: 8px;
 }
@@ -90,20 +127,28 @@ aside::-webkit-scrollbar-thumb {
   border-radius: 4px;
 }
 
+/* 20. Additional Link Transition */
 a {
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s !important;
 }
 
+a:hover {
+  @apply text-accent;
+}
+
+/* 21. Media Query for Main */
 @media (min-width: 768px) {
   main {
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 }
 
+/* 22. Header Text Styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #4B5563;
+  color: #4B5563 !important;
 }
 
+/* 23. Banner Styles */
 .banner {
   width: 100%;
   max-width: 100%;
@@ -117,10 +162,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* 24. Transition Transform Styles */
 .transition-transform {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+/* 25. Logo Grid Styles */
 .logo-grid {
   display: grid;
   gap: 1rem;
@@ -138,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-grid div:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) !important;
 }
 
 .logo-grid img {
@@ -147,57 +194,78 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-/* Adjusted Sidebar Styles */
+/* 26. Adjusted Sidebar Styles */
 aside {
   @apply bg-white border border-gray-200 p-4 rounded-md;
 }
 
-/* Style for Separator Lines */
+/* 27. Separator Line Styles */
 hr {
   border: none;
   border-top: 1px solid #e5e7eb;
 }
 
+/* 28. Color Utility Classes */
 .text-primary {
-  color: var(--color-primary);
+  color: var(--color-primary) !important;
 }
 
 .bg-primary {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary) !important;
 }
 
 .border-primary {
-  border-color: var(--color-primary);
+  border-color: var(--color-primary) !important;
 }
 
 .focus\:ring-primary:focus {
   --tw-ring-color: var(--color-primary);
 }
 
-/* Additional Styles for Mobile View */
+/* 29. Additional Styles for Mobile View */
 @media (max-width: 768px) {
   .flex-col-reverse {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
   }
 }
 
-/* New Styles for Enhanced Feature Section */
+/* 30. Enhanced Feature Section Styles */
 .feature-section {
-  /* Optional: Add a subtle background pattern */
-  background-image: radial-gradient(circle at top left, rgba(26, 39, 65, 0.05), transparent 50%);
+  background-image: radial-gradient(circle at top left, rgba(26, 39, 65, 0.05), transparent 50%) !important;
 }
 
 .feature-section:hover {
-  /* Optional: Slightly increase the shadow on hover */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
 }
 
-* New Class for Feature and Divided Text Sections */
+/* 31. Feature Rectangle Styles */
 .feature_rectangle {
-  background: linear-gradient(135deg, rgba(241, 108, 38, 0.05), rgba(26, 39, 65, 0.05));
+  background: linear-gradient(135deg, rgba(241, 108, 38, 0.05), rgba(26, 39, 65, 0.05)) !important;
 }
 
-/* Optional: Hover Effect for Enhanced Interactivity */
 .feature_rectangle:hover {
-  background: linear-gradient(135deg, rgba(241, 108, 38, 0.1), rgba(26, 39, 65, 0.1));
+  background: linear-gradient(135deg, rgba(241, 108, 38, 0.1), rgba(26, 39, 65, 0.1)) !important;
 }
+
+/* 32. Paragraph Styling */
+p {
+  line-height: 1.6 !important;
+  text-align: justify !important;
+  color: #666 !important;
+  font-size: 16px !important;
+  margin-bottom: 1rem !important;
+}
+
+/* 33. HTML Styling */
+html {
+  line-height: 1.15 !important;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+
+/* 34. Limit Image Height on Mobile */
+@media (max-width: 768px) {
+  .max-h-mobile {
+    max-height: 100px; /* Reduced from 150px to 100px for smaller images */
+  }
+} 

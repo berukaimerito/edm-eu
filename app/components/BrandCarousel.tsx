@@ -21,7 +21,8 @@ const BrandCarousel: React.FC = () => {
       '/brands/brand6.png',
       '/brands/brand7.png',
       '/brands/brand8.png',
-      // Add more as needed
+      '/brands/brand9.png',
+      '/brands/brand10.png',
     ];
     setBrands(brandImages);
   }, []);
