@@ -269,3 +269,9 @@ html {
     max-height: 100px; /* Reduced from 150px to 100px for smaller images */
   }
 } 
+
+/* 35. Specific Image Styles for DividedTextSection */
+.divided-text-section img {
+  max-width: 100%;
+  height: auto;
+}
