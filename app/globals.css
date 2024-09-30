@@ -270,8 +270,20 @@ html {
   }
 } 
 
-/* 35. Specific Image Styles for DividedTextSection */
-.divided-text-section img {
-  max-width: 100%;
-  height: auto;
+/* 35. Carousel Custom Button Styles */
+.carousel-container button {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 2rem;
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-container button:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
