@@ -16,14 +16,27 @@
   --color-primary: #1a2741;         /* Dark Blue */
   --color-secondary: #f16c26;       /* Orange */
   --color-accent: rgba(68, 191, 186, 0.8); /* Light Teal with transparency */
-  --color-success: #41b776;          /* Green */
+  --color-success: #41b776;         /* Green */
   --color-secondary-hover: rgba(241, 108, 38, 0.8); /* Lighter Orange with transparency */
   --background: #ffffff;
   --foreground: #000000;
+  --color-pastel-blue: #6c9bd1;
+  --color-pastel-green: #8bcf8e;
+  --color-pastel-yellow: #f7d774;
+  --color-pastel-pink: #f7a1c4;
 }
 
 /* 5. CSS Reset */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas,
+details, embed, figure, figcaption, footer, header,
+hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -41,6 +54,7 @@ body {
   @apply bg-gray-50 text-gray-800;
   font-family: 'Quicksand', sans-serif !important;
   line-height: 1.6 !important;
+  color: #333;
 }
 
 /* 8. Header Styles */
@@ -145,7 +159,8 @@ a:hover {
 
 /* 22. Header Text Styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #4B5563 !important;
+  color: var(--color-primary) !important;
+  font-weight: 600;
 }
 
 /* 23. Banner Styles */
@@ -249,9 +264,9 @@ hr {
 
 /* 32. Paragraph Styling */
 p {
-  line-height: 1.6 !important;
+  line-height: 1.7 !important;
   text-align: justify !important;
-  color: #666 !important;
+  color: #555 !important;
   font-size: 16px !important;
   margin-bottom: 1rem !important;
 }
@@ -262,13 +277,12 @@ html {
   -webkit-text-size-adjust: 100% !important;
 }
 
-
 /* 34. Limit Image Height on Mobile */
 @media (max-width: 768px) {
   .max-h-mobile {
     max-height: 100px; /* Reduced from 150px to 100px for smaller images */
   }
-} 
+}
 
 /* 35. Carousel Custom Button Styles */
 .carousel-container button {
@@ -286,4 +300,105 @@ html {
 
 .carousel-container button:hover {
   background: rgba(0, 0, 0, 0.5);
+}
+
+/* 36. Custom Colors for Pastel Text and Icons */
+:root {
+  --color-pastel-blue: #6c9bd1;
+  --color-pastel-green: #8bcf8e;
+  --color-pastel-yellow: #f7d774;
+  --color-pastel-pink: #f7a1c4;
+}
+
+/* 37. Icon Styles */
+.icon {
+  color: var(--color-secondary);
+  font-size: 2rem;
+}
+
+/* 38. Box Styling for Sections */
+.box {
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  border-radius: 0.375rem; /* Rounded corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 39. Responsive Adjustments */
+@media (max-width: 768px) {
+  .grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* 40. Vertical Divider Styling */
+.divided-text-section .vertical-divider {
+  width: 1px;
+  background-color: #e5e7eb; /* Light gray color */
+}
+
+/* 41. Adjustments for Images Close to Border */
+.divided-text-section img {
+  margin-right: 0;
+}
+
+/* 42. Adjustments for Text and Image Alignment */
+.divided-text-section .flex.items-center {
+  justify-content: space-between;
+}
+
+/* 43. Adjustments for DividedTextSection */
+.divided-text-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.divided-text-section .flex.items-center {
+  justify-content: flex-start;
+}
+
+@media (max-width: 767px) {
+  .divided-text-section .flex.items-center {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* 44. Image Sizing for DividedTextSection */
+.divided-text-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 45. Center Text on Mobile */
+@media (max-width: 767px) {
+  .divided-text-section .text-center {
+    text-align: center;
+  }
+}
+
+/* 46. Increase Gap Between Text and Divider */
+.divided-text-section .md {
+  padding-right: 1.5rem; /* pr-6 */
+}
+
+.divided-text-section .md {
+  padding-left: 1.5rem; /* pl-6 */
+}
+
+/* 47. Adjust Margin Between Image and Text */
+.divided-text-section .md\\:ml-6 {
+  margin-left: 1.5rem; /* md:ml-6 */
+}
+
+/* 48. Image Sizing Adjustments */
+.divided-text-section img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 49. Ensure Images Don't Exceed Container */
+.divided-text-section .flex-shrink-0 {
+  flex-shrink: 0;
 }
