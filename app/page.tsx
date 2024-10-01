@@ -25,21 +25,31 @@ const HomePage: React.FC = () => {
   // Data for Services Section
   const services = [
     {
-      title: t('services.e_invoices'),
-      link: '/services/e-invoices',
-      logoSrc: '/logos/e-invoice.svg',
-    },
-    {
-      title: t('services.cloud_backup'),
-      link: '/services/cloud-backup',
-      logoSrc: '/logos/cloud-backup.svg',
+      title: t('services.erm_hr'),
+      link: '/services/registered-mail-hr',
+      logoSrc: '/logos/edm.png',
     },
     {
       title: t('services.e_reconciliation'),
       link: '/services/e-reconciliation',
-      logoSrc: '/logos/e-reconciliation.svg',
+      logoSrc: '/logos/edm.png',
     },
     // Add more services as needed
+    {
+      title: t('services.e_invoices'),
+      link: '/services/e-invoices',
+      logoSrc: '/logos/edm.png',
+    },
+    {
+      title: t('services.cloud_backup'),
+      link: '/services/cloud-backup',
+      logoSrc: '/logos/edm.png',
+    },
+    {
+      title: t('services.e_document_management_system'),
+      link: '/services/e-document-management-system',
+      logoSrc: '/logos/edm.png',
+    },
   ];
 
   // Data for Feature Section
