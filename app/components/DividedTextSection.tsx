@@ -39,6 +39,14 @@ const DividedTextSection: React.FC<DividedTextSectionProps> = ({ items, title })
               key={index}
               className="flex flex-col md:flex-row items-start justify-between w-full"
             >
+              {/* Image Section - Larger on mobile and on top */}
+              <div className="flex-shrink-0 md:order-2 mb-4 md:mb-0">
+                <img
+                  src={item.image_src}
+                  alt={item.title}
+                  className="w-28 h-28 md:w-32 md:h-32 object-contain"
+                />
+              </div>
               {/* Text Section */}
               <div className="flex-grow text-left md:pr-4">
                 <h3 className="text-xl md:text-2xl font-semibold mb-2 text-primary">
@@ -47,14 +55,6 @@ const DividedTextSection: React.FC<DividedTextSectionProps> = ({ items, title })
                 <p className="text-gray-700 font-light leading-relaxed">
                   {item.description}
                 </p>
-              </div>
-              {/* Image Section */}
-              <div className="flex-shrink-0 md:order-2">
-                <img
-                  src={item.image_src}
-                  alt={item.title}
-                  className="w-24 h-24 md:w-28 md:h-28 object-contain"
-                />
               </div>
             </div>
           ))}
@@ -62,12 +62,20 @@ const DividedTextSection: React.FC<DividedTextSectionProps> = ({ items, title })
         {/* Vertical Divider */}
         <div className="hidden md:block w-px bg-gray-300 mx-4"></div>
         {/* Right Column */}
-        <div className="md:w-1/2 flex flex-col gap-12 pl-8 mt-8 md:mt-0">
+        <div className="md:w-1/2 flex flex-col gap-12 md:pl-8 mt-8 md:mt-0">
           {rightItems.map((item, index) => (
             <div
               key={index}
               className="flex flex-col md:flex-row items-start justify-between w-full"
             >
+              {/* Image Section - Larger on mobile and on top */}
+              <div className="flex-shrink-0 md:order-2 mb-4 md:mb-0">
+                <img
+                  src={item.image_src}
+                  alt={item.title}
+                  className="w-28 h-28 md:w-32 md:h-32 object-contain"
+                />
+              </div>
               {/* Text Section */}
               <div className="flex-grow text-left md:pr-4">
                 <h3 className="text-xl md:text-2xl font-semibold mb-2 text-primary">
@@ -76,14 +84,6 @@ const DividedTextSection: React.FC<DividedTextSectionProps> = ({ items, title })
                 <p className="text-gray-700 font-light leading-relaxed">
                   {item.description}
                 </p>
-              </div>
-              {/* Image Section */}
-              <div className="flex-shrink-0 md:order-2">
-                <img
-                  src={item.image_src}
-                  alt={item.title}
-                  className="w-24 h-24 md:w-28 md:h-28 object-contain"
-                />
               </div>
             </div>
           ))}
