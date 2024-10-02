@@ -35,7 +35,7 @@
   },
   "e_consensus": {
     "slug": "e-reconciliation",
-    "title": "E-Reconciliation",
+    "title": "E-Uzgodnienie",
     "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
     "description": "Oznacza to prawne i ważne przekazywanie wszystkich uzgodnień BA-BS, rachunków bieżących, potrąceń i faktur wszystkich dostawców i klientów firm za pomocą środowiska mailowego lub systemu ZPE.",
     "benefits": {
@@ -137,7 +137,7 @@
       },
       "why_ebm_ebys": {
         "title": "DLACZEGO EDM SZDE?",
-        "description": "ŁATWOŚĆ PROCESU I ARCHIWIZACJI\n\nSkanowane dokumenty papierowe, faxy, emaile, wiadomości webowe, wiadomości z mediów społecznościowych, w tym JPAG, są przekształcane w pliki cyfrowe w dowolnym formacie, następnie przekształcane w format czytelny i edytowalny, krążą między odpowiedzialnymi osobami w procesach, mogą mieć dodawane komentarze lub inne dokumenty, być inicjowane, podpisywane i wysyłane do odbiorców.\n\nNa każdym etapie procesu, mogą być drukowane i archiwizowane jako oddzielna wersja.\n\nOPCJE RAPORTOWANIA I ANALIZY\n\nNa każdym etapie procesu, ile czasu zajmuje i jak dobrze jest realizowany, jest raportowane i analizowane dla zarządzania wydajnością.\n\nBEZPIECZEŃSTWO\n\nŻadna osoba odpowiedzialna w procesie nie może powiedzieć, że nie otrzymała ani nie przeczytała dokumentu. W systemie System Zarządzania Dokumentami Elektronicznymi (SZDE), legalnie, każdy dokument, który trafia do osoby w procesie, skutkuje werdyktem „otrzymano i przeczytano”.\n\nUSO SEMPLICE\n\nW systemie System Zarządzania Dokumentami Elektronicznymi (SZDE), dokumenty sprzed lat mogą być znalezione w ciągu sekund na podstawie kryteriów takich jak data, temat, nadawca, odbiorca, numer itp., lub wpisując kilka nieuporządkowanych słów w dokumencie. W systemie EBYS, osoby mogą uzyskiwać dostęp tylko do dokumentów, do których są uprawnione."
+        "description": "ŁATWOŚĆ PROCESU I ARCHIWIZACJI\n\nSkanowane dokumenty papierowe, faxy, emaile, wiadomości webowe, wiadomości z mediów społecznościowych, w tym JPAG, są przekształcane w pliki cyfrowe w dowolnym formacie, następnie przekształcane w format czytelny i edytowalny, krążą między odpowiedzialnymi osobami w procesach, mogą mieć dodawane komentarze lub inne dokumenty, być inicjowane, podpisywane i wysyłane do odbiorców.\n\nNa każdym etapie procesu, mogą być drukowane i archiwizowane jako oddzielna wersja.\n\nOPCJE RAPORTOWANIA I ANALIZY\n\nNa każdym etapie procesu, ile czasu zajmuje i jak dobrze jest realizowany, jest raportowane i analizowane dla zarządzania wydajnością.\n\nBEZPIECZEŃSTWO\n\nŻadna osoba odpowiedzialna w procesie nie może powiedzieć, że nie otrzymała ani nie przeczytała dokumentu. W systemie System Zarządzania Dokumentami Elektronicznymi (SZDE), legalnie, każdy dokument, który trafia do osoby w procesie, skutkuje werdyktem „otrzymano i przeczytano”.\n\nUSO SEMPLICE\n\nW systemie System Zarządzania Dokumentami Elektronicznymi (SZDE), dokumenty sprzed lat mogą być znalezione w ciągu sekund na podstawie kryteriów takich jak data, temat, nadawca, odbiorca, numer itp., lub wpisując kilka nieuporządkowanych słów w dokumencie. W systemie System Zarządzania Dokumentami Elektronicznymi, osoby mogą uzyskiwać dostęp tylko do dokumentów, do których są uprawnione."
       },
       "access_ease": {
         "title": "ŁATWOŚĆ DOSTĘPU",

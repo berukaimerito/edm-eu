@@ -37,12 +37,12 @@
     "slug": "e-reconciliation",
     "title": "E-Reconciliation",
     "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
-    "description": "It means the legal and valid transmission of all BA-BS reconciliations, current accounts, withholdings, and invoices of companies' suppliers and customers via email or the KEP system.",
+    "description": "It means the legal and valid transmission of all BA-BS reconciliations, current accounts, withholdings, and invoices of companies' suppliers and customers via email or the REM (Registered E-Mail MAIL) system.",
     "benefits": {
-      "why_edm_e_consensus": "WHY EDM E-MUTABAKAT",
+      "why_edm_e_consensus": "WHY EDM E-Reconciliation",
       "legally_valid": {
         "title": "LEGALLY VALID",
-        "description": "Considered legally valid when sent via KEP to the Ministry of Finance. Reduces audit times by dozens of times. Accepted as first-degree legal evidence in commercial courts and executive offices."
+        "description": "Considered legally valid when sent via REM to the Ministry of Finance. Reduces audit times by dozens of times. Accepted as first-degree legal evidence in commercial courts and executive offices."
       },
       "time_and_cost_advantages": {
         "title": "TIME AND COST ADVANTAGES",
@@ -58,7 +58,7 @@
       },
       "fully_integrated": {
         "title": "FULLY INTEGRATED",
-        "description": "Complete integration with your official accounting. The E-Mutabakat system can be used in two modes: integrated and via file transfer. If your customers or suppliers do not accept the KEP address, the system will send reconciliation links to their email addresses."
+        "description": "Complete integration with your official accounting. The E-Reconciliation system can be used in two modes: integrated and via file transfer. If your customers or suppliers do not accept the KEP address, the system will send reconciliation links to their email addresses."
       }
     },
     "subpages": {
@@ -75,7 +75,7 @@
       "kep_reconciliation": {
         "slug": "rem-conciliation",
         "title": "Corporate Mail Registiration Reconciliation",
-        "description": "Thanks to EDM's E-Reconcilation product, you can send reconciliation links to your partners' ERM addresses, making your E-Mutabakat reconciliations legally valid without needing a first-degree court judgment. EDM has launched E-Mutabakat packages to offer the most economical level of ERM-based sending."
+        "description": "Thanks to EDM's E-Reconcilation product, you can send reconciliation links to your partners' ERM addresses, making your E-Reconciliation reconciliations legally valid without needing a first-degree court judgment. EDM has launched E-Reconciliation packages to offer the most economical level of ERM-based sending."
       },
       "who_can_use": {
         "slug": "stakeholders",

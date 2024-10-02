@@ -42,7 +42,7 @@
       "why_edm_e_consensus": "PERCHÉ E-Riconciliazione EDM",
       "legally_valid": {
         "title": "LEGALEMENTE VALIDO",
-        "description": "Considerato legalmente valido quando inviato tramite KEP presso il Ministero delle Finanze. Riduce i tempi di audit di decine di volte. Accettato come prova legale di primo grado nei tribunali di commercio e negli uffici esecutivi."
+        "description": "Considerato legalmente valido quando inviato tramite REC presso il Ministero delle Finanze. Riduce i tempi di audit di decine di volte. Accettato come prova legale di primo grado nei tribunali di commercio e negli uffici esecutivi."
       },
       "time_and_cost_advantages": {
         "title": "VANTAGGI DI TEMPO E COSTO",
@@ -66,11 +66,11 @@
       },
       "kep_reconciliation": {
         "title": "RICONCILIAZIONE TRAMITE PER",
-        "description": "Grazie al prodotto E-Riconciliazione di EDM, puoi inviare link di riconciliazione anche agli indirizzi KEP dei tuoi partner, rendendo le tue riconciliazioni E-Mutabakat legalmente valide senza necessità di giudizio di primo grado. EDM ha lanciato pacchetti E-Mutabakat per offrire invii tramite KEP al livello più economico."
+        "description": "Grazie al prodotto E-Riconciliazione di EDM, puoi inviare link di riconciliazione anche agli indirizzi  dei tuoi partner, rendendo le tue riconciliazioni Riconciliazione Elettronica legalmente valide senza necessità di giudizio di primo grado. EDM ha lanciato pacchetti E-Riconciliazione per offrire invii tramite KEP al livello più economico."
       },
       "who_can_use": {
-        "title": "CHI PUÒ PASSARE A E-MUTABAKAT?",
-        "description": "Tutte le aziende con molti partner, rivenditori, fornitori e partner commerciali che desiderano risparmiare tempo e denaro, ridurre i costi di archiviazione e liberarsi dalla forza lavoro operativa possono passare a E-Mutabakat.",
+        "title": "CHI PUÒ PASSARE A E-Riconciliazione",
+        "description": "Tutte le aziende con molti partner, rivenditori, fornitori e partner commerciali che desiderano risparmiare tempo e denaro, ridurre i costi di archiviazione e liberarsi dalla forza lavoro operativa possono passare a E-Riconciliazione",
         "list": [
           "Aziende con numerosi partner, rivenditori e fornitori",
           "Liberi professionisti",
@@ -78,8 +78,8 @@
         ]
       },
       "is_mandatory": {
-        "title": "E-MUTABAKAT È OBBLIGATORIO?",
-        "description": "E-Mutabakat non è obbligatorio. È possibile effettuare il passaggio su base volontaria."
+        "title": "E-Riconciliazione È OBBLIGATORIO?",
+        "description": "E-Riconciliaizione non è obbligatorio. È possibile effettuare il passaggio su base volontaria."
       },
       "leading_sectors": {
         "title": "SETTORE LEADER CHE UTILIZZANO E-Riconciliazione DI EDM",
@@ -104,12 +104,12 @@
       "kep_reconciliation": {
         "slug": "rem-conciliation",
         "title": "Riconciliazione della Registrazione della Posta Aziendale",
-        "description": "Grazie al prodotto E-Reconcilation di EDM, puoi inviare link di riconciliazione agli indirizzi ERM dei tuoi partner, rendendo le tue riconciliazioni E-Mutabakat legalmente valide senza la necessità di una sentenza di primo grado. EDM ha lanciato pacchetti E-Mutabakat per offrire il livello più economico di invio basato su ERM."
+        "description": "Grazie al prodotto E-Reconcilation di EDM, puoi inviare link di riconciliazione agli indirizzi ERM dei tuoi partner, rendendo le tue riconciliazioni E-Riconciliazione legalmente valide senza la necessità di una sentenza di primo grado. EDM ha lanciato pacchetti E-Riconciliazione per offrire il livello più economico di invio basato su ERM."
       },
       "who_can_use": {
         "slug": "stakeholders",
         "title": "Chi Può Passare a E-Reconciliation?",
-        "description": "Tutte le aziende con un gran numero di partner, rivenditori, fornitori e partner commerciali che desiderano risparmiare tempo e denaro, ridurre i costi di archiviazione e liberarsi dalla forza lavoro operativa possono passare a E-Reoncilation.",
+        "description": "Tutte le aziende con un gran numero di partner, rivenditori, fornitori e partner commerciali che desiderano risparmiare tempo e denaro, ridurre i costi di archiviazione e liberarsi dalla forza lavoro operativa possono passare a E-Riconciliazione.",
         "list": [
           "Aziende con numerosi partner, rivenditori e fornitori",
           "Liberi professionisti",
@@ -123,12 +123,12 @@
       },
       "is_mandatory": {
         "slug": "is-mandatory",
-        "title": "E-Reconciliation è Obbligatoria?",
-        "description": "E-Mutabakat non è obbligatoria. Può essere adottata su base volontaria."
+        "title": "E-Riconciliazione è Obbligatoria?",
+        "description": "E-Riconciliazione non è obbligatoria. Può essere adottata su base volontaria."
       },
       "leading_sectors": {
         "slug": "leading-sectors",
-        "title": "Settori Leader che Utilizzano EDM E-Reonciliation",
+        "title": "Settori Leader che Utilizzano EDM E-Riconciliazione",
         "list": [
           "Aziende che lavorano con strutture di rivenditori",
           "Grossisti",
@@ -141,7 +141,7 @@
     "slug": "e-document-management-system",
     "title": "Sistema di Gestione E-Documenti SGDE",
     "youtube_embed": "XLuzI_kc8oM",
-    "description": "Il Sistema di Gestione E-Documenti è un sistema che consente alle organizzazioni di archiviare e gestire tutti i tipi di documentazione creata durante le loro operazioni, dalla produzione allo smaltimento finale. Diversamente dall'EBYS standard, EDM EBYS non è solo un archivio o un software di processo. È un pacchetto di soluzioni personalizzabile secondo le esigenze. Questo pacchetto è un'intelligenza aziendale che gestisce l'interazione con i clienti.",
+    "description": "Il Sistema di Gestione E-Documenti è un sistema che consente alle organizzazioni di archiviare e gestire tutti i tipi di documentazione creata durante le loro operazioni, dalla produzione allo smaltimento finale. Diversamente dall' Sistema di Gestione dei Documenti Contabili Elettronico standard, EDM Sistema di Gestione dei Documenti Contabili Elettronico non è solo un archivio o un software di processo. È un pacchetto di soluzioni personalizzabile secondo le esigenze. Questo pacchetto è un'intelligenza aziendale che gestisce l'interazione con i clienti.",
     "benefits": {
       "what_can_be_done_with_ebys": {
         "title": "COSA SI PUÒ FARE CON SGDE?",
@@ -173,7 +173,7 @@
       },
       "why_ebm_ebys": {
         "title": "PERCHÉ EDM SGDE?",
-        "description": "FACILITÀ DI PROCESSO E ARCHIVIAZIONE\n\nI documenti cartacei scansionati, faxes, email, messaggi web, messaggi social media, inclusi JPAG, vengono convertiti in file digitali in qualsiasi formato, poi trasformati in un formato leggibile e scrivibile, circolano tra le persone responsabili nei processi, possono avere commenti o altri documenti aggiunti, essere inizializzati, firmati e inviati ai destinatari.\n\nA ogni fase del processo, possono essere stampati e archiviati come versione separata.\n\nOPPORTUNITÀ DI REPORTING E ANALISI\n\nAd ogni fase del processo, quanto tempo richiede e quanto bene è realizzato viene riportato e analizzato per la gestione delle prestazioni.\n\nSICUREZZA\n\nNessuna persona responsabile nel processo può dire di non aver ricevuto o letto il documento. Nel sistema EBYS, legalmente, ogni documento che arriva a una persona nel processo risulta in un verdetto di “ricevuto e letto”.\n\nUSO SEMPLICE\n\nCon il sistema EBYS, i documenti di anni fa possono essere trovati in secondi in base a criteri come data, oggetto, mittente, destinatario, numero, ecc., o digitando alcune parole non ordinate all'interno del documento. Nel sistema EBYS, le persone possono accedere solo ai documenti a cui sono autorizzate."
+        "description": "FACILITÀ DI PROCESSO E ARCHIVIAZIONE\n\nI documenti cartacei scansionati, faxes, email, messaggi web, messaggi social media, inclusi JPAG, vengono convertiti in file digitali in qualsiasi formato, poi trasformati in un formato leggibile e scrivibile, circolano tra le persone responsabili nei processi, possono avere commenti o altri documenti aggiunti, essere inizializzati, firmati e inviati ai destinatari.\n\nA ogni fase del processo, possono essere stampati e archiviati come versione separata.\n\nOPPORTUNITÀ DI REPORTING E ANALISI\n\nAd ogni fase del processo, quanto tempo richiede e quanto bene è realizzato viene riportato e analizzato per la gestione delle prestazioni.\n\nSICUREZZA\n\nNessuna persona responsabile nel processo può dire di non aver ricevuto o letto il documento. Nel sistema Sistema di Gestione dei Documenti Contabili Elettronico, legalmente, ogni documento che arriva a una persona nel processo risulta in un verdetto di “ricevuto e letto”.\n\nUSO SEMPLICE\n\nCon il sistema Sistema di Gestione dei Documenti Contabili Elettronico (SGDCE), i documenti di anni fa possono essere trovati in secondi in base a criteri come data, oggetto, mittente, destinatario, numero, ecc., o digitando alcune parole non ordinate all'interno del documento. Nel sistema Sistema di Gestione dei Documenti Contabili Elettronico, le persone possono accedere solo ai documenti a cui sono autorizzate."
       },
       "access_ease": {
         "title": "FACILITÀ DI ACCESSO",
