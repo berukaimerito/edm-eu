@@ -33,14 +33,14 @@ const DividedTextSection: React.FC<DividedTextSectionProps> = ({ items, title })
       )}
       <div className="flex flex-col md:flex-row">
         {/* Left Column */}
-        <div className="md:w-1/2 flex flex-col gap-12 pr-8">
+        <div className="md:w-1/2 flex flex-col gap-12 md:pr-8">
           {leftItems.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col md:flex-row items-start justify-between w-full"
+              className="flex flex-col md:flex-row items-center justify-between w-full"
             >
               {/* Image Section - Larger on mobile and on top */}
-              <div className="flex-shrink-0 md:order-2 mb-4 md:mb-0">
+              <div className="flex-shrink-0 md:order-2 mb-4 md:mb-0 mx-auto">
                 <img
                   src={item.image_src}
                   alt={item.title}
@@ -48,7 +48,7 @@ const DividedTextSection: React.FC<DividedTextSectionProps> = ({ items, title })
                 />
               </div>
               {/* Text Section */}
-              <div className="flex-grow text-left md:pr-4">
+              <div className="flex-grow text-center md:text-left md:pr-4">
                 <h3 className="text-xl md:text-2xl font-semibold mb-2 text-primary">
                   {item.title}
                 </h3>
@@ -66,10 +66,10 @@ const DividedTextSection: React.FC<DividedTextSectionProps> = ({ items, title })
           {rightItems.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col md:flex-row items-start justify-between w-full"
+              className="flex flex-col md:flex-row items-center justify-between w-full"
             >
               {/* Image Section - Larger on mobile and on top */}
-              <div className="flex-shrink-0 md:order-2 mb-4 md:mb-0">
+              <div className="flex-shrink-0 md:order-2 mb-4 md:mb-0 mx-auto">
                 <img
                   src={item.image_src}
                   alt={item.title}
@@ -77,7 +77,7 @@ const DividedTextSection: React.FC<DividedTextSectionProps> = ({ items, title })
                 />
               </div>
               {/* Text Section */}
-              <div className="flex-grow text-left md:pr-4">
+              <div className="flex-grow text-center md:text-left md:pr-4">
                 <h3 className="text-xl md:text-2xl font-semibold mb-2 text-primary">
                   {item.title}
                 </h3>
