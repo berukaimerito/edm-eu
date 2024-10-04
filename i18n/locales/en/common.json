@@ -10,10 +10,10 @@
     "title": "Our Services",
     "description": "Explore the range of services we offer to streamline your business processes.",
     "e_invoices": "E-Invoices",
-    "erm_hr": "H.R. Registered E-Mail",
     "e_reconciliation": "E-Reconciliation",
+    "e_document_management_system": "E-Document Management System",
     "cloud_backup": "Cloud Backup",
-    "e_document_management_system": "E-Document Management System"
+    "erm_hr": "H.R. Registered E-Mail"
   },
   "info": {
     "title": "Information",

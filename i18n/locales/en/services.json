@@ -1,157 +1,5 @@
 {
   "name": "Services", 
-    "cloud_backup": {
-      "title": "Cloud Backup",
-      "slug": "cloud-backup",
-      "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
-      "description": "It is an EDM service that works compatibly with ERP programs, backing up all your data and scanned copies of your legal documents securely and seamlessly with online access and advanced security.",
-      "benefits": {
-        "why_edm_cloud_backup": "WHY EDM CLOUD BACKUP?",
-        "immediate_access": "IMMEDIATE ACCESS, EASY TO USE",
-        "immediate_access_description": "You can store all your documents in a secure environment, access your data 24/7 from anywhere, upload data at any time. The 98% depository archiving method provides high compression and fast mobile access.",
-        "timely_backup": "TIMELY BACKUP",
-        "timely_backup_description": "Provides online incremental or scheduled backups according to your needs.",
-        "simple_interface": "SIMPLE INTERFACE",
-        "simple_interface_description": "The simple interface does not burden you, offering easy use to speed up your operations.",
-        "secure_storage": "SECURE STORAGE",
-        "secure_storage_description": "Stored on high-security and ISO-certified servers, with 4 backups in Istanbul and Ankara.",
-        "automatic_backup": "FULLY AUTOMATIC WHEN YOU WANT",
-        "automatic_backup_description": "All your data and databases in any format on your computer or servers, including encryption keys, are automatically saved at any time of the day.",
-        "minimum_internet_usage": "MINIMUM INTERNET USAGE",
-        "minimum_internet_usage_description": "While backing up your data, only the changed parts are taken with the 'Smart Backup' system, keeping your internet usage to a minimum.",
-        "advantages": "CLOUD BACKUP AND ADVANTAGES",
-        "advantages_description": "If you purchase the EDM Cloud Backup service, for example, tax consultants can back up their accounting, lawyers can back up all their documents and data, and databases and programs (Windows, SQL, Oracle, etc.) securely.\n\nYou can obtain all the above-mentioned services in an integrated manner from EDM Bilişim with a single username and password for online access.",
-        "who_should_use": "WHO SHOULD USE CLOUD BACKUP?",
-        "who_should_use_list": [
-          "Any company and freelancer who wants to back up their database and important folders online",
-          "Tax Consultants",
-          "Lawyers",
-          "Engineering Offices",
-          "Doctor Examinations",
-          "E-Invoice obligated parties",
-          "E-Archive Invoice obligated parties"
-        ]
-      }
-    },
-    "e_consensus": {
-    "slug": "e-reconciliation",
-    "title": "E-Reconciliation",
-    "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
-    "description": "It means the legal and valid transmission of all BA-BS reconciliations, current accounts, withholdings, and invoices of companies' suppliers and customers via email or the REM (Registered E-Mail MAIL) system.",
-    "benefits": {
-      "why_edm_e_consensus": "WHY EDM E-Reconciliation",
-      "legally_valid": {
-        "title": "LEGALLY VALID",
-        "description": "Considered legally valid when sent via REM to the Ministry of Finance. Reduces audit times by dozens of times. Accepted as first-degree legal evidence in commercial courts and executive offices."
-      },
-      "time_and_cost_advantages": {
-        "title": "TIME AND COST ADVANTAGES",
-        "description": "Allows sending BA, BS, and current reconciliations individually or in bulk within seconds, saving time and money. All partners automatically receive BA, BS, and current reconciliations every month, and all sent reconciliations are archived in EDM systems with backups for years."
-      },
-      "reliable": {
-        "title": "RELIABLE",
-        "description": "Sending via InterKEP, Turkey's largest technology company, ensures secure and fast transmissions. Ensures that reconciliations are correctly sent to partners and remain confidential between the company and partners."
-      },
-      "immediate_access": {
-        "title": "IMMEDIATE ACCESS",
-        "description": "Your reconciliations are not deformed during archiving, you can access documents online even after years, and prove their validity with an immutable electronic seal."
-      },
-      "fully_integrated": {
-        "title": "FULLY INTEGRATED",
-        "description": "Complete integration with your official accounting. The E-Reconciliation system can be used in two modes: integrated and via file transfer. If your customers or suppliers do not accept the KEP address, the system will send reconciliation links to their email addresses."
-      }
-    },
-    "subpages": {
-      "kep_registered_e_mail": {
-        "slug": "rem",
-        "title": "REM: Registered Electronic Mail",
-        "description": "Using registered electronic mail (REM) ensures that the notifications sent are legally recognized. If your partners do not contest the notifications within 5 days, they will be considered accepted with an electronic signature."
-      },
-      "corporate_mail_reconciliation": {
-        "slug": "corp-rem",
-        "title": "Corporate Mail Reconciliation",
-        "description": "It is an EDM application that enables conducting accounting and current reconciliations online with partners, dealers, suppliers, and all other business partners. The application not only checks if the reconciliation is accepted but also identifies differences in current balances and reports them to the parties. It is fully integrated with all accounting programs. According to the notification law, an email response sent from a company's official servers is legally binding like a traditional stamp and signature."
-      },
-      "kep_reconciliation": {
-        "slug": "rem-conciliation",
-        "title": "Corporate Mail Registiration Reconciliation",
-        "description": "Thanks to EDM's E-Reconcilation product, you can send reconciliation links to your partners' ERM addresses, making your E-Reconciliation reconciliations legally valid without needing a first-degree court judgment. EDM has launched E-Reconciliation packages to offer the most economical level of ERM-based sending."
-      },
-      "who_can_use": {
-        "slug": "stakeholders",
-        "title": "Who Can Switch to E-Reconciliation?",
-        "description": "All companies with a large number of partners, dealers, suppliers, and business partners who want to save time and money, reduce archiving costs, and free themselves from operational workforce can switch to E-Reoncilation.",
-        "list": [
-          "Companies with numerous partners, dealers, and suppliers",
-          "Freelancers",
-          "Companies looking to reduce archiving costs"
-        ]
-      },
-      "why_edm_e_consensus": {
-        "slug": "why-edm-rem",
-        "title": "Why EDM E-Reconciliation",
-        "description": "EDM E-Reconciliation offers an integrated and secure solution for managing financial reconciliations, reducing audit times, and improving operational efficiency."
-      },
-      "is_mandatory": {
-        "slug": "is-mandatory",
-        "title": "Is E-Reconciliation Mandatory?",
-        "description": "E-Mutabakat is not mandatory. It can be adopted on a voluntary basis."
-      },
-      "leading_sectors": {
-        "slug": "leading-sectors",
-        "title": "Leading Sectors Using EDM E-Reonciliation",
-        "list": [
-          "Companies working with dealer structures",
-          "Wholesalers",
-          "Companies with large purchasing operations"
-        ]
-      }
-    }
-  },
-  "e_document_management_system": {
-    "slug": "e-document-management-system",
-    "title": "E-Document Management System (EDMS)",
-    "youtube_embed": "XLuzI_kc8oM",
-    "description": "Electronic Document Management System is a system that allows organizations to archive and manage all types of documentation created during their operations, from production to final disposal. Unlike standard EBYS, EDM EBYS is not just an archive or process software. It is a solution package that can be customized according to needs. This package is a business intelligence that performs customer interaction management.",
-    "benefits": {
-      "what_can_be_done_with_ebys": {
-        "title": "WHAT CAN BE DONE WITH EDMS?",
-        "description": "EBYS can connect to existing data sources; organizations can connect to all existing data sources (SAP, New Frame, social media, printer, scanner, phone, etc.) to create and process documents from scratch at any time. It can monitor data sources; it can listen to data sources processed via email, fax, SMS, social media channels like Twitter, Facebook, and work together with survey systems, campaign management systems."
-      },
-      "basic_functions": {
-        "title": "EDMS BASIC FUNCTIONS",
-        "description": "Access the system from mobile devices and any location with a web-based interface. Flexible operation with HTML 5, Ajax interfaces, Dotnet 4.0, WCF software infrastructure. Complete integration with business process automation."
-      },
-      "indexing": {
-        "title": "INDEXING",
-        "description": "Content indexing in formats like Word, Excel, PowerPoint, PDF, etc. Ability to use logical expressions in document searches. Automatic indexing of images with OCR. Indexing of image PDFs."
-      },
-      "scalability": {
-        "title": "SCALABILITY",
-        "description": "Ability to store documents either in the file system or in databases. Ability to create unlimited libraries. Ability to store each digital library in different storage areas. Ability to integrate with multiple databases and file systems. Ability to provide storage capacity at the level of millions of documents and terabytes."
-      },
-      "distributed_operation_and_cache_support": {
-        "title": "DISTRIBUTED OPERATION AND CACHE SUPPORT",
-        "description": "Ability to fully comply with organizations operating in a distributed manner. All processed data is collected at a single center, data pool. Local caching can be performed in organizations with branch structures. Local caches can be synchronized with the center at certain intervals. High performance even at low data speeds."
-      },
-      "e_signature_compatible_structure": {
-        "title": "E-SIGNATURE COMPATIBLE STRUCTURE",
-        "description": "E-Signature structure with legally valid structure. Integration of E-Signature structure into PDF files. Ability to export created forms as searchable PDFs. Ability to send documents for E-Signature approval via workflow automation, digitization."
-      },
-      "digitization_management": {
-        "title": "DIGITIZATION MANAGEMENT",
-        "description": "Quickly digitize documents to electronic media. Easily classify documents. Integration with document management and all other operational workflows. Increases personnel efficiency and measures performance. Prevents non-standard scanning and document creation. Integration with fast scanners. Image enhancement feature. Full-text search and indexing feature with OCR. Form processing features."
-      },
-      "why_ebm_ebys": {
-        "title": "WHY EDM EDMS?",
-        "description": "PROCESS AND ARCHIVE EASE\n\nScanned paper documents, faxes, emails, web messages, social media messages, including JPAG, are converted into digital files in any format, then transformed into a readable and writable format, circulate among responsible persons in processes, can have comments or other documents added, be initialed, signed, and sent to counterparts.\n\nAt every stage of the process, it can be printed and archived as a separate version.\n\nREPORTING AND ANALYSIS OPPORTUNITY\n\nAt every stage of the process, how long it takes and how well it is completed is reported and analyzed for performance management.\n\nSECURITY\n\nNo responsible person in the process can say they did not receive or read the document. In the EBYS system, legally, every document that arrives to a person in the process results in an “received and read” verdict.\n\nSIMPLE USE\n\nWith the EBYS system, documents from years ago can be found in seconds based on criteria such as date, subject, sender, receiver, number, etc., or by typing a few unordered words within the document. In the EBYS system, people can only access documents they are authorized to."
-      },
-      "access_ease": {
-        "title": "ACCESS EASE",
-        "description": "All the mentioned functions in the EDMS system also work on mobile environments with Android, iOS, and Microsoft software."
-      }
-    }
-  },
   "e_bill": {
     "slug": "e-invoices",
     "title": "E-Invoice",
@@ -230,27 +78,179 @@
       ]
     }
   },
+    "e_consensus": {
+    "slug": "e-reconciliation",
+    "title": "E-Reconciliation",
+    "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
+    "description": "It means the legal and valid transmission of all BA-BS reconciliations, current accounts, withholdings, and invoices of companies' suppliers and customers via email or the REM (Registered E-Mail MAIL) system.",
+    "benefits": {
+      "why_edm_e_consensus": "WHY EDM E-Reconciliation",
+      "legally_valid": {
+        "title": "LEGALLY VALID",
+        "description": "Considered legally valid when sent via REM to the Ministry of Finance. Reduces audit times by dozens of times. Accepted as first-degree legal evidence in commercial courts and executive offices."
+      },
+      "time_and_cost_advantages": {
+        "title": "TIME AND COST ADVANTAGES",
+        "description": "Allows sending BA, BS, and current reconciliations individually or in bulk within seconds, saving time and money. All partners automatically receive BA, BS, and current reconciliations every month, and all sent reconciliations are archived in EDM systems with backups for years."
+      },
+      "reliable": {
+        "title": "RELIABLE",
+        "description": "Sending via InterKEP, Turkey's largest technology company, ensures secure and fast transmissions. Ensures that reconciliations are correctly sent to partners and remain confidential between the company and partners."
+      },
+      "immediate_access": {
+        "title": "IMMEDIATE ACCESS",
+        "description": "Your reconciliations are not deformed during archiving, you can access documents online even after years, and prove their validity with an immutable electronic seal."
+      },
+      "fully_integrated": {
+        "title": "FULLY INTEGRATED",
+        "description": "Complete integration with your official accounting. The E-Reconciliation system can be used in two modes: integrated and via file transfer. If your customers or suppliers do not accept the REM address, the system will send reconciliation links to their email addresses."
+      }
+    },
+    "subpages": {
+      "kep_registered_e_mail": {
+        "slug": "rem",
+        "title": "REM: Registered Electronic Mail",
+        "description": "Using registered electronic mail (REM) ensures that the notifications sent are legally recognized. If your partners do not contest the notifications within 5 days, they will be considered accepted with an electronic signature."
+      },
+      "corporate_mail_reconciliation": {
+        "slug": "corp-rem",
+        "title": "Corporate Mail Reconciliation",
+        "description": "It is an EDM application that enables conducting accounting and current reconciliations online with partners, dealers, suppliers, and all other business partners. The application not only checks if the reconciliation is accepted but also identifies differences in current balances and reports them to the parties. It is fully integrated with all accounting programs. According to the notification law, an email response sent from a company's official servers is legally binding like a traditional stamp and signature."
+      },
+      "kep_reconciliation": {
+        "slug": "rem-conciliation",
+        "title": "Corporate Mail Registiration Reconciliation",
+        "description": "Thanks to EDM's E-Reconcilation product, you can send reconciliation links to your partners' ERM addresses, making your E-Reconciliation reconciliations legally valid without needing a first-degree court judgment. EDM has launched E-Reconciliation packages to offer the most economical level of ERM-based sending."
+      },
+      "who_can_use": {
+        "slug": "stakeholders",
+        "title": "Who Can Switch to E-Reconciliation?",
+        "description": "All companies with a large number of partners, dealers, suppliers, and business partners who want to save time and money, reduce archiving costs, and free themselves from operational workforce can switch to E-Reoncilation.",
+        "list": [
+          "Companies with numerous partners, dealers, and suppliers",
+          "Freelancers",
+          "Companies looking to reduce archiving costs"
+        ]
+      },
+      "why_edm_e_consensus": {
+        "slug": "why-edm-rem",
+        "title": "Why EDM E-Reconciliation",
+        "description": "EDM E-Reconciliation offers an integrated and secure solution for managing financial reconciliations, reducing audit times, and improving operational efficiency."
+      },
+      "is_mandatory": {
+        "slug": "is-mandatory",
+        "title": "Is E-Reconciliation Mandatory?",
+        "description": "E-Mutabakat is not mandatory. It can be adopted on a voluntary basis."
+      },
+      "leading_sectors": {
+        "slug": "leading-sectors",
+        "title": "Leading Sectors Using EDM E-Reonciliation",
+        "list": [
+          "Companies working with dealer structures",
+          "Wholesalers",
+          "Companies with large purchasing operations"
+        ]
+      }
+    }
+  },
+  "e_document_management_system": {
+    "slug": "e-document-management-system",
+    "title": "E-Document Management System (EDMS)",
+    "youtube_embed": "XLuzI_kc8oM",
+    "description": "Electronic Document Management System is a system that allows organizations to archive and manage all types of documentation created during their operations, from production to final disposal. Unlike standard electronic document management system (EDMS), EDM EDMS is not just an archive or process software. It is a solution package that can be customized according to needs. This package is a business intelligence that performs customer interaction management.",
+    "benefits": {
+      "what_can_be_done_with_ebys": {
+        "title": "WHAT CAN BE DONE WITH EDMS?",
+        "description": "EDMS can connect to existing data sources; organizations can connect to all existing data sources (SAP, New Frame, social media, printer, scanner, phone, etc.) to create and process documents from scratch at any time. It can monitor data sources; it can listen to data sources processed via email, fax, SMS, social media channels like Twitter, Facebook, and work together with survey systems, campaign management systems."
+      },
+      "basic_functions": {
+        "title": "EDMS BASIC FUNCTIONS",
+        "description": "Access the system from mobile devices and any location with a web-based interface. Flexible operation with HTML 5, Ajax interfaces, Dotnet 4.0, WCF software infrastructure. Complete integration with business process automation."
+      },
+      "indexing": {
+        "title": "INDEXING",
+        "description": "Content indexing in formats like Word, Excel, PowerPoint, PDF, etc. Ability to use logical expressions in document searches. Automatic indexing of images with OCR. Indexing of image PDFs."
+      },
+      "scalability": {
+        "title": "SCALABILITY",
+        "description": "Ability to store documents either in the file system or in databases. Ability to create unlimited libraries. Ability to store each digital library in different storage areas. Ability to integrate with multiple databases and file systems. Ability to provide storage capacity at the level of millions of documents and terabytes."
+      },
+      "distributed_operation_and_cache_support": {
+        "title": "DISTRIBUTED OPERATION AND CACHE SUPPORT",
+        "description": "Ability to fully comply with organizations operating in a distributed manner. All processed data is collected at a single center, data pool. Local caching can be performed in organizations with branch structures. Local caches can be synchronized with the center at certain intervals. High performance even at low data speeds."
+      },
+      "e_signature_compatible_structure": {
+        "title": "E-SIGNATURE COMPATIBLE STRUCTURE",
+        "description": "E-Signature structure with legally valid structure. Integration of E-Signature structure into PDF files. Ability to export created forms as searchable PDFs. Ability to send documents for E-Signature approval via workflow automation, digitization."
+      },
+      "digitization_management": {
+        "title": "DIGITIZATION MANAGEMENT",
+        "description": "Quickly digitize documents to electronic media. Easily classify documents. Integration with document management and all other operational workflows. Increases personnel efficiency and measures performance. Prevents non-standard scanning and document creation. Integration with fast scanners. Image enhancement feature. Full-text search and indexing feature with OCR. Form processing features."
+      },
+      "why_ebm_ebys": {
+        "title": "WHY EDM EDMS?",
+        "description": "PROCESS AND ARCHIVE EASE\n\nScanned paper documents, faxes, emails, web messages, social media messages, including JPAG, are converted into digital files in any format, then transformed into a readable and writable format, circulate among responsible persons in processes, can have comments or other documents added, be initialed, signed, and sent to counterparts.\n\nAt every stage of the process, it can be printed and archived as a separate version.\n\nREPORTING AND ANALYSIS OPPORTUNITY\n\nAt every stage of the process, how long it takes and how well it is completed is reported and analyzed for performance management.\n\nSECURITY\n\nNo responsible person in the process can say they did not receive or read the document. In the EDMS system, legally, every document that arrives to a person in the process results in an “received and read” verdict.\n\nSIMPLE USE\n\nWith the electronic document management  system, documents from years ago can be found in seconds based on criteria such as date, subject, sender, receiver, number, etc., or by typing a few unordered words within the document. In the electronic document management system, people can only access documents they are authorized to."
+      },
+      "access_ease": {
+        "title": "ACCESS EASE",
+        "description": "All the mentioned functions in the EDMS system also work on mobile environments with Android, iOS, and Microsoft software."
+      }
+    }
+  },
+   "cloud_backup": {
+      "title": "Cloud Backup",
+      "slug": "cloud-backup",
+      "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
+      "description": "It is an EDM service that works compatibly with ERP programs, backing up all your data and scanned copies of your legal documents securely and seamlessly with online access and advanced security.",
+      "benefits": {
+        "why_edm_cloud_backup": "WHY EDM CLOUD BACKUP?",
+        "immediate_access": "IMMEDIATE ACCESS, EASY TO USE",
+        "immediate_access_description": "You can store all your documents in a secure environment, access your data 24/7 from anywhere, upload data at any time. The 98% depository archiving method provides high compression and fast mobile access.",
+        "timely_backup": "TIMELY BACKUP",
+        "timely_backup_description": "Provides online incremental or scheduled backups according to your needs.",
+        "simple_interface": "SIMPLE INTERFACE",
+        "simple_interface_description": "The simple interface does not burden you, offering easy use to speed up your operations.",
+        "secure_storage": "SECURE STORAGE",
+        "secure_storage_description": "Stored on high-security and ISO-certified servers, with 4 backups in Istanbul and Ankara.",
+        "automatic_backup": "FULLY AUTOMATIC WHEN YOU WANT",
+        "automatic_backup_description": "All your data and databases in any format on your computer or servers, including encryption keys, are automatically saved at any time of the day.",
+        "minimum_internet_usage": "MINIMUM INTERNET USAGE",
+        "minimum_internet_usage_description": "While backing up your data, only the changed parts are taken with the 'Smart Backup' system, keeping your internet usage to a minimum.",
+        "advantages": "CLOUD BACKUP AND ADVANTAGES",
+        "advantages_description": "If you purchase the EDM Cloud Backup service, for example, tax consultants can back up their accounting, lawyers can back up all their documents and data, and databases and programs (Windows, SQL, Oracle, etc.) securely.\n\nYou can obtain all the above-mentioned services in an integrated manner from EDM Bilişim with a single username and password for online access.",
+        "who_should_use": "WHO SHOULD USE CLOUD BACKUP?",
+        "who_should_use_list": [
+          "Any company and freelancer who wants to back up their database and important folders online",
+          "Tax Consultants",
+          "Lawyers",
+          "Engineering Offices",
+          "Doctor Examinations",
+          "E-Invoice obligated parties",
+          "E-Archive Invoice obligated parties"
+        ]
+      }
+    },
   "registered_mail_hr": {
     "slug": "registered-mail-hr",
     "title": "Registered Mail HR (Personnel ERM Applications)",
     "youtube_embed": "uhjdzYlW2Ao", 
-    "description": "ERM HR (Personnel ERM Applications) is a system where payslips, wage slips, time sheets, and personnel notifications are delivered electronically in a legally valid and secure manner over KEP (Registered Electronic Mail) emails to company employees.",
+    "description": "ERM HR (Personnel ERM Applications) is a system where payslips, wage slips, time sheets, and personnel notifications are delivered electronically in a legally valid and secure manner over REM (Registered Electronic Mail) emails to company employees.",
     "sections": {
       "e_payslip": {
         "title": "E-PAYSLIP",
-        "description": "According to Article 37 of the Labor Law, the employer is obliged to provide the employee with a signed or company-stamped payslip showing the wage account during payment at the workplace or to the bank.\n\nUnder the Labor Law, the obligation to prove that the employee has seen and received the payslip belongs to the employer.\n\nIt is difficult to deliver payslips against signature in companies with many employees or operating in multiple locations.\n\nArchiving signed copies also creates an additional burden. In the traditional process, after payslips are printed, they are sent to dozens of different locations, where they are signed by employees and a copy is sent back to the center. With EDM E-Payslip, the labor loss created by this application and additional costs in consumables, equipment, and distribution expenses are prevented, providing time and cost savings.\n\nIt is a system where payslips, wage slips, time sheets, and personnel notifications are delivered electronically in a legally valid and secure manner over KEP (Registered Electronic Mail) emails to company employees.\n\nBecause it is difficult to deliver payslips, wage slips, time sheets, personnel notifications, notices, warnings, releases, and leave form approvals against signature in companies with many employees or operating in multiple locations, EDM Personnel KEP Applications are widely preferred.\n\nWith EDM Personnel KEP Applications, you can facilitate the sending of payslips and other personnel notifications and personnel management. By preparing payslips from your accounting program and sending E-Payslips, wage slips, time sheets, personnel notifications, notices, warnings, leave forms to all your personnel via KEP with a single button, you secure your company within the framework of legal obligations.\n\nAn annual fixed price is applied for our EDM Personnel KEP Applications service according to your number of personnel. No price changes are made in hiring and dismissals. Moreover, with the allocated mailbox to your institution, your payslips, wage slips, time sheets, personnel notifications, notices, warnings, and releases are stored in EDM Systems in Istanbul and Ankara with backups for years."
+        "description": "According to Article 37 of the Labor Law, the employer is obliged to provide the employee with a signed or company-stamped payslip showing the wage account during payment at the workplace or to the bank.\n\nUnder the Labor Law, the obligation to prove that the employee has seen and received the payslip belongs to the employer.\n\nIt is difficult to deliver payslips against signature in companies with many employees or operating in multiple locations.\n\nArchiving signed copies also creates an additional burden. In the traditional process, after payslips are printed, they are sent to dozens of different locations, where they are signed by employees and a copy is sent back to the center. With EDM E-Payslip, the labor loss created by this application and additional costs in consumables, equipment, and distribution expenses are prevented, providing time and cost savings.\n\nIt is a system where payslips, wage slips, time sheets, and personnel notifications are delivered electronically in a legally valid and secure manner over REM (Registered Electronic Mail) emails to company employees.\n\nBecause it is difficult to deliver payslips, wage slips, time sheets, personnel notifications, notices, warnings, releases, and leave form approvals against signature in companies with many employees or operating in multiple locations, EDM Personnel REM Applications are widely preferred.\n\nWith EDM Personnel Registered Email Applications, you can facilitate the sending of payslips and other personnel notifications and personnel management. By preparing payslips from your accounting program and sending E-Payslips, wage slips, time sheets, personnel notifications, notices, warnings, leave forms to all your personnel via REM with a single button, you secure your company within the framework of legal obligations.\n\nAn annual fixed price is applied for our EDM Personnel REM Applications service according to your number of personnel. No price changes are made in hiring and dismissals. Moreover, with the allocated mailbox to your institution, your payslips, wage slips, time sheets, personnel notifications, notices, warnings, and releases are stored in EDM Systems in Istanbul and Ankara with backups for years."
       },
       "e_notification": {
         "title": "E-NOTIFICATION",
-        "description": "Notices that can be sent to personnel for various reasons (such as being late to work, misconduct, non-compliance with rules, dress code violations due to disciplinary offenses), releases that need to be obtained from personnel, notification of corporate policies such as KVKK (Personal Data Protection Law), rules to be followed, job descriptions, timings, and other writings are sent via KEP with notary power.\n\nFrom the 7th day after the KEP transmission, full notification is realized with the verdict of \"I received, read, understood\".\n\nSuch correspondences made to the personnel have 100% legal validity approved by the Supreme Court.\n\nEspecially within the scope of KVKK and Remote Working regulation, KEP notifications to personnel have increased recently.\n\nAll information that needs to be notified to personnel, such as training participation notifications, is sent to the personnel's KEP address via e-notification and becomes legally valid.\n\nDesired notifications can be sent to all personnel or by selecting branch/department/personnel."
+        "description": "Notices that can be sent to personnel for various reasons (such as being late to work, misconduct, non-compliance with rules, dress code violations due to disciplinary offenses), releases that need to be obtained from personnel, notification of corporate policies such as KVKK (Personal Data Protection Law), rules to be followed, job descriptions, timings, and other writings are sent via REM with notary power.\n\nFrom the 7th day after the REM transmission, full notification is realized with the verdict of \"I received, read, understood\".\n\nSuch correspondences made to the personnel have 100% legal validity approved by the Supreme Court.\n\nEspecially within the scope of KVKK and Remote Working regulation, REM notifications to personnel have increased recently.\n\nAll information that needs to be notified to personnel, such as training participation notifications, is sent to the personnel's REM address via e-notification and becomes legally valid.\n\nDesired notifications can be sent to all personnel or by selecting branch/department/personnel."
       },
       "e_recruitment_processes": {
         "title": "E-RECRUITMENT PROCESSES",
-        "description": "Thanks to EDM HR Transformation, documents obtained from personnel in your recruitment processes (CVs, criminal records, military service status, health reports, residence permits, ID photocopies, passports, driver's licenses, etc.) are subjected to OCR processing, automatically flowing into the personnel personnel program, and all these document storage processes are easily managed with automatic processes.\n\nIn operation, the company/branch authority uploads the documents sent by the personnel to the system from the EDM Personnel Transactions interface, and with this, all information in the documents is processed into the relevant HR tables and archived indefinitely.\n\nWhen personnel documents and tables are approved by HR, all regulations and notifications sent automatically to the personnel at the start of work are sent via KEP and notified.\n\nIn summary, with the uploading of the candidate personnel's documents, the entire recruitment document and notification process occurs automatically."
+        "description": "Thanks to EDM HR Transformation, documents obtained from personnel in your recruitment processes (CVs, criminal records, military service status, health reports, residence permits, ID photocopies, passports, driver's licenses, etc.) are subjected to OCR processing, automatically flowing into the personnel personnel program, and all these document storage processes are easily managed with automatic processes.\n\nIn operation, the company/branch authority uploads the documents sent by the personnel to the system from the EDM Personnel Transactions interface, and with this, all information in the documents is processed into the relevant HR tables and archived indefinitely.\n\nWhen personnel documents and tables are approved by HR, all regulations and notifications sent automatically to the personnel at the start of work are sent via REM and notified.\n\nIn summary, with the uploading of the candidate personnel's documents, the entire recruitment document and notification process occurs automatically."
       },
       "e_hr_archive": {
         "title": "E-HR ARCHIVE",
-        "description": "Documents uploaded during the personnel recruitment process, personnel information tables formed from these documents, all regulations, notifications, warnings, releases, wage slips, etc., all documents in the personnel file are stored in the EDM HR Transformation Archive system throughout the personnel's working period and for 10 years after the personnel leaves.\n\nPersonnel can instantly access all notifications that the company allows, especially their payslips, from their KEP mailbox along with KEP evidences. This access right continues for 10 years even after the personnel leaves the job, provided that the company allows and the personnel keeps their KEP address open personally.\n\nFor our EDM HR Archive product, 250 MB of space is provided free of charge per personnel."
+        "description": "Documents uploaded during the personnel recruitment process, personnel information tables formed from these documents, all regulations, notifications, warnings, releases, wage slips, etc., all documents in the personnel file are stored in the EDM HR Transformation Archive system throughout the personnel's working period and for 10 years after the personnel leaves.\n\nPersonnel can instantly access all notifications that the company allows, especially their payslips, from their REM mailbox along with REM evidences. This access right continues for 10 years even after the personnel leaves the job, provided that the company allows and the personnel keeps their REM address open personally.\n\nFor our EDM HR Archive product, 250 MB of space is provided free of charge per personnel."
       },
       "leading_sectors": {
         "title": "LEADING SECTORS USING EDM REM(Registered Electronic Mail) HR",
@@ -279,27 +279,27 @@
         "sections": [
           {
             "title": "E-PAYSLIP AND E-WARNING NOTIFICATIONS TOGETHER",
-            "description": "Apart from e-payslip notifications such as wage slips, time sheets to personnel, warnings that can be sent for various reasons (being late to work, misconduct, non-compliance with rules, dress code violations due to disciplinary offenses), releases that need to be obtained from personnel, notification of corporate policies such as KVKK to personnel, rules to be followed, job descriptions, leave approvals, training participation information, and other writings are sent via KEP with notary power. From the 7th day after the KEP transmission, full notification is realized with the verdict of \"I received, read, understood\". Such correspondences made to the personnel have 100% legal validity approved by courts in all cases. Desired notifications can be sent to all personnel or by selecting branch/department/personnel."
+            "description": "Apart from e-payslip notifications such as wage slips, time sheets to personnel, warnings that can be sent for various reasons (being late to work, misconduct, non-compliance with rules, dress code violations due to disciplinary offenses), releases that need to be obtained from personnel, notification of corporate policies such as KVKK to personnel, rules to be followed, job descriptions, leave approvals, training participation information, and other writings are sent via REM with notary power. From the 7th day after the REM transmission, full notification is realized with the verdict of \"I received, read, understood\". Such correspondences made to the personnel have 100% legal validity approved by courts in all cases. Desired notifications can be sent to all personnel or by selecting branch/department/personnel."
           },
           {
             "title": "AUTOMATIC RECRUITMENT PROCESS",
-            "description": "Thanks to our ERM HR Product, documents obtained from personnel in recruitment processes are subjected to OCR processing, and information flows automatically in the personnel program, and all these document storage processes are managed with automatic processes.\n\nProvides automatic retrieval of personnel documents from E-Government, checks validity dates, and keeps them up to date.\n\nWhen personnel documents and tables are approved on the HR side, all regulations and notifications sent automatically to the personnel at the start of work are sent via KEP and notified."
+            "description": "Thanks to our ERM HR Product, documents obtained from personnel in recruitment processes are subjected to OCR processing, and information flows automatically in the personnel program, and all these document storage processes are managed with automatic processes.\n\nProvides automatic retrieval of personnel documents from E-Government, checks validity dates, and keeps them up to date.\n\nWhen personnel documents and tables are approved on the HR side, all regulations and notifications sent automatically to the personnel at the start of work are sent via REM and notified."
           },
           {
             "title": "DIGITAL HR ARCHIVE",
-            "description": "All documents in the personnel file are stored in the REC-HR digital archive system throughout the personnel's working period and for 10 years after the personnel leaves.\n\nIn the HR KEP application, the Digital Personnel File module allows personnel to upload documents."
+            "description": "All documents in the personnel file are stored in the REC-HR digital archive system throughout the personnel's working period and for 10 years after the personnel leaves.\n\nIn the HR REM application, the Digital Personnel File module allows personnel to upload documents."
           },
           {
             "title": "MUCH FASTER",
-            "description": "Evidence is generated in at most 5 seconds in REC transmissions and stored for 30 years. KEP messages are sent within at most 2 minutes."
+            "description": "Evidence is generated in at most 5 seconds in REC transmissions and stored for 30 years. REM messages are sent within at most 2 minutes."
           },
           {
             "title": "PRICING BASED ON SEAT COUNT",
-            "description": "In the HR KEP application, pricing works based on seat count. That is, the personnel who leave are deducted from the added personnel, and as long as the seat count does not exceed the package limit, there is no package overrun."
+            "description": "In the HR REM application, pricing works based on seat count. That is, the personnel who leave are deducted from the added personnel, and as long as the seat count does not exceed the package limit, there is no package overrun."
           },
           {
             "title": "250 MB SPACE",
-            "description": "250 MB of space is defined per Personnel KEP account. On average, storage space for 3 years of wage slips is provided within the package for the company. The company can purchase additional space as much as it wants to store more documents and for longer periods."
+            "description": "250 MB of space is defined per Personnel REM account. On average, storage space for 3 years of wage slips is provided within the package for the company. The company can purchase additional space as much as it wants to store more documents and for longer periods."
           },
           {
             "title": "INTEGRATED WITH ALL PROGRAMS",
@@ -311,7 +311,7 @@
           },
           {
             "title": "DOMAIN PROTECTION",
-            "description": "In the HR EP application, REC addresses are opened with separate domains for the company and each personnel. In our system, if specially requested by the company, a KEP address containing the company name is defined. When the KEP address is defined specifically to the person, it is not recommended for possible problems that may occur later in case the personnel terminates their job."
+            "description": "In the HR EP application, REC addresses are opened with separate domains for the company and each personnel. In our system, if specially requested by the company, a REM address containing the company name is defined. When the REM address is defined specifically to the person, it is not recommended for possible problems that may occur later in case the personnel terminates their job."
           },
           {
             "title": "ATTACHMENT FILES",
@@ -328,7 +328,7 @@
         ]
       },
       "cost_saving": {
-        "title": "COST SAVING WITH KEP HR TRANSITION – ACCOUNT TABLE",
+        "title": "COST SAVING WITH REM HR TRANSITION – ACCOUNT TABLE",
         "image": "/images/cost-saving-kep-hr.jpg"
       },
       "references": {

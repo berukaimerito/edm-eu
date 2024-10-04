@@ -43,13 +43,13 @@ const Header: React.FC = () => {
       icon: DocumentTextIcon,
     },
     {
-      name: t('services.erm_hr'),
-      path: '/services/registered-mail-hr',
+      name: t('services.e_reconciliation'),
+      path: '/services/e-reconciliation',
       icon: DocumentTextIcon,
     },
     {
-      name: t('services.e_reconciliation'),
-      path: '/services/e-reconciliation',
+      name: t('services.e_document_management_system'),
+      path: '/services/e-document-management-system',
       icon: DocumentTextIcon,
     },
     {
@@ -58,8 +58,8 @@ const Header: React.FC = () => {
       icon: DocumentTextIcon,
     },
     {
-      name: t('services.e_document_management_system'),
-      path: '/services/e-document-management-system',
+      name: t('services.erm_hr'),
+      path: '/services/registered-mail-hr',
       icon: DocumentTextIcon,
     },
   ];

@@ -63,18 +63,22 @@
     },
     "subpages": {
       "kep_registered_e_mail": {
+        "slug": "rem",
         "title": "ZPE: Zarejestrowana Pocztą Elektroniczną",
         "description": "Wykorzystanie zarejestrowanej poczty elektronicznej (ZPE) gwarantuje, że wysłane powiadomienia są prawnie uznawane. Jeśli twoi partnerzy nie zgłoszą sprzeciwu wobec powiadomień w ciągu 5 dni, będą one uznane za zaakceptowane z podpisem elektronicznym."
       },
       "corporate_mail_reconciliation": {
+        "slug": "corp-rem",
         "title": "Uzgodnienia przez Adres Email Firmowy",
         "description": "Jest to aplikacja EDM umożliwiająca przeprowadzanie uzgodnień rachunkowych i bieżących online z partnerami, dealerami, dostawcami i wszystkimi innymi partnerami biznesowymi. Aplikacja nie tylko sprawdza, czy uzgodnienie zostało zaakceptowane, ale również identyfikuje różnice w saldach bieżących i raportuje je stronom. Jest w pełni zintegrowana ze wszystkimi programami księgowymi. Zgodnie z prawem o doręczeniach, odpowiedź email z oficjalnych serwerów firmy jest prawnie wiążąca jak tradycyjny pieczęć i podpis."
       },
       "kep_reconciliation": {
+        "slug": "rem-conciliation",
         "title": "Uzgodnienia przez ZPE",
         "description": "Dzięki produktowi E-Uzgodnienie od EDM, możesz wysyłać linki do uzgodnień również na adresy ZPE swoich partnerów, co sprawia, że twoje uzgodnienia E-Uzgodnienie są prawnie ważne bez konieczności sądowego orzeczenia pierwszej instancji. EDM oferuje pakiety E-Uzgodnienie, aby zapewnić najtańszy poziom wysyłki za pomocą ZEP."
       },
       "who_can_use": {
+        "slug": "stakeholders",
         "title": "Kto może przejść na E-Uzgodnienie?",
         "description": "Wszystkie firmy z dużą liczbą partnerów, dealerów, dostawców i partnerów biznesowych, które chcą oszczędzać czas i pieniądze, zmniejszyć koszty archiwizacji i uwolnić się od siły roboczej operacyjnej, mogą przejść na E-Uzgodnienie.",
         "list": [
@@ -84,14 +88,17 @@
         ]
       },
       "why_edm_e_consensus": {
+        "slug": "why-edm-rem",
         "title": "Dlaczego EDM E-Uzgodnienie?",
         "description": "EDM EUzgodnienie oferuje zintegrowane i bezpieczne rozwiązanie do zarządzania uzgodnieniami finansowymi, skracając czas audytu i poprawiając efektywność operacyjną."
       },
       "is_mandatory": {
+        "slug": "is-mandatory",
         "title": "Czy E-Uzgodnienie  jest obowiązkowy?",
         "description": "E-Uzgodnienie nie jest obowiązkowy. Można dokonać przejścia na zasadzie dobrowolnej."
       },
       "leading_sectors": {
+        "slug": "leading-sectors",
         "title": "Wiodące Sektory Korzystające z E-Uzgodnienieod EDM",
         "list": [
           "Firmy pracujące ze strukturami dealerów",
