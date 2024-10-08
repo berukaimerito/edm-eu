@@ -13,7 +13,7 @@ const CloudyERPPage: React.FC = () => {
   const cloudyERP = t('cloudy_erp', { returnObjects: true }) as {
     title: string;
     image?: string;
-    description: string;
+    description?: string;
     differences: {
       title: string;
       sections: {
@@ -33,7 +33,11 @@ const CloudyERPPage: React.FC = () => {
         <title>{cloudyERP.title} | EDM Europe</title>
         <meta
           name="description"
-          content={cloudyERP.description.substring(0, 150)}
+          content={
+            cloudyERP.description
+              ? cloudyERP.description.substring(0, 150)
+              : 'EDM Europe Services'
+          }
         />
       </Head>
       <div className="container mx-auto py-8 px-4">
@@ -56,9 +60,11 @@ const CloudyERPPage: React.FC = () => {
         )}
 
         {/* Description */}
-        <p className="mb-8 text-gray-600 text-lg whitespace-pre-line">
-          {cloudyERP.description}
-        </p>
+        {cloudyERP.description && (
+          <p className="mb-8 text-gray-600 text-lg whitespace-pre-line">
+            {cloudyERP.description}
+          </p>
+        )}
 
         {/* Differences */}
         {cloudyERP.differences && (
