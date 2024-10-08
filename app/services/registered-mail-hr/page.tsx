@@ -89,7 +89,9 @@ const RegisteredMailHRPage: React.FC = () => {
         )}
 
         {/* Description */}
-        <p className="mb-6 text-gray-600 text-lg whitespace-pre-line">{registeredMailHR.description}</p>
+        <p className="mb-6 text-gray-600 text-lg whitespace-pre-line">
+          {registeredMailHR.description}
+        </p>
 
         {/* Sections */}
         {registeredMailHR.sections && (
@@ -173,27 +175,10 @@ const RegisteredMailHRPage: React.FC = () => {
               </h2>
               {registeredMailHR.sections.why_edm_kep_hr.sections.map((section, index) => (
                 <div key={index} className="mb-6">
-                  <h3 className="text-xl font-medium mb-2 text-gray-700">
-                    {section.title}
-                  </h3>
+                  <h3 className="text-xl font-medium mb-2 text-gray-700">{section.title}</h3>
                   <p className="text-gray-600 whitespace-pre-line">{section.description}</p>
                 </div>
               ))}
-            </section>
-
-            {/* Cost Saving */}
-            <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4 text-gray-700">
-                {registeredMailHR.sections.cost_saving.title}
-              </h2>
-              {/* Image */}
-              <div className="mb-6">
-                <img
-                  src={registeredMailHR.sections.cost_saving.image}
-                  alt="Cost Saving with KEP HR"
-                  className="w-full h-auto rounded-md shadow-md"
-                />
-              </div>
             </section>
 
             {/* References */}
@@ -203,20 +188,19 @@ const RegisteredMailHRPage: React.FC = () => {
               </h2>
               {/* Logos Grid */}
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-  {registeredMailHR.sections.references.logos.map((logo, index) => (
-    <div
-      key={index}
-      className="flex items-center justify-center p-4 bg-white border border-gray-300 rounded-md hover:shadow-md transition-shadow duration-200"
-    >
-      <img
-        src={`/images/logos/${logo}`}
-        alt={`Logo ${index + 1}`}
-        className="max-h-16 mx-auto"
-      />
-    </div>
-  ))}
-</div>
- 
+                {registeredMailHR.sections.references.logos.map((logo, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-center p-4 bg-white border border-gray-300 rounded-md hover:shadow-md transition-shadow duration-200"
+                  >
+                    <img
+                      src={`/brands/${logo.replace('logo', 'brand')}`}
+                      alt={`Logo ${index + 1}`}
+                      className="max-h-16 mx-auto"
+                    />
+                  </div>
+                ))}
+              </div>
             </section>
           </>
         )}
