@@ -45,7 +45,7 @@
         },
         {
           "title": "TURNKEY QUICK INSTALLATION",
-          "description": "After deciding to work with EDM, all processes including obtaining the financial seal, GİB E-Invoice, E-Ledger applications, and running your financial seal are handled by your EDM field representative. The EDM center then opens your portal within 30 minutes and provides integration with your ERP and accounting program."
+          "description": "After deciding to work with EDM, all processes including obtaining the financial seal, Revenue Departmentn's E-Invoice, E-Ledger applications, and running your financial seal are handled by your EDM field representative. The EDM center then opens your portal within 30 minutes and provides integration with your ERP and accounting program."
         },
         {
           "title": "24/7 DEDICATED CUSTOMER REPRESENTATIVE",
@@ -195,6 +195,40 @@
         "title": "ACCESS EASE",
         "description": "All the mentioned functions in the EDMS system also work on mobile environments with Android, iOS, and Microsoft software."
       }
+    }
+  },
+  "cloudy_erp": {
+    "slug": "cloudy-erp",
+    "title": "CLOUDY ERP",
+    "description": "As a producer of web-based business management software, we have included our Cloudy ERP application in our work with the goal of offering the most advanced software in the industry to workplaces. We are working on developing advanced technologies with an accounting infrastructure needed under the law, and we offer our customers software that can easily compete with examples around the world. In our software development processes, where we handle innovation and total quality together, we produce the most effective solutions by considering the needs of our customers and the industry.\n\nWithin our ongoing efforts to offer solutions that businesses operating in every field can benefit from at the lowest possible cost, we have brought a new breath to the concept of business software with the Cloudy ERP software.\n\nOur infrastructure, which can be used as a software solution for businesses of all sizes in all sectors, is among the main solution alternatives for every business, from small-scale enterprises to corporate companies. Our application, which ensures that all needs are met within one application, also allows you to fulfill your legal obligations completely.",
+    "differences": {
+      "title": "THE CLOUDY ERP DIFFERENCE",
+      "sections": [
+        {
+          "title": "Increase Your Profitability",
+          "description": "The most important feature of Cloudy ERP is to ensure that processes continue in the fastest and most seamless way. The application eliminates human error and allows for immediate intervention in possible problems. Perfection in the workflow naturally ensures that sales processes are completed smoothly and increases the satisfaction level of your customers. Of course, one of the important advantages of the software is reaching the right pricing strategy by conducting cost analysis."
+        },
+        {
+          "title": "All Your Needs Together",
+          "description": "Cloudy ERP brings all processes under control from a single point with Invoice & Dispatch Management, Current Account Management, Stock & Warehouse Management, Income & Expense Management, Reporting, E-Commerce Management, Personnel Management, Fixed Asset Management, Project Management, Cost Management, Document Management System, and Open Banking. The software can actually be defined as a real-time balance sheet ground thanks to containing the inputs of all processes from purchasing to sales. You no longer need to wait until the end of the year to see your company's balance sheet. You can easily see your current status with a few clicks."
+        },
+        {
+          "title": "Your Data is Safe",
+          "description": "Your invoices and dispatches are securely stored in our systems for 10 years with 4 backups and 3DS encryption technology. You can access your invoices online at any time and perform operations such as resending individually or in bulk, viewing, and obtaining PDF prints."
+        },
+        {
+          "title": "24/7 Service Quality",
+          "description": "You have a primary and a backup customer representative who are experts in all E-Document, Pre-Accounting, and module services that you can call 24/7. You can reach your representatives at any time via mobile phone and email to get instant service, and even during nights and official holidays, you are automatically transferred to our technical duty center through these communication points."
+        },
+        {
+          "title": "Ethical Pricing",
+          "description": "The biggest advantage that Cloudy ERP offers to its users is that there is no issue of update costs.\n\nWe enable you to use the software without installing it on your local computers. This way, updates made by us are automatically reflected to you. Therefore, there is no question of any additional hardware investment, software renewal, or update cost.\n\nIn the E-Document system, it does not apply unethical, deceptive, and hidden tariffs under any name such as monthly fixed, annual fixed, update, quota overrun on the credits purchased! Your remaining credits do not expire with excuses like end of the month or end of the year; they carry over for 5 years. E-Document portal activations are free."
+        },
+        {
+          "title": "Developing Technology",
+          "description": "Cloudy ERP has been developed with years of experience and continues to be developed in the process. Cloudy ERP, which came into being with the joint initiative of expert software developers, accounting and finance specialists, and industry professionals from our development team, has reached its final commercial form after passing many tests. The software, which is the product of advanced expertise, has the same qualities as examples used worldwide and has been developed by Turkish software developers. Currently, the software, which is kept constantly updated, becomes instantly compatible with legal obligations, and the software is continuously developed."
+        }
+      ]
     }
   },
    "cloud_backup": {

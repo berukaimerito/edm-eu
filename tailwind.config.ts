@@ -10,6 +10,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transitionDuration: {
+        '400': '400ms',
+        '600': '600ms',
+      },
+      transitionTimingFunction: {
+        'custom-ease': 'cubic-bezier(0.4, 0, 0.2, 1)',
+      },
       colors: {
         background: "var(--background)",  // From previous TypeScript config
         foreground: "var(--foreground)",  // From previous TypeScript config

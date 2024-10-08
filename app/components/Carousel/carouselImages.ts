@@ -1,55 +1,83 @@
 // app/components/Carousel/carouselImages.ts
 
-export interface CarouselImages {
-    src: string;
+export interface CarouselImageTexts {
+  [languageCode: string]: {
     alt: string;
     title: string;
     description?: string;
-  }
-  
-  export const carouselImages: CarouselImages[] = [
-    {
-      src: '/sliders/edm-it-ru-slide.jpg',
-      alt: 'EDM IT RU Slide',
-      title: 'Welcome to EDM EU',
-      description: 'Transform your invoicing process with our solutions.',
-    },
-    {
-      src: '/sliders/edm-sustainability-slide.jpg',
-      alt: 'EDM Sustainability Slide',
-      title: 'Our Services',
-      description: 'Streamline your billing with our advanced tools.',
-    },
+  };
+}
 
+export interface CarouselImage {
+  src: string;
+  texts: CarouselImageTexts;
+}
 
-    // 1. alan destination. public/images/ dosyasinin icerisinde atmaniz yeterli olacaktir.
-    // Resim ile ilgili birer alt, title ve description belirleyin. Ne oldugunun cok bir onemi yok aciklayici olmasi faydali.
-    // Bu kadar :)
-    
-    // {
-    //   src: '/sliders/edm-sustainability-slide.jpg',
-    //   alt: 'EDM Sustainability Slide',
-    //   title: 'Our Services',
-    //   description: 'Streamline your billing with our advanced tools.',
-    // },
-    // {
-    //   src: '/sliders/edm-sustainability-slide.jpg',
-    //   alt: 'EDM Sustainability Slide',
-    //   title: 'Our Services',
-    //   description: 'Streamline your billing with our advanced tools.',
-    // },
-    // {
-    //   src: '/sliders/edm-sustainability-slide.jpg',
-    //   alt: 'EDM Sustainability Slide',
-    //   title: 'Our Services',
-    //   description: 'Streamline your billing with our advanced tools.',
-    // },
-    // {
-    //   src: '/sliders/edm-sustainability-slide.jpg',
-    //   alt: 'EDM Sustainability Slide',
-    //   title: 'Our Services',
-    //   description: 'Streamline your billing with our advanced tools.',
-    // },
-    // Add more slides here as needed
-  ];
-  
+export const carouselImages: CarouselImage[] = [
+  {
+    src: 'slide1.jpg',
+    texts: {
+      en: {
+        alt: 'E-Invoices',
+        title: 'E-Invoices',
+        description: 'Simplify your invoicing process with our E-Invoice solutions.',
+      },
+      // Add other languages if needed
+    },
+  },
+  {
+    src: 'slide2.jpg',
+    texts: {
+      en: {
+        alt: 'E-Reconciliation',
+        title: 'E-Reconciliation',
+        description: 'Automate your reconciliation processes efficiently.',
+      },
+      // Add other languages if needed
+    },
+  },
+  {
+    src: 'slide3.jpg',
+    texts: {
+      en: {
+        alt: 'Cloud Backup',
+        title: 'Cloud Backup',
+        description: 'Securely back up your data with our cloud solutions.',
+      },
+      // Add other languages if needed
+    },
+  },
+  {
+    src: 'slide4.jpg',
+    texts: {
+      en: {
+        alt: 'Cloudy ERP',
+        title: 'Cloudy ERP',
+        description: 'Integrate all your business processes with Cloudy ERP.',
+      },
+      // Add other languages if needed
+    },
+  },
+  {
+    src: 'slide5.jpg',
+    texts: {
+      en: {
+        alt: 'E-Document Management System',
+        title: 'E-Document Management System',
+        description: 'Manage your documents effectively with our EDMS.',
+      },
+      // Add other languages if needed
+    },
+  },
+  {
+    src: 'slide6.jpg',
+    texts: {
+      en: {
+        alt: 'H.R. Registered E-Mail',
+        title: 'H.R. Registered E-Mail',
+        description: 'Enhance HR communications with our Registered E-Mail solutions.',
+      },
+      // Add other languages if needed
+    },
+  },
+];

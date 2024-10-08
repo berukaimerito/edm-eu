@@ -122,12 +122,6 @@ const OrganizationalPage: React.FC = () => {
             icon={<BanknotesIcon className="h-6 w-6 text-white" />}
           >
             {/* Bank Image */}
-            <div className="mb-8">
-              {<img src="../public/images/bank-bnp.jpg" alt="Bank" className="w-full h-auto rounded-md shadow-md" /> }
-              <div className="w-full h-48 bg-gray-200 rounded-md mb-8 flex items-center justify-center">
-                <span className="text-gray-500">Bank Image Placeholder</span>
-              </div>
-            </div>
 
             <div className="space-y-8">
               {bankAccountInfo.branches.map((branch, index) => (

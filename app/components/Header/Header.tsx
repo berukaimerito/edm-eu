@@ -53,6 +53,11 @@ const Header: React.FC = () => {
       icon: DocumentTextIcon,
     },
     {
+      name: t('services.cloudy_erp'),
+      path: '/services/cloudy-erp',
+      icon: DocumentTextIcon,
+    },
+    {
       name: t('services.cloud_backup'),
       path: '/services/cloud-backup',
       icon: DocumentTextIcon,

@@ -11,6 +11,7 @@ import {
   FiCloud,
   FiBookOpen,
   FiMail,
+  FiLayers, // Import FiLayers
 } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 
@@ -45,6 +46,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile = false, onLinkClick }) => {
     cloud_backup: <FiCloud className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
     e_document_management_system: <FiBookOpen className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
     registered_mail_hr: <FiMail className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />,
+    cloudy_erp: <FiLayers className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />, // Added icon for cloudy_erp
   };
 
   // Retrieve services from translations
