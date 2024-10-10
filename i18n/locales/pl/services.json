@@ -2,76 +2,75 @@
   "name": "Usługi",
   "e_bill": {
     "slug": "e-invoices",
-    "title": "Faktura Elektroniczna",
+    "image": "/images/pl/e-invoice.jpg",
+    "title": "E-Faktura",
     "youtube_embed": "XLuzI_kc8oM",
-    "description": "Faktura Elektroniczna to dokument elektroniczny zawierający informacje odpowiadające fakturze papierowej, znormalizowany w międzynarodowym formacie (KSeF), zapieczętowany w niezmienny sposób i ma takie same cechy prawne jak faktura papierowa.\n\nDzięki Fakturze Elektronicznej możesz bezpiecznie wysyłać i otrzymywać swoje faktury elektronicznie, przechowywać swoje faktury prawnie ważne i zabezpieczone przez 10 lat oraz przeglądać je online. Dzięki systemowi Faktury Elektronicznej możesz zminimalizować koszty papieru, druku, transportu i wszystkie koszty operacyjne.\n\nPodatnicy mogą korzystać z Aplikacji Faktury Elektronicznej Archivum na dwa sposoby: przez własny system IT lub przez specjalny system IT integratora upoważnionego przez Administrację Dochodów.",
+    "description": "E-Faktura to elektroniczny dokument zawierający informacje równoważne fakturze papierowej, znormalizowany w międzynarodowym formacie (UBL), opieczętowany w sposób niezmienny i posiadający te same cechy prawne co faktura papierowa.\n\nDzięki E-Fakturze możesz bezpiecznie wysyłać i odbierać swoje faktury elektronicznie, przechowywać je legalnie ważne i archiwizowane przez 10 lat oraz przeglądać je online. Dzięki systemowi E-Faktury możesz zminimalizować koszty papieru, druku, wysyłki i wszystkie koszty operacyjne.",
     "differences": {
-      "title": "JAKA JEST RÓŻNICA MIĘDZY FAKTURĄ ELEKTRONICZNĄ A FAKTURĄ ELEKTRONICZNĄ ARCHIWUM?",
+      "title": "CZYM JEST E-FAKTURA?",
       "points": [
-        "Faktura Elektroniczna jest wysyłana tylko do podatników, którzy przeszli na Fakturę Elektroniczną.",
-        "Faktura Elektroniczna Archivum jest wysyłana do wszystkich instytucji i osób, które nie przeszły na Fakturę Elektroniczną.",
-        "Faktura Elektroniczna jest dostarczana do odbiorcy przez zamknięty system Administracji Dochodów (KSeF); nadawca i odbiorca mogą dokonywać transakcji przez ten system, więc KSeF jest natychmiast informowany. Nie można jej anulować, ale odbiorca może ją odrzucić lub zwrócić.",
-        "Faktura Elektroniczna Archivum jest dostarczana do odbiorcy przez e-mail lub SMS i zgłaszana do KSeF do godziny 24:00 następnego dnia."
+        "E-Faktura jest wysyłana tylko do podatników, którzy przeszli na E-Fakturę.",
+        "E-Faktura jest dostarczana do odbiorcy za pośrednictwem zamkniętego systemu administracji podatkowej; nadawca i odbiorca mogą dokonywać transakcji poprzez ten system, więc urząd skarbowy jest natychmiast informowany. Nie może być anulowana, ale odbiorca może ją odrzucić lub zwrócić."
       ]
     },
     "who_can_switch": {
-      "title": "KTO MOŻE PRZEJŚĆ NA APLIKACJĘ FAKTURY ELEKTRONICZNEJ I FAKTURY ELEKTRONICZNEJ ARCHIWUM?",
-      "description": "Każda firma może przejść na Fakturę Elektroniczną w dowolnym momencie bez żadnych ograniczeń obrotu lub kwoty faktury. Istnieją dwa typy użytkowników Faktury Elektronicznej:",
+      "title": "KTO MOŻE PRZEJŚĆ NA E-FAKTURĘ?",
+      "description": "Każda firma może przejść na E-Fakturę w dowolnym momencie bez żadnych ograniczeń obrotu czy kwoty faktury. Istnieją dwa rodzaje użytkowników E-Faktury:",
       "types": [
         {
-          "title": "Obowiązkowi Użytkownicy Faktury Elektronicznej",
-          "description": "Użytkownicy, którzy są zobowiązani do przejścia na Fakturę Elektroniczną w ramach zakresu obowiązku. Jeśli przekroczysz roczny limit obrotu ogłoszony przez rząd, stajesz się obowiązkowym podatnikiem Faktury Elektronicznej i musisz dokonać przejścia na Fakturę Elektroniczną od początku następnego roku."
+          "title": "Obowiązkowi Użytkownicy E-Faktury",
+          "description": "Użytkownicy, którzy są zobowiązani do przejścia na E-Fakturę w ramach obowiązku. Jeśli przekroczyłeś roczny limit obrotu ogłoszony przez rząd, stajesz się obowiązkowym podatnikiem E-Faktury i musisz zakończyć przejście z początkiem następnego roku."
         },
         {
-          "title": "Dobrowolni Użytkownicy Faktury Elektronicznej",
-          "description": "Firmy zajmujące się handlem elektronicznym, wysyłające faktury kurierem, startupy chcące zaoszczędzić na kosztach faktur i papieru, firmy dążące do zmniejszenia obciążenia archiwizacji i operacyjnego oraz te, które szukają profesjonalizmu, mogą dobrowolnie przejść na Fakturę Elektroniczną ze względu na korzyści, jakie oferuje."
+          "title": "Dobrowolni Użytkownicy E-Faktury",
+          "description": "Przedsiębiorstwa zajmujące się e-handlem, wysyłające faktury kurierem, startupy chcące zaoszczędzić na kosztach faktur i papieru, firmy dążące do zmniejszenia obciążenia archiwizacyjnego i operacyjnego oraz ci, którzy szukają profesjonalizmu, mogą dobrowolnie przejść na E-Fakturę ze względu na oferowane korzyści."
         }
       ]
     },
     "is_mandatory": {
-      "title": "CZY FAKTURA ELEKTRONICZNA JEST OBOWIĄZKOWA?",
-      "description": "Faktura Elektroniczna staje się obowiązkowa, jeśli przekroczysz roczny limit obrotu ustalony przez rząd. W przeciwnym razie jest opcjonalna."
+      "title": "CZY E-FAKTURA JEST OBOWIĄZKOWA?",
+      "description": "E-Faktura staje się obowiązkowa, jeśli przekroczysz roczny limit obrotu ustalony przez rząd. W przeciwnym razie jest opcjonalna."
     },
     "why_edm_e_invoice": {
-      "title": "DLACZEGO FAKTURA ELEKTRONICZNA EDM",
+      "title": "DLACZEGO EDM E-FAKTURA",
       "sections": [
         {
-          "title": "PEŁNA INTEGRACJA Z TWOIM PROGRAMEM ERP I KSIĘGOWYM",
-          "description": "Dzięki umowom EDM z ponad 550 programami ERP i księgowymi, otrzymasz usługę w pełni zintegrowaną z systemem ERP i programem księgowym. Twoje faktury wychodzące zostaną automatycznie wysłane z tych systemów, faktury przychodzące zostaną automatycznie przetworzone na Twoje bieżące konta i zapasy oraz przekazane do programu Twojego księgowego."
+          "title": "PEŁNA INTEGRACJA Z TWOIM ERP I PROGRAMEM KSIĘGOWYM",
+          "description": "Dzięki umowom EDM z ponad 550 programami ERP i księgowymi otrzymasz w pełni zintegrowaną usługę z Twoim systemem ERP i programem księgowym. Twoje faktury wychodzące będą automatycznie wysyłane z tych systemów, faktury przychodzące będą automatycznie przetwarzane w Twoich kontach bieżących i stanach magazynowych oraz przekazywane do programu Twojego księgowego."
         },
         {
-          "title": "PEŁNY AUTOMATYCZNY PRZEKAZ DO WSZYSTKICH OFICJALNYCH PROGRAMÓW KSIĘGOWYCH",
-          "description": "Dzięki modułowi przekazu księgowego EDM możesz przekazać wszystkie swoje faktury wychodzące i przychodzące do oficjalnego programu księgowego używanego przez Twojego doradcę finansowego w interwałach, które chcesz. Po prostu wybierz faktury zbiorczo i kliknij odpowiedni oficjalny program księgowy."
+          "title": "CAŁKOWICIE AUTOMATYCZNY TRANSFER DO WSZYSTKICH OFICJALNYCH PROGRAMÓW KSIĘGOWYCH",
+          "description": "Dzięki modułowi transferu oficjalnej księgowości EDM możesz przenieść wszystkie swoje faktury wychodzące i przychodzące do oficjalnego programu księgowego używanego przez Twojego doradcę finansowego w dowolnych odstępach czasu. Wystarczy wybrać faktury hurtowo i kliknąć odpowiedni oficjalny program księgowy."
         },
         {
-          "title": "SZYBKA INSTALACJA KLUCZ W RĘCE",
-          "description": "Po zdecydowaniu się na współpracę z EDM wszystkie procesy, w tym uzyskanie pieczęci finansowej, aplikacje KSeF Faktura Elektroniczna, E-Księga i uruchomienie Twojej pieczęci finansowej, są obsługiwane przez Twojego przedstawiciela EDM na miejscu. Centrum EDM otwiera następnie Twój portal w ciągu 30 minut i zapewnia integrację z Twoim programem ERP i księgowym."
+          "title": "SZYBKA INSTALACJA POD KLUCZ",
+          "description": "Po podjęciu decyzji o współpracy z EDM, wszystkie procesy, w tym uzyskanie pieczęci finansowej, aplikacje E-Faktury i E-Księgi Administracji Podatkowej oraz uruchomienie Twojej pieczęci finansowej, są obsługiwane przez Twojego przedstawiciela terenowego EDM. Centrum EDM otwiera następnie Twój portal w ciągu 30 minut i zapewnia integrację z Twoim ERP i programem księgowym."
         },
         {
-          "title": "PRZEDSTAWICIEL KLIENTA DEDYKOWANY 24/7",
-          "description": "Otrzymujesz wsparcie w zakresie aplikacji, instalacji, szkolenia i obsługi technicznej od przedstawiciela sprzedaży i obsługi na miejscu przypisanego do Ciebie w Twoim regionie. W centrum EDM przydzielono Ci przedstawiciela klienta głównego i zapasowego, dostępnych 24/7."
+          "title": "DEDYKOWANY PRZEDSTAWICIEL KLIENTA 24/7",
+          "description": "Otrzymujesz wsparcie w zakresie aplikacji, instalacji, szkolenia i serwisu technicznego od przypisanego Ci przedstawiciela sprzedaży i serwisu w Twoim regionie. W centrum EDM przydzielany jest Ci główny i zapasowy przedstawiciel klienta, dostępny 24/7."
         },
         {
           "title": "KORZYSTNE CENY",
-          "description": "Dzięki Fakturze Elektronicznej i Fakturze Elektronicznej Archivum EDM zmniejszasz swoje koszty czasu i pieniędzy, takie jak papier, druk, transport i archiwizacja, do minimalnych poziomów."
+          "description": "Dzięki EDM E-Fakturze redukujesz do minimum koszty czasu i pieniędzy, takie jak papier, druk, wysyłka i archiwizacja."
         },
         {
-          "title": "ETYCZNE CENY BEZ FIKSOWANYCH OPŁAT I SPALANIA KREDYTÓW",
-          "description": "EDM nie stosuje nieetycznych ukrytych i niejasnych taryf pod żadną nazwą, takich jak miesięczne stałe, roczne stałe, aktualizacje lub przekroczenia limitów. Nie spala Twoich pozostałych kredytów z powodów takich jak koniec miesiąca lub koniec roku; kredyty są przenoszone przez 5 lat. Aktywacje portalu Faktury Elektronicznej są bezpłatne. Płacisz opłatę za integrację z Twoim programem ERP raz i korzystasz z niej przez całe życie. Nie płacisz żadnych innych opłat poza opłatą za kredyt podczas korzystania z usługi."
+          "title": "ETYKA CENOWA BEZ STAŁYCH OPŁAT I SPALANIA KREDYTÓW",
+          "description": "EDM nie stosuje nieetycznych, zwodniczych i ukrytych taryf pod żadną nazwą, takich jak stała miesięczna, stała roczna, aktualizacje czy przekroczenia kwot. Nie spala Twoich pozostałych kredytów z powodu wymówek takich jak koniec miesiąca czy koniec roku; kredyty są przenoszone przez 5 lat. Aktywacje portalu E-Faktury są bezpłatne. Opłatę za integrację z programem ERP płacisz raz i używasz go przez całe życie. Nie płacisz żadnych opłat poza opłatą kredytową podczas użytkowania."
         },
         {
           "title": "INNE POWODY",
           "list": [
-            "Zwrot faktury jednym kliknięciem, powtórzenie faktury, 8 pól rabatowych w wierszu, opcje faktury z VAT lub bez VAT, numer seryjny i dostosowanie projektu w zależności od klienta i użytkownika.",
+            "Zwrot faktury jednym kliknięciem, powtórzenie faktury, 8 pól rabatowych w wierszu, opcje faktury z VAT lub bez VAT, numer seryjny oraz dostosowanie projektu według klienta i użytkownika.",
             "Księgowi mogą zarządzać wszystkimi swoimi podatnikami, firmami i oddziałami za pomocą jednego hasła i interfejsu.",
             "Najwyższe bezpieczeństwo dzięki technologii szyfrowania 3DS.",
-            "Gwarancja zgodności z wszystkim oprogramowaniem na zawsze dzięki technologii archiwizacji depozytowej.",
-            "Automatyczna decyzja o wysyłaniu Faktury Elektronicznej i Faktury Elektronicznej Archivum dzięki kontroli online VKN.",
+            "Gwarancja zgodności ze wszystkimi oprogramowaniami na czas nieokreślony dzięki technologii archiwizacji depozytowej.",
+            "Automatyczna decyzja o wysyłce E-Faktury z kontrolą online NIP.",
             "Możliwość zarządzania firmami grupowymi i oddziałami z jednej platformy.",
             "Nieograniczona możliwość definiowania użytkowników.",
-            "Opcja ponownego wysłania Faktury Elektronicznej do odpowiedniego odbiorcy.",
-            "Możliwość wyszukiwania pełnotekstowego w celu przeszukania każdego pola w fakturze.",
-            "Zarządzanie procesami i powiadomieniami.",
+            "Opcja ponownego wysłania E-Faktury do odpowiedniego odbiorcy.",
+            "Możliwość pełnotekstowego wyszukiwania każdego pola w fakturze.",
+            "Zarządzanie procesami i powiadomienia.",
             "Zaawansowane możliwości raportowania."
           ]
         }
@@ -80,6 +79,7 @@
   },
   "e_consensus": {
     "slug": "e-reconciliation",
+    "image": "/images/pl/reconciliation.jpg",
     "title": "E-Uzgodnienie",
     "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
     "description": "Oznacza to prawne i ważne przekazywanie wszystkich uzgodnień BA-BS, rachunków bieżących, potrąceń i faktur wszystkich dostawców i klientów firm za pomocą środowiska mailowego lub systemu ZPE.",
@@ -153,9 +153,79 @@
       }
     }
   },
+  "cloud_backup": {
+    "title": "Backup w chmurze",
+    "image": "/images/pl/cloud-backup.jpg",
+    "slug": "cloud-backup",
+    "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
+    "description": "To usługa EDM, która współpracuje z programami ERP, wykonując kopie zapasowe wszystkich Twoich danych oraz skanowanych kopii dokumentów prawnych w bezpieczny i bezproblemowy sposób z dostępem online i zaawansowanym zabezpieczeniem.",
+    "benefits": {
+      "why_edm_cloud_backup": "DLACZEGO BACKUP W CHMURZE EDM?",
+      "immediate_access": "NATYCHMIASTOWY DOSTĘP, ŁATWE UŻYWANIE",
+      "immediate_access_description": "Możesz przechowywać wszystkie dokumenty w bezpiecznym środowisku, uzyskać dostęp do danych 24/7 z dowolnego miejsca, przesyłać dane w dowolnym momencie. Metoda archiwizacji depozytu 98% zapewnia wysoką kompresję i szybki dostęp mobilny.",
+      "timly_backup": "BACKUP W DOGODNYM CZASIE",
+      "timly_backup_description": "Zapewnia online inkrementalne lub zaplanowane kopie zapasowe zgodnie z Twoimi potrzebami.",
+      "simple_interface": "PROSTY INTERFEJS",
+      "simple_interface_description": "Prosty interfejs nie męczy Cię, oferując łatwe użycie, aby przyspieszyć Twoje operacje.",
+      "secure_storage": "BEZPIECZNE PRZECHOWYWANIE",
+      "secure_storage_description": "Przechowywane na serwerach o wysokim poziomie bezpieczeństwa i certyfikatach ISO, z 4 kopiami zapasowymi w Stambule i Ankarze.",
+      "automatic_backup": "CAŁKOWICIE AUTOMATYCZNY W DOGODNYM CZASIE",
+      "automatic_backup_description": "Wszystkie Twoje dane i bazy danych w dowolnym formacie na komputerze lub serwerze, w tym klucze szyfrowania, są automatycznie zapisywane w dowolnym momencie dnia.",
+      "minimum_internet_usage": "MINIMALNE UŻYCIE INTERNETU",
+      "minimum_internet_usage_description": "Podczas tworzenia kopii zapasowych Twoich danych, tylko zmienione części są pobierane za pomocą systemu 'Inteligentnego Backupu', utrzymując zużycie internetu na minimalnym poziomie.",
+      "advantages": "BACKUP W CHMURZE I ZALETY",
+      "advantages_description": "Jeśli zakupisz usługę Backup w chmurze EDM, na przykład doradcy podatkowi mogą wykonywać kopie zapasowe swojej księgowości, prawnicy mogą wykonywać kopie zapasowe wszystkich swoich dokumentów i danych, a bazy danych i programy (Windows, SQL, Oracle itp.) w bezpieczny sposób.\n\nMożesz uzyskać wszystkie wymienione powyżej usługi w sposób zintegrowany od EDM Bilişim z jedną nazwą użytkownika i jednym hasłem do dostępu online.",
+      "who_should_use": "KTO POWINIEN UŻYWAĆ BACKUPU W CHMURZE?",
+      "who_should_use_list": [
+        "Każda firma i wolny zawodowiec, którzy chcą wykonywać kopie zapasowe swojej bazy danych i ważnych folderów online",
+        "Doradcy podatkowi",
+        "Prawnicy",
+        "Biura inżynierskie",
+        "Badania lekarskie",
+        "Podatnicy obowiązani do e-faktury",
+        "Podatnicy obowiązani do e-archiwum faktury"
+      ]
+    }
+  },
+  "cloudy_erp": {
+    "title": "CLOUDY ERP",
+    "image": "/images/pl/cloudy-erp.jpg",
+    "slug": "cloudy-erp",
+    "description": "Jako producent internetowego oprogramowania do zarządzania biznesem, włączyliśmy do naszych prac aplikację Cloudy ERP z celem oferowania najnowocześniejszego oprogramowania w branży dla miejsc pracy. Pracujemy nad rozwojem zaawansowanych technologii z infrastrukturą księgową wymaganą przez prawo i oferujemy naszym klientom oprogramowanie, które może łatwo konkurować z przykładami na świecie. W naszych procesach rozwoju oprogramowania, gdzie łączymy innowacje i totalną jakość, tworzymy najbardziej efektywne rozwiązania, biorąc pod uwagę potrzeby naszych klientów i branży.\n\nW ramach naszych ciągłych wysiłków, aby oferować rozwiązania, z których mogą korzystać firmy działające w każdej dziedzinie przy jak najniższym koszcie, wprowadziliśmy nowe podejście do koncepcji oprogramowania biznesowego dzięki Cloudy ERP.\n\nNasza infrastruktura, która może być używana jako rozwiązanie programowe dla firm każdej wielkości we wszystkich sektorach, jest wśród głównych alternatyw rozwiązań dla każdej firmy, od małych przedsiębiorstw po korporacje. Nasza aplikacja, która zapewnia zaspokojenie wszystkich potrzeb w ramach jednej aplikacji, pozwala również na pełne wypełnienie zobowiązań prawnych.",
+    "differences": {
+      "title": "RÓŻNICA CLOUDY ERP",
+      "sections": [
+        {
+          "title": "Zwiększ Swoją Rentowność",
+          "description": "Najważniejszą cechą Cloudy ERP jest zapewnienie, że procesy przebiegają najszybciej i bezproblemowo. Aplikacja eliminuje błąd ludzki i pozwala na natychmiastową interwencję w przypadku potencjalnych problemów. Perfekcja w przepływie pracy naturalnie zapewnia, że procesy sprzedaży są realizowane płynnie i zwiększa poziom zadowolenia klientów. Oczywiście jednym z ważnych atutów oprogramowania jest osiągnięcie właściwej strategii cenowej poprzez przeprowadzenie analizy kosztów."
+        },
+        {
+          "title": "Wszystkie Twoje Potrzeby Razem",
+          "description": "Cloudy ERP kontroluje wszystkie procesy z jednego punktu dzięki Zarządzaniu Fakturami i Wysłkami, Zarządzaniu Kontami Rozrachunkowymi, Zarządzaniu Zapasami i Magazynem, Zarządzaniu Przychodami i Wydatkami, Raportowaniu, Zarządzaniu E-Commerce, Zarządzaniu Personelem, Zarządzaniu Środkami Trwałymi, Zarządzaniu Projektami, Zarządzaniu Kosztami, Systemowi Zarządzania Dokumentami i Otwartej Bankowości. Oprogramowanie może być faktycznie zdefiniowane jako podstawa bilansu w czasie rzeczywistym dzięki zawieraniu danych wejściowych wszystkich procesów od zakupu do sprzedaży. Nie musisz już czekać do końca roku, aby zobaczyć bilans swojej firmy. Możesz łatwo zobaczyć swój aktualny stan za pomocą kilku kliknięć."
+        },
+        {
+          "title": "Twoje Dane Są Bezpieczne",
+          "description": "Twoje faktury i wysyłki są bezpiecznie przechowywane w naszych systemach przez 10 lat z 4 kopiami zapasowymi i technologią szyfrowania 3DS. Możesz uzyskać dostęp do swoich faktur online w dowolnym momencie i wykonywać operacje takie jak ponowne wysyłanie indywidualnie lub zbiorczo, przeglądanie i pobieranie wydruków PDF."
+        },
+        {
+          "title": "Jakość Usług 24/7",
+          "description": "Masz głównego i zapasowego przedstawiciela klienta, którzy są ekspertami we wszystkich usługach E-Dokumentów, Przedksięgowości i modułów, z którymi możesz się skontaktować 24/7. Możesz dotrzeć do swoich przedstawicieli w dowolnym momencie za pośrednictwem telefonu komórkowego i e-maila, aby uzyskać natychmiastową obsługę, a nawet w nocy i święta, zostaniesz automatycznie przekierowany do naszego technicznego centrum dyżurnego poprzez te punkty kontaktowe."
+        },
+        {
+          "title": "Etyczne Cenowanie",
+          "description": "Największą zaletą, jaką Cloudy ERP oferuje swoim użytkownikom, jest brak problemu kosztów aktualizacji.\n\nPozwalamy korzystać z oprogramowania bez instalowania go na lokalnych komputerach. W ten sposób aktualizacje dokonywane przez nas są automatycznie odzwierciedlane u Ciebie. W związku z tym nie ma mowy o dodatkowej inwestycji w sprzęt, odnowieniu oprogramowania czy koszcie aktualizacji.\n\nW systemie E-Dokumentów nie stosuje nieetycznych, wprowadzających w błąd i ukrytych taryf pod jakąkolwiek nazwą, takich jak miesięczne stałe, roczne stałe, aktualizacja, przekroczenie limitu na zakupionych kredytach! Twoje pozostałe kredyty nie wygasają z powodu wymówek takich jak koniec miesiąca czy koniec roku; przenoszą się przez 5 lat. Aktywacje portalu E-Dokumentów są bezpłatne."
+        },
+        {
+          "title": "Rozwijająca Się Technologia",
+          "description": "Cloudy ERP zostało opracowane z wieloletnim doświadczeniem i jest nadal rozwijane w procesie. Cloudy ERP, które powstało dzięki wspólnej inicjatywie ekspertów programistów, specjalistów ds. księgowości i finansów oraz profesjonalistów z branży z naszego zespołu deweloperskiego, osiągnęło swoją ostateczną formę komercyjną po przejściu wielu testów. Oprogramowanie, które jest produktem zaawansowanej wiedzy, ma te same cechy co przykłady używane na całym świecie i zostało opracowane przez tureckich programistów. Obecnie oprogramowanie, które jest stale aktualizowane, staje się natychmiast kompatybilne z obowiązkami prawnymi, a oprogramowanie jest ciągle rozwijane."
+        }
+      ]
+    }
+  },
   "e_document_management_system": {
     "slug": "e-document-management-system",
     "title": "System Zarządzania Dokumentami Elektronicznymi (SZDE)",
+    "image": "/images/pl/edms.jpg",
     "youtube_embed": "XLuzI_kc8oM",
     "description": "System Zarządzania Dokumentami Elektronicznymi to system, który pozwala organizacjom archiwizować i zarządzać wszystkimi rodzajami dokumentacji tworzonej podczas ich działalności, od produkcji po ostateczne usunięcie. W przeciwieństwie do standardowego System Zarządzania Dokumentami Elektronicznymi (SZDE), EDM SZDE to nie tylko archiwum czy oprogramowanie procesowe. Jest to pakiet rozwiązań, który można dostosować do potrzeb. Ten pakiet jest inteligencją biznesową, która zarządza interakcją z klientami.",
     "benefits": {
@@ -197,75 +267,9 @@
       }
     }
   },
-  "cloudy_erp": {
-    "title": "CLOUDY ERP",
-    "slug": "cloudy-erp",
-    "description": "Jako producent internetowego oprogramowania do zarządzania biznesem, włączyliśmy do naszych prac aplikację Cloudy ERP z celem oferowania najnowocześniejszego oprogramowania w branży dla miejsc pracy. Pracujemy nad rozwojem zaawansowanych technologii z infrastrukturą księgową wymaganą przez prawo i oferujemy naszym klientom oprogramowanie, które może łatwo konkurować z przykładami na świecie. W naszych procesach rozwoju oprogramowania, gdzie łączymy innowacje i totalną jakość, tworzymy najbardziej efektywne rozwiązania, biorąc pod uwagę potrzeby naszych klientów i branży.\n\nW ramach naszych ciągłych wysiłków, aby oferować rozwiązania, z których mogą korzystać firmy działające w każdej dziedzinie przy jak najniższym koszcie, wprowadziliśmy nowe podejście do koncepcji oprogramowania biznesowego dzięki Cloudy ERP.\n\nNasza infrastruktura, która może być używana jako rozwiązanie programowe dla firm każdej wielkości we wszystkich sektorach, jest wśród głównych alternatyw rozwiązań dla każdej firmy, od małych przedsiębiorstw po korporacje. Nasza aplikacja, która zapewnia zaspokojenie wszystkich potrzeb w ramach jednej aplikacji, pozwala również na pełne wypełnienie zobowiązań prawnych.",
-    "differences": {
-      "title": "RÓŻNICA CLOUDY ERP",
-      "sections": [
-        {
-          "title": "Zwiększ Swoją Rentowność",
-          "description": "Najważniejszą cechą Cloudy ERP jest zapewnienie, że procesy przebiegają najszybciej i bezproblemowo. Aplikacja eliminuje błąd ludzki i pozwala na natychmiastową interwencję w przypadku potencjalnych problemów. Perfekcja w przepływie pracy naturalnie zapewnia, że procesy sprzedaży są realizowane płynnie i zwiększa poziom zadowolenia klientów. Oczywiście jednym z ważnych atutów oprogramowania jest osiągnięcie właściwej strategii cenowej poprzez przeprowadzenie analizy kosztów."
-        },
-        {
-          "title": "Wszystkie Twoje Potrzeby Razem",
-          "description": "Cloudy ERP kontroluje wszystkie procesy z jednego punktu dzięki Zarządzaniu Fakturami i Wysłkami, Zarządzaniu Kontami Rozrachunkowymi, Zarządzaniu Zapasami i Magazynem, Zarządzaniu Przychodami i Wydatkami, Raportowaniu, Zarządzaniu E-Commerce, Zarządzaniu Personelem, Zarządzaniu Środkami Trwałymi, Zarządzaniu Projektami, Zarządzaniu Kosztami, Systemowi Zarządzania Dokumentami i Otwartej Bankowości. Oprogramowanie może być faktycznie zdefiniowane jako podstawa bilansu w czasie rzeczywistym dzięki zawieraniu danych wejściowych wszystkich procesów od zakupu do sprzedaży. Nie musisz już czekać do końca roku, aby zobaczyć bilans swojej firmy. Możesz łatwo zobaczyć swój aktualny stan za pomocą kilku kliknięć."
-        },
-        {
-          "title": "Twoje Dane Są Bezpieczne",
-          "description": "Twoje faktury i wysyłki są bezpiecznie przechowywane w naszych systemach przez 10 lat z 4 kopiami zapasowymi i technologią szyfrowania 3DS. Możesz uzyskać dostęp do swoich faktur online w dowolnym momencie i wykonywać operacje takie jak ponowne wysyłanie indywidualnie lub zbiorczo, przeglądanie i pobieranie wydruków PDF."
-        },
-        {
-          "title": "Jakość Usług 24/7",
-          "description": "Masz głównego i zapasowego przedstawiciela klienta, którzy są ekspertami we wszystkich usługach E-Dokumentów, Przedksięgowości i modułów, z którymi możesz się skontaktować 24/7. Możesz dotrzeć do swoich przedstawicieli w dowolnym momencie za pośrednictwem telefonu komórkowego i e-maila, aby uzyskać natychmiastową obsługę, a nawet w nocy i święta, zostaniesz automatycznie przekierowany do naszego technicznego centrum dyżurnego poprzez te punkty kontaktowe."
-        },
-        {
-          "title": "Etyczne Cenowanie",
-          "description": "Największą zaletą, jaką Cloudy ERP oferuje swoim użytkownikom, jest brak problemu kosztów aktualizacji.\n\nPozwalamy korzystać z oprogramowania bez instalowania go na lokalnych komputerach. W ten sposób aktualizacje dokonywane przez nas są automatycznie odzwierciedlane u Ciebie. W związku z tym nie ma mowy o dodatkowej inwestycji w sprzęt, odnowieniu oprogramowania czy koszcie aktualizacji.\n\nW systemie E-Dokumentów nie stosuje nieetycznych, wprowadzających w błąd i ukrytych taryf pod jakąkolwiek nazwą, takich jak miesięczne stałe, roczne stałe, aktualizacja, przekroczenie limitu na zakupionych kredytach! Twoje pozostałe kredyty nie wygasają z powodu wymówek takich jak koniec miesiąca czy koniec roku; przenoszą się przez 5 lat. Aktywacje portalu E-Dokumentów są bezpłatne."
-        },
-        {
-          "title": "Rozwijająca Się Technologia",
-          "description": "Cloudy ERP zostało opracowane z wieloletnim doświadczeniem i jest nadal rozwijane w procesie. Cloudy ERP, które powstało dzięki wspólnej inicjatywie ekspertów programistów, specjalistów ds. księgowości i finansów oraz profesjonalistów z branży z naszego zespołu deweloperskiego, osiągnęło swoją ostateczną formę komercyjną po przejściu wielu testów. Oprogramowanie, które jest produktem zaawansowanej wiedzy, ma te same cechy co przykłady używane na całym świecie i zostało opracowane przez tureckich programistów. Obecnie oprogramowanie, które jest stale aktualizowane, staje się natychmiast kompatybilne z obowiązkami prawnymi, a oprogramowanie jest ciągle rozwijane."
-        }
-      ]
-    }
-  },
-  "cloud_backup": {
-    "title": "Backup w chmurze",
-    "slug": "cloud-backup",
-    "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
-    "description": "To usługa EDM, która współpracuje z programami ERP, wykonując kopie zapasowe wszystkich Twoich danych oraz skanowanych kopii dokumentów prawnych w bezpieczny i bezproblemowy sposób z dostępem online i zaawansowanym zabezpieczeniem.",
-    "benefits": {
-      "why_edm_cloud_backup": "DLACZEGO BACKUP W CHMURZE EDM?",
-      "immediate_access": "NATYCHMIASTOWY DOSTĘP, ŁATWE UŻYWANIE",
-      "immediate_access_description": "Możesz przechowywać wszystkie dokumenty w bezpiecznym środowisku, uzyskać dostęp do danych 24/7 z dowolnego miejsca, przesyłać dane w dowolnym momencie. Metoda archiwizacji depozytu 98% zapewnia wysoką kompresję i szybki dostęp mobilny.",
-      "timly_backup": "BACKUP W DOGODNYM CZASIE",
-      "timly_backup_description": "Zapewnia online inkrementalne lub zaplanowane kopie zapasowe zgodnie z Twoimi potrzebami.",
-      "simple_interface": "PROSTY INTERFEJS",
-      "simple_interface_description": "Prosty interfejs nie męczy Cię, oferując łatwe użycie, aby przyspieszyć Twoje operacje.",
-      "secure_storage": "BEZPIECZNE PRZECHOWYWANIE",
-      "secure_storage_description": "Przechowywane na serwerach o wysokim poziomie bezpieczeństwa i certyfikatach ISO, z 4 kopiami zapasowymi w Stambule i Ankarze.",
-      "automatic_backup": "CAŁKOWICIE AUTOMATYCZNY W DOGODNYM CZASIE",
-      "automatic_backup_description": "Wszystkie Twoje dane i bazy danych w dowolnym formacie na komputerze lub serwerze, w tym klucze szyfrowania, są automatycznie zapisywane w dowolnym momencie dnia.",
-      "minimum_internet_usage": "MINIMALNE UŻYCIE INTERNETU",
-      "minimum_internet_usage_description": "Podczas tworzenia kopii zapasowych Twoich danych, tylko zmienione części są pobierane za pomocą systemu 'Inteligentnego Backupu', utrzymując zużycie internetu na minimalnym poziomie.",
-      "advantages": "BACKUP W CHMURZE I ZALETY",
-      "advantages_description": "Jeśli zakupisz usługę Backup w chmurze EDM, na przykład doradcy podatkowi mogą wykonywać kopie zapasowe swojej księgowości, prawnicy mogą wykonywać kopie zapasowe wszystkich swoich dokumentów i danych, a bazy danych i programy (Windows, SQL, Oracle itp.) w bezpieczny sposób.\n\nMożesz uzyskać wszystkie wymienione powyżej usługi w sposób zintegrowany od EDM Bilişim z jedną nazwą użytkownika i jednym hasłem do dostępu online.",
-      "who_should_use": "KTO POWINIEN UŻYWAĆ BACKUPU W CHMURZE?",
-      "who_should_use_list": [
-        "Każda firma i wolny zawodowiec, którzy chcą wykonywać kopie zapasowe swojej bazy danych i ważnych folderów online",
-        "Doradcy podatkowi",
-        "Prawnicy",
-        "Biura inżynierskie",
-        "Badania lekarskie",
-        "Podatnicy obowiązani do e-faktury",
-        "Podatnicy obowiązani do e-archiwum faktury"
-      ]
-    }
-  },
   "registered_mail_hr": {
     "slug": "registered-mail-hr",
+    "image": "/images/pl/ehr.jpg",
     "title": "Zarejestrowana Poczta HR (Aplikacje ZEP dla Pracowników)",
     "youtube_embed": "uhjdzYlW2Ao",
     "description": "ZEP HR (Aplikacje ZEP dla Pracowników) to system, w którym odcinki wypłat, listy płac, karty pracy oraz powiadomienia personalne są dostarczane elektronicznie w sposób prawnie ważny i bezpieczny za pomocą ZEP (Zarejestrowana Elektroniczna Poczta) do pracowników firmy.",

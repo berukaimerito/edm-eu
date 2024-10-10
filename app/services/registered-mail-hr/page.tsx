@@ -4,6 +4,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const RegisteredMailHRPage: React.FC = () => {
   const { t } = useTranslation('services');
@@ -11,7 +12,7 @@ const RegisteredMailHRPage: React.FC = () => {
   // Access the content
   const registeredMailHR = t('registered_mail_hr', { returnObjects: true }) as {
     title: string;
-    youtube_embed: string;
+    image?: string;
     description: string;
     sections: {
       e_payslip: {
@@ -72,19 +73,16 @@ const RegisteredMailHRPage: React.FC = () => {
           {registeredMailHR.title}
         </h1>
 
-        {/* YouTube Video Embed */}
-        {registeredMailHR.youtube_embed && (
+        {/* Image */}
+        {registeredMailHR.image && (
           <div className="mb-6">
-            <iframe
-              width="100%"
-              height="400"
-              src={`https://www.youtube.com/embed/${registeredMailHR.youtube_embed}`}
-              title="KEP HR Video"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="rounded-md shadow-md"
-            ></iframe>
+            <Image
+              src={registeredMailHR.image}
+              alt={registeredMailHR.title}
+              width={800}
+              height={450}
+              className="rounded-md shadow-md object-cover w-full h-auto"
+            />
           </div>
         )}
 

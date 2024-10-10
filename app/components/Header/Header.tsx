@@ -48,8 +48,8 @@ const Header: React.FC = () => {
       icon: DocumentTextIcon,
     },
     {
-      name: t('services.e_document_management_system'),
-      path: '/services/e-document-management-system',
+      name: t('services.cloud_backup'),
+      path: '/services/cloud-backup',
       icon: DocumentTextIcon,
     },
     {
@@ -58,8 +58,8 @@ const Header: React.FC = () => {
       icon: DocumentTextIcon,
     },
     {
-      name: t('services.cloud_backup'),
-      path: '/services/cloud-backup',
+      name: t('services.e_document_management_system'),
+      path: '/services/e-document-management-system',
       icon: DocumentTextIcon,
     },
     {

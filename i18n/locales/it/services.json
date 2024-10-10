@@ -2,77 +2,76 @@
   "name": "Servizi",
   "e_bill": {
     "slug": "e-invoices",
+    "image": "/images/it/e-invoice.jpg",
     "title": "Fattura Elettronica",
     "youtube_embed": "XLuzI_kc8oM",
-    "description": "La Fattura Elettronica è un documento elettronico contenente informazioni equivalenti a una fattura cartacea, standardizzato in un formato internazionale (UBL), sigillato in modo inalterabile e ha le stesse caratteristiche legali di una fattura cartacea.\n\nCon la Fattura Elettronica, puoi inviare e ricevere le tue fatture elettronicamente in modo sicuro, archiviare le tue fatture legalmente valide e con backup per 10 anni, e visualizzarle online. Con il sistema di Fattura Elettronica, puoi minimizzare i costi di carta, stampa, spedizione e tutti i costi operativi.\n\nI contribuenti possono utilizzare l'Applicazione Fattura Elettronica Archivio in due modi: tramite il proprio sistema IT o tramite un sistema IT integratore speciale autorizzato dall'Agenzia delle Entrate.",
+    "description": "La Fattura Elettronica è un documento elettronico contenente informazioni equivalenti a una fattura cartacea, standardizzato in un formato internazionale (UBL), sigillato in modo inalterabile e con le stesse caratteristiche legali di una fattura cartacea.\n\nCon la Fattura Elettronica, puoi inviare e ricevere in sicurezza le tue fatture in formato elettronico, conservarle legalmente valide e archiviate per 10 anni, e visualizzarle online. Con il sistema di Fatturazione Elettronica, puoi ridurre al minimo i costi di carta, stampa, spedizione e tutte le spese operative.",
     "differences": {
-      "title": "QUAL È LA DIFFERENZA TRA FATTURA ELETTRONICA E FATTURA ELETTRONICA ARCHIVIO?",
+      "title": "COS'È LA FATTURA ELETTRONICA?",
       "points": [
-        "La Fattura Elettronica viene inviata solo ai contribuenti che sono passati alla Fattura Elettronica.",
-        "La Fattura Elettronica Archivio viene inviata a tutte le istituzioni e persone che non sono passate alla Fattura Elettronica.",
-        "La Fattura Elettronica viene consegnata al destinatario tramite il sistema a circuito chiuso dell'Agenzia delle Entrate (ADE)' il mittente e il destinatario possono operare tramite questo sistema, quindi Agenzia delle Entrate (ADE) è informato immediatamente. Non può essere annullata, ma il destinatario può rifiutarla o restituirla.",
-        "La Fattura Elettronica Archivio viene consegnata al destinatario tramite e-mail o SMS e segnalata a Agenzia delle Entrate (ADE) entro le 24:00 del giorno successivo."
+        "La Fattura Elettronica è inviata solo ai contribuenti che sono passati alla Fatturazione Elettronica.",
+        "La Fattura Elettronica è consegnata al destinatario tramite il sistema a circuito chiuso dell'Agenzia delle Entrate; il mittente e il destinatario possono effettuare transazioni attraverso questo sistema, quindi l'ufficio delle imposte è immediatamente informato. Non può essere annullata, ma il destinatario può rifiutarla o restituirla."
       ]
     },
     "who_can_switch": {
-      "title": "CHI PUÒ PASSARE ALL'APPLICAZIONE FATTURA ELETTRONICA E FATTURA ELETTRONICA ARCHIVIO?",
-      "description": "Qualsiasi azienda può passare alla Fattura Elettronica in qualsiasi momento senza alcuna limitazione di fatturato o importo della fattura. Ci sono due tipi di utenti di Fattura Elettronica:",
+      "title": "CHI PUÒ PASSARE ALLA FATTURA ELETTRONICA?",
+      "description": "Qualsiasi azienda può passare alla Fatturazione Elettronica in qualsiasi momento senza alcun limite di fatturato o importo fattura. Ci sono due tipi di utenti della Fattura Elettronica:",
       "types": [
         {
-          "title": "Utenti Obbligatori di Fattura Elettronica",
-          "description": "Utenti che sono obbligati a passare alla Fattura Elettronica nell'ambito dell'obbligo. Se hai superato il limite di fatturato annuo annunciato dal governo, diventi un contribuente obbligatorio di Fattura Elettronica e devi completare la tua transizione alla Fattura Elettronica a partire dall'inizio dell'anno successivo."
+          "title": "Utenti Obbligatori della Fattura Elettronica",
+          "description": "Utenti che sono tenuti a passare alla Fatturazione Elettronica sotto l'ambito dell'obbligo. Se hai superato il limite annuale di fatturato annunciato dal governo, diventi un contribuente obbligato alla Fattura Elettronica e devi completare la transizione all'inizio dell'anno successivo."
         },
         {
-          "title": "Utenti Volontari di Fattura Elettronica",
-          "description": "Aziende impegnate nel commercio elettronico, che inviano fatture tramite corriere, startup che desiderano risparmiare sui costi di fatturazione e carta, aziende che mirano a ridurre il carico di lavoro di archiviazione e operativo, e quelle che cercano professionalità possono passare volontariamente alla Fattura Elettronica a causa dei vantaggi che offre."
+          "title": "Utenti Volontari della Fattura Elettronica",
+          "description": "Imprese impegnate nel commercio elettronico, che inviano fatture per corriere, startup che desiderano risparmiare sui costi di fatturazione e carta, aziende che mirano a ridurre l'archiviazione e il carico di lavoro operativo, e coloro che cercano professionalità possono volontariamente passare alla Fattura Elettronica grazie ai vantaggi che offre."
         }
       ]
     },
     "is_mandatory": {
       "title": "LA FATTURA ELETTRONICA È OBBLIGATORIA?",
-      "description": "La Fattura Elettronica diventa obbligatoria se superi il limite di fatturato annuo stabilito dal governo. Altrimenti, è facoltativa."
+      "description": "La Fattura Elettronica diventa obbligatoria se superi il limite annuale di fatturato stabilito dal governo. Altrimenti, è opzionale."
     },
     "why_edm_e_invoice": {
-      "title": "PERCHÉ FATTURA ELETTRONICA EDM",
+      "title": "PERCHÉ SCEGLIERE EDM FATTURA ELETTRONICA",
       "sections": [
         {
-          "title": "INTEGRAZIONE COMPLETA CON IL TUO PROGRAMMA ERP E CONTABILE",
-          "description": "Con gli accordi di EDM con oltre 550 programmi ERP e contabili, riceverai un servizio completamente integrato con il tuo sistema ERP e il programma contabile. Le tue fatture in uscita verranno inviate automaticamente da questi sistemi, le fatture in entrata verranno elaborate automaticamente nei tuoi conti correnti e scorte e trasferite al programma del tuo commercialista."
+          "title": "INTEGRAZIONE COMPLETA CON IL TUO ERP E PROGRAMMA CONTABILE",
+          "description": "Grazie agli accordi di EDM con oltre 550 programmi ERP e contabili, riceverai un servizio completamente integrato con il tuo sistema ERP e programma contabile. Le tue fatture in uscita saranno automaticamente inviate da questi sistemi, le fatture in entrata saranno automaticamente elaborate nei tuoi conti correnti e magazzino, e trasferite al programma del tuo commercialista."
         },
         {
-          "title": "TRASFERIMENTO COMPLETAMENTE AUTOMATICO A TUTTI I PROGRAMMI CONTABILI UFFICIALI",
-          "description": "Grazie al modulo di trasferimento contabile ufficiale di EDM, puoi trasferire tutte le tue fatture in uscita e in entrata al programma contabile ufficiale utilizzato dal tuo consulente finanziario negli intervalli che desideri. Seleziona semplicemente le fatture in blocco e fai clic sul programma contabile ufficiale pertinente."
+          "title": "TRASFERIMENTO AUTOMATICO A TUTTI I PROGRAMMI CONTABILI UFFICIALI",
+          "description": "Grazie al modulo di trasferimento contabile ufficiale di EDM, puoi trasferire tutte le tue fatture in uscita e in entrata al programma contabile ufficiale utilizzato dal tuo consulente finanziario a intervalli desiderati. Basta selezionare le fatture in blocco e cliccare sul programma contabile ufficiale pertinente."
         },
         {
           "title": "INSTALLAZIONE RAPIDA CHIAVI IN MANO",
-          "description": "Dopo aver deciso di lavorare con EDM, tutti i processi, inclusi l'ottenimento del sigillo finanziario, le applicazioni Agenzia delle Entrate (ADE) Fattura Elettronica, E-Registro e l'esecuzione del tuo sigillo finanziario, vengono gestiti dal tuo rappresentante sul campo EDM. Il centro EDM apre quindi il tuo portale entro 30 minuti e fornisce l'integrazione con il tuo programma ERP e contabile."
+          "description": "Dopo aver deciso di lavorare con EDM, tutti i processi, inclusa l'ottenimento del sigillo finanziario, le applicazioni per la Fattura Elettronica e il Libro Mastro Elettronico dell'Agenzia delle Entrate, e l'esecuzione del tuo sigillo finanziario, sono gestiti dal tuo rappresentante EDM sul campo. Il centro EDM poi apre il tuo portale entro 30 minuti e fornisce l'integrazione con il tuo ERP e programma contabile."
         },
         {
           "title": "RAPPRESENTANTE CLIENTI DEDICATO 24/7",
-          "description": "Ricevi supporto per l'applicazione, l'installazione, la formazione e l'assistenza tecnica dal rappresentante sul campo di vendita e servizio assegnato a te nella tua regione. Nel centro EDM, ti vengono assegnati un rappresentante clienti primario e uno di backup, disponibili 24/7."
+          "description": "Ricevi supporto per l'applicazione, l'installazione, la formazione e il servizio tecnico dal rappresentante di vendita e servizio assegnato a te nella tua regione. Al centro EDM, ti vengono assegnati un rappresentante clienti primario e uno di backup, disponibili 24/7."
         },
         {
           "title": "PREZZI VANTAGGIOSI",
-          "description": "Con la Fattura Elettronica e la Fattura Elettronica Archivio di EDM, riduci i tuoi costi di tempo e denaro come carta, stampa, spedizione e archiviazione a livelli minimi."
+          "description": "Con EDM Fattura Elettronica riduci al minimo i tuoi costi di tempo e denaro come carta, stampa, spedizione e archiviazione."
         },
         {
-          "title": "PREZZI ETICI SENZA TARIFFE FISSI E BURNING CREDITI",
-          "description": "EDM non applica tariffe ingannevoli e nascoste sotto alcun nome come mensili fissi, annuali fissi, aggiornamenti o superamenti di quota. Non brucia i tuoi crediti rimanenti con scuse come fine mese o fine anno; i crediti si trasferiscono per 5 anni. Le attivazioni del portale Fattura Elettronica sono gratuite. Paghi la tariffa di integrazione al tuo programma ERP una volta e la usi per tutta la vita. Non paghi altre tariffe oltre alla tariffa di credito durante il tuo utilizzo."
+          "title": "PREZZI ETICI SENZA COMMISSIONI FISSE E CREDITI SCADUTI",
+          "description": "EDM non applica tariffe ingannevoli e nascoste sotto alcun nome come fisso mensile, fisso annuale, aggiornamenti o superamento delle quote. Non brucia i tuoi crediti rimanenti con scuse come fine mese o fine anno; i crediti si trasferiscono per 5 anni. Le attivazioni del portale Fattura Elettronica sono gratuite. Paghi la quota di integrazione al tuo programma ERP una volta e lo usi per tutta la vita. Non paghi alcuna tassa oltre alla quota di credito durante il tuo utilizzo."
         },
         {
           "title": "ALTRI MOTIVI",
           "list": [
-            "Restituzione della fattura con un clic, ripetizione della fattura, 8 campi di sconto su una riga, opzioni di fattura con o senza IVA, numero di serie e personalizzazione del design in base al cliente e all'utente.",
-            "I commercialisti possono gestire tutti i loro contribuenti, aziende e filiali con una sola password e interfaccia.",
+            "Reso fattura con un clic, ripetizione fattura, 8 campi di sconto su una linea, opzioni di fattura inclusa o esclusa IVA, numero di serie e personalizzazione del design secondo cliente e utente.",
+            "I commercialisti possono gestire tutti i loro contribuenti, aziende e filiali con una singola password e interfaccia.",
             "Massima sicurezza con tecnologia di crittografia 3DS.",
-            "Garanzia di compatibilità con tutto il software indefinitamente con tecnologia di archiviazione depositaria.",
-            "Decisione automatica di invio Fattura Elettronica e Fattura Elettronica Archivio con controllo VKN online.",
-            "Capacità di gestire aziende e filiali di gruppo da una singola piattaforma.",
-            "Capacità di definizione utente illimitata.",
+            "Garanzia di compatibilità con tutti i software a tempo indeterminato con tecnologia di archiviazione depositaria.",
+            "Decisione di invio automatico della Fattura Elettronica con controllo VKN online.",
+            "Possibilità di gestire aziende di gruppo e filiali da una singola piattaforma.",
+            "Capacità di definizione utenti illimitata.",
             "Opzione per reinviare la Fattura Elettronica al destinatario pertinente.",
-            "Capacità di ricerca full-text per cercare ogni campo nella fattura.",
+            "Capacità di ricerca a testo completo per cercare ogni campo nella fattura.",
             "Gestione dei processi e notifiche.",
-            "Capacità di reporting avanzate."
+            "Capacità avanzate di reporting."
           ]
         }
       ]
@@ -80,6 +79,7 @@
   },
   "e_consensus": {
     "title": "E-Riconciliazione",
+    "image": "/images/it/reconciliation.jpg",
     "slug": "e-reconciliation",
     "youtube_embed": "https://www.youtube.com/embed/3mv3J9fnNBc",
     "description": "Significa l'invio legale e valido tramite email o il sistema PER di tutte le riconciliazioni BA-BS, conti correnti, ritenute e fatture dei fornitori e clienti delle aziende.",
@@ -182,9 +182,80 @@
       }
     }
   },
+
+  "cloud_backup": {
+    "title": "Backup su Cloud",
+    "image": "/images/it/cloud-backup.jpg",
+    "slug": "cloud-backup",
+    "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
+    "description": "È un servizio EDM che funziona in modo compatibile con i programmi ERP, che esegue il backup di tutte le tue informazioni e delle copie scansionate dei tuoi documenti legali, in modo sicuro e senza problemi, con accesso online e sicurezza avanzata.",
+    "benefits": {
+      "why_edm_cloud_backup": "PERCHÉ IL BACKUP SU CLOUD EDM?",
+      "immediate_access": "ACCESSO IMMEDIATO, FACILE DA USARE",
+      "immediate_access_description": "Puoi archiviare tutti i tuoi documenti in un ambiente sicuro, accedere ai tuoi dati 24/7 da qualsiasi luogo, caricare dati in qualsiasi momento. Il metodo di archiviazione del deposito al 98% offre un'elevata compressione e un rapido accesso mobile.",
+      "timely_backup": "BACKUP TEMPESTIVO",
+      "timely_backup_description": "Offre backup incrementali online o programmati in base alle tue esigenze.",
+      "simple_interface": "INTERFACCIA SEMPLICE",
+      "simple_interface_description": "L'interfaccia semplice non ti stressa, offrendo un uso facile per accelerare le tue operazioni.",
+      "secure_storage": "ARCHIVIAZIONE SICURA",
+      "secure_storage_description": "Archiviato su server con alta sicurezza e certificati ISO, con 4 backup a Istanbul e Ankara.",
+      "automatic_backup": "COMPLETAMENTE AUTOMATICO QUANDO VUOI",
+      "automatic_backup_description": "Tutti i tuoi dati e database in qualsiasi formato sul tuo computer o server, incluse le chiavi di crittografia, vengono automaticamente salvati in qualsiasi momento della giornata.",
+      "minimum_internet_usage": "USO MINIMO DI INTERNET",
+      "minimum_internet_usage_description": "Durante il backup dei tuoi dati, solo le parti modificate vengono prese con il sistema di 'Backup Intelligente', mantenendo al minimo il consumo di internet.",
+      "advantages": "BACKUP SU CLOUD E VANTAGGI",
+      "advantages_description": "Se acquisti il servizio di Backup su Cloud EDM, ad esempio, i consulenti fiscali possono eseguire il backup della loro contabilità, gli avvocati possono eseguire il backup di tutti i loro documenti e dati, e i database e i programmi (Windows, SQL, Oracle, ecc.) in modo sicuro.\n\nPuoi ottenere tutti i servizi sopra menzionati in modo integrato da EDM Bilişim con un solo nome utente e una sola password per l'accesso online.",
+      "who_should_use": "CHI DOVREBBE USARE IL BACKUP SU CLOUD?",
+      "who_should_use_list": [
+        "Ogni azienda e libero professionista che desidera eseguire il backup online del proprio database e delle cartelle importanti",
+        "Consulenti fiscali",
+        "Avvocati",
+        "Studi di ingegneria",
+        "Visite mediche",
+        "Soggetti obbligati alla fatturazione elettronica",
+        "Soggetti obbligati alla fatturazione elettronica con archiviazione"
+      ]
+    }
+  },
+  "cloudy_erp": {
+    "title": "CLOUDY ERP",
+    "image": "/images/it/cloudy-erp.jpg",
+    "slug": "cloudy-erp",
+    "description": "Come produttori di software di gestione aziendale basati sul web, abbiamo incluso la nostra applicazione Cloudy ERP nel nostro lavoro con l'obiettivo di offrire alle aziende i software più avanzati del settore. Stiamo lavorando per sviluppare tecnologie avanzate con un'infrastruttura contabile necessaria ai sensi di legge, e offriamo ai nostri clienti software che possono facilmente competere con gli esempi nel mondo. Nei nostri processi di sviluppo software, dove affrontiamo insieme innovazione e qualità totale, produciamo le soluzioni più efficaci considerando le esigenze dei nostri clienti e del settore.\n\nNell'ambito dei nostri sforzi continui per offrire soluzioni di cui le aziende operanti in ogni campo possono beneficiare al costo più basso possibile, abbiamo portato una nuova ventata al concetto di software aziendale con il software Cloudy ERP.\n\nLa nostra infrastruttura, che può essere utilizzata come soluzione software per aziende di tutte le dimensioni in tutti i settori, è tra le principali alternative di soluzione per ogni azienda, dalle piccole imprese alle società corporate. La nostra applicazione, che assicura che tutte le esigenze siano soddisfatte all'interno di un'unica applicazione, vi consente anche di adempiere completamente ai vostri obblighi legali.",
+    "differences": {
+      "title": "LA DIFFERENZA DI CLOUDY ERP",
+      "sections": [
+        {
+          "title": "Aumenta la Tua Redditività",
+          "description": "La caratteristica più importante di Cloudy ERP è garantire che i processi continuino nel modo più rapido e senza problemi. L'applicazione elimina l'errore umano e consente un intervento immediato nei possibili problemi. La perfezione nel flusso di lavoro garantisce naturalmente che i processi di vendita siano completati senza intoppi e aumenta il livello di soddisfazione dei vostri clienti. Ovviamente, uno dei vantaggi importanti del software è raggiungere la giusta strategia di prezzo effettuando un'analisi dei costi."
+        },
+        {
+          "title": "Tutte le Tue Esigenze Insieme",
+          "description": "Cloudy ERP porta tutti i processi sotto controllo da un unico punto con Gestione Fatture & Bolle, Gestione Conti Correnti, Gestione Stock & Magazzino, Gestione Entrate & Uscite, Reporting, Gestione E-Commerce, Gestione del Personale, Gestione Beni Strumentali, Gestione Progetti, Gestione dei Costi, Sistema di Gestione Documentale e Open Banking. Il software può essere effettivamente definito come una base di bilancio in tempo reale grazie al contenimento degli input di tutti i processi dall'acquisto alla vendita. Non è più necessario attendere la fine dell'anno per vedere il bilancio della vostra azienda. Potete facilmente vedere il vostro stato attuale con pochi clic."
+        },
+        {
+          "title": "I Tuoi Dati Sono al Sicuro",
+          "description": "Le vostre fatture e bolle sono conservate in modo sicuro nei nostri sistemi per 10 anni con 4 backup e tecnologia di crittografia 3DS. Potete accedere alle vostre fatture online in qualsiasi momento ed eseguire operazioni come rinvio singolo o in blocco, visualizzazione e ottenimento di stampe PDF."
+        },
+        {
+          "title": "Qualità del Servizio 24/7",
+          "description": "Avete un rappresentante clienti principale e uno di backup che sono esperti in tutti i servizi E-Document, Pre-Accounting e moduli che potete chiamare 24/7. Potete raggiungere i vostri rappresentanti in qualsiasi momento tramite telefono cellulare ed e-mail per ottenere un servizio immediato, e anche durante le notti e le festività ufficiali, sarete automaticamente trasferiti al nostro centro tecnico di servizio attraverso questi punti di comunicazione."
+        },
+        {
+          "title": "Prezzi Etici",
+          "description": "Il più grande vantaggio che Cloudy ERP offre ai suoi utenti è che non esiste un problema di costi di aggiornamento.\n\nVi consentiamo di utilizzare il software senza installarlo sui vostri computer locali. In questo modo, gli aggiornamenti effettuati da noi sono automaticamente riflessi su di voi. Pertanto, non vi è alcuna questione di ulteriore investimento hardware, rinnovo software o costo di aggiornamento.\n\nNel sistema E-Document, non applica tariffe non etiche, ingannevoli e nascoste sotto alcun nome come fisso mensile, fisso annuale, aggiornamento, superamento della quota sui crediti acquistati! I vostri crediti residui non scadono con scuse come fine mese o fine anno; si trasferiscono per 5 anni. Le attivazioni del portale E-Document sono gratuite."
+        },
+        {
+          "title": "Tecnologia in Evoluzione",
+          "description": "Cloudy ERP è stato sviluppato con anni di esperienza e continua a essere sviluppato nel processo. Cloudy ERP, che ha preso vita con l'iniziativa congiunta di sviluppatori software esperti, specialisti in contabilità e finanza e professionisti del settore del nostro team di sviluppo, ha raggiunto la sua forma commerciale finale dopo aver superato molti test. Il software, che è il prodotto di avanzata competenza, ha le stesse qualità degli esempi utilizzati a livello mondiale ed è stato sviluppato da sviluppatori software turchi. Attualmente, il software, che è tenuto costantemente aggiornato, diventa istantaneamente compatibile con gli obblighi legali, e il software è continuamente sviluppato."
+        }
+      ]
+    }
+  },
   "e_document_management_system": {
     "slug": "e-document-management-system",
     "title": "Sistema di Gestione E-Documenti SGDE",
+    "image": "/images/it/edms.jpg",
     "youtube_embed": "XLuzI_kc8oM",
     "description": "Il Sistema di Gestione E-Documenti è un sistema che consente alle organizzazioni di archiviare e gestire tutti i tipi di documentazione creata durante le loro operazioni, dalla produzione allo smaltimento finale. Diversamente dall' Sistema di Gestione dei Documenti Contabili Elettronico standard, EDM Sistema di Gestione dei Documenti Contabili Elettronico non è solo un archivio o un software di processo. È un pacchetto di soluzioni personalizzabile secondo le esigenze. Questo pacchetto è un'intelligenza aziendale che gestisce l'interazione con i clienti.",
     "benefits": {
@@ -226,74 +297,8 @@
       }
     }
   },
-  "cloudy_erp": {
-    "title": "CLOUDY ERP",
-    "slug": "cloudy-erp",
-    "description": "Come produttori di software di gestione aziendale basati sul web, abbiamo incluso la nostra applicazione Cloudy ERP nel nostro lavoro con l'obiettivo di offrire alle aziende i software più avanzati del settore. Stiamo lavorando per sviluppare tecnologie avanzate con un'infrastruttura contabile necessaria ai sensi di legge, e offriamo ai nostri clienti software che possono facilmente competere con gli esempi nel mondo. Nei nostri processi di sviluppo software, dove affrontiamo insieme innovazione e qualità totale, produciamo le soluzioni più efficaci considerando le esigenze dei nostri clienti e del settore.\n\nNell'ambito dei nostri sforzi continui per offrire soluzioni di cui le aziende operanti in ogni campo possono beneficiare al costo più basso possibile, abbiamo portato una nuova ventata al concetto di software aziendale con il software Cloudy ERP.\n\nLa nostra infrastruttura, che può essere utilizzata come soluzione software per aziende di tutte le dimensioni in tutti i settori, è tra le principali alternative di soluzione per ogni azienda, dalle piccole imprese alle società corporate. La nostra applicazione, che assicura che tutte le esigenze siano soddisfatte all'interno di un'unica applicazione, vi consente anche di adempiere completamente ai vostri obblighi legali.",
-    "differences": {
-      "title": "LA DIFFERENZA DI CLOUDY ERP",
-      "sections": [
-        {
-          "title": "Aumenta la Tua Redditività",
-          "description": "La caratteristica più importante di Cloudy ERP è garantire che i processi continuino nel modo più rapido e senza problemi. L'applicazione elimina l'errore umano e consente un intervento immediato nei possibili problemi. La perfezione nel flusso di lavoro garantisce naturalmente che i processi di vendita siano completati senza intoppi e aumenta il livello di soddisfazione dei vostri clienti. Ovviamente, uno dei vantaggi importanti del software è raggiungere la giusta strategia di prezzo effettuando un'analisi dei costi."
-        },
-        {
-          "title": "Tutte le Tue Esigenze Insieme",
-          "description": "Cloudy ERP porta tutti i processi sotto controllo da un unico punto con Gestione Fatture & Bolle, Gestione Conti Correnti, Gestione Stock & Magazzino, Gestione Entrate & Uscite, Reporting, Gestione E-Commerce, Gestione del Personale, Gestione Beni Strumentali, Gestione Progetti, Gestione dei Costi, Sistema di Gestione Documentale e Open Banking. Il software può essere effettivamente definito come una base di bilancio in tempo reale grazie al contenimento degli input di tutti i processi dall'acquisto alla vendita. Non è più necessario attendere la fine dell'anno per vedere il bilancio della vostra azienda. Potete facilmente vedere il vostro stato attuale con pochi clic."
-        },
-        {
-          "title": "I Tuoi Dati Sono al Sicuro",
-          "description": "Le vostre fatture e bolle sono conservate in modo sicuro nei nostri sistemi per 10 anni con 4 backup e tecnologia di crittografia 3DS. Potete accedere alle vostre fatture online in qualsiasi momento ed eseguire operazioni come rinvio singolo o in blocco, visualizzazione e ottenimento di stampe PDF."
-        },
-        {
-          "title": "Qualità del Servizio 24/7",
-          "description": "Avete un rappresentante clienti principale e uno di backup che sono esperti in tutti i servizi E-Document, Pre-Accounting e moduli che potete chiamare 24/7. Potete raggiungere i vostri rappresentanti in qualsiasi momento tramite telefono cellulare ed e-mail per ottenere un servizio immediato, e anche durante le notti e le festività ufficiali, sarete automaticamente trasferiti al nostro centro tecnico di servizio attraverso questi punti di comunicazione."
-        },
-        {
-          "title": "Prezzi Etici",
-          "description": "Il più grande vantaggio che Cloudy ERP offre ai suoi utenti è che non esiste un problema di costi di aggiornamento.\n\nVi consentiamo di utilizzare il software senza installarlo sui vostri computer locali. In questo modo, gli aggiornamenti effettuati da noi sono automaticamente riflessi su di voi. Pertanto, non vi è alcuna questione di ulteriore investimento hardware, rinnovo software o costo di aggiornamento.\n\nNel sistema E-Document, non applica tariffe non etiche, ingannevoli e nascoste sotto alcun nome come fisso mensile, fisso annuale, aggiornamento, superamento della quota sui crediti acquistati! I vostri crediti residui non scadono con scuse come fine mese o fine anno; si trasferiscono per 5 anni. Le attivazioni del portale E-Document sono gratuite."
-        },
-        {
-          "title": "Tecnologia in Evoluzione",
-          "description": "Cloudy ERP è stato sviluppato con anni di esperienza e continua a essere sviluppato nel processo. Cloudy ERP, che ha preso vita con l'iniziativa congiunta di sviluppatori software esperti, specialisti in contabilità e finanza e professionisti del settore del nostro team di sviluppo, ha raggiunto la sua forma commerciale finale dopo aver superato molti test. Il software, che è il prodotto di avanzata competenza, ha le stesse qualità degli esempi utilizzati a livello mondiale ed è stato sviluppato da sviluppatori software turchi. Attualmente, il software, che è tenuto costantemente aggiornato, diventa istantaneamente compatibile con gli obblighi legali, e il software è continuamente sviluppato."
-        }
-      ]
-    }
-  },
-  "cloud_backup": {
-    "title": "Backup su Cloud",
-    "slug": "cloud-backup",
-    "youtube_embed": "https://www.youtube.com/embed/bYDSU8v9LOE",
-    "description": "È un servizio EDM che funziona in modo compatibile con i programmi ERP, che esegue il backup di tutte le tue informazioni e delle copie scansionate dei tuoi documenti legali, in modo sicuro e senza problemi, con accesso online e sicurezza avanzata.",
-    "benefits": {
-      "why_edm_cloud_backup": "PERCHÉ IL BACKUP SU CLOUD EDM?",
-      "immediate_access": "ACCESSO IMMEDIATO, FACILE DA USARE",
-      "immediate_access_description": "Puoi archiviare tutti i tuoi documenti in un ambiente sicuro, accedere ai tuoi dati 24/7 da qualsiasi luogo, caricare dati in qualsiasi momento. Il metodo di archiviazione del deposito al 98% offre un'elevata compressione e un rapido accesso mobile.",
-      "timely_backup": "BACKUP TEMPESTIVO",
-      "timely_backup_description": "Offre backup incrementali online o programmati in base alle tue esigenze.",
-      "simple_interface": "INTERFACCIA SEMPLICE",
-      "simple_interface_description": "L'interfaccia semplice non ti stressa, offrendo un uso facile per accelerare le tue operazioni.",
-      "secure_storage": "ARCHIVIAZIONE SICURA",
-      "secure_storage_description": "Archiviato su server con alta sicurezza e certificati ISO, con 4 backup a Istanbul e Ankara.",
-      "automatic_backup": "COMPLETAMENTE AUTOMATICO QUANDO VUOI",
-      "automatic_backup_description": "Tutti i tuoi dati e database in qualsiasi formato sul tuo computer o server, incluse le chiavi di crittografia, vengono automaticamente salvati in qualsiasi momento della giornata.",
-      "minimum_internet_usage": "USO MINIMO DI INTERNET",
-      "minimum_internet_usage_description": "Durante il backup dei tuoi dati, solo le parti modificate vengono prese con il sistema di 'Backup Intelligente', mantenendo al minimo il consumo di internet.",
-      "advantages": "BACKUP SU CLOUD E VANTAGGI",
-      "advantages_description": "Se acquisti il servizio di Backup su Cloud EDM, ad esempio, i consulenti fiscali possono eseguire il backup della loro contabilità, gli avvocati possono eseguire il backup di tutti i loro documenti e dati, e i database e i programmi (Windows, SQL, Oracle, ecc.) in modo sicuro.\n\nPuoi ottenere tutti i servizi sopra menzionati in modo integrato da EDM Bilişim con un solo nome utente e una sola password per l'accesso online.",
-      "who_should_use": "CHI DOVREBBE USARE IL BACKUP SU CLOUD?",
-      "who_should_use_list": [
-        "Ogni azienda e libero professionista che desidera eseguire il backup online del proprio database e delle cartelle importanti",
-        "Consulenti fiscali",
-        "Avvocati",
-        "Studi di ingegneria",
-        "Visite mediche",
-        "Soggetti obbligati alla fatturazione elettronica",
-        "Soggetti obbligati alla fatturazione elettronica con archiviazione"
-      ]
-    }
-  },
   "registered_mail_hr": {
+    "image": "/images/it/ehr.jpg",
     "slug": "registered-mail-hr",
     "title": "Posta Elettronica Registrata HR (Applicazioni Personale PEC)",
     "youtube_embed": "uhjdzYlW2Ao",

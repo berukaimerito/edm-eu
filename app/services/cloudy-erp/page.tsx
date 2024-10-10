@@ -12,6 +12,7 @@ const CloudyERPPage: React.FC = () => {
   // Accessing the content
   const cloudyERP = t('cloudy_erp', { returnObjects: true }) as {
     title: string;
+    slug: string;
     image?: string;
     description?: string;
     differences: {
@@ -53,7 +54,7 @@ const CloudyERPPage: React.FC = () => {
               src={cloudyERP.image}
               alt={cloudyERP.title}
               width={800}
-              height={400}
+              height={450} // Adjusted height to match YouTube embed size
               className="rounded-md shadow-md object-cover w-full h-auto"
             />
           </div>

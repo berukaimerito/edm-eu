@@ -1,3 +1,4 @@
+// app/services/e-invoices/page.tsx
 'use client';
 
 import React from 'react';
@@ -5,14 +6,13 @@ import { useTranslation } from 'react-i18next';
 import Head from 'next/head';
 import Image from 'next/image';
 
-
 const EInvoices: React.FC = () => {
   const { t } = useTranslation('services');
 
   // Accessing the content
-  const EInvoices = t('e_bill', { returnObjects: true }) as {
+  const eInvoicesData = t('e_bill', { returnObjects: true }) as {
     title: string;
-    youtube_embed: string;
+    image?: string;
     description: string;
     differences: {
       title: string;
@@ -43,45 +43,44 @@ const EInvoices: React.FC = () => {
   return (
     <>
       <Head>
-        <title>{EInvoices.title} | EDM Europe</title>
+        <title>{eInvoicesData.title} | EDM Europe</title>
         <meta
           name="description"
-          content="Learn more about EDM Europe's E-Invoice service."
+          content={
+            eInvoicesData.description || "Learn more about EDM Europe's E-Invoice service."
+          }
         />
       </Head>
       <div className="flex">
         <main className="flex-1 p-6">
           {/* Title */}
           <h1 className="text-4xl font-bold mb-4 tracking-tight text-gray-700">
-            {EInvoices.title}
+            {eInvoicesData.title}
           </h1>
 
-          {/* YouTube Embed */}
-          {EInvoices.youtube_embed && (
+          {/* Image */}
+          {eInvoicesData.image && (
             <div className="mb-4">
-              <iframe
-                width="100%"
-                height="400"
-                src={`https://www.youtube.com/embed/${EInvoices.youtube_embed}`}
-                title="E-Invoice Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-md shadow-md"
-              ></iframe>
+              <Image
+                src={eInvoicesData.image}
+                alt={eInvoicesData.title}
+                width={800}
+                height={450}
+                className="rounded-md shadow-md object-cover w-full h-auto"
+              />
             </div>
           )}
 
           {/* Description */}
-          <p className="mb-6 text-gray-600 text-lg">{EInvoices.description}</p>
+          <p className="mb-6 text-gray-600 text-lg">{eInvoicesData.description}</p>
 
           {/* Differences */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-gray-700">
-              {EInvoices.differences.title}
+              {eInvoicesData.differences.title}
             </h2>
             <ul className="list-disc list-inside space-y-2 text-gray-600">
-              {EInvoices.differences.points.map((point, index) => (
+              {eInvoicesData.differences.points.map((point, index) => (
                 <li key={index}>{point}</li>
               ))}
             </ul>
@@ -90,12 +89,12 @@ const EInvoices: React.FC = () => {
           {/* Who Can Switch */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-gray-700">
-              {EInvoices.who_can_switch.title}
+              {eInvoicesData.who_can_switch.title}
             </h2>
             <p className="mb-4 text-gray-600">
-              {EInvoices.who_can_switch.description}
+              {eInvoicesData.who_can_switch.description}
             </p>
-            {EInvoices.who_can_switch.types.map((type, index) => (
+            {eInvoicesData.who_can_switch.types.map((type, index) => (
               <div key={index} className="mb-6">
                 <h3 className="text-xl font-medium mb-2 text-gray-700">
                   {type.title}
@@ -108,25 +107,23 @@ const EInvoices: React.FC = () => {
           {/* Is Mandatory */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-gray-700">
-              {EInvoices.is_mandatory.title}
+              {eInvoicesData.is_mandatory.title}
             </h2>
-            <p className="text-gray-600">{EInvoices.is_mandatory.description}</p>
+            <p className="text-gray-600">{eInvoicesData.is_mandatory.description}</p>
           </section>
 
           {/* Why EDM E-Invoice */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-gray-700">
-              {EInvoices.why_edm_e_invoice.title}
+              {eInvoicesData.why_edm_e_invoice.title}
             </h2>
-            {EInvoices.why_edm_e_invoice.sections.map((section, index) => (
+            {eInvoicesData.why_edm_e_invoice.sections.map((section, index) => (
               <div key={index} className="mb-6">
                 <h3 className="text-xl font-medium mb-2 text-gray-700">
                   {section.title}
                 </h3>
                 {section.description && (
-                  <p className="text-gray-600 mb-2">
-                    {section.description}
-                  </p>
+                  <p className="text-gray-600 mb-2">{section.description}</p>
                 )}
                 {section.list && (
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
@@ -145,4 +142,3 @@ const EInvoices: React.FC = () => {
 };
 
 export default EInvoices;
-
