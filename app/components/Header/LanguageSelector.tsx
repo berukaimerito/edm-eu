@@ -17,7 +17,6 @@ const languages: Language[] = [
   { code: 'en', label: 'English', flag: '/icons/gb.png' },
   { code: 'it', label: 'Italiano', flag: '/icons/it.png' },
   { code: 'pl', label: 'Polski', flag: '/icons/pl.png' },
-  { code: 'tr', label: 'Türkçe', flag: '/icons/tr.png', url: 'https://www.edmbilisim.com.tr' }, // External URL
 ];
 
 const LanguageSelector: React.FC = () => {

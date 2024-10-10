@@ -13,6 +13,7 @@ import itOrganizational from './locales/it/organizational.json'; // Add this lin
 import plCommon from './locales/pl/common.json';
 import plServices from './locales/pl/services.json';
 import plOrganizational from './locales/pl/organizational.json'; // Add this line
+import { comma } from 'postcss/lib/list';
 
 
 
@@ -38,6 +39,7 @@ i18n
         services: plServices,
         organizational: plOrganizational, // Add this line
       },
+    
       // es: {}
       // If you decide to include Turkish translations later
       // tr: {
